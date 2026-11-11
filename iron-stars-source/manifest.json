@@ -1,0 +1,102 @@
+[
+  {
+    "source_id": "core",
+    "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+    "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+    "status": "unverified",
+    "publication_status": "private",
+    "audit": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "drawing": 1,
+      "pict": 94,
+      "txbxContent": 0,
+      "altChunk": 0,
+      "sdt": 2,
+      "sym": 0,
+      "nested_tables": 0
+    }
+  },
+  {
+    "source_id": "concord",
+    "filename": "IRON CONCORD – FACTION RULES (1).docx",
+    "sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+    "status": "unverified",
+    "publication_status": "private",
+    "audit": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "drawing": 0,
+      "pict": 54,
+      "txbxContent": 0,
+      "altChunk": 0,
+      "sdt": 0,
+      "sym": 0,
+      "nested_tables": 0
+    }
+  },
+  {
+    "source_id": "unmc",
+    "filename": "United Nations Mega Corparations (1).docx",
+    "sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+    "status": "unverified",
+    "publication_status": "private",
+    "audit": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "drawing": 0,
+      "pict": 35,
+      "txbxContent": 0,
+      "altChunk": 0,
+      "sdt": 0,
+      "sym": 0,
+      "nested_tables": 0
+    }
+  },
+  {
+    "source_id": "rebellion",
+    "filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+    "sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+    "status": "unverified",
+    "publication_status": "private",
+    "audit": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "drawing": 0,
+      "pict": 134,
+      "txbxContent": 0,
+      "altChunk": 0,
+      "sdt": 0,
+      "sym": 0,
+      "nested_tables": 0
+    }
+  },
+  {
+    "source_id": "avalon",
+    "filename": "NEW AVALON – FACTION RULES (2).docx",
+    "sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+    "status": "unverified",
+    "publication_status": "private",
+    "audit": {
+      "ins": 0,
+      "del": 0,
+      "moveFrom": 0,
+      "moveTo": 0,
+      "drawing": 0,
+      "pict": 40,
+      "txbxContent": 0,
+      "altChunk": 0,
+      "sdt": 0,
+      "sym": 0,
+      "nested_tables": 0
+    }
+  }
+]

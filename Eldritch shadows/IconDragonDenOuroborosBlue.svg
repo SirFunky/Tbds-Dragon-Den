@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Dragon Den ouroboros logo</title>
+  <desc id="desc">A blue eastern dragon curled into an ouroboros, biting its own tail.</desc>
+  <defs>
+    <linearGradient id="bodyStroke" x1="20" y1="14" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#e0f2fe"/>
+      <stop offset="28%" stop-color="#bfdbfe"/>
+      <stop offset="62%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="bellyStroke" x1="40" y1="26" x2="88" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+
+    <radialGradient id="aura" cx="50%" cy="50%" r="52%">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#2563eb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- soft aura -->
+  <circle cx="64" cy="64" r="48" fill="url(#aura)"/>
+
+  <!-- outer ring hint -->
+  <circle cx="64" cy="64" r="49.5" fill="none" stroke="#60a5fa" stroke-opacity="0.18" stroke-width="1.8"/>
+
+  <!-- dragon body -->
+  <path d="M95 37
+           C105 47 109 62 105 76
+           C100 94 85 107 65 109
+           C45 111 28 102 20 86
+           C12 70 13 50 22 35
+           C31 20 48 13 65 15
+           C80 17 92 26 95 37"
+        fill="none"
+        stroke="url(#bodyStroke)"
+        stroke-width="14"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#softGlow)"/>
+
+  <!-- inner belly line -->
+  <path d="M87 42
+           C94 49 97 59 94 69
+           C90 85 77 95 63 96
+           C49 97 36 90 30 78
+           C24 66 25 52 32 42
+           C38 33 49 28 61 29
+           C71 30 80 35 87 42"
+        fill="none"
+        stroke="url(#bellyStroke)"
+        stroke-width="4.1"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        opacity="0.95"/>
+
+  <!-- tail taper -->
+  <path d="M28 92
+           C21 98 21 106 27 111
+           C35 109 39 102 38 94"
+        fill="none"
+        stroke="url(#bodyStroke)"
+        stroke-width="5.4"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- head -->
+  <path d="M87 26
+           C95 22 105 23 111 29
+           C116 34 116 41 112 46
+           C108 51 101 54 93 53
+           C86 52 80 48 78 42
+           C76 36 79 30 87 26 Z"
+        fill="#dbeafe"
+        stroke="#93c5fd"
+        stroke-width="2.2"
+        stroke-linejoin="round"/>
+
+  <!-- snout -->
+  <path d="M108 33
+           C113 34 116 38 115 42
+           C113 46 107 48 100 47
+           C103 43 104 38 108 33 Z"
+        fill="#eff6ff"
+        stroke="#bfdbfe"
+        stroke-width="1.6"
+        stroke-linejoin="round"/>
+
+  <!-- lower jaw biting tail -->
+  <path d="M101 44
+           C96 49 90 54 84 59"
+        fill="none"
+        stroke="#dbeafe"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <!-- tail in mouth -->
+  <path d="M81 58
+           C86 55 91 51 96 46"
+        fill="none"
+        stroke="url(#bodyStroke)"
+        stroke-width="4.8"
+        stroke-linecap="round"/>
+
+  <!-- eye -->
+  <ellipse cx="99.2" cy="35.2" rx="2.1" ry="1.6" fill="#172554"/>
+  <circle cx="100.1" cy="34.9" r="0.45" fill="#e0f2fe"/>
+
+  <!-- nostril -->
+  <circle cx="108.6" cy="39.9" r="0.9" fill="#1e3a8a"/>
+
+  <!-- horns -->
+  <path d="M88 25
+           C88 16 92 10 98 7" fill="none" stroke="#bfdbfe" stroke-width="3.3" stroke-linecap="round"/>
+  <path d="M94 24
+           C97 15 104 11 111 11" fill="none" stroke="#93c5fd" stroke-width="2.8" stroke-linecap="round"/>
+
+  <!-- whiskers -->
+  <path d="M108 36
+           C118 33 122 28 124 22" fill="none" stroke="#bfdbfe" stroke-width="2.3" stroke-linecap="round"/>
+  <path d="M107 41
+           C118 44 122 49 123 56" fill="none" stroke="#93c5fd" stroke-width="2.3" stroke-linecap="round"/>
+
+  <!-- mane spikes -->
+  <path d="M80 31 L74 24 M77 36 L69 31 M77 42 L68 41 M80 48 L72 50"
+        fill="none" stroke="#93c5fd" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- claws hugging ring -->
+  <path d="M79 79
+           C82 84 84 88 84 92" fill="none" stroke="#bfdbfe" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M84 92 L87 95 M84 92 L83 97 M84 92 L80 95"
+        fill="none" stroke="#bfdbfe" stroke-width="2.1" stroke-linecap="round"/>
+
+  <path d="M47 83
+           C44 87 43 91 44 95" fill="none" stroke="#bfdbfe" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M44 95 L41 98 M44 95 L45 100 M44 95 L48 98"
+        fill="none" stroke="#bfdbfe" stroke-width="2.1" stroke-linecap="round"/>
+
+  <!-- subtle scale arcs -->
+  <path d="M50 22 C54 24 56 27 57 31
+           M41 28 C46 30 48 33 49 37
+           M33 39 C38 41 40 45 41 49
+           M29 52 C34 54 36 58 37 62
+           M29 66 C34 68 36 72 37 76
+           M34 79 C39 81 42 85 43 89
+           M44 89 C49 91 52 95 53 99
+           M58 94 C63 96 66 99 67 103
+           M72 92 C76 94 79 97 80 101"
+        fill="none" stroke="#93c5fd" stroke-width="1.4" stroke-linecap="round" opacity="0.55"/>
+
+  <!-- central spark -->
+  <path d="M64 52 L67 59 L75 62 L67 65 L64 72 L61 65 L53 62 L61 59 Z"
+        fill="#60a5fa"
+        fill-opacity="0.85"
+        stroke="#e0f2fe"
+        stroke-width="1.4"
+        stroke-linejoin="round"
+        filter="url(#softGlow)"/>
+</svg>

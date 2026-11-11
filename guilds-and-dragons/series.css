@@ -1,0 +1,47 @@
+body { background: radial-gradient(ellipse at 85% 10%, #492c54 0, transparent 45%), radial-gradient(ellipse at 0 65%, #391c31 0, transparent 50%), #100e19; }
+.guilds-series { --gold: #edc27c; --muted: #c1b6c9; padding-top: 12px; }
+.site-header .logo-mark { background: radial-gradient(circle at 30% 30%, #e8bd73, #76324f 40%, #1b1028 80%); box-shadow: 0 0 18px #b07ad147; }
+.site-header .site-nav a:hover { border-color: #edc27c; }
+.site-header .site-pill { background: #24182f; border-color: #705769; color: #d2c1d6; }
+.guilds-back { color: var(--muted); font-size: .82rem; text-decoration: none; }
+.guilds-back span { margin-right: .5rem; }
+.guilds-hero { position: relative; isolation: isolate; display: grid; grid-template-columns: 1fr .85fr; align-items: center; gap: clamp(1.5rem, 4vw, 3.5rem); margin: 1.5rem 0 4rem; padding: clamp(1.5rem, 4vw, 3.5rem); border: 1px solid #a67c50; border-radius: 4px; background: #1c1427; box-shadow: 0 24px 70px #0005, inset 0 0 0 7px #edc27c08; overflow: hidden; }
+.guilds-hero::before { content: ''; z-index: -1; position: absolute; inset: 0; background: linear-gradient(90deg, #181022b8, #21132bcc), url('dragon-among-mortals.png') left center / cover; opacity: .8; }
+.guilds-hero::after { content: '✦'; position: absolute; bottom: -.65rem; left: 2rem; padding: 0 .8rem; color: #edc27c; font-size: 1.5rem; }
+.guilds-kicker { margin: 0 0 1rem; color: var(--gold); font-size: .68rem; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; }
+.guilds-intro h1 { max-width: 9ch; margin: 0; color: #ffe5b4; text-shadow: 0 2px 20px #16091c; font: normal clamp(3rem, 6.7vw, 5.3rem)/.98 Georgia, serif; letter-spacing: -.035em; }
+.guilds-intro h1 span { display: block; padding: .3em 0 .15em; color: #d9afd9; font: italic .48em/1 Georgia, serif; letter-spacing: 0; }
+.guilds-lead { margin: 1.7rem 0; color: #e0d3df; font-size: 1rem; line-height: 1.8; }
+.guilds-button { display: inline-flex; align-items: center; gap: 1.5rem; padding: .9rem 1.2rem; background: linear-gradient(135deg, #f6d79c, #d49b51); color: #271523; border: 1px solid #f4ce8f; border-radius: 3px; text-decoration: none; font-size: .85rem; font-weight: 650; box-shadow: 0 4px 24px #ca87451f; }
+.guilds-button:hover { background: #ffe2ac; }
+.guilds-caption { margin: 1.2rem 0 0; color: #c8b7cd; font-size: .7rem; letter-spacing: .04em; }
+.guilds-featured-art { min-width: 0; width: 100%; max-width: 25rem; margin: 0; justify-self: center; }
+.guilds-featured-art img { display: block; width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: right; border: 1px solid #dfb173; box-shadow: 0 18px 40px #08050bd9, 0 0 30px #bb6ace24; }
+.guilds-featured-art figcaption { margin-top: .8rem; color: #e7cadf; font: italic .8rem/1.5 Georgia, serif; text-align: center; }
+.guilds-section-heading { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+.guilds-section-heading .guilds-kicker { margin-bottom: .65rem; }
+.guilds-section-heading h2 { margin: 0; color: #f9e4c2; font: normal 2.3rem/1.2 Georgia, serif; }
+.guilds-count { color: var(--gold); font: 1rem Georgia, serif; letter-spacing: .12em; }
+.guilds-library { scroll-margin-top: 2rem; }
+.guilds-library-intro { margin: 1rem 0 2rem; color: var(--muted); line-height: 1.6; }
+.guilds-books { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.guilds-book { display: grid; grid-template-columns: 8rem minmax(0, 1fr); gap: 1.6rem; padding: 1.8rem 0; border-top: 1px solid #8c674a; border-bottom: 1px solid #493449; }
+.guilds-cover { display: flex; flex-direction: column; align-items: center; justify-content: space-between; aspect-ratio: 3 / 4; padding: 1.1rem .6rem; border: 1px solid #c0915b; outline: 1px solid #d4a16355; outline-offset: -7px; background: radial-gradient(ellipse at top, #755681, transparent 65%), linear-gradient(145deg, #3c244f, #631f36 70%, #201725); box-shadow: 6px 9px 18px #0005; color: #f4d399; text-align: center; }
+.guilds-cover-one { padding: 0; outline: none; background: url('dragon-among-mortals.png') right center / 200% 100% no-repeat; }
+.guilds-cover-two { display: block; width: 100%; height: auto; aspect-ratio: auto; padding: 0; outline: none; }
+.guilds-cover span:first-child { font: .76rem/1.4 Georgia, serif; letter-spacing: .1em; }
+.guilds-cover b { font: normal 3.3rem Georgia, serif; }
+.guilds-cover span:last-child { font-size: .43rem; letter-spacing: .12em; }
+.guilds-book-copy { align-self: center; }
+.guilds-reading-links { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin-top: 1.2rem; }
+.guilds-reading-links .guilds-button { gap: .7rem; padding: .7rem .85rem; font-size: .78rem; }
+.guilds-download { color: var(--gold); font-size: .78rem; text-underline-offset: 4px; }
+.guilds-book-copy .guilds-kicker { margin-bottom: .7rem; }
+.guilds-book h3 { margin: 0; color: #f9e4c2; font: normal 1.65rem/1.2 Georgia, serif; }
+.guilds-book p:not(.guilds-kicker) { color: var(--muted); font-size: .85rem; line-height: 1.7; }
+.guilds-status { display: inline-block; color: #dcb9cd; font-size: .72rem; border-top: 1px solid #664357; padding-top: .65rem; }
+.guilds-more { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; margin: 3.5rem 0; padding: 1.5rem 0; border-bottom: 1px solid #594052; color: var(--muted); font: 1.15rem Georgia, serif; }
+.guilds-more a, footer a { color: #edc27c; font: .8rem system-ui, sans-serif; text-underline-offset: 4px; }
+.guilds-series a:focus-visible, footer a:focus-visible { outline: 2px solid #edc27c; outline-offset: 5px; }
+@media (max-width: 850px) { .guilds-books { grid-template-columns: 1fr; gap: 0; } }
+@media (max-width: 600px) { .guilds-hero { grid-template-columns: 1fr; margin-bottom: 2.5rem; } .guilds-intro h1 { font-size: clamp(2.7rem, 12vw, 3.7rem); } .guilds-featured-art { max-width: 19rem; margin-top: 1rem; } .guilds-book { grid-template-columns: 6.5rem minmax(0, 1fr); gap: 1rem; } .guilds-book h3 { font-size: 1.4rem; } }

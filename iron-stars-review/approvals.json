@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "approvals": [],
+  "resolutions": [
+    {
+      "id": "latest-source-policy-2026-11-06",
+      "type": "source-precedence",
+      "user_instruction": "use the latest source as the source of truth",
+      "policy_file": "source-precedence.json",
+      "scope": "Newer core shared rules take priority over older general faction descriptions; does not approve all records or resolve same-document conflicts."
+    },
+    {
+      "id": "latest-component-cost-recalculation",
+      "type": "cost-policy",
+      "recorded_date": "2026-11-06",
+      "user_instruction": "just recalculate using the latest component prices",
+      "scope": "Replace unit display/filter totals with complete source-based component calculations. Preserve original totals; unknown component prices remain unresolved. This does not approve unresolved profiles or authorize deployment."
+    }
+  ],
+  "policy": "Only explicit human review may approve exact record IDs and wording. Record reviewer, date, source hashes, related finding IDs, and decision. Importing a source is not publication approval."
+}

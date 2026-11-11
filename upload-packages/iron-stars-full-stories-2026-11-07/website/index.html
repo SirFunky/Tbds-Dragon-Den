@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <title>TBD's Dragon Den</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    a.logo { text-decoration: none; }
+    .logo-icon {
+      width: 20px;
+      height: 20px;
+      display: block;
+      object-fit: contain;
+    }
+  
+.badge-icon {
+  width: 12px;
+  height: 12px;
+  display: block;
+  object-fit: contain;
+}
+
+.inline-heading-icon {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  vertical-align: -2px;
+  margin-right: 6px;
+}
+</style>
+  <link rel="stylesheet" href="site-header.css" />
+  <link rel="stylesheet" href="music-card.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header screen-only">
+      <a class="logo" href="index.html" aria-label="TBD's Dragon Den – home">
+        <div class="logo-mark"><img src="Eldritch%20shadows/IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon" /></div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="site-pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-main">
+          <div class="hero-kicker">
+            <span class="hero-kicker-badge"><img src="Eldritch%20shadows/IconRuneStarEmbedded.svg" alt="" aria-hidden="true" class="badge-icon"></span>
+            <span>Välkommen in i lyan</span>
+          </div>
+
+          <h1 id="hero-heading">
+            <span>Welcome to</span>
+            <span>TBD’s Dragon Den</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Utforska originalvärldar, spel och berättelser – från kosmisk skräck
+            och mörk urban fantasy till luftburna riken och stjärnflottor i krig.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="about.html" class="btn btn-secondary">About the Den</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Currently in the spotlight:
+              <span class="hero-meta-highlight">Eldritch Shadows</span></span>
+            <span>6 aktiva projekt</span>
+          </div>
+        </div>
+
+        <!-- Spotlight card -->
+        <aside class="hero-spotlight" aria-label="Aktuellt projekt">
+          <div class="hero-spotlight-image">
+            <div class="hero-spotlight-art"></div>
+            <div class="hero-figure">
+              <div class="hero-figure-hood"></div>
+              <div class="hero-figure-body"></div>
+            </div>
+          </div>
+          <div class="hero-spotlight-footer">
+            <div>
+              <div class="spotlight-label">I spotlighten just nu</div>
+              <div class="spotlight-title">Eldritch Shadows</div>
+            </div>
+            <div class="spotlight-tag">Dark Urban Fantasy</div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="projects-header">
+          <div>
+            <h2 id="projects-heading">My Projects</h2>
+            <p>En överblick över världarna vi bygger i TBD's Dragon Den.</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-tagline">Från arbetsbänken</div>
+            <h3 class="project-title">Miniatyrprojekt</h3>
+            <p class="project-desc">Mina miniatyrprojekt inom Warhammer, Gundam, Robotech, Transformers och Iron Stars.</p>
+            <div class="project-footer">
+              <a href="miniatures.html" class="btn-ghost">Se miniatyrprojekten <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-tagline">Fiction from the Den</div>
+            <h3 class="project-title">Short Stories</h3>
+            <p class="project-desc">Läs noveller från TBD’s Dragon Den. Först ut är science fiction-novellen <em>Celestial Will: A Second Chance</em>.</p>
+            <div class="project-footer">
+              <a href="short-stories.html" class="btn-ghost">Browse Short Stories <span aria-hidden="true">↗</span></a>
+              <div class="project-meta"><span>Fiction</span></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-tagline">Webnovella series</div>
+            <h3 class="project-title">Guilds And Dragons</h3>
+            <p class="project-desc">Explore Guilds And Dragons, an original webnovella series with two novellas so far.</p>
+            <div class="project-footer">
+              <a href="guilds-and-dragons.html" class="btn-ghost">Explore the novellas <span aria-hidden="true">↗</span></a>
+              <div class="project-meta"><span>Webnovellas</span></div>
+            </div>
+          </article>
+          <!-- Eldritch Shadows -->
+          <article class="project-card">
+            <div class="project-tagline">Cosmic urban horror</div>
+            <h3 class="project-title">Eldritch Shadows</h3>
+            <p class="project-desc">
+              En mörk urban fantasy om kosmiska fasor, trasiga kontrakt med
+              gudar och människor som försöker överleva i sprickorna mellan världarna.
+            </p>
+            <div class="project-footer">
+              <a href="Eldritch%20shadows/EldritchShadowsPublicEnglishPdfUpdated.html" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Worldbuilding</span>
+                <span>Book Series</span>
+                <span>Rpg</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Jade Empire -->
+          <article class="project-card">
+            <div class="project-tagline">Epic fantasy</div>
+            <h3 class="project-title">The Jade Empire</h3>
+            <p class="project-desc">
+              En storslagen fantasy inspirerad av forntida Kina, där drakar,
+              dynastier och uråldriga hemligheter formar imperiets öde.
+            </p>
+            <div class="project-footer">
+              <a href="jade-empire.html" class="btn-ghost">
+                Read Book One
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book Series</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Romance in the Land of the Setting Sun -->
+          <article class="project-card">
+            <div class="project-tagline">Slice of life &amp; romance</div>
+            <h3 class="project-title">Romance in the Land of the Setting Sun</h3>
+            <p class="project-desc">
+              I Tokyo växer kärleken fram mellan Niklas, Rebecka, Alice och Hikari,
+              som tillsammans försöker skapa ett hem på sina egna villkor.
+            </p>
+            <div class="project-footer">
+              <a href="romance-in-the-land-of-the-setting-sun.html" class="btn-ghost">
+                Read Book One
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book Series</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Skykingdoms -->
+          <article class="project-card">
+            <div class="project-tagline">Floating realms</div>
+            <h3 class="project-title">Skykingdoms</h3>
+            <p class="project-desc">
+              Flytande öar, luftskepp och äventyr på himlen i en värld där marken
+              bara är en myt från förr.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Coming Soon
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Trading Card Game</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Iron Stars -->
+          <article class="project-card">
+            <div class="project-tagline">Sci-fi war among the stars</div>
+            <h3 class="project-title">Iron Stars</h3>
+            <p class="project-desc">
+              Ett miniatyroberoende science fiction-spel för spelbordet.
+              Använd de mechs och miniatyrer du redan äger.
+            </p>
+            <div class="project-footer">
+              <a href="iron-stars/index.html" class="btn-ghost">
+                Explore Iron Stars
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Wargame</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Future project -->
+          <article class="project-card">
+            <div class="project-tagline">Experiment</div>
+            <h3 class="project-title">[Future Project]</h3>
+            <p class="project-desc">
+              En plats reserverad för nästa idé – spel, berättelse eller värld
+              som väntar på att ta form i Dragon Den.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Coming Soon
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>WIP</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- Featured music -->
+      <section class="music-feature" aria-labelledby="music-feature-heading">
+        <div class="music-feature-copy">
+          <div class="music-feature-kicker"><span aria-hidden="true">♪</span> Music from the Den</div>
+          <h2 id="music-feature-heading">A different kind of <span>dragon song.</span></h2>
+          <p>Upptäck musiken från TheBlueDragon. Välj din favoritplattform och tryck på play.</p>
+          <div class="music-feature-platforms" aria-label="Available platforms">Spotify · Apple Music · YouTube Music · Amazon Music · TIDAL · Boomplay</div>
+          <div class="music-feature-actions">
+            <a class="music-feature-button" href="music.html">Listen to TheBlueDragon <span aria-hidden="true">↗</span></a>
+            <a class="music-feature-secondary" href="music.html#soundcloud-heading">TBD83 on SoundCloud <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="music-feature-note">TBD83 är ett separat artistprojekt på SoundCloud.</p>
+        </div>
+        <div class="music-feature-art" aria-hidden="true">
+          <div class="music-feature-orbit"></div>
+          <div class="music-feature-record"><div class="music-feature-label">THEBLUE<br>DRAGON<span>PRESS PLAY</span></div></div>
+          <div class="music-feature-wave"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="music-feature-art-caption">FIND YOUR SOUND / THEBLUEDRAGON</span>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> TBD's Dragon Den.</span>
+      <span>Forged in starlight, ink &amp; caffeine.</span>
+    </footer>
+  </div>
+
+  <script>
+    // Sätt årtal i footern automatiskt
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

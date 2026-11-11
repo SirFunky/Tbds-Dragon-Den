@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eldritch Shadows | TBD's Dragon Den</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --bg-elevated: rgba(15, 23, 42, 0.92);
+      --bg-card: rgba(15, 23, 42, 0.9);
+      --border-subtle: #1f2933;
+      --accent: #22c55e;
+      --accent-soft: rgba(34, 197, 94, 0.12);
+      --accent-blue: rgba(56, 189, 248, 0.18);
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --text-soft: #6b7280;
+      --heading: #f9fafb;
+      --danger: #f97373;
+      --warning: #fbbf24;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.8);
+      --shadow-subtle: 0 10px 30px rgba(15, 23, 42, 0.7);
+      --transition-fast: 180ms ease-out;
+      --max-width: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, #020617 0, #020617 42%, #000 100%);
+      color: var(--text-main);
+    }
+
+    a { color: inherit; }
+
+    .page-shell {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 32px 16px 72px;
+    }
+
+    header {
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #4ade80 0, #065f46 35%, #020617 80%);
+      box-shadow: 0 0 18px rgba(52, 211, 153, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #ecfdf5;
+      font-weight: 700;
+    }
+
+    .logo-text {
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 14px;
+      color: var(--text-soft);
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 4px 0;
+      border-bottom: 1px solid transparent;
+      transition: border-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+      border-color: var(--accent);
+    }
+
+    .pill {
+      padding: 4px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: rgba(15, 23, 42, 0.8);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .hero-main,
+    .hero-panel {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-xl);
+      border: 1px solid rgba(31, 41, 55, 0.95);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-main {
+      padding: 34px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background:
+        radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.1) 0, transparent 60%),
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.16), transparent 55%),
+        rgba(15, 23, 42, 0.9);
+    }
+
+    .hero-main::after,
+    .hero-panel::after,
+    .section-card::after,
+    .feature-card::after,
+    .class-card::after,
+    .threat-card::after,
+    .cta-card::after,
+    .quote-card::after,
+    .warning-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(to bottom right, rgba(255,255,255,0.03), transparent 40%);
+    }
+
+    .hero-panel {
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(34, 197, 94, 0.18), transparent 40%),
+        radial-gradient(circle at 70% 15%, rgba(56, 189, 248, 0.14), transparent 35%),
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 1));
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .hero-panel-art {
+      position: relative;
+      min-height: 360px;
+      overflow: hidden;
+      background-image:
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.12), rgba(2, 6, 23, 0.58)),
+        url("a_digital_artwork_in_dark_atmospheric_sci_fi_horr.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .hero-panel-art::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 18% 18%, rgba(34, 197, 94, 0.12), transparent 22%),
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.04), rgba(2, 6, 23, 0.74));
+      opacity: 0.95;
+    }
+
+    .rift,
+    .agent {
+      display: none;
+    }
+
+    .hero-panel-copy {
+      padding: 18px 20px 20px;
+      border-top: 1px solid rgba(31, 41, 55, 0.95);
+      background: linear-gradient(to top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.92));
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px 4px 4px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      color: var(--text-soft);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      position: relative;
+      z-index: 1;
+    }
+
+    .eyebrow-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #4ade80 0, #22c55e 40%, #064e3b 90%);
+      box-shadow: 0 0 10px rgba(74, 222, 128, 0.7);
+      color: #ecfdf5;
+      font-size: 12px;
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--heading);
+      margin: 0;
+      letter-spacing: 0.01em;
+    }
+
+    h1 {
+      margin-top: 14px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.02;
+    }
+
+    .hero-subtitle {
+      margin: 14px 0 22px;
+      max-width: 40rem;
+      color: var(--text-muted);
+      font-size: 16px;
+      line-height: 1.65;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-actions,
+    .stack-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-actions {
+      margin-top: auto;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+      color: var(--text-soft);
+      font-size: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-meta span {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast), color var(--transition-fast);
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: radial-gradient(circle at 20% 0, #4ade80 0, #22c55e 35%, #16a34a 70%);
+      color: #022c22;
+      box-shadow: 0 14px 30px rgba(34, 197, 94, 0.45);
+    }
+
+    .btn-secondary {
+      background: rgba(15, 23, 42, 0.9);
+      border-color: rgba(148, 163, 184, 0.55);
+      color: var(--text-main);
+    }
+
+    .section {
+      margin-top: 18px;
+      margin-bottom: 32px;
+    }
+
+    .section-head {
+      margin-bottom: 16px;
+    }
+
+    .section-head p {
+      margin: 10px 0 0;
+      max-width: 48rem;
+      color: var(--text-soft);
+      line-height: 1.7;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .section-card,
+    .feature-card,
+    .class-card,
+    .threat-card,
+    .cta-card,
+    .quote-card,
+    .warning-card {
+      position: relative;
+      overflow: hidden;
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.92) 0, #020617 60%);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 12px 32px rgba(2, 6, 23, 0.75);
+    }
+
+    .section-card,
+    .warning-card,
+    .quote-card,
+    .cta-card { padding: 22px; }
+
+    .feature-card,
+    .class-card,
+    .threat-card { padding: 20px; }
+
+    .feature-card h3,
+    .class-card h3,
+    .threat-card h3,
+    .cta-card h3,
+    .quote-card h3,
+    .warning-card h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .lede {
+      font-size: 17px;
+      color: var(--text-main);
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(2, 6, 23, 0.5);
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+
+    .feature-card .icon,
+    .class-card .icon,
+    .threat-card .icon {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      background: var(--accent-soft);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      font-size: 18px;
+    }
+
+    .feature-card strong,
+    .class-card strong,
+    .threat-card strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .class-tag,
+    .threat-tag,
+    .mini-label {
+      display: inline-flex;
+      margin-bottom: 10px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-soft);
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+    }
+
+    .split-showcase {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .showcase-panel {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 12px 32px rgba(2, 6, 23, 0.75);
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.92) 0, #020617 60%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .showcase-panel.magic::before,
+    .showcase-panel.nano::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.8;
+    }
+
+    .showcase-panel.magic::before {
+      background: radial-gradient(circle at top left, rgba(34, 197, 94, 0.12), transparent 45%);
+    }
+
+    .showcase-panel.nano::before {
+      background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.12), transparent 45%);
+    }
+
+    .showcase-panel h3 { margin-bottom: 10px; }
+
+    .showcase-panel ul,
+    .warning-card ul,
+    .cta-card ul {
+      margin: 14px 0 0;
+      padding-left: 18px;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    .quote-card {
+      background:
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.12), transparent 40%),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.94), rgba(2, 6, 23, 1));
+    }
+
+    .quote-card blockquote {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.7;
+      color: var(--text-main);
+    }
+
+    .quote-card footer {
+      margin-top: 14px;
+      color: var(--text-soft);
+      font-size: 13px;
+    }
+
+    .warning-wrap {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 18px;
+    }
+
+    .warning-card.warning {
+      border-color: rgba(251, 191, 36, 0.25);
+      background: radial-gradient(circle at top, rgba(120, 53, 15, 0.25) 0, #020617 70%);
+    }
+
+    .warning-card.license {
+      border-color: rgba(34, 197, 94, 0.22);
+    }
+
+    .warning-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .status-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .status-item {
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      background: rgba(2, 6, 23, 0.45);
+    }
+
+    .status-label {
+      color: var(--text-soft);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 6px;
+    }
+
+    .status-value {
+      color: var(--text-main);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    footer.site-footer {
+      margin-top: 44px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(31, 41, 55, 0.8);
+      font-size: 12px;
+      color: var(--text-soft);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .warning-wrap,
+      .grid-three,
+      .grid-two,
+      .split-showcase,
+      .status-list {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .hero-main,
+      .section-card,
+      .feature-card,
+      .class-card,
+      .threat-card,
+      .cta-card,
+      .quote-card,
+      .warning-card,
+      .showcase-panel {
+        padding: 18px;
+      }
+
+      .hero-panel-art { min-height: 280px; }
+      h1 { font-size: 34px; }
+
+      footer.site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header>
+      <div class="logo">
+        <div class="logo-mark">🐉</div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </div>
+      <nav>
+        <a href="#overview">Overview</a>
+        <a href="#play">Roles</a>
+        <a href="#threats">Threats</a>
+        <a href="EldritchShadowsRules.pdf" target="_blank" rel="noopener">Rules PDF</a>
+        <a href="contact.html">Contact</a>
+        <span class="pill">Dark urban fantasy</span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-main">
+          <div class="eyebrow">
+            <span class="eyebrow-badge">✦</span>
+            <span>Playable RPG</span>
+          </div>
+
+          <h1 id="hero-heading">Eldritch Shadows</h1>
+
+          <p class="hero-subtitle">
+            A dark roleplaying game about agents, hunters, ritualists, and techno-mystics
+            trying to keep reality intact when cracks to other worlds let in demons,
+            eldritch horrors, spirits, and things that should never have found a place
+            in our world.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#overview" class="btn btn-primary">Explore the World</a>
+            <a href="EldritchShadowsRules.pdf" target="_blank" rel="noopener" class="btn btn-secondary">Open the Rules PDF</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Playable beta ruleset</span>
+            <span>TTRPG</span>
+            <span>Cosmic urban horror</span>
+            <span>Dark and cinematic</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Eldritch Shadows mood">
+          <div class="hero-panel-art">
+            <div class="rift"></div>
+            <div class="agent"></div>
+          </div>
+          <div class="hero-panel-copy">
+            <div class="mini-label">In the Shadows, Something Waits</div>
+            <h3>Containment team meets cosmic horror</h3>
+            <p>
+              Modern environments, psychological pressure, ritual magic, nanotechnology,
+              and threats that do not follow human logic.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="overview" class="section" aria-labelledby="overview-heading">
+        <div class="section-head">
+          <h2 id="overview-heading">What Is Eldritch Shadows?</h2>
+          <p>
+            Eldritch Shadows is a modern dark urban fantasy setting where reality is
+            fragile and humanity lives dangerously close to forces it does not understand.
+            When cracks open, cults grow in the shadows, or something steps in from
+            another dimension, it is the players’ job to stop the threat, contain the damage,
+            and make sure the world keeps functioning as if nothing happened.
+          </p>
+        </div>
+
+        <div class="grid-two">
+          <article class="section-card">
+            <p class="lede">
+              The game blends <strong>cosmic horror</strong>, <strong>modern monster hunting</strong>,
+              <strong>secret organizations</strong>, and <strong>supernatural escalation</strong>.
+            </p>
+            <div class="chip-row">
+              <span class="chip">GDA agents</span>
+              <span class="chip">Mental pressure</span>
+              <span class="chip">Dark mysteries</span>
+              <span class="chip">Contemporary settings</span>
+            </div>
+          </article>
+
+          <article class="section-card">
+            <p>
+              The tone is more <strong>“hold the line and survive the night”</strong> than heroic fantasy.
+              The characters are capable, but the world is brutal: injuries break down
+              their core attributes, mana is both a tool and a risk,
+              and the threats are just as eager to crush the mind as the body.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pillars-heading">
+        <div class="section-head">
+          <h2 id="pillars-heading">Core Pillars of the Project</h2>
+        </div>
+
+        <div class="grid-three">
+          <article class="feature-card">
+            <div class="icon">🕯</div>
+            <h3>Dark Modernity</h3>
+            <p>
+              Shopping malls, subways, parking garages, hospitals, and darkened houses
+              become stages for horror breaking through everyday life.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🧠</div>
+            <h3>Psychological and Physical Breakdown</h3>
+            <p>
+              Damage lives in your attributes. You do not just lose “HP” — you lose
+              control, strength, wisdom, or the ability to keep functioning.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">⚔</div>
+            <h3>Multiple Ways to Face the Threat</h3>
+            <p>
+              Investigation, social manipulation, monster hunting, rituals, and raw
+              survival combat all coexist in the same campaign.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="play" class="section" aria-labelledby="play-heading">
+        <div class="section-head">
+          <h2 id="play-heading">Play As…</h2>
+          <p>
+            The ruleset supports several distinct player fantasies, from hunters and
+            protectors to ritualists and nanomancers. That lets the group feel
+            like a real response team rather than four versions of the same hero.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="class-card">
+            <div class="class-tag">Hunter</div>
+            <div class="icon">🎯</div>
+            <h3>Hunter</h3>
+            <p>
+              Tracks threats, identifies weaknesses, and finishes what should have died
+              the first time. Fits players who want to be sharp, mobile, and focused.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Inquisitor</div>
+            <div class="icon">🕸</div>
+            <h3>Inquisitor</h3>
+            <p>
+              Keeps the truth away from the public, manipulates memories, and
+              preserves the illusion of normality when the world really should have seen too much.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Magician</div>
+            <div class="icon">🔮</div>
+            <h3>Magician</h3>
+            <p>
+              Works with rituals, spells, and dangerous mana. Gives the group
+              access to protection, elemental offense, and solutions that edge into the forbidden.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Nanomancer</div>
+            <div class="icon">⚙</div>
+            <h3>Nanomancer</h3>
+            <p>
+              A techno-mystic with an implanted nanocore. Can repair, disrupt,
+              destroy, and shape the battlefield with billions of microscopic machines.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Protector</div>
+            <div class="icon">🛡</div>
+            <h3>Protector</h3>
+            <p>
+              Takes the hit, holds the line, and makes sure others survive. Perfect
+              for players who want to be the group’s shield when everything falls apart.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Quick Start</div>
+            <div class="icon">📦</div>
+            <h3>Quick Start and Ready-Made Roles</h3>
+            <p>
+              The game works both for freeform builds and for ready-made templates,
+              making it easy to start without losing identity or tone.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="systems-heading">
+        <div class="section-head">
+          <h2 id="systems-heading">How the Game Feels</h2>
+          <p>
+            Every conflict in Eldritch Shadows leaves a mark. Winning matters, but so does what survives the aftermath: the injury, the memory, the fear, and the damage no one else is allowed to remember.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="feature-card">
+            <div class="icon">🎲</div>
+            <h3>Dice Pools with Clear Risk</h3>
+            <p>
+              You build rolls from a core attribute + a discipline. Every 6 is a success,
+              but catastrophic failures can break both equipment and character.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">❤️</div>
+            <h3>Damage That Matters</h3>
+            <p>
+              Superficial damage can be recovered through rest, but critical damage can lead to
+              permanent scars, lost function, and long-term consequences.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🌫</div>
+            <h3>Mana, Pressure, and Sacrifice</h3>
+            <p>
+              Mana powers rerolls, magic, and powerful abilities. When it runs out,
+              the character can literally begin burning their soul.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="power-heading">
+        <div class="section-head">
+          <h2 id="power-heading">Two Paths to the Supernatural</h2>
+          <p>
+            Ritual magic and nanomancy exist side by side in the setting. That gives Eldritch Shadows a distinctive mix of occult horror, modern crisis response, and technological desperation.
+          </p>
+        </div>
+
+        <div class="split-showcase">
+          <article class="showcase-panel magic">
+            <div class="mini-label">Ritual Magic</div>
+            <h3>Magic and Rituals</h3>
+            <p>
+              Water jets, fireballs, earth spikes, protective circles, blessed weapons,
+              healing rituals, and utility magic make the magician both a problem-solver and a risk factor.
+            </p>
+            <ul>
+              <li>Elemental offensive and defensive magic</li>
+              <li>Rituals that take time but can turn entire scenes</li>
+              <li>Magic that feels costly, dangerous, and often like a last resort</li>
+            </ul>
+          </article>
+
+          <article class="showcase-panel nano">
+            <div class="mini-label">Techno-Mysticism</div>
+            <h3>Nanomancy</h3>
+            <p>
+              Nanomancers control programs rather than spells: swarm attacks, reconnaissance,
+              repair, signal distortion, nanofog, and defense programs that change how the group operates.
+            </p>
+            <ul>
+              <li>CPU load creates tactical choices</li>
+              <li>Can repair, sabotage, and manipulate technology and the environment</li>
+              <li>Gives the setting a distinct modern and original profile</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="threats" class="section" aria-labelledby="threats-heading">
+        <div class="section-head">
+          <h2 id="threats-heading">Threats to Humanity</h2>
+          <p>
+            The world is under pressure from more than one kind of nightmare. Each threat asks for a different response, whether that means investigation, containment, ritual action, or direct force.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="threat-card">
+            <div class="threat-tag">EDH</div>
+            <div class="icon">🕳</div>
+            <h3>Eldritch</h3>
+            <p>
+              Madness, bodily distortion, and pressure against the player’s wisdom. More cosmic disease than classic monster.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Infernal</div>
+            <div class="icon">😈</div>
+            <h3>Demoner</h3>
+            <p>
+              Hunger, dominance, possession, and brutal presence. They break formations and thrive on chaos.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Haunt</div>
+            <div class="icon">👻</div>
+            <h3>Andar</h3>
+            <p>
+              Poltergeists, haunted places, and invisible forces that turn the environment itself into an enemy.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Undead</div>
+            <div class="icon">💀</div>
+            <h3>Undead</h3>
+            <p>
+              Tireless bodies that force attrition, positioning, and the right damage type rather than heroics.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Urban legend</div>
+            <div class="icon">🚧</div>
+            <h3>Abominations and Rumors</h3>
+            <p>
+              The Hook-Handed Man, the White Face, and other stories that become real enough to hunt back.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Unclassifiable</div>
+            <div class="icon">🌌</div>
+            <h3>Void</h3>
+            <p>
+              The most fundamentally wrong thing in the setting — not just deadly, but corrosive to reality itself.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <article class="quote-card">
+          <h3>What Kind of Stories Live Here</h3>
+          <blockquote>
+            A modern city in bad light. Something moves in the periphery. Someone has to go in first. Someone else has to make sure the world forgets what it saw.
+          </blockquote>
+          <footer>A game of containment, survival, and the cost of knowing too much.</footer>
+        </article>
+      </section>
+
+      <section id="status" class="section" aria-labelledby="status-heading">
+        <div class="section-head">
+          <h2 id="status-heading">Get the Rules</h2>
+          <p>
+            Eldritch Shadows is a playable roleplaying game built for groups that want dark modern horror, pressure-driven mechanics, and a setting where secrecy matters as much as survival.
+          </p>
+        </div>
+
+        <div class="grid-two">
+          <article class="cta-card">
+            <h3>Start Here</h3>
+            <ul>
+              <li>Read the ruleset for character creation, conflict, magic, nanomancy, and equipment</li>
+              <li>Use the ready-made roles for a fast first session</li>
+              <li>Build a campaign around containment, investigation, and escalating supernatural threats</li>
+            </ul>
+            <div class="stack-actions" style="margin-top:16px;">
+              <a href="EldritchShadowsRules.pdf" target="_blank" rel="noopener" class="btn btn-primary">Open the Rules PDF</a>
+              <a href="contact.html" class="btn btn-secondary">Contact</a>
+            </div>
+          </article>
+
+          <article class="cta-card">
+            <h3>Current Format</h3>
+            <p>
+              The current version presents Eldritch Shadows as a playable tabletop RPG with a strong setting identity, a clear horror tone, and room to grow through future campaigns, expansions, and world material.
+            </p>
+
+            <div class="status-list">
+              <div class="status-item">
+                <div class="status-label">Status</div>
+                <div class="status-value">Beta 0.2.1</div>
+              </div>
+              <div class="status-item">
+                <div class="status-label">Format</div>
+                <div class="status-value">Playable TTRPG</div>
+              </div>
+              <div class="status-item">
+                <div class="status-label">Primary focus</div>
+                <div class="status-value">World and play</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="safety-heading">
+        <div class="section-head">
+          <h2 id="safety-heading">Safety and License</h2>
+        </div>
+
+        <div class="warning-wrap">
+          <article class="warning-card warning">
+            <h3><span>⚠</span> Content Warning</h3>
+            <p>
+              Eldritch Shadows includes psychological trauma, horror, violence, corruption, and disturbing supernatural themes. It is built for groups who want tension, dread, and meaningful consequences.
+            </p>
+            <ul>
+              <li>Discuss boundaries before play</li>
+              <li>Use safety tools that fit your table</li>
+              <li>Adjust tone and intensity to suit your group</li>
+            </ul>
+          </article>
+
+          <article class="warning-card license">
+            <h3><span>✦</span> Open Rules, Protected Setting</h3>
+            <p>
+              The rules are shared under ESOL, while the setting, names, world-specific lore, and visual identity remain protected. That keeps the system open for use while preserving what makes Eldritch Shadows its own world.
+            </p>
+            <ul>
+              <li>Rules and systems can be reused under the license</li>
+              <li>Attribution matters</li>
+              <li>Setting identity and unique lore remain protected</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> TBD's Dragon Den.</span>
+      <span>Forged in starlight, ink &amp; caffeine.</span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

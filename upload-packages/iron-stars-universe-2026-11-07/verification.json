@@ -1,0 +1,39 @@
+{
+  "package": "iron-stars-universe-2026-11-07.zip",
+  "files": 149,
+  "uncompressed_bytes": 11319359,
+  "zip_bytes": 6762047,
+  "zip_sha256": "1dc78a071ef84aeda35ad1f241c19f7864046877c745cb252486a58d1f547e80",
+  "extensions": {
+    ".css": 11,
+    ".html": 89,
+    ".jpg": 15,
+    ".js": 12,
+    ".json": 6,
+    ".svg": 1,
+    ".webp": 15
+  },
+  "scope": "Iron Stars section, existing gallery, homepage integration and shared header assets",
+  "existing_site_navigation_targets": [
+    "Eldritch shadows/EldritchShadowsPublicEnglishPdfUpdated.html",
+    "Eldritch shadows/IconRuneStarEmbedded.svg",
+    "about.html",
+    "contact.html",
+    "guilds-and-dragons.html",
+    "jade-empire.html",
+    "miniatures.html",
+    "music-card.css",
+    "music.html",
+    "romance-in-the-land-of-the-setting-sun.html",
+    "short-stories.html"
+  ],
+  "checks": [
+    "Reachable local links, anchors and exact filename casing checked",
+    "Every staged and archived file matches its current source SHA-256",
+    "ZIP integrity/CRC and exact file list verified",
+    "Both battle modules and every required builder module included",
+    "Only public runtime JSON included; private sources, QA and tools excluded",
+    "Existing publication output and older archives preserved"
+  ],
+  "deployed": false
+}

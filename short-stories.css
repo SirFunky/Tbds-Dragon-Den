@@ -1,0 +1,21 @@
+.fiction { max-width: 54rem; margin: clamp(2rem, 7vw, 5rem) auto 4rem; }
+.fiction h1 { margin: 0; font: bold clamp(2.5rem, 8vw, 5rem)/1.05 Georgia, serif; }
+.fiction-label { color: #86efac; font-size: .75rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.fiction-card { margin-top: 2rem; padding: clamp(1.25rem, 5vw, 3rem); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); background: radial-gradient(ellipse at top right, #173c3a, transparent 70%), #0f172a; }
+.fiction-card h2 { margin: 0; font: bold clamp(1.6rem, 5vw, 2.45rem)/1.2 Georgia, serif; }
+.fiction-card h2 a { color: inherit; }
+.fiction-card p { max-width: 50ch; line-height: 1.6; }
+.fiction-reader { max-width: 43rem; }
+.fiction-title { margin: 2rem 0; padding-bottom: 2rem; border-bottom: 1px solid var(--border-subtle); }
+.fiction-title h1 span { display: block; margin-top: .45em; color: #a7f3d0; font-size: .5em; font-style: italic; }
+.fiction-prose { font: 1.2rem/1.75 Georgia, serif; color: #e2e8f0; overflow-wrap: break-word; }
+.fiction-prose h2 { margin: 2em 0 .65em; font-size: 1.45em; line-height: 1.25; }
+.fiction-prose p { margin: 0 0 1em; }
+.fiction-back { display: inline-block; padding: .35rem 0; color: #a7f3d0; text-decoration: underline; text-underline-offset: .25em; }
+.fiction-reader > .fiction-back:last-child { margin-top: 1.5rem; }
+.fiction a:focus-visible { outline: 2px solid #86efac; outline-offset: 4px; }
+.fiction-contents { margin: 1.5rem 0; }
+.fiction-contents summary { cursor: pointer; color: #a7f3d0; }
+.fiction-contents ol { padding-left: 1.6rem; line-height: 1.8; }
+.fiction-contents a { color: #e2e8f0; }
+.fiction-prose h2 { scroll-margin-top: 2rem; }

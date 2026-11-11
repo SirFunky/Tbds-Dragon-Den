@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact TBD's Dragon Den about Eldritch Shadows, playtesting, and other projects." />
+  <title>Contact | TBD's Dragon Den</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    a.logo { color: inherit; text-decoration: none; }
+    .logo-icon { width: 20px; height: 20px; object-fit: contain; }
+    nav { flex-wrap: wrap; }
+    nav [aria-current="page"] { color: var(--text-main); border-color: var(--accent); }
+    .contact-intro { max-width: 680px; margin: 48px 0 28px; }
+    .contact-intro h1 { margin: 12px 0; font-size: clamp(36px, 6vw, 56px); }
+    .contact-intro p, .contact-aside p { color: var(--text-muted); line-height: 1.7; }
+    .contact-kicker { color: #4ade80; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+    .contact-layout { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+    .contact-card { padding: clamp(20px, 4vw, 32px); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); background: radial-gradient(circle at top left, rgba(34, 197, 94, .08), transparent 65%), rgba(15, 23, 42, .8); box-shadow: var(--shadow-soft); }
+    .contact-card h2 { margin: 0 0 18px; font-size: 22px; }
+    .form-field { margin-bottom: 20px; }
+    .form-field label { display: block; margin-bottom: 8px; font-size: 14px; font-weight: 600; }
+    .form-field input, .form-field textarea { display: block; width: 100%; padding: 12px 14px; border: 1px solid #64748b; border-radius: 10px; background: #020617; color: var(--text-main); font: inherit; }
+    .form-field textarea { min-height: 180px; resize: vertical; }
+    .contact-page :focus-visible { outline: 2px solid #4ade80; outline-offset: 4px; }
+    .form-note, .form-status { color: var(--text-muted); font-size: 14px; line-height: 1.65; }
+    .form-note { margin: 0 0 18px; }
+    .form-status { margin: 16px 0 0; }
+    .form-status:empty { margin: 0; }
+    .contact-card .btn { font: inherit; font-weight: 600; cursor: pointer; }
+    .contact-aside a { color: #86efac; overflow-wrap: anywhere; }
+    .contact-aside p { margin: 0 0 18px; }
+    @media (max-width: 760px) {
+      .contact-layout { grid-template-columns: 1fr; }
+      .contact-intro { margin-top: 28px; }
+      header { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+  <link rel="stylesheet" href="site-header.css" />
+</head>
+<body class="contact-page">
+  <div class="page-shell">
+    <header class="site-header screen-only">
+      <a class="logo" href="index.html" aria-label="TBD's Dragon Den – home">
+        <div class="logo-mark"><img src="Eldritch%20shadows/IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon" /></div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <span class="site-pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+    <main>
+      <div class="contact-intro">
+        <span class="contact-kicker">Get in touch</span>
+        <h1>Contact the Den</h1>
+        <p>Have a question about Eldritch Shadows, feedback from your table, or an idea for a collaboration? Send a message — we'd love to hear from you.</p>
+      </div>
+      <div class="contact-layout">
+        <section class="contact-card" aria-labelledby="form-heading">
+          <h2 id="form-heading">Write a message</h2>
+          <p class="form-note" id="email-help">All fields are required. This form opens your email app with a draft. Review it and press Send there to deliver your message.</p>
+          <form id="contact-form" aria-describedby="email-help">
+            <div class="form-field">
+              <label for="contact-name">Your name</label>
+              <input id="contact-name" name="name" autocomplete="name" maxlength="120" required />
+            </div>
+            <div class="form-field">
+              <label for="contact-email">Your email</label>
+              <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required />
+            </div>
+            <div class="form-field">
+              <label for="contact-subject">Subject</label>
+              <input id="contact-subject" name="subject" maxlength="160" required />
+            </div>
+            <div class="form-field">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" maxlength="5000" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" id="draft-button" disabled>Open email draft</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            <noscript><p class="form-note">Enable JavaScript to prepare a draft, or email <a href="mailto:shadowblade83@hotmail.com">shadowblade83@hotmail.com</a> directly.</p></noscript>
+          </form>
+        </section>
+        <aside class="contact-card contact-aside" aria-labelledby="direct-heading">
+          <h2 id="direct-heading">Prefer email?</h2>
+          <p>Write directly to <a href="mailto:shadowblade83@hotmail.com">shadowblade83@hotmail.com</a>.</p>
+          <p>For playtest feedback, include your rules version, what happened at the table, and any rules that felt unclear.</p>
+          <p>If no email app opens, copy your message and send it to the address above from your usual email service.</p>
+          <a href="Eldritch%20shadows/EldritchShadowsPublicEnglishPdfUpdated.html">Explore Eldritch Shadows &rarr;</a>
+        </aside>
+      </div>
+    </main>
+    <footer>
+      <span>© <span id="year"></span> TBD's Dragon Den.</span>
+      <span>Forged in starlight, ink &amp; caffeine.</span>
+    </footer>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    const form = document.getElementById("contact-form");
+    const status = document.getElementById("form-status");
+    const topic = new URLSearchParams(window.location.search).get("topic");
+    if (topic === "eldritch-beta") {
+      document.getElementById("contact-subject").value = "Eldritch Shadows – Betafeedback";
+    }
+    document.getElementById("draft-button").disabled = false;
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const fields = ["contact-name", "contact-email", "contact-subject", "contact-message"];
+      for (const id of fields) {
+        const field = document.getElementById(id);
+        field.setCustomValidity(field.value.trim() ? "" : "Please fill in this field.");
+      }
+      if (!form.reportValidity()) return;
+      const name = document.getElementById("contact-name").value.trim();
+      const email = document.getElementById("contact-email").value.trim();
+      const subject = document.getElementById("contact-subject").value.trim();
+      const message = document.getElementById("contact-message").value.trim();
+      const body = `Name: ${name}\r\nEmail: ${email}\r\n\r\n${message}`;
+      window.location.href = `mailto:shadowblade83@hotmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      status.textContent = "If your email app opened, review the draft and press Send there. If it did not open, copy your message and email shadowblade83@hotmail.com directly.";
+    });
+    form.addEventListener("input", (event) => {
+      if (typeof event.target.setCustomValidity === "function") event.target.setCustomValidity("");
+      status.textContent = "";
+    });
+  </script>
+</body>
+</html>

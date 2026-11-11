@@ -1,0 +1,5877 @@
+{
+  "source_id": "avalon",
+  "filename": "NEW AVALON – FACTION RULES (2).docx",
+  "sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+  "status": "unverified",
+  "publication_status": "private",
+  "blocks": [
+    {
+      "id": "avalon:b0001",
+      "kind": "paragraph",
+      "style": "heading 1",
+      "heading": [
+        "⚜️ NEW AVALON – FACTION RULES "
+      ],
+      "text": "⚜️ NEW AVALON – FACTION RULES ",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0002",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – FACTION RULES "
+      ],
+      "text": "“In honor, we rise. Through precision, we prevail.”",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0003",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – FACTION RULES "
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0004",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "🛰️ FACTION IDENTITY",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0005",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "Theme: Ultra-elite techno-knights, wielding perfected prototypes and unstable experimental systems.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0006",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "Playstyle: Tiny armies (1–3 units), but each frame is devastatingly strong.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0007",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "Strengths: Best Defence, unmatched accuracy, lethal in duels.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0008",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "Weaknesses: Outnumbered, no expendables, punished by swarms.",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0009",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ FACTION IDENTITY"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0010",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "🧬 CORE FACTION RULES"
+      ],
+      "text": "🧬 CORE FACTION RULES",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0011",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧬 CORE FACTION RULES"
+      ],
+      "text": "Knightly Perfection (Universal)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0012",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧬 CORE FACTION RULES"
+      ],
+      "text": "Each New Avalon unit may reroll 1 attack die and 1 defence die per activation.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0013",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧬 CORE FACTION RULES"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0014",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🛡️ Knightly Orders (Optional Subfactions)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0015",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "When building your army, you may choose to assign no Order, or pick one Order for your entire force.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0016",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "If you choose an Order:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0017",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "All Order-specific units in your list must belong to that chosen Order.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0018",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Every unit with that Order keyword gains the Order’s trait.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0019",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "You may include general New Avalon units as normal, but these units do not benefit from the Order trait.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0020",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "You cannot mix multiple Orders in the same list.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0021",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "If you do not choose an Order:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0022",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Your force is treated as a general New Avalon detachment.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0023",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "You may take general units as normal, but you do not gain any Order trait.",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0024",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0025",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "⚔️ Black Knights – The Iron Blade\n Relic Might++: Stationary = +1 ME & AP +1. In melee duels, reroll all failed hits.\n",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0026",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🛡️ Argent Aegis – The Shield Eternal\n Guardian Protocols++: Intercept unlimited hits within 10 cm. Once/game, sacrifice 2 STR to keep an ally alive at 1 STR.\n",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0027",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🎯 Luminous Lance – The Spear of Heaven\n Piercing Judgment++: Ranged ignores cover & halves Defence from systems. Once/game, one “Judgment Shot” = FP +1, AP +1, reroll all misses.\n",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0028",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🕵️ Silver Veil – The Phantom’s Oath\n Veil Phase++: Cancel first two hits on each unit. Once/game, a Veilblade may become untargetable until next activation.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0029",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0030",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "⚔️ RECOMMENDED UNIT ROLES",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0031",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Knight-Errant – Agile melee skirmisher (duel bonuses, some ranged capability)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0032",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Black Knight – Heavy frontline duelist (Cleave, tanky, brutal when stationary)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0033",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Veilblade Operative – Stealth assassin (phase evasion, flank killer)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0034",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Lancer-Archon – Precision sniper (beam lance, duel target hunting)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0035",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Aegis Castellan – Defensive tank (intercepts damage, aura defense)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0036",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Seraphim Exemplar – Commander duelist (buff auras, blade mastery)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0037",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0038",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🎯 TACTICAL GUIDANCE",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0039",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Focus on synergy: Keep command units near duelists to maximize buffs.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0040",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Avoid being swarmed: Most units shine in 1v1 engagements.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0041",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Use orders intentionally: Pick the right Order trait for each unit’s role.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0042",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Don’t overbuild ranged: New Avalon’s strength is in the blade.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0043",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0044",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "🗡️ SAMPLE STRATEGY",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0045",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knightly Orders (Optional Subfactions)"
+      ],
+      "text": "Pair a Knight-Errant with an Aegis Castellan — the Castellan protects with Guardian Protocols while the Errant flanks. Position a Lancer-Archon to duel the enemy’s ace from range while a Seraphim Exemplar radiates buffs to all frontline knights. Use Veilblades to strike at key targets or grab objectives with stealth and speed.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0046",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "⚖️ NEW AVALON – FACTION POINTS LIST",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0047",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0048",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "🧱 Chassis Options",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0049",
+      "kind": "table",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "rows": [
+        {
+          "id": "avalon:b0049:r1",
+          "cells": [
+            {
+              "id": "avalon:b0049:r1:c1",
+              "paragraphs": [
+                "Chassis"
+              ],
+              "text": "Chassis",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r1:c2",
+              "paragraphs": [
+                "M"
+              ],
+              "text": "M",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r1:c3",
+              "paragraphs": [
+                "D"
+              ],
+              "text": "D",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r1:c4",
+              "paragraphs": [
+                "STR"
+              ],
+              "text": "STR",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r1:c5",
+              "paragraphs": [
+                "Notes"
+              ],
+              "text": "Notes",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r1:c6",
+              "paragraphs": [
+                "Cost"
+              ],
+              "text": "Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r2",
+          "cells": [
+            {
+              "id": "avalon:b0049:r2:c1",
+              "paragraphs": [
+                "Flyer Scout"
+              ],
+              "text": "Flyer Scout",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c2",
+              "paragraphs": [
+                "25–30 cm"
+              ],
+              "text": "25–30 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c5",
+              "paragraphs": [
+                "Fast recon; Prototype/Experimental"
+              ],
+              "text": "Fast recon; Prototype/Experimental",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c6",
+              "paragraphs": [
+                "20 pts"
+              ],
+              "text": "20 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r3",
+          "cells": [
+            {
+              "id": "avalon:b0049:r3:c1",
+              "paragraphs": [
+                "Errant Frame"
+              ],
+              "text": "Errant Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c5",
+              "paragraphs": [
+                "Core duelist frame"
+              ],
+              "text": "Core duelist frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c6",
+              "paragraphs": [
+                "40 pts"
+              ],
+              "text": "40 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r4",
+          "cells": [
+            {
+              "id": "avalon:b0049:r4:c1",
+              "paragraphs": [
+                "Black Knight"
+              ],
+              "text": "Black Knight",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c2",
+              "paragraphs": [
+                "13 cm"
+              ],
+              "text": "13 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c5",
+              "paragraphs": [
+                "Heavy anchor"
+              ],
+              "text": "Heavy anchor",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c6",
+              "paragraphs": [
+                "50 pts"
+              ],
+              "text": "50 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r5",
+          "cells": [
+            {
+              "id": "avalon:b0049:r5:c1",
+              "paragraphs": [
+                "Castellan"
+              ],
+              "text": "Castellan",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c2",
+              "paragraphs": [
+                "13 cm"
+              ],
+              "text": "13 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c5",
+              "paragraphs": [
+                "Shieldwall"
+              ],
+              "text": "Shieldwall",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c6",
+              "paragraphs": [
+                "50 pts"
+              ],
+              "text": "50 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r6",
+          "cells": [
+            {
+              "id": "avalon:b0049:r6:c1",
+              "paragraphs": [
+                "Lancer-Archon"
+              ],
+              "text": "Lancer-Archon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c5",
+              "paragraphs": [
+                "Sniper frame"
+              ],
+              "text": "Sniper frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c6",
+              "paragraphs": [
+                "45 pts"
+              ],
+              "text": "45 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0049:r7",
+          "cells": [
+            {
+              "id": "avalon:b0049:r7:c1",
+              "paragraphs": [
+                "Seraphim Frame"
+              ],
+              "text": "Seraphim Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c4",
+              "paragraphs": [
+                "7"
+              ],
+              "text": "7",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c5",
+              "paragraphs": [
+                "Supreme commander"
+              ],
+              "text": "Supreme commander",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c6",
+              "paragraphs": [
+                "70 pts"
+              ],
+              "text": "70 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avalon:b0050",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0051",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "⚔️ Melee Weapons",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0052",
+      "kind": "table",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "rows": [
+        {
+          "id": "avalon:b0052:r1",
+          "cells": [
+            {
+              "id": "avalon:b0052:r1:c1",
+              "paragraphs": [
+                "Weapon"
+              ],
+              "text": "Weapon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r1:c2",
+              "paragraphs": [
+                "ME"
+              ],
+              "text": "ME",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r1:c3",
+              "paragraphs": [
+                "Traits"
+              ],
+              "text": "Traits",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r1:c4",
+              "paragraphs": [
+                "Cost (Prototype)"
+              ],
+              "text": "Cost (Prototype)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r1:c5",
+              "paragraphs": [
+                "Cost (Experimental)"
+              ],
+              "text": "Cost (Experimental)",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r2",
+          "cells": [
+            {
+              "id": "avalon:b0052:r2:c1",
+              "paragraphs": [
+                "Beam Rapier"
+              ],
+              "text": "Beam Rapier",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r2:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r2:c3",
+              "paragraphs": [
+                "AP 1, Precise"
+              ],
+              "text": "AP 1, Precise",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r2:c4",
+              "paragraphs": [
+                "8 pts"
+              ],
+              "text": "8 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r2:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r3",
+          "cells": [
+            {
+              "id": "avalon:b0052:r3:c1",
+              "paragraphs": [
+                "Beam Rapier+"
+              ],
+              "text": "Beam Rapier+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r3:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r3:c3",
+              "paragraphs": [
+                "AP 2, Precise+, Overheat 1"
+              ],
+              "text": "AP 2, Precise+, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r3:c4",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r3:c5",
+              "paragraphs": [
+                "12 pts"
+              ],
+              "text": "12 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r4",
+          "cells": [
+            {
+              "id": "avalon:b0052:r4:c1",
+              "paragraphs": [
+                "Great Beam Claymore"
+              ],
+              "text": "Great Beam Claymore",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r4:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r4:c3",
+              "paragraphs": [
+                "AP 2, Cleave"
+              ],
+              "text": "AP 2, Cleave",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r4:c4",
+              "paragraphs": [
+                "12 pts"
+              ],
+              "text": "12 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r4:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r5",
+          "cells": [
+            {
+              "id": "avalon:b0052:r5:c1",
+              "paragraphs": [
+                "Great Beam Claymore+"
+              ],
+              "text": "Great Beam Claymore+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r5:c2",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r5:c3",
+              "paragraphs": [
+                "AP 2, Cleave, Shatter, Overheat 1"
+              ],
+              "text": "AP 2, Cleave, Shatter, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r5:c4",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r5:c5",
+              "paragraphs": [
+                "16 pts"
+              ],
+              "text": "16 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r6",
+          "cells": [
+            {
+              "id": "avalon:b0052:r6:c1",
+              "paragraphs": [
+                "Phase Dagger"
+              ],
+              "text": "Phase Dagger",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r6:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r6:c3",
+              "paragraphs": [
+                "AP 1, Precision"
+              ],
+              "text": "AP 1, Precision",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r6:c4",
+              "paragraphs": [
+                "8 pts"
+              ],
+              "text": "8 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r6:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r7",
+          "cells": [
+            {
+              "id": "avalon:b0052:r7:c1",
+              "paragraphs": [
+                "Phase Dagger+"
+              ],
+              "text": "Phase Dagger+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r7:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r7:c3",
+              "paragraphs": [
+                "AP 2, Precision+, Overheat 1"
+              ],
+              "text": "AP 2, Precision+, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r7:c4",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r7:c5",
+              "paragraphs": [
+                "12 pts"
+              ],
+              "text": "12 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r8",
+          "cells": [
+            {
+              "id": "avalon:b0052:r8:c1",
+              "paragraphs": [
+                "Shield Halberd"
+              ],
+              "text": "Shield Halberd",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r8:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r8:c3",
+              "paragraphs": [
+                "AP 1, Bracebreaker"
+              ],
+              "text": "AP 1, Bracebreaker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r8:c4",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r8:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r9",
+          "cells": [
+            {
+              "id": "avalon:b0052:r9:c1",
+              "paragraphs": [
+                "Shield Halberd+"
+              ],
+              "text": "Shield Halberd+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r9:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r9:c3",
+              "paragraphs": [
+                "AP 2, Bracebreaker+, Overheat 1"
+              ],
+              "text": "AP 2, Bracebreaker+, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r9:c4",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r9:c5",
+              "paragraphs": [
+                "14 pts"
+              ],
+              "text": "14 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r10",
+          "cells": [
+            {
+              "id": "avalon:b0052:r10:c1",
+              "paragraphs": [
+                "Judicator Blade"
+              ],
+              "text": "Judicator Blade",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r10:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r10:c3",
+              "paragraphs": [
+                "AP 2, Cleave, Duel Focus"
+              ],
+              "text": "AP 2, Cleave, Duel Focus",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r10:c4",
+              "paragraphs": [
+                "15 pts"
+              ],
+              "text": "15 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r10:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0052:r11",
+          "cells": [
+            {
+              "id": "avalon:b0052:r11:c1",
+              "paragraphs": [
+                "Judicator Blade+"
+              ],
+              "text": "Judicator Blade+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r11:c2",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r11:c3",
+              "paragraphs": [
+                "AP 3, Cleave+, Duel Focus+, Overheat 1"
+              ],
+              "text": "AP 3, Cleave+, Duel Focus+, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r11:c4",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0052:r11:c5",
+              "paragraphs": [
+                ""
+              ],
+              "text": "",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avalon:b0053",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0054",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "🔫 Ranged Weapons",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0055",
+      "kind": "table",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "rows": [
+        {
+          "id": "avalon:b0055:r1",
+          "cells": [
+            {
+              "id": "avalon:b0055:r1:c1",
+              "paragraphs": [
+                "Weapon"
+              ],
+              "text": "Weapon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r1:c2",
+              "paragraphs": [
+                "FP"
+              ],
+              "text": "FP",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r1:c3",
+              "paragraphs": [
+                "Range"
+              ],
+              "text": "Range",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r1:c4",
+              "paragraphs": [
+                "Traits"
+              ],
+              "text": "Traits",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r1:c5",
+              "paragraphs": [
+                "Cost (Prototype)"
+              ],
+              "text": "Cost (Prototype)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r1:c6",
+              "paragraphs": [
+                "Cost (Experimental)"
+              ],
+              "text": "Cost (Experimental)",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r2",
+          "cells": [
+            {
+              "id": "avalon:b0055:r2:c1",
+              "paragraphs": [
+                "Knight Rifle"
+              ],
+              "text": "Knight Rifle",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r2:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r2:c3",
+              "paragraphs": [
+                "40 cm"
+              ],
+              "text": "40 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r2:c4",
+              "paragraphs": [
+                "Accurate, Piercing 1"
+              ],
+              "text": "Accurate, Piercing 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r2:c5",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r2:c6",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r3",
+          "cells": [
+            {
+              "id": "avalon:b0055:r3:c1",
+              "paragraphs": [
+                "Overcharged Rifle"
+              ],
+              "text": "Overcharged Rifle",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r3:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r3:c3",
+              "paragraphs": [
+                "40 cm"
+              ],
+              "text": "40 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r3:c4",
+              "paragraphs": [
+                "Accurate, Piercing 2, Overheat 2"
+              ],
+              "text": "Accurate, Piercing 2, Overheat 2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r3:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r3:c6",
+              "paragraphs": [
+                "15 pts"
+              ],
+              "text": "15 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r4",
+          "cells": [
+            {
+              "id": "avalon:b0055:r4:c1",
+              "paragraphs": [
+                "Beam Lance"
+              ],
+              "text": "Beam Lance",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r4:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r4:c3",
+              "paragraphs": [
+                "50 cm"
+              ],
+              "text": "50 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r4:c4",
+              "paragraphs": [
+                "Accurate, Piercing 2"
+              ],
+              "text": "Accurate, Piercing 2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r4:c5",
+              "paragraphs": [
+                "15 pts"
+              ],
+              "text": "15 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r4:c6",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r5",
+          "cells": [
+            {
+              "id": "avalon:b0055:r5:c1",
+              "paragraphs": [
+                "Sun-Lance"
+              ],
+              "text": "Sun-Lance",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r5:c2",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r5:c3",
+              "paragraphs": [
+                "60 cm"
+              ],
+              "text": "60 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r5:c4",
+              "paragraphs": [
+                "Accurate, Piercing 3, Overheat 2"
+              ],
+              "text": "Accurate, Piercing 3, Overheat 2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r5:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r5:c6",
+              "paragraphs": [
+                "20 pts"
+              ],
+              "text": "20 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r6",
+          "cells": [
+            {
+              "id": "avalon:b0055:r6:c1",
+              "paragraphs": [
+                "3× Medium Lasers (Scout)"
+              ],
+              "text": "3× Medium Lasers (Scout)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r6:c2",
+              "paragraphs": [
+                "3 ea"
+              ],
+              "text": "3 ea",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r6:c3",
+              "paragraphs": [
+                "35 cm"
+              ],
+              "text": "35 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r6:c4",
+              "paragraphs": [
+                "Accurate, AP 1, Overheat 2"
+              ],
+              "text": "Accurate, AP 1, Overheat 2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r6:c5",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r6:c6",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0055:r7",
+          "cells": [
+            {
+              "id": "avalon:b0055:r7:c1",
+              "paragraphs": [
+                "3× Medium Lasers+ (Scout)"
+              ],
+              "text": "3× Medium Lasers+ (Scout)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r7:c2",
+              "paragraphs": [
+                "3 ea"
+              ],
+              "text": "3 ea",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r7:c3",
+              "paragraphs": [
+                "40 cm"
+              ],
+              "text": "40 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r7:c4",
+              "paragraphs": [
+                "Accurate, Piercing 1, Overheat 2"
+              ],
+              "text": "Accurate, Piercing 1, Overheat 2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r7:c5",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0055:r7:c6",
+              "paragraphs": [
+                "15 pts"
+              ],
+              "text": "15 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avalon:b0056",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0057",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "⚙️ Systems & Traits",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0058",
+      "kind": "table",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "rows": [
+        {
+          "id": "avalon:b0058:r1",
+          "cells": [
+            {
+              "id": "avalon:b0058:r1:c1",
+              "paragraphs": [
+                "System / Trait"
+              ],
+              "text": "System / Trait",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r1:c2",
+              "paragraphs": [
+                "Cost (Prototype)"
+              ],
+              "text": "Cost (Prototype)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r1:c3",
+              "paragraphs": [
+                "Cost (Experimental)"
+              ],
+              "text": "Cost (Experimental)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r1:c4",
+              "paragraphs": [
+                "Notes"
+              ],
+              "text": "Notes",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r2",
+          "cells": [
+            {
+              "id": "avalon:b0058:r2:c1",
+              "paragraphs": [
+                "Advance Guard"
+              ],
+              "text": "Advance Guard",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r2:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r2:c3",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r2:c4",
+              "paragraphs": [
+                "+1 Defence when advancing, no firing"
+              ],
+              "text": "+1 Defence when advancing, no firing",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r3",
+          "cells": [
+            {
+              "id": "avalon:b0058:r3:c1",
+              "paragraphs": [
+                "Shield Array"
+              ],
+              "text": "Shield Array",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r3:c2",
+              "paragraphs": [
+                "4 pts"
+              ],
+              "text": "4 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r3:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r3:c4",
+              "paragraphs": [
+                "+1 Defence melee & ranged"
+              ],
+              "text": "+1 Defence melee & ranged",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r4",
+          "cells": [
+            {
+              "id": "avalon:b0058:r4:c1",
+              "paragraphs": [
+                "Experimental Shield"
+              ],
+              "text": "Experimental Shield",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r4:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r4:c3",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r4:c4",
+              "paragraphs": [
+                "+2 Defence once/game, then burns out"
+              ],
+              "text": "+2 Defence once/game, then burns out",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r5",
+          "cells": [
+            {
+              "id": "avalon:b0058:r5:c1",
+              "paragraphs": [
+                "Heavy Shield Array"
+              ],
+              "text": "Heavy Shield Array",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r5:c2",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r5:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r5:c4",
+              "paragraphs": [
+                "+1 Defence, brace for +1 more"
+              ],
+              "text": "+1 Defence, brace for +1 more",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r6",
+          "cells": [
+            {
+              "id": "avalon:b0058:r6:c1",
+              "paragraphs": [
+                "Heavy Shield+"
+              ],
+              "text": "Heavy Shield+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r6:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r6:c3",
+              "paragraphs": [
+                "7 pts"
+              ],
+              "text": "7 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r6:c4",
+              "paragraphs": [
+                "+2 Defence when braced"
+              ],
+              "text": "+2 Defence when braced",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r7",
+          "cells": [
+            {
+              "id": "avalon:b0058:r7:c1",
+              "paragraphs": [
+                "Tower Shield Array"
+              ],
+              "text": "Tower Shield Array",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r7:c2",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r7:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r7:c4",
+              "paragraphs": [
+                "+1 Defence always, max Move 10 cm"
+              ],
+              "text": "+1 Defence always, max Move 10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r8",
+          "cells": [
+            {
+              "id": "avalon:b0058:r8:c1",
+              "paragraphs": [
+                "Tower Shield+"
+              ],
+              "text": "Tower Shield+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r8:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r8:c3",
+              "paragraphs": [
+                "7 pts"
+              ],
+              "text": "7 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r8:c4",
+              "paragraphs": [
+                "+2 Defence, once/game burnout"
+              ],
+              "text": "+2 Defence, once/game burnout",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r9",
+          "cells": [
+            {
+              "id": "avalon:b0058:r9:c1",
+              "paragraphs": [
+                "Guardian Field Projector"
+              ],
+              "text": "Guardian Field Projector",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r9:c2",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r9:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r9:c4",
+              "paragraphs": [
+                "Allies within 10 cm +1 Defence"
+              ],
+              "text": "Allies within 10 cm +1 Defence",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r10",
+          "cells": [
+            {
+              "id": "avalon:b0058:r10:c1",
+              "paragraphs": [
+                "Guardian Field Overcharger"
+              ],
+              "text": "Guardian Field Overcharger",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r10:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r10:c3",
+              "paragraphs": [
+                "8 pts"
+              ],
+              "text": "8 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r10:c4",
+              "paragraphs": [
+                "Allies within 15 cm +2 Defence, risks STR"
+              ],
+              "text": "Allies within 15 cm +2 Defence, risks STR",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r11",
+          "cells": [
+            {
+              "id": "avalon:b0058:r11:c1",
+              "paragraphs": [
+                "Neural Reflex Suite"
+              ],
+              "text": "Neural Reflex Suite",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r11:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r11:c3",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r11:c4",
+              "paragraphs": [
+                "Reroll 1 Defence, backlash on 1"
+              ],
+              "text": "Reroll 1 Defence, backlash on 1",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r12",
+          "cells": [
+            {
+              "id": "avalon:b0058:r12:c1",
+              "paragraphs": [
+                "Targeting Prism Array"
+              ],
+              "text": "Targeting Prism Array",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r12:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r12:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r12:c4",
+              "paragraphs": [
+                "+1 to hit vs wounded/marked target"
+              ],
+              "text": "+1 to hit vs wounded/marked target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r13",
+          "cells": [
+            {
+              "id": "avalon:b0058:r13:c1",
+              "paragraphs": [
+                "Targeting Prism Overcharger"
+              ],
+              "text": "Targeting Prism Overcharger",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r13:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r13:c3",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r13:c4",
+              "paragraphs": [
+                "Reroll all hits vs duel target, backlash"
+              ],
+              "text": "Reroll all hits vs duel target, backlash",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r14",
+          "cells": [
+            {
+              "id": "avalon:b0058:r14:c1",
+              "paragraphs": [
+                "Radiant Halo Projector"
+              ],
+              "text": "Radiant Halo Projector",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r14:c2",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r14:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r14:c4",
+              "paragraphs": [
+                "Aura +1 Morale & Overwatch"
+              ],
+              "text": "Aura +1 Morale & Overwatch",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r15",
+          "cells": [
+            {
+              "id": "avalon:b0058:r15:c1",
+              "paragraphs": [
+                "Radiant Halo Overcharger"
+              ],
+              "text": "Radiant Halo Overcharger",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r15:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r15:c3",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r15:c4",
+              "paragraphs": [
+                "Aura +2 Morale/Defence, risks STR"
+              ],
+              "text": "Aura +2 Morale/Defence, risks STR",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r16",
+          "cells": [
+            {
+              "id": "avalon:b0058:r16:c1",
+              "paragraphs": [
+                "Command Aura: Knight-Captain"
+              ],
+              "text": "Command Aura: Knight-Captain",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r16:c2",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r16:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r16:c4",
+              "paragraphs": [
+                "Allies reroll 1 attack die"
+              ],
+              "text": "Allies reroll 1 attack die",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r17",
+          "cells": [
+            {
+              "id": "avalon:b0058:r17:c1",
+              "paragraphs": [
+                "Vow of Radiance"
+              ],
+              "text": "Vow of Radiance",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r17:c2",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r17:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r17:c4",
+              "paragraphs": [
+                "Choose +1 ME in duels or +1 Aura range"
+              ],
+              "text": "Choose +1 ME in duels or +1 Aura range",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r18",
+          "cells": [
+            {
+              "id": "avalon:b0058:r18:c1",
+              "paragraphs": [
+                "Vow of Radiance+"
+              ],
+              "text": "Vow of Radiance+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r18:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r18:c3",
+              "paragraphs": [
+                "4 pts"
+              ],
+              "text": "4 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r18:c4",
+              "paragraphs": [
+                "Gain both effects"
+              ],
+              "text": "Gain both effects",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r19",
+          "cells": [
+            {
+              "id": "avalon:b0058:r19:c1",
+              "paragraphs": [
+                "Inspire by Deed"
+              ],
+              "text": "Inspire by Deed",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r19:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r19:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r19:c4",
+              "paragraphs": [
+                "Kill = allies nearby +1 to hit"
+              ],
+              "text": "Kill = allies nearby +1 to hit",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r20",
+          "cells": [
+            {
+              "id": "avalon:b0058:r20:c1",
+              "paragraphs": [
+                "Inspire by Deed+"
+              ],
+              "text": "Inspire by Deed+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r20:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r20:c3",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r20:c4",
+              "paragraphs": [
+                "Kill = all allies +1 to hit"
+              ],
+              "text": "Kill = all allies +1 to hit",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r21",
+          "cells": [
+            {
+              "id": "avalon:b0058:r21:c1",
+              "paragraphs": [
+                "Prototype Overdrive"
+              ],
+              "text": "Prototype Overdrive",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r21:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r21:c3",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r21:c4",
+              "paragraphs": [
+                "3rd action; on 1 suffer 1 STR"
+              ],
+              "text": "3rd action; on 1 suffer 1 STR",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "avalon:b0058:r22",
+          "cells": [
+            {
+              "id": "avalon:b0058:r22:c1",
+              "paragraphs": [
+                "Experimental Overdrive"
+              ],
+              "text": "Experimental Overdrive",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r22:c2",
+              "paragraphs": [
+                "–"
+              ],
+              "text": "–",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r22:c3",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0058:r22:c4",
+              "paragraphs": [
+                "3rd action (+1 to hit if attack); 1–2 suffer 1 STR, 6 = burnout"
+              ],
+              "text": "3rd action (+1 to hit if attack); 1–2 suffer 1 STR, 6 = burnout",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avalon:b0059",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚖️ NEW AVALON – FACTION POINTS LIST"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0060",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "⚜️ NEW AVALON – UNIT ROSTER"
+      ],
+      "text": "⚜️ NEW AVALON – UNIT ROSTER",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0061",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – UNIT ROSTER"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0062",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "✈️ New Avalon Flyer Scout (Super-Elite Rework)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0063",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Role: Recon & strike flyer\n Base Chassis: Light, evasive, fragile but hard to pin down",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0064",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0065",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Prototype Flyer Scout – 30 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0066",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "M: 25 cm | D: 4+ | STR: 3",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0067",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0068",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "3× Prototype Medium Lasers (FP 3 | 35 cm | Accurate, AP 1, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0069",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Refined energy cannons — better penetration than standard faction flyers.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0070",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Systems (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0071",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Flyer – Must move at least half M, ignores terrain. Cannot remain stationary.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0072",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Evasion Protocols – +1 Defence vs ranged attacks made from >20 cm away.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0073",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Prototype Sensor Suite – Once per turn, may reroll 1 attack die.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0074",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0075",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: A stable, high-speed strike craft. Reliable, evasive, and accurate.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0076",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0077",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Experimental Flyer Scout – 35 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0078",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "M: 30 cm | D: 4+ | STR: 3",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0079",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0080",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "3× Experimental Medium Lasers (FP 3 | 40 cm | Accurate, Piercing 1, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0081",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Range and piercing boosted — unstable but deadly.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0082",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Systems (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0083",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Flyer (as above).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0084",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Evasion Protocols+ – +2 Defence vs ranged attacks made from >20 cm away.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0085",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Experimental Sensor Suite – Always reroll 1 attack die.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0086",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On natural 1s, suffer 1 STR (“neural feedback”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0087",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On 1–2, suffer 1 STR. On a 6, burns out.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0088",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The fastest and most evasive scout in the game. Can punch above its weight — but risks frying itself if pushed.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0089",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "✈️ New Avalon Flyer Scout (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0090",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "🛡️ Knight-Errant Frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0091",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0092",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "⚔️ Prototype Knight-Errant – 60 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0093",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Class: Dueling Frame\n Role: Reliable frontline duelist, balanced melee/ranged",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0094",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0095",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0096",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Prototype Beam Rapier (ME 3 | AP 1 | Precise)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0097",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Reroll 1 failed hit in melee duels.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0098",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Prototype Knight Rifle (FP 3 | 40 cm | Accurate, Piercing 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0099",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Stable long rifle, as good as other factions’ sniper weapons.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0100",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Prototype Shield Array (+1 Defence in melee & ranged).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0101",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Systems:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0102",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Advance Guard – If moving closer to nearest visible enemy and not firing, gain +1 Defence vs ranged until next activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0103",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Duelist Protocols – If fighting exactly 1 enemy in melee, gain +1 ME.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0104",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Faction Trait:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0105",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Knightly Perfection – Reroll 1 attack die and 1 defence die per activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0106",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "📌 Role: This is your reliable knight. Strong in melee, strong at range, with no weird risks. Think of this as the “mainline” knightly mech.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0107",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0108",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "⚔️ Experimental Knight-Errant – 65 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0109",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Class: Dueling Frame\n Role: Risky but devastating duelist, for bold players",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0110",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0111",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0112",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Experimental Beam Rapier (ME 4 | AP 2 | Precise+)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0113",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Reroll up to 2 failed hits in melee duels.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0114",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Drawback: Overheat 1 — after attacking, roll a D6; on 1, take 1 STR damage (“weapon destabilizes”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0115",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Overcharged Rifle Prototype (FP 4 | 40 cm | Accurate, Piercing 2, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0116",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Drawback: On Overheat, suffers 2 STR damage instead of 1 (“rifle backfeed”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0117",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Experimental Energy Shield (+2 Defence until next turn).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0118",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Drawback: Once per game, burns out after use.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0119",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Systems:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0120",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Neural Reflex Suite – Always reroll 1 failed Defence die.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0121",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Drawback: On natural 1s, suffer 1 STR damage (“neural backlash”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0122",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Advance Guard (as above).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0123",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Faction Trait:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0124",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "Knightly Perfection (as above).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0125",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "📌 Role: This Errant is a dueling god — hits harder than almost anything in the game, but every swing or shot risks burning itself out. Ideal for players who want high-risk, high-reward plays.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0126",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Knight-Errant Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0127",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "🛡️ Black Knight Frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0128",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Role: Heavy duelist & battlefield anchor\n Base Chassis: Heavy / Elite-level (designed to outlast almost anything)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0129",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0130",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "⚔️ Prototype Black Knight – 70 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0131",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0132",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0133",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Prototype Great Beam Claymore (ME 4 | AP 2 | Cleave)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0134",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Stable, massively powerful weapon.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0135",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Shield Array+ (+1 Defence in melee and ranged while Braced).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0136",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Systems:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0137",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Advance Guard – If moving closer to the nearest visible enemy and not firing, gain +1 Defence vs ranged until next activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0138",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Relic Might – If stationary, +1 ME.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0139",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR damage.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0140",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Last Vow – When reduced to 0 STR, make one final melee attack before being removed.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0141",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "📌 Role: The “rock” of a New Avalon force. Reliable, tanky, hits hard but with restraint. Ideal for players who want stable, dependable elite power.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0142",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0143",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "⚔️ Experimental Black Knight – 75 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0144",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0145",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0146",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Experimental Great Beam Claymore (ME 5 | AP 2 | Cleave, Shatter)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0147",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Devastating, enough to rip apart even fortifications.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0148",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Drawback: Overheat 1 — on a 1 after attacking, suffers 1 STR damage.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0149",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Systems:",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0150",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Advance Guard (as above).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0151",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Relic Might+ – If stationary, +1 ME and AP +1 (overcharged stance).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0152",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On a 1–2, suffer 1 STR. On a 6, system burns out (can’t use again this battle).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0153",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "Last Vow+ – On destruction, make 1 final melee attack at +1 ME and AP +1.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0154",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "📌 Role: The terrifying juggernaut. Capable of cutting through almost anything — but risks burning itself out or collapsing under the strain. Perfect for players who want high-stakes heavy hitters.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0155",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Black Knight Frame"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0156",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "🗡️ Veilblade Operative (Super-Elite Rework)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0157",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Role: Stealth assassin, infiltration, precision strikes\n Base Chassis: Light but evasive; fragile if caught",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0158",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0159",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Prototype Veilblade – ~60 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0160",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "M: 18 cm | D: 4+ | STR: 4",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0161",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0162",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Prototype Phase Dagger (ME 3 | AP 1 | Precision)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0163",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "May target subsystems on multi-STR units.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0164",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Systems (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0165",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Veil Cloak Field – If in cover and inactive, untargetable by ranged; once/game, vanish until end of round.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0166",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Phantom Step – May move through enemies; ignores Overwatch.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0167",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR damage.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0168",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Veil Phase – Cancel the first hit this unit takes each game.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0169",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: A reliable infiltrator. Not as tanky as other Avalon knights, but nearly impossible to pin down — excellent at striking isolated targets and slipping away.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0170",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0171",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Experimental Veilblade – 65 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0172",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "M: 18 cm | D: 4+ | STR: 4",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0173",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0174",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Experimental Phase Dagger (ME 4 | AP 2 | Precision+, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0175",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Reroll 2 failed melee hits; on a 1 after attack, suffer 1 STR (“weapon destabilization”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0176",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Systems (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0177",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Veil Cloak Overcharger – Instead of normal cloak, may activate a hard phase: becomes untargetable until next activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0178",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On deactivation, roll 1D6 → on a 1, take 1 STR (“feedback shock”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0179",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Neural Reflex Suite (Experimental) – Always reroll 1 failed Defence die.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0180",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On natural 1s, take 1 STR (“neural backlash”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0181",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On a 1–2, suffer 1 STR. On a 6, system burns out.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0182",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "Veil Phase+ – Cancel first hit and gain +1 ME next melee attack.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0183",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The ghost in the machine. Can become literally untargetable, but every activation is a gamble. If its systems hold, it’s unstoppable; if not, it burns itself out.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0184",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🗡️ Veilblade Operative (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0185",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "🛡️ Aegis Castellan (Super-Elite Rework)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0186",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Role: Defensive anchor, protector of allies\n Base Chassis: Heavy fortress-frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0187",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0188",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Prototype Castellan –75 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0189",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0190",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0191",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Shield Halberd (Prototype) (ME 3 | AP 1 | Bracebreaker)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0192",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Reduce target’s Defence by 1 if it is in cover or Braced.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0193",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Systems (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0194",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Tower Shield Array – +1 Defence at all times, but max Move = 10 cm.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0195",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Guardian Field Projector (Stable) – Allies within 10 cm gain +1 Defence vs ranged. Once per game, redirect 1 hit to self.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0196",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0197",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Guardian Protocols – May intercept 1 hit on an adjacent ally once per turn.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0198",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Unyielding – Immune to push/pull/knockback; retains cover when suppressed.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0199",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The unbreakable bodyguard. Extremely tough, stable defensive systems, no surprises. The “safest” pick in New Avalon’s roster.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0200",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0201",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Experimental Castellan – 80 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0202",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0203",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0204",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Shield Halberd Overcharger (ME 4 | AP 2 | Bracebreaker+)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0205",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Reduce target’s Defence by 2 if Braced/in cover.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0206",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Drawback: Overheat 1 — on a 1, suffer 1 STR.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0207",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Systems (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0208",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Tower Shield Array+ – +2 Defence until next activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0209",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Drawback: Once per game, burns out permanently.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0210",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Guardian Field Overcharger – Allies within 15 cm gain +2 Defence vs ranged.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0211",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Drawback: Each time it activates, roll a D6: on 1–2, this unit suffers 1 STR (“feedback surge”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0212",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On 1–2, suffer 1 STR. On a 6, system burns out.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0213",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Guardian Protocols+ – Intercept 2 hits per turn instead of 1.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0214",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "Last Vow+ – If destroyed, project +2 Defence aura to allies within 15 cm until end of round.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0215",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The overloaded bulwark. Capable of creating near-impenetrable defensive bubbles — but each time you push it, you risk frying the shield generator or collapsing under the strain. High-risk/high-reward wall of light.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0216",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Aegis Castellan (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0217",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "🎯 Lancer-Archon (Super-Elite Rework)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0218",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Role: Precision sniper, priority target eliminator\n Base Chassis: Elite duelist frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0219",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0220",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Prototype Lancer-Archon – 70 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0221",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0222",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0223",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Prototype Beam Lance (FP 3 | 50 cm | Accurate, Piercing 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0224",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Ignores cover, gains +1 to hit against exposed targets.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0225",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Backup Conversion Mode (ME 2 | AP 1, once per game)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0226",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "A last-resort melee thrust.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0227",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Systems (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0228",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Targeting Prism Array – +1 to hit vs marked or previously wounded targets.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0229",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Piercing Judgment – Attacks ignore cover bonuses.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0230",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Honor Mark – At start of game, nominate a “duel target”; gain +1 to hit and AP +1 against it.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0231",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0232",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The “true knight-sniper.” Ultra-reliable long-range killer that can delete priority targets with pinpoint accuracy.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0233",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0234",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Experimental Lancer-Archon – 75 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0235",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0236",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0237",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Experimental Sun-Lance (FP 4 | 60 cm | Accurate, Piercing 3, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0238",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Can one-shot almost anything on the field.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0239",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On Overheat, roll 1D6: on 1–2, suffer 2 STR (“lance overload”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0240",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Backup Conversion Mode (ME 2 | AP 1, once per game).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0241",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Systems (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0242",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Targeting Prism Overcharger – Reroll all failed hits vs duel target.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0243",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On a natural 1, suffer 1 STR (feedback shock).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0244",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On 1–2, suffer 1 STR. On a 6, burns out.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0245",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Piercing Judgment+ – Attacks ignore cover and halve Defence bonuses from systems.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0246",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "Honor Mark+ – Gains +1 FP vs nominated duel target.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0247",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The terrifying “sun-sniper.” Can vaporize enemy commanders in a single shot — but if the unstable systems misfire, it burns itself out.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0248",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🎯 Lancer-Archon (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0249",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0250",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Role: Commander-duelist and force multiplier\n Base Chassis: Elite",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0251",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0252",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Prototype Seraphim – 90 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0253",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 7",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0254",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0255",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Judicator Blade (Prototype) (ME 4 | AP 2 | Cleave, Duel Focus)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0256",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Reroll all failed hits vs duel target.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0257",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Systems (Prototype):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0258",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Radiant Halo Projector – Aura: Allies within 15 cm gain +1 Morale and Overwatch accuracy.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0259",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Shield-Wings Array – +1 Defence vs ranged; leap 15 cm horizontal / 7.5 cm vertical once per turn.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0260",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Command Aura: Knight-Captain – Allies within 15 cm reroll 1 attack die per activation.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0261",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Vow of Radiance – At game start: choose either +1 ME in duels OR +1 Aura range.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0262",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Inspire by Deed – When this unit kills, allies within 15 cm gain +1 to hit until end of round.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0263",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Prototype Overdrive – May take a 3rd action; on a 1, suffer 1 STR.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0264",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The flawless commander. Inspires the whole lance with stability, discipline, and aura synergy. Extremely tough, but not unstable.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0265",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0266",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "⚔️ Experimental Seraphim – 100 pts",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0267",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 7",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0268",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Weapons (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0269",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Judicator Blade Overcharger (ME 5 | AP 3 | Cleave+, Duel Focus+)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0270",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Reroll all failed hits vs duel target, +1 damage overflow on Cleave.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0271",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Drawback: After attacking, roll 1D6; on a 1, suffer 1 STR (weapon destabilization).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0272",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Systems (Experimental):",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0273",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Radiant Halo Overcharger – Aura: Allies within 20 cm gain +2 Morale, Overwatch, and +1 Defence.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0274",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Drawback: Each time activated, roll 1D6; on 1–2, this unit suffers 1 STR (“system burnout”).\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0275",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Shield-Wings Array+ – +2 Defence vs ranged when activated; leap 20 cm once per turn.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0276",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Drawback: On a natural 1 during a Defence roll, wings overload → cannot leap for the rest of the battle.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0277",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Experimental Overdrive – May take a 3rd action; if it’s an Attack, gain +1 to hit. On 1–2, suffer 1 STR. On 6, burns out.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0278",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Vow of Radiance+ – At start of game: gain both +1 ME in duels AND +1 Aura range.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0279",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "Inspire by Deed+ – When this unit kills, all allies on the battlefield gain +1 to hit until end of round.\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0280",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "📌 Role: The angel of annihilation. Radiates overwhelming buffs and fights like a demigod — but every system activation risks catastrophic burnouts. Perfect centerpiece for a 2-unit army at Strike Team size.",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0281",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0282",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕊️ Seraphim-Class Exemplar (Super-Elite Rework)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0283",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0284",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Fast recon & strike unit",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0285",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Scout – 30 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0286",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 25 cm | D: 4+ | STR: 3\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0287",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: 3× Prototype Medium Lasers (FP 3 | 35 cm | Accurate, AP 1, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0288",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Flyer, Evasion Protocols, Prototype Sensor Suite (reroll 1 attack die/turn), Prototype Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0289",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Scout – 35 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0290",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 30 cm | D: 4+ | STR: 3\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0291",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: 3× Experimental Medium Lasers (FP 3 | 40 cm | Accurate, Piercing 1, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0292",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Flyer, Evasion Protocols+ (+2 Defence >20 cm), Experimental Sensor Suite (always reroll 1 die; on natural 1 suffer 1 STR), Experimental Overdrive",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0293",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0294",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🛡️ Knight-Errant Frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0295",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Core duelist",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0296",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Errant – 60 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0297",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0298",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Beam Rapier (ME 3 | AP 1 | Precise), Knight Rifle (FP 3 | 40 cm | Accurate, Piercing 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0299",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Shield Array, Advance Guard, Duelist Protocols, Prototype Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0300",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Errant – 65 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0301",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0302",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Beam Rapier+ (ME 4 | AP 2 | Precise+, Overheat 1), Overcharged Rifle (FP 4 | 40 cm | Accurate, Piercing 2, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0303",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Experimental Shield, Advance Guard, Neural Reflex Suite (risky), Experimental Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0304",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0305",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🛡️ Black Knight Frame",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0306",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Heavy anchor",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0307",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Black Knight – 70 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0308",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0309",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Great Beam Claymore (ME 4 | AP 2 | Cleave)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0310",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Heavy Shield Array, Advance Guard, Relic Might, Prototype Overdrive, Last Vow\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0311",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Black Knight – 75 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0312",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0313",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Great Beam Claymore+ (ME 5 | AP 2 | Cleave, Shatter, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0314",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Heavy Shield+, Advance Guard, Relic Might+, Experimental Overdrive, Last Vow+\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0315",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0316",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🗡️ Veilblade Operative",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0317",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Assassin",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0318",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Veilblade – 60 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0319",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 18 cm | D: 4+ | STR: 4\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0320",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Phase Dagger (ME 3 | AP 1 | Precision)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0321",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Veil Cloak Field, Phantom Step, Veil Phase, Prototype Overdrive\n\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0322",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Veilblade – 65 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0323",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 18 cm | D: 4+ | STR: 4\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0324",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Phase Dagger+ (ME 4 | AP 2 | Precision+, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0325",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Veil Cloak Overcharger (hard phase, risky), Neural Reflex Suite, Veil Phase+, Experimental Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0326",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0327",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🛡️ Aegis Castellan",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0328",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Defensive wall",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0329",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Castellan – 75 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0330",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0331",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Shield Halberd (ME 3 | AP 1 | Bracebreaker)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0332",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Tower Shield Array, Guardian Field Projector, Guardian Protocols, Unyielding, Prototype Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0333",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Castellan – 80 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0334",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 13 cm | D: 5+ | STR: 6\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0335",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Shield Halberd+ (ME 4 | AP 2 | Bracebreaker+, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0336",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Tower Shield+, Guardian Field Overcharger, Guardian Protocols+, Last Vow+, Experimental Overdrive",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0337",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0338",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🎯 Lancer-Archon",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0339",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Precision sniper",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0340",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Lancer-Archon – 70 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0341",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0342",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Beam Lance (FP 3 | 50 cm | Accurate, Piercing 2), Backup Conversion (ME 2 | AP 1, once)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0343",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Targeting Prism, Piercing Judgment, Honor Mark, Prototype Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0344",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Lancer-Archon – 75 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0345",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 5\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0346",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Sun-Lance (FP 4 | 60 cm | Accurate, Piercing 3, Overheat 2)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0347",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Targeting Prism Overcharger, Piercing Judgment+, Honor Mark+, Experimental Overdrive\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0348",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0349",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "🕊️ Seraphim-Class Exemplar",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0350",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Role: Supreme commander",
+      "numbering": false
+    },
+    {
+      "id": "avalon:b0351",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Prototype Seraphim – 90 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0352",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 7\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0353",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Judicator Blade (ME 4 | AP 2 | Cleave, Duel Focus)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0354",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Radiant Halo Projector, Shield-Wings Array, Command Aura: Knight-Captain, Vow of Radiance, Inspire by Deed, Prototype Overdrive\n\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0355",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Experimental Seraphim – 100 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0356",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "M: 15 cm | D: 5+ | STR: 7\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0357",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Weapons: Judicator Blade+ (ME 5 | AP 3 | Cleave+, Duel Focus+, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "avalon:b0358",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "⚜️ NEW AVALON – Unit Roster Quick Reference Sheet\n✈️ Flyer Scout"
+      ],
+      "text": "Systems: Radiant Halo Overcharger, Shield-Wings+, Vow of Radiance+, Inspire by Deed+, Experimental Overdrive",
+      "numbering": true
+    }
+  ],
+  "ancillary_text": {},
+  "audit": {
+    "ins": 0,
+    "del": 0,
+    "moveFrom": 0,
+    "moveTo": 0,
+    "drawing": 0,
+    "pict": 40,
+    "txbxContent": 0,
+    "altChunk": 0,
+    "sdt": 0,
+    "sym": 0,
+    "nested_tables": 0
+  }
+}

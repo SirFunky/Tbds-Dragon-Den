@@ -1,0 +1,4621 @@
+{
+  "source_id": "unmc",
+  "filename": "United Nations Mega Corparations (1).docx",
+  "sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+  "status": "unverified",
+  "publication_status": "private",
+  "blocks": [
+    {
+      "id": "unmc:b0001",
+      "kind": "paragraph",
+      "style": "heading 2",
+      "heading": [
+        "🛰️ Faction Profile: United Nations of Mega Corparations (UNMC)"
+      ],
+      "text": "🛰️ Faction Profile: United Nations of Mega Corparations (UNMC)",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0002",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ Faction Profile: United Nations of Mega Corparations (UNMC)"
+      ],
+      "text": "“Peace is our product. Profit is our motive.”",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0003",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ Faction Profile: United Nations of Mega Corparations (UNMC)"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0004",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "🏢 Overview",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0005",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "The so-called \"United Nations\" is now a sleek, corporate puppet—a patchwork of branding, politics, and profit margins. Behind the scenes, a coalition of megacorps pulls the strings through the Board of Stakeholders. Warfare is not a tragedy—it’s a performance. UNDF units are sleek, transformable, and saturated with high-tech tools designed to maximize “operational synergy.”",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0006",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0007",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "💼 Philosophy & Structure",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0008",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Corporatocracy: Public institutions are marketing fronts.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0009",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Decentralized Command: Each mech is backed by a different corporate sponsor.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0010",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Performance Over Loyalty: Metrics > morality.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0011",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Marketing Warfare: Mechs are as much propaganda as they are weapons.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0012",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0013",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "⚔️ Military Doctrine",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0014",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Aerospace Dominance: Mechs transform into high-speed jets or strikers.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0015",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Synergistic Targeting: Units gain bonuses when coordinating with others.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0016",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Objective-Driven Efficiency: Bonuses while securing assets or delivering “PR wins.”\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0017",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "Fragile but Flashy: Tech-heavy but not built for grindfests.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0018",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏢 Overview"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0019",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "🏙️ Subfactions – The Big Four Megacorps",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0020",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Atlas Dynamics",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0021",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Private Military Industry Giant\n Trait – Hard Contracts: +1 to hit when contesting or holding an objective.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0022",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Stratos Inc.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0023",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Aerospace and Orbital Logistics\n Trait – Strike from Above: Once per game, deep strike 1 unit anywhere on the board.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0024",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "PanOptik Systems",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0025",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Media & Psychological Warfare\n Trait – Media Spin: When this unit destroys a foe, nearby allies gain +1 to hit next turn.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0026",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "SynCo Holdings",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0027",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "Finance & Prototype Syndicate\n Trait – Black Budget: If holding any objective, gain 1 reroll token per round.\n",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0028",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🏙️ Subfactions – The Big Four Megacorps"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0029",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🧩 Playstyle Summary"
+      ],
+      "text": "🧩 Playstyle Summary",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0030",
+      "kind": "table",
+      "heading": [
+        "🧩 Playstyle Summary"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0030:r1",
+          "cells": [
+            {
+              "id": "unmc:b0030:r1:c1",
+              "paragraphs": [
+                "Aspect"
+              ],
+              "text": "Aspect",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0030:r1:c2",
+              "paragraphs": [
+                "Description"
+              ],
+              "text": "Description",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0030:r2",
+          "cells": [
+            {
+              "id": "unmc:b0030:r2:c1",
+              "paragraphs": [
+                "Role"
+              ],
+              "text": "Role",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0030:r2:c2",
+              "paragraphs": [
+                "Agile objective skirmishers with synergy stacking"
+              ],
+              "text": "Agile objective skirmishers with synergy stacking",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0030:r3",
+          "cells": [
+            {
+              "id": "unmc:b0030:r3:c1",
+              "paragraphs": [
+                "Strengths"
+              ],
+              "text": "Strengths",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0030:r3:c2",
+              "paragraphs": [
+                "Versatility, speed, synergistic offense, deep strike tools"
+              ],
+              "text": "Versatility, speed, synergistic offense, deep strike tools",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0030:r4",
+          "cells": [
+            {
+              "id": "unmc:b0030:r4:c1",
+              "paragraphs": [
+                "Weaknesses"
+              ],
+              "text": "Weaknesses",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0030:r4:c2",
+              "paragraphs": [
+                "Fragile, requires setup and positioning, vulnerable in prolonged brawls"
+              ],
+              "text": "Fragile, requires setup and positioning, vulnerable in prolonged brawls",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0030:r5",
+          "cells": [
+            {
+              "id": "unmc:b0030:r5:c1",
+              "paragraphs": [
+                "Ideal For"
+              ],
+              "text": "Ideal For",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0030:r5:c2",
+              "paragraphs": [
+                "Players who enjoy mobility, flashy combos, and battlefield manipulation"
+              ],
+              "text": "Players who enjoy mobility, flashy combos, and battlefield manipulation",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0031",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧩 Playstyle Summary"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0032",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛰️ UNITED NATIONS – POINTS TABLE"
+      ],
+      "text": "🛰️ UNITED NATIONS – POINTS TABLE",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0033",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNITED NATIONS – POINTS TABLE"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0034",
+      "kind": "paragraph",
+      "style": "heading 4",
+      "heading": [
+        "🧩 1. Chassis Table – UN Modular Frames"
+      ],
+      "text": "🧩 1. Chassis Table – UN Modular Frames",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0035",
+      "kind": "table",
+      "heading": [
+        "🧩 1. Chassis Table – UN Modular Frames"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0035:r1",
+          "cells": [
+            {
+              "id": "unmc:b0035:r1:c1",
+              "paragraphs": [
+                "Frame Tier"
+              ],
+              "text": "Frame Tier",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r1:c2",
+              "paragraphs": [
+                "Move"
+              ],
+              "text": "Move",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r1:c3",
+              "paragraphs": [
+                "Defence"
+              ],
+              "text": "Defence",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r1:c4",
+              "paragraphs": [
+                "Structure"
+              ],
+              "text": "Structure",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r1:c5",
+              "paragraphs": [
+                "Notes"
+              ],
+              "text": "Notes",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r1:c6",
+              "paragraphs": [
+                "Base Cost"
+              ],
+              "text": "Base Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0035:r2",
+          "cells": [
+            {
+              "id": "unmc:b0035:r2:c1",
+              "paragraphs": [
+                "Light Skirmisher"
+              ],
+              "text": "Light Skirmisher",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c2",
+              "paragraphs": [
+                "20 cm"
+              ],
+              "text": "20 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c3",
+              "paragraphs": [
+                "3+"
+              ],
+              "text": "3+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c5",
+              "paragraphs": [
+                "Fast, fragile recon; ideal for early positioning"
+              ],
+              "text": "Fast, fragile recon; ideal for early positioning",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c6",
+              "paragraphs": [
+                "11 pts"
+              ],
+              "text": "11 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0035:r3",
+          "cells": [
+            {
+              "id": "unmc:b0035:r3:c1",
+              "paragraphs": [
+                "UN Interceptor Frame"
+              ],
+              "text": "UN Interceptor Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c2",
+              "paragraphs": [
+                "18 cm"
+              ],
+              "text": "18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c5",
+              "paragraphs": [
+                "High-speed, elite-grade systems"
+              ],
+              "text": "High-speed, elite-grade systems",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c6",
+              "paragraphs": [
+                "18 pts"
+              ],
+              "text": "18 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0035:r4",
+          "cells": [
+            {
+              "id": "unmc:b0035:r4:c1",
+              "paragraphs": [
+                "Standard Frame"
+              ],
+              "text": "Standard Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c2",
+              "paragraphs": [
+                "17 cm"
+              ],
+              "text": "17 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c4",
+              "paragraphs": [
+                "4–5"
+              ],
+              "text": "4–5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c5",
+              "paragraphs": [
+                "Balanced role-flexible chassis"
+              ],
+              "text": "Balanced role-flexible chassis",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c6",
+              "paragraphs": [
+                "16 pts"
+              ],
+              "text": "16 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0035:r5",
+          "cells": [
+            {
+              "id": "unmc:b0035:r5:c1",
+              "paragraphs": [
+                "Heavy Striker"
+              ],
+              "text": "Heavy Striker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c5",
+              "paragraphs": [
+                "Resilient platform for support & synergy tools"
+              ],
+              "text": "Resilient platform for support & synergy tools",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c6",
+              "paragraphs": [
+                "21 pts"
+              ],
+              "text": "21 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0035:r6",
+          "cells": [
+            {
+              "id": "unmc:b0035:r6:c1",
+              "paragraphs": [
+                "Aerospace Form"
+              ],
+              "text": "Aerospace Form",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c2",
+              "paragraphs": [
+                "+10 cm"
+              ],
+              "text": "+10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c3",
+              "paragraphs": [
+                "-1 to Defence (worse)"
+              ],
+              "text": "-1 to Defence (worse)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c4",
+              "paragraphs": [
+                "—"
+              ],
+              "text": "—",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c5",
+              "paragraphs": [
+                "Used in Flight Mode (requires Transform)"
+              ],
+              "text": "Used in Flight Mode (requires Transform)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c6",
+              "paragraphs": [
+                "+0 pts"
+              ],
+              "text": "+0 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0036",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧩 1. Chassis Table – UN Modular Frames"
+      ],
+      "text": "❗ Aerospace Mode increases mobility but reduces survivability (e.g., a 4+ becomes a 3+ while flying — easier to hit).\n Transform trait is required to switch between modes.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0037",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🧩 1. Chassis Table – UN Modular Frames"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0038",
+      "kind": "paragraph",
+      "style": "heading 4",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "text": "🔫 2. Weapons Table – UN Experimental Arsenal",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0039",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "text": "Ranged Weapons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0040",
+      "kind": "table",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0040:r1",
+          "cells": [
+            {
+              "id": "unmc:b0040:r1:c1",
+              "paragraphs": [
+                "Weapon"
+              ],
+              "text": "Weapon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r1:c2",
+              "paragraphs": [
+                "FP"
+              ],
+              "text": "FP",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r1:c3",
+              "paragraphs": [
+                "Range"
+              ],
+              "text": "Range",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r1:c4",
+              "paragraphs": [
+                "Traits"
+              ],
+              "text": "Traits",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r1:c5",
+              "paragraphs": [
+                "Cost"
+              ],
+              "text": "Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r2",
+          "cells": [
+            {
+              "id": "unmc:b0040:r2:c1",
+              "paragraphs": [
+                "Light Coilgun"
+              ],
+              "text": "Light Coilgun",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r2:c2",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r2:c3",
+              "paragraphs": [
+                "30 cm"
+              ],
+              "text": "30 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r2:c4",
+              "paragraphs": [
+                "Accurate"
+              ],
+              "text": "Accurate",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r2:c5",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r3",
+          "cells": [
+            {
+              "id": "unmc:b0040:r3:c1",
+              "paragraphs": [
+                "Rail Carbine"
+              ],
+              "text": "Rail Carbine",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r3:c2",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r3:c3",
+              "paragraphs": [
+                "45.5 cm"
+              ],
+              "text": "45.5 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r3:c4",
+              "paragraphs": [
+                "Piercing, Accurate"
+              ],
+              "text": "Piercing, Accurate",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r3:c5",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r4",
+          "cells": [
+            {
+              "id": "unmc:b0040:r4:c1",
+              "paragraphs": [
+                "Micro-Missile Swarm"
+              ],
+              "text": "Micro-Missile Swarm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r4:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r4:c3",
+              "paragraphs": [
+                "30 cm"
+              ],
+              "text": "30 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r4:c4",
+              "paragraphs": [
+                "Blast, Synergy: +1 FP if ally within 10 cm"
+              ],
+              "text": "Blast, Synergy: +1 FP if ally within 10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r4:c5",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r5",
+          "cells": [
+            {
+              "id": "unmc:b0040:r5:c1",
+              "paragraphs": [
+                "Prototype Beam Pod"
+              ],
+              "text": "Prototype Beam Pod",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r5:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r5:c3",
+              "paragraphs": [
+                "40 cm"
+              ],
+              "text": "40 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r5:c4",
+              "paragraphs": [
+                "Overheat 1, Suppressive"
+              ],
+              "text": "Overheat 1, Suppressive",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r5:c5",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r6",
+          "cells": [
+            {
+              "id": "unmc:b0040:r6:c1",
+              "paragraphs": [
+                "Smartgun Array"
+              ],
+              "text": "Smartgun Array",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r6:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r6:c3",
+              "paragraphs": [
+                "35 cm"
+              ],
+              "text": "35 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r6:c4",
+              "paragraphs": [
+                "Ignores Cover"
+              ],
+              "text": "Ignores Cover",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r6:c5",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0040:r7",
+          "cells": [
+            {
+              "id": "unmc:b0040:r7:c1",
+              "paragraphs": [
+                "Orbital Strike Beacon"
+              ],
+              "text": "Orbital Strike Beacon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r7:c2",
+              "paragraphs": [
+                "1"
+              ],
+              "text": "1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r7:c3",
+              "paragraphs": [
+                "Global"
+              ],
+              "text": "Global",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r7:c4",
+              "paragraphs": [
+                "One-use, Delay 1 turn, Blast"
+              ],
+              "text": "One-use, Delay 1 turn, Blast",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0040:r7:c5",
+              "paragraphs": [
+                "7 pts"
+              ],
+              "text": "7 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0041",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "text": "Melee Weapons (rare for UN, but elite units may use)",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0042",
+      "kind": "table",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0042:r1",
+          "cells": [
+            {
+              "id": "unmc:b0042:r1:c1",
+              "paragraphs": [
+                "Weapon"
+              ],
+              "text": "Weapon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r1:c2",
+              "paragraphs": [
+                "ME"
+              ],
+              "text": "ME",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r1:c3",
+              "paragraphs": [
+                "Traits"
+              ],
+              "text": "Traits",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r1:c4",
+              "paragraphs": [
+                "Cost"
+              ],
+              "text": "Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0042:r2",
+          "cells": [
+            {
+              "id": "unmc:b0042:r2:c1",
+              "paragraphs": [
+                "Combat Knife"
+              ],
+              "text": "Combat Knife",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r2:c2",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r2:c3",
+              "paragraphs": [
+                "Lightweight"
+              ],
+              "text": "Lightweight",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r2:c4",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0042:r3",
+          "cells": [
+            {
+              "id": "unmc:b0042:r3:c1",
+              "paragraphs": [
+                "Shock Baton"
+              ],
+              "text": "Shock Baton",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r3:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r3:c3",
+              "paragraphs": [
+                "AP 1, Stun (target can’t Overwatch)"
+              ],
+              "text": "AP 1, Stun (target can’t Overwatch)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r3:c4",
+              "paragraphs": [
+                "4 pts"
+              ],
+              "text": "4 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0042:r4",
+          "cells": [
+            {
+              "id": "unmc:b0042:r4:c1",
+              "paragraphs": [
+                "Plasma Blade"
+              ],
+              "text": "Plasma Blade",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r4:c2",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r4:c3",
+              "paragraphs": [
+                "AP 2, Overheat 1"
+              ],
+              "text": "AP 2, Overheat 1",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0042:r4:c4",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0043",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🔫 2. Weapons Table – UN Experimental Arsenal"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0044",
+      "kind": "paragraph",
+      "style": "heading 4",
+      "heading": [
+        "🧬 3. Trait & System Table – UN High-Tech and Corporate Tools"
+      ],
+      "text": "🧬 3. Trait & System Table – UN High-Tech and Corporate Tools",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0045",
+      "kind": "table",
+      "heading": [
+        "🧬 3. Trait & System Table – UN High-Tech and Corporate Tools"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0045:r1",
+          "cells": [
+            {
+              "id": "unmc:b0045:r1:c1",
+              "paragraphs": [
+                "Trait / System"
+              ],
+              "text": "Trait / System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r1:c2",
+              "paragraphs": [
+                "Cost"
+              ],
+              "text": "Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r1:c3",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r2",
+          "cells": [
+            {
+              "id": "unmc:b0045:r2:c1",
+              "paragraphs": [
+                "Transform"
+              ],
+              "text": "Transform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r2:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r2:c3",
+              "paragraphs": [
+                "Switch between normal and flight mode"
+              ],
+              "text": "Switch between normal and flight mode",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r3",
+          "cells": [
+            {
+              "id": "unmc:b0045:r3:c1",
+              "paragraphs": [
+                "UN Targeting Network"
+              ],
+              "text": "UN Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r3:c2",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r3:c3",
+              "paragraphs": [
+                "+1 to hit if an ally has LOS to the same target"
+              ],
+              "text": "+1 to hit if an ally has LOS to the same target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r4",
+          "cells": [
+            {
+              "id": "unmc:b0045:r4:c1",
+              "paragraphs": [
+                "Sponsor Protocol"
+              ],
+              "text": "Sponsor Protocol",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r4:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r4:c3",
+              "paragraphs": [
+                "Unlocks 1 trait from your megacorp subfaction"
+              ],
+              "text": "Unlocks 1 trait from your megacorp subfaction",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r5",
+          "cells": [
+            {
+              "id": "unmc:b0045:r5:c1",
+              "paragraphs": [
+                "Holo-Decoy System"
+              ],
+              "text": "Holo-Decoy System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r5:c2",
+              "paragraphs": [
+                "4 pts"
+              ],
+              "text": "4 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r5:c3",
+              "paragraphs": [
+                "First ranged attack each game auto-misses"
+              ],
+              "text": "First ranged attack each game auto-misses",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r6",
+          "cells": [
+            {
+              "id": "unmc:b0045:r6:c1",
+              "paragraphs": [
+                "Deep Strike (Stratos)"
+              ],
+              "text": "Deep Strike (Stratos)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r6:c2",
+              "paragraphs": [
+                "4 pts"
+              ],
+              "text": "4 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r6:c3",
+              "paragraphs": [
+                "Deploy anywhere on board once per game"
+              ],
+              "text": "Deploy anywhere on board once per game",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r7",
+          "cells": [
+            {
+              "id": "unmc:b0045:r7:c1",
+              "paragraphs": [
+                "Live Feed Uplink"
+              ],
+              "text": "Live Feed Uplink",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r7:c2",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r7:c3",
+              "paragraphs": [
+                "Gain 1 reroll token if you destroy an enemy"
+              ],
+              "text": "Gain 1 reroll token if you destroy an enemy",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r8",
+          "cells": [
+            {
+              "id": "unmc:b0045:r8:c1",
+              "paragraphs": [
+                "Aerial Superiority"
+              ],
+              "text": "Aerial Superiority",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r8:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r8:c3",
+              "paragraphs": [
+                "+1 to hit while in Flight Mode"
+              ],
+              "text": "+1 to hit while in Flight Mode",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r9",
+          "cells": [
+            {
+              "id": "unmc:b0045:r9:c1",
+              "paragraphs": [
+                "Black Budget (SynCo)"
+              ],
+              "text": "Black Budget (SynCo)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r9:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r9:c3",
+              "paragraphs": [
+                "If holding an objective, gain 1 reroll token per round"
+              ],
+              "text": "If holding an objective, gain 1 reroll token per round",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r10",
+          "cells": [
+            {
+              "id": "unmc:b0045:r10:c1",
+              "paragraphs": [
+                "Autocorrect Logic"
+              ],
+              "text": "Autocorrect Logic",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r10:c2",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r10:c3",
+              "paragraphs": [
+                "Reroll 1 failed hit roll per turn"
+              ],
+              "text": "Reroll 1 failed hit roll per turn",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0045:r11",
+          "cells": [
+            {
+              "id": "unmc:b0045:r11:c1",
+              "paragraphs": [
+                "Burst Dash Thrusters"
+              ],
+              "text": "Burst Dash Thrusters",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r11:c2",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0045:r11:c3",
+              "paragraphs": [
+                "Once per game: Move +10 cm immediately after attacking"
+              ],
+              "text": "Once per game: Move +10 cm immediately after attacking",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0046",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "🤖UNDF Aegis-Line Frame - 27pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0047",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "“Stability is profit. Projection is peace.”\n The Aegis-Line Frame is the dependable core of most UNDF deployments. Built to hold ground and engage in flexible combat, it blends melee deterrence, ranged harassment, and survivability. It doesn’t shine in any one area — but it always shows up.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0048",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0049",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "📊 Stats (Chassis: Standard Frame)",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0050",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "Move: 17 cm  Defence: 4+ Structure: 5",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0051",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0052",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "🛠️ Weapons Loadout",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0053",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "Light Coilgun (FP 2 | 30 cm | Accurate)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0054",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "Plasma Blade (ME 3 | AP 2, Overheat 1)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0055",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0056",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "🧬 Systems / Traits",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0057",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "Shield Array (+1 Defence in melee)",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0058",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0059",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "text": "🧩 Battle Role",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0060",
+      "kind": "table",
+      "heading": [
+        "🤖UNDF Aegis-Line Frame - 27pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0060:r1",
+          "cells": [
+            {
+              "id": "unmc:b0060:r1:c1",
+              "paragraphs": [
+                "Type"
+              ],
+              "text": "Type",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0060:r1:c2",
+              "paragraphs": [
+                "Description"
+              ],
+              "text": "Description",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0060:r2",
+          "cells": [
+            {
+              "id": "unmc:b0060:r2:c1",
+              "paragraphs": [
+                "Battle Line"
+              ],
+              "text": "Battle Line",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0060:r2:c2",
+              "paragraphs": [
+                "Reliable all-rounder for holding ground, trading hits, and supporting objective play. Excels in synergy with snipers, recon, or elite flight units."
+              ],
+              "text": "Reliable all-rounder for holding ground, trading hits, and supporting objective play. Excels in synergy with snipers, recon, or elite flight units.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0061",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "🛰️ UNDF Interceptor (Exclusive) 62 pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0062",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "“One frame. Three modes. Infinite leverage.”",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0063",
+      "kind": "table",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0063:r1",
+          "cells": [
+            {
+              "id": "unmc:b0063:r1:c1",
+              "paragraphs": [
+                "Base Stats (Chassis Core)"
+              ],
+              "text": "Base Stats (Chassis Core)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r1:c2",
+              "paragraphs": [
+                ""
+              ],
+              "text": "",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0063:r2",
+          "cells": [
+            {
+              "id": "unmc:b0063:r2:c1",
+              "paragraphs": [
+                "Base Cost: 18 pts"
+              ],
+              "text": "Base Cost: 18 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r2:c2",
+              "paragraphs": [
+                "Elite-light hybrid"
+              ],
+              "text": "Elite-light hybrid",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0063:r3",
+          "cells": [
+            {
+              "id": "unmc:b0063:r3:c1",
+              "paragraphs": [
+                "Move: 18 cm"
+              ],
+              "text": "Move: 18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r3:c2",
+              "paragraphs": [
+                "High speed"
+              ],
+              "text": "High speed",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0063:r4",
+          "cells": [
+            {
+              "id": "unmc:b0063:r4:c1",
+              "paragraphs": [
+                "Structure: 5"
+              ],
+              "text": "Structure: 5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r4:c2",
+              "paragraphs": [
+                "Resilient enough to stay alive"
+              ],
+              "text": "Resilient enough to stay alive",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0063:r5",
+          "cells": [
+            {
+              "id": "unmc:b0063:r5:c1",
+              "paragraphs": [
+                "Defence: Mode-dependent (see below)"
+              ],
+              "text": "Defence: Mode-dependent (see below)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r5:c2",
+              "paragraphs": [
+                "Variable by form"
+              ],
+              "text": "Variable by form",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0063:r6",
+          "cells": [
+            {
+              "id": "unmc:b0063:r6:c1",
+              "paragraphs": [
+                "Trait Required: Transform"
+              ],
+              "text": "Trait Required: Transform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0063:r6:c2",
+              "paragraphs": [
+                "Enables switching modes"
+              ],
+              "text": "Enables switching modes",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0064",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0065",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "🔄 MODES OVERVIEW",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0066",
+      "kind": "table",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0066:r1",
+          "cells": [
+            {
+              "id": "unmc:b0066:r1:c1",
+              "paragraphs": [
+                "Mode"
+              ],
+              "text": "Mode",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r1:c2",
+              "paragraphs": [
+                "Move"
+              ],
+              "text": "Move",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r1:c3",
+              "paragraphs": [
+                "Defence"
+              ],
+              "text": "Defence",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r1:c4",
+              "paragraphs": [
+                "Weapons"
+              ],
+              "text": "Weapons",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r1:c5",
+              "paragraphs": [
+                "Special Rules"
+              ],
+              "text": "Special Rules",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0066:r2",
+          "cells": [
+            {
+              "id": "unmc:b0066:r2:c1",
+              "paragraphs": [
+                "Flight Mode ✈️"
+              ],
+              "text": "Flight Mode ✈️",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r2:c2",
+              "paragraphs": [
+                "28 cm"
+              ],
+              "text": "28 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r2:c3",
+              "paragraphs": [
+                "3+"
+              ],
+              "text": "3+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r2:c4",
+              "paragraphs": [
+                "4× Micro-Missile Swarm, Rail Carbine"
+              ],
+              "text": "4× Micro-Missile Swarm, Rail Carbine",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r2:c5",
+              "paragraphs": [
+                "Flyer"
+              ],
+              "text": "Flyer",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0066:r3",
+          "cells": [
+            {
+              "id": "unmc:b0066:r3:c1",
+              "paragraphs": [
+                "Mobile Platform Mode 🚛"
+              ],
+              "text": "Mobile Platform Mode 🚛",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r3:c2",
+              "paragraphs": [
+                "28 cm"
+              ],
+              "text": "28 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r3:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r3:c4",
+              "paragraphs": [
+                "Rail Carbine only"
+              ],
+              "text": "Rail Carbine only",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r3:c5",
+              "paragraphs": [
+                "Ignores terrain; can capture & hold objectives"
+              ],
+              "text": "Ignores terrain; can capture & hold objectives",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0066:r4",
+          "cells": [
+            {
+              "id": "unmc:b0066:r4:c1",
+              "paragraphs": [
+                "Mech Mode 🤖"
+              ],
+              "text": "Mech Mode 🤖",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r4:c2",
+              "paragraphs": [
+                "18 cm"
+              ],
+              "text": "18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r4:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r4:c4",
+              "paragraphs": [
+                "Rail Carbine only"
+              ],
+              "text": "Rail Carbine only",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0066:r4:c5",
+              "paragraphs": [
+                "Gains +1 to hit if stationary this turn"
+              ],
+              "text": "Gains +1 to hit if stationary this turn",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0067",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Switching modes requires 1 action (Transform trait). Start the game in any mode.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0068",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0069",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "🔫 WEAPON LOADOUT",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0070",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Micro-Missile Swarm ×4:\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0071",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "FP 12 | 30 cm | Blast",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0072",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Only available in Flight Mode\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0073",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Rail Carbine:\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0074",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "FP 2 | 45.5 cm | Piercing, Accurate",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0075",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Available in all modes",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0076",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0077",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Plasma Blade\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0078",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "ME 3 | AP 2, Overheat 1",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0079",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Mech Mode Only",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0080",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0081",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "🧬 SYSTEMS",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0082",
+      "kind": "table",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0082:r1",
+          "cells": [
+            {
+              "id": "unmc:b0082:r1:c1",
+              "paragraphs": [
+                "System"
+              ],
+              "text": "System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0082:r1:c2",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0082:r2",
+          "cells": [
+            {
+              "id": "unmc:b0082:r2:c1",
+              "paragraphs": [
+                "Transform"
+              ],
+              "text": "Transform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0082:r2:c2",
+              "paragraphs": [
+                "Enables mode switching (required)"
+              ],
+              "text": "Enables mode switching (required)",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0082:r3",
+          "cells": [
+            {
+              "id": "unmc:b0082:r3:c1",
+              "paragraphs": [
+                "UN Targeting Network"
+              ],
+              "text": "UN Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0082:r3:c2",
+              "paragraphs": [
+                "+1 to hit if ally has LOS to the same target"
+              ],
+              "text": "+1 to hit if ally has LOS to the same target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0082:r4",
+          "cells": [
+            {
+              "id": "unmc:b0082:r4:c1",
+              "paragraphs": [
+                "Aerial Superiority"
+              ],
+              "text": "Aerial Superiority",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0082:r4:c2",
+              "paragraphs": [
+                "+1 to hit in Flight Mode"
+              ],
+              "text": "+1 to hit in Flight Mode",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0083",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0084",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "🧩 Tactical Use",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0085",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Flight Mode: High-speed suppression with missile alpha strike. Great for flanking or softening entrenched targets. Cannot hold objectives — it’s a strike pass.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0086",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Mobile Weapons Mode: Keeps the high speed, loses the defence penalty. Acts like a fast gunship — excellent for repositioning and supporting fire.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0087",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛰️ UNDF Interceptor (Exclusive) 62 pts"
+      ],
+      "text": "Mech Mode: Slower but tough. Best for holding ground, anchoring lines, or switching to tanky play when missiles are spent.\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0088",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "💥 UNDF Hammernet-Frame 66pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0089",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "“They may fly, but we define the sky.”\n A heavy fire-support mech built to deliver overwhelming suppressive fire and clear LZs for transforming interceptors. Its quad-linked Great Cannons dominate ground lanes, while triple missile pods provide flexible anti-air and saturation fire.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0090",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0091",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "🧬 Chassi",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0092",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Chassis: Heavy Frame\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0093",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Move: 15 cm\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0094",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "defence: 5+\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0095",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Structure: 6",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0096",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "🔫 Weapons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0097",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Quad Great Cannons (Torso):\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0098",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Treat as 2x Heavy Cannon Batteries\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0099",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "FP 4 | 45 cm | High Damage, Suppressive\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0100",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Quad-linked gives it +1 to hit stationary targets\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0101",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Triple Missile Pods (Right Arm)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0102",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "FP 6 | 30.5 cm | Blast, Suppression",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0103",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0104",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Triple Missile Pods (Left Arm)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0105",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "FP 6 | 30.5 cm | Blast, Suppression\n\n",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0106",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Traits/Systems:\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0107",
+      "kind": "table",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0107:r1",
+          "cells": [
+            {
+              "id": "unmc:b0107:r1:c1",
+              "paragraphs": [
+                "System"
+              ],
+              "text": "System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0107:r1:c2",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0107:r2",
+          "cells": [
+            {
+              "id": "unmc:b0107:r2:c1",
+              "paragraphs": [
+                "Fire Coordination Node "
+              ],
+              "text": "Fire Coordination Node ",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0107:r2:c2",
+              "paragraphs": [
+                "Air units within 20 cm gain +1 to hit vs targets this unit has damaged this turn"
+              ],
+              "text": "Air units within 20 cm gain +1 to hit vs targets this unit has damaged this turn",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0107:r3",
+          "cells": [
+            {
+              "id": "unmc:b0107:r3:c1",
+              "paragraphs": [
+                "Stabilizer Locks"
+              ],
+              "text": "Stabilizer Locks",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0107:r3:c2",
+              "paragraphs": [
+                "If the unit did not move this turn, gain +1 FP with all ranged weapons"
+              ],
+              "text": "If the unit did not move this turn, gain +1 FP with all ranged weapons",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0107:r4",
+          "cells": [
+            {
+              "id": "unmc:b0107:r4:c1",
+              "paragraphs": [
+                "Targeting Network"
+              ],
+              "text": "Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0107:r4:c2",
+              "paragraphs": [
+                "+1 to hit if an ally has LOS to the same target"
+              ],
+              "text": "+1 to hit if an ally has LOS to the same target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0107:r5",
+          "cells": [
+            {
+              "id": "unmc:b0107:r5:c1",
+              "paragraphs": [
+                "Overheat"
+              ],
+              "text": "Overheat",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0107:r5:c2",
+              "paragraphs": [
+                "Can take a 3rd action (e.g., fire again), but on a 1 takes 1 STR"
+              ],
+              "text": "Can take a 3rd action (e.g., fire again), but on a 1 takes 1 STR",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0108",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0109",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0110",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "Costly, yes — but this is a key support piece for large games or objective-based missions involving coordinated air strikes and board control.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0111",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0112",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "text": "🧩 Role & Battlefield Use",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0113",
+      "kind": "table",
+      "heading": [
+        "💥 UNDF Hammernet-Frame 66pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0113:r1",
+          "cells": [
+            {
+              "id": "unmc:b0113:r1:c1",
+              "paragraphs": [
+                "Mode"
+              ],
+              "text": "Mode",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0113:r1:c2",
+              "paragraphs": [
+                "Description"
+              ],
+              "text": "Description",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0113:r2",
+          "cells": [
+            {
+              "id": "unmc:b0113:r2:c1",
+              "paragraphs": [
+                "Suppression Anchor"
+              ],
+              "text": "Suppression Anchor",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0113:r2:c2",
+              "paragraphs": [
+                "Controls fire lanes and softens up entrenched defenders for interceptor pass-overs."
+              ],
+              "text": "Controls fire lanes and softens up entrenched defenders for interceptor pass-overs.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0113:r3",
+          "cells": [
+            {
+              "id": "unmc:b0113:r3:c1",
+              "paragraphs": [
+                "Synergy Node"
+              ],
+              "text": "Synergy Node",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0113:r3:c2",
+              "paragraphs": [
+                "Buffs air units nearby, rewarding combined-arms play."
+              ],
+              "text": "Buffs air units nearby, rewarding combined-arms play.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0113:r4",
+          "cells": [
+            {
+              "id": "unmc:b0113:r4:c1",
+              "paragraphs": [
+                "Mobile Fortress"
+              ],
+              "text": "Mobile Fortress",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0113:r4:c2",
+              "paragraphs": [
+                "Can overheat to fire 3 times (!) in one turn if stationary — at a risk."
+              ],
+              "text": "Can overheat to fire 3 times (!) in one turn if stationary — at a risk.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0114",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "🕷️ UNDF Surveyor-5 “Crawler” 26 pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0115",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "“If you saw it, it already tagged you.”\n The Surveyor-Class Crawler is a compact quadrupedal recon mech used for forward spotting, mobile harassment, and targeting uplinks. Built by Stratos Inc. and deployed in advance of most air operations, it is designed for speed, data collection, and coordinated fire support.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0116",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0117",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "📊 Chassis: Light Frame",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0118",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Move: 20 cm\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0119",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Defence: 3+\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0120",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Structure: 3\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0121",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Base Cost: 11 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0122",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0123",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "🔫 Weapons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0124",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Light Autocannon Array (Torso-mounted)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0125",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "FP 2 | 35 cm | Accurate, Suppressive\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0126",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "Cost: 4 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0127",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "A precise low-caliber kinetic weapon designed to pin or tag enemies without overkill.\n\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0128",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0129",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "🧬 Systems / Traits",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0130",
+      "kind": "table",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0130:r1",
+          "cells": [
+            {
+              "id": "unmc:b0130:r1:c1",
+              "paragraphs": [
+                "System"
+              ],
+              "text": "System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0130:r1:c2",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0130:r2",
+          "cells": [
+            {
+              "id": "unmc:b0130:r2:c1",
+              "paragraphs": [
+                "Sensor Relay Node (new)"
+              ],
+              "text": "Sensor Relay Node (new)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0130:r2:c2",
+              "paragraphs": [
+                "Friendly units get +1 to hit vs enemies within 10 cm of this unit"
+              ],
+              "text": "Friendly units get +1 to hit vs enemies within 10 cm of this unit",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0130:r3",
+          "cells": [
+            {
+              "id": "unmc:b0130:r3:c1",
+              "paragraphs": [
+                "Veiled Optics Suite"
+              ],
+              "text": "Veiled Optics Suite",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0130:r3:c2",
+              "paragraphs": [
+                "If in Cover, cannot be targeted beyond 30 cm"
+              ],
+              "text": "If in Cover, cannot be targeted beyond 30 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0130:r4",
+          "cells": [
+            {
+              "id": "unmc:b0130:r4:c1",
+              "paragraphs": [
+                "UN Targeting Network"
+              ],
+              "text": "UN Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0130:r4:c2",
+              "paragraphs": [
+                "+1 to hit if ally has LOS to same target"
+              ],
+              "text": "+1 to hit if ally has LOS to same target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0130:r5",
+          "cells": [
+            {
+              "id": "unmc:b0130:r5:c1",
+              "paragraphs": [
+                "Burst Thrusters"
+              ],
+              "text": "Burst Thrusters",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0130:r5:c2",
+              "paragraphs": [
+                "Once per game, Move +10 cm after attacking"
+              ],
+              "text": "Once per game, Move +10 cm after attacking",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0131",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0132",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "🧩 ROLE: Forward Observer / Fire Support Enabler",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0133",
+      "kind": "table",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0133:r1",
+          "cells": [
+            {
+              "id": "unmc:b0133:r1:c1",
+              "paragraphs": [
+                "Function"
+              ],
+              "text": "Function",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0133:r1:c2",
+              "paragraphs": [
+                "Description"
+              ],
+              "text": "Description",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0133:r2",
+          "cells": [
+            {
+              "id": "unmc:b0133:r2:c1",
+              "paragraphs": [
+                "Spotter"
+              ],
+              "text": "Spotter",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0133:r2:c2",
+              "paragraphs": [
+                "Moves quickly into forward positions, stays obscured, and improves the damage of others."
+              ],
+              "text": "Moves quickly into forward positions, stays obscured, and improves the damage of others.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0133:r3",
+          "cells": [
+            {
+              "id": "unmc:b0133:r3:c1",
+              "paragraphs": [
+                "Soft Control"
+              ],
+              "text": "Soft Control",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0133:r3:c2",
+              "paragraphs": [
+                "Uses suppression and tagging, not brute force."
+              ],
+              "text": "Uses suppression and tagging, not brute force.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0133:r4",
+          "cells": [
+            {
+              "id": "unmc:b0133:r4:c1",
+              "paragraphs": [
+                "Strike Coordinator"
+              ],
+              "text": "Strike Coordinator",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0133:r4:c2",
+              "paragraphs": [
+                "Pairs exceptionally well with the Interceptor Frame or Siege Lattice to increase alpha strike efficiency."
+              ],
+              "text": "Pairs exceptionally well with the Interceptor Frame or Siege Lattice to increase alpha strike efficiency.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0134",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🕷️ UNDF Surveyor-5 “Crawler” 26 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0135",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "🛠️ UNDF Bastion Crawler – RX-13 52pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0136",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Heavy tracked suppression platform of the United Nations Megacorporations.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0137",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0138",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "🧩 Unit Profile",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0139",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Chassis: Heavy (Tracked)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0140",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Move: 13 cm\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0141",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Defence: 5+\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0142",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Structure: 7\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0143",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Role: Firelane Controller / Suppression Anchor\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0144",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0145",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "🔫 Weapons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0146",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Twin-Linked Back Cannons\n FP 6 | 40.5 cm | Suppressive, Heavy\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0147",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Quad Arm Cannons (2x)\n FP 8 each | 25 cm | Suppressive, Accurate, Heavy\n (Each arm is a bank of 4 FP 2 weapons linked)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0148",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0149",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "🧬 Systems & Traits",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0150",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Tracked: Cannot climb elevation; Difficult Ground penalties are doubled\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0151",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Stable Platform: May fire Heavy weapons even after moving\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0152",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "UN Targeting Network (2 pts): +1 to hit if an ally has LOS to the same target\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0153",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNDF Bastion Crawler – RX-13 52pts"
+      ],
+      "text": "Overdrive (2 pts): May take a 3rd action; on a roll of 1–2, suffer 1 STR\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0154",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0155",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "A towering siege mech built around two spine-mounted Great Cannons, this unit serves as a long-range executioner. Often deployed in pairs with sensor support or drone spotters, the RX-99 is the answer to anything heavy.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0156",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0157",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "🧩 Chassis: Heavy",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0158",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "Move: 13 cm\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0159",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "Defence: 5+\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0160",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "Structure: 7\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0161",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "Role: Heavy Long-Range Annihilator\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0162",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "Keywords: Stable Platform (required for heavy fire), Tracked optional (see variants)\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0163",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0164",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "🔫 Weapons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0165",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "💣 Heavy Dual-Linked Great Cannons",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0166",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "FP 8 | 45 cm | Piercing 1, Shatter, Heavy\n (Two FP 4 cannons linked as a single FP 8 profile)\n\n\n Shatter: On a natural 6, deal 2 damage instead of 1 to that target.\n\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0167",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0168",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "🧬 Systems & Traits",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0169",
+      "kind": "table",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0169:r1",
+          "cells": [
+            {
+              "id": "unmc:b0169:r1:c1",
+              "paragraphs": [
+                "Trait"
+              ],
+              "text": "Trait",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0169:r1:c2",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0169:r2",
+          "cells": [
+            {
+              "id": "unmc:b0169:r2:c1",
+              "paragraphs": [
+                "Stable Platform"
+              ],
+              "text": "Stable Platform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0169:r2:c2",
+              "paragraphs": [
+                "May fire Heavy weapons even if moved"
+              ],
+              "text": "May fire Heavy weapons even if moved",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0169:r3",
+          "cells": [
+            {
+              "id": "unmc:b0169:r3:c1",
+              "paragraphs": [
+                "UN Targeting Network"
+              ],
+              "text": "UN Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0169:r3:c2",
+              "paragraphs": [
+                "+1 to hit if ally has LOS to same target"
+              ],
+              "text": "+1 to hit if ally has LOS to same target",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0169:r4",
+          "cells": [
+            {
+              "id": "unmc:b0169:r4:c1",
+              "paragraphs": [
+                "Hardened Carapace"
+              ],
+              "text": "Hardened Carapace",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0169:r4:c2",
+              "paragraphs": [
+                "+1 Defence vs ranged attacks if >30.5 cm away"
+              ],
+              "text": "+1 Defence vs ranged attacks if >30.5 cm away",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0169:r5",
+          "cells": [
+            {
+              "id": "unmc:b0169:r5:c1",
+              "paragraphs": [
+                "Overdrive (2 pts)"
+              ],
+              "text": "Overdrive (2 pts)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0169:r5:c2",
+              "paragraphs": [
+                "May take 3rd action; on 1–2, suffer 1 STR"
+              ],
+              "text": "May take 3rd action; on 1–2, suffer 1 STR",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0170",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛠️ UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion” 44pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0171",
+      "kind": "paragraph",
+      "style": "heading 3",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🛡️ Command Frame Archon 70 pts",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0172",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "“Command is control. Control is collateral.”\n The Aegis Regent serves as the spearhead of many high-value UN operations. Equipped with advanced communications suites, battlefield targeting systems, and devastating armaments, it is both a walking command post and a siege engine.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0173",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0174",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "📊 Chassis: Heavy Frame",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0175",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Move: 15 cm\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0176",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "defence: 5+\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0177",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Structure: 7\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0178",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Base Cost: 21 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0179",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0180",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🔫 Weapons Loadout",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0181",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🧨 Shoulders – VX-20C “Cascade” Missile Pods",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0182",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "2× FP 3 | 30.5 cm | Blast, Suppression\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0183",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Cost: 6 pts × 2 = 12 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0184",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Clinical area saturation system. 20 micro-warheads per pod.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0185",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🔧 Center Torso – M-55 Autocannon",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0186",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "FP 3 | 40 cm | Suppressive\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0187",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Cost: 5 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0188",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Designed for continuous low-spread engagement of advancing targets.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0189",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🥊 Arms – Heavy Power Fists",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0190",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "ME 3 | AP 2, Heavy\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0191",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Cost: 6 pts × 2 = 12 pts\n",
+      "numbering": true
+    },
+    {
+      "id": "unmc:b0192",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "Devastating close-range shock units. Can punch through mechs, fortifications, or pride.",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0193",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0194",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🧬 Command Systems & Traits",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0195",
+      "kind": "table",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0195:r1",
+          "cells": [
+            {
+              "id": "unmc:b0195:r1:c1",
+              "paragraphs": [
+                "System"
+              ],
+              "text": "System",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r1:c2",
+              "paragraphs": [
+                "Effect"
+              ],
+              "text": "Effect",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r1:c3",
+              "paragraphs": [
+                "Cost"
+              ],
+              "text": "Cost",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0195:r2",
+          "cells": [
+            {
+              "id": "unmc:b0195:r2:c1",
+              "paragraphs": [
+                "Command Uplink Node (new)"
+              ],
+              "text": "Command Uplink Node (new)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r2:c2",
+              "paragraphs": [
+                "Friendly units within 20 cm may reroll 1 hit per activation"
+              ],
+              "text": "Friendly units within 20 cm may reroll 1 hit per activation",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r2:c3",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0195:r3",
+          "cells": [
+            {
+              "id": "unmc:b0195:r3:c1",
+              "paragraphs": [
+                "Sponsor Protocol"
+              ],
+              "text": "Sponsor Protocol",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r3:c2",
+              "paragraphs": [
+                "Choose one of the four UN mega-corp subfaction traits"
+              ],
+              "text": "Choose one of the four UN mega-corp subfaction traits",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r3:c3",
+              "paragraphs": [
+                "3 pts"
+              ],
+              "text": "3 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0195:r4",
+          "cells": [
+            {
+              "id": "unmc:b0195:r4:c1",
+              "paragraphs": [
+                "UN Targeting Network"
+              ],
+              "text": "UN Targeting Network",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r4:c2",
+              "paragraphs": [
+                "+1 to hit if ally has LOS to same target"
+              ],
+              "text": "+1 to hit if ally has LOS to same target",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r4:c3",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0195:r5",
+          "cells": [
+            {
+              "id": "unmc:b0195:r5:c1",
+              "paragraphs": [
+                "Command Aura"
+              ],
+              "text": "Command Aura",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r5:c2",
+              "paragraphs": [
+                "Nearby units gain +1 to morale or +1 defence when within 15 cm"
+              ],
+              "text": "Nearby units gain +1 to morale or +1 defence when within 15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r5:c3",
+              "paragraphs": [
+                "5 pts"
+              ],
+              "text": "5 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0195:r6",
+          "cells": [
+            {
+              "id": "unmc:b0195:r6:c1",
+              "paragraphs": [
+                "Overheat"
+              ],
+              "text": "Overheat",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r6:c2",
+              "paragraphs": [
+                "Can take a 3rd action; on 1, takes 1 STR"
+              ],
+              "text": "Can take a 3rd action; on 1, takes 1 STR",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0195:r6:c3",
+              "paragraphs": [
+                "2 pts"
+              ],
+              "text": "2 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0196",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0197",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "🧩 ROLE: Command Brawler / Field General",
+      "numbering": false
+    },
+    {
+      "id": "unmc:b0198",
+      "kind": "table",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "rows": [
+        {
+          "id": "unmc:b0198:r1",
+          "cells": [
+            {
+              "id": "unmc:b0198:r1:c1",
+              "paragraphs": [
+                "Function"
+              ],
+              "text": "Function",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0198:r1:c2",
+              "paragraphs": [
+                "Description"
+              ],
+              "text": "Description",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0198:r2",
+          "cells": [
+            {
+              "id": "unmc:b0198:r2:c1",
+              "paragraphs": [
+                "Frontline Leadership"
+              ],
+              "text": "Frontline Leadership",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0198:r2:c2",
+              "paragraphs": [
+                "Pushes with the strike force, not from the back. Inspires nearby units with rerolls and morale."
+              ],
+              "text": "Pushes with the strike force, not from the back. Inspires nearby units with rerolls and morale.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0198:r3",
+          "cells": [
+            {
+              "id": "unmc:b0198:r3:c1",
+              "paragraphs": [
+                "Combined Arms Buffing"
+              ],
+              "text": "Combined Arms Buffing",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0198:r3:c2",
+              "paragraphs": [
+                "Enhances UN synergy-focused doctrine with uplinks and shared targeting."
+              ],
+              "text": "Enhances UN synergy-focused doctrine with uplinks and shared targeting.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        },
+        {
+          "id": "unmc:b0198:r4",
+          "cells": [
+            {
+              "id": "unmc:b0198:r4:c1",
+              "paragraphs": [
+                "Threat Magnet"
+              ],
+              "text": "Threat Magnet",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0198:r4:c2",
+              "paragraphs": [
+                "High offensive output and melee threat make it a priority target — which is fine, it’s built to endure."
+              ],
+              "text": "High offensive output and melee threat make it a priority target — which is fine, it’s built to endure.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unmc:b0199",
+      "kind": "paragraph",
+      "style": "",
+      "heading": [
+        "🛡️ Command Frame Archon 70 pts"
+      ],
+      "text": "",
+      "numbering": false
+    }
+  ],
+  "ancillary_text": {},
+  "audit": {
+    "ins": 0,
+    "del": 0,
+    "moveFrom": 0,
+    "moveTo": 0,
+    "drawing": 0,
+    "pict": 35,
+    "txbxContent": 0,
+    "altChunk": 0,
+    "sdt": 0,
+    "sym": 0,
+    "nested_tables": 0
+  }
+}

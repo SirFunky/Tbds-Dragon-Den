@@ -1,0 +1,31 @@
+/* Shared site navigation. Keep page-specific navigation below this header. */
+.site-header {
+  display: flex; flex-direction: row; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 16px; width: 100%; max-width: 1120px; margin: 0 auto 32px;
+  padding: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  box-sizing: border-box;
+}
+body > .site-header { padding: 32px 16px 0; }
+.site-header .logo { display: flex; align-items: center; gap: 10px; color: #e5e7eb; text-decoration: none; }
+.site-header .logo-mark {
+  flex: 0 0 32px; width: 32px; height: 32px; border-radius: 50%; display: flex;
+  align-items: center; justify-content: center;
+  background: radial-gradient(circle at 30% 30%, #4ade80 0, #065f46 35%, #020617 80%);
+  box-shadow: 0 0 18px rgba(52,211,153,.6);
+}
+.site-header .logo-icon { display: block; width: 20px; height: 20px; object-fit: contain; }
+.site-header .logo-text { font-size: 12px; font-weight: 600; line-height: 1.5; letter-spacing: .04em; text-transform: uppercase; color: #9ca3af; }
+.site-header .site-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 14px; line-height: 1.5; }
+.site-header .site-nav a { color: #9ca3af; padding: 4px 0; border-bottom: 1px solid transparent; text-decoration: none; }
+.site-header .site-nav a:hover, .site-header .site-nav a[aria-current="page"] { color: #e5e7eb; border-color: #22c55e; }
+.site-header a:focus-visible, .project-nav a:focus-visible { outline: 2px solid #4ade80; outline-offset: 4px; }
+.site-header .site-pill { padding: 4px 12px; border-radius: 999px; border: 1px solid rgba(148,163,184,.4); background: rgba(15,23,42,.8); color: #9ca3af; font-size: 12px; letter-spacing: .09em; text-transform: uppercase; white-space: nowrap; }
+.project-nav { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 20px; margin: -12px 0 28px; padding: 12px 0; border-bottom: 1px solid #1f2937; font-size: 13px; }
+.project-nav a { color: #9ca3af; text-decoration: none; }
+.project-nav a:hover { color: #86efac; }
+@media (max-width: 760px) {
+  .site-header { flex-direction: column; align-items: flex-start; }
+  .site-header .site-nav { gap: 12px 16px; }
+  .site-header .site-pill { font-size: 10px; }
+}
+@media print { .site-header, .project-nav { display: none !important; } }

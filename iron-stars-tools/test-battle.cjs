@@ -1,0 +1,31 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const battle=require('../iron-stars/assets/battle-core.js'),roster=require('../iron-stars/assets/roster-core.js');
+const data=JSON.parse(fs.readFileSync('iron-stars/data/army-builder.json','utf8'));
+const clone=x=>JSON.parse(JSON.stringify(x));
+const part=(name,kind)=>data.custom.parts.find(p=>p.name===name&&p.kind===kind&&p.source_id==='core');
+const frame=part('Medium','chassis'),blade=part('Light Blade','weapon'),transform=part('Transform','system');
+let force=roster.saveCustom(roster.blank('cybernetic-rebellion'),'custom-battle',{name:'Battle form',chassis:frame.id,movement:15,structure:4,weapons:[{component:blade.id,quantity:1,linked:false}],systems:[transform.id],forms:[{name:'Mech',weapon_groups:[0]},{name:'Wolf',movement_type:'walker',weapon_groups:[0]}]},data);force.lines[0].quantity=2;
+const original=JSON.stringify(force);let state=battle.start(force,data);assert.equal(state.units.length,2);assert.equal(JSON.stringify(force),original);const id=state.units[0].id;
+state=battle.structure(state,id,2);assert.equal(state.units[0].structure,2);assert.equal(state.units[1].structure,4);state=battle.form(state,id,1);assert.equal(state.units[0].structure,2);assert.equal(state.units[0].profiles[1].movement_label,'Walker');
+state=battle.structure(state,id,0);state=battle.flag(state,id,'suppressed',true);state=battle.flag(state,id,'activated',true);state=battle.nextRound(state);assert.equal(state.round,2);assert.equal(state.units.length,2);assert.equal(state.units[0].structure,0);assert.equal(state.units[0].suppressed,true);assert.equal(state.units[0].activated,false);
+assert.throws(()=>battle.structure(state,id,5));assert.throws(()=>battle.structure(state,id,-1));assert.throws(()=>battle.form(state,id,9));assert.throws(()=>battle.manualMaximum(state,id,6));
+assert.deepEqual(battle.validate(JSON.parse(JSON.stringify(state))),state);assert.equal(JSON.stringify(force),original);
+force.lines[0].custom.name='Roster edited later';assert.equal(state.units[0].name,'Battle form');
+const unknown=roster.add(roster.blank('unmc'),'unmc-undf-vulture-stryker',data);let missing=battle.start(unknown,data);assert.equal(missing.units[0].structure,null);assert.throws(()=>battle.structure(missing,missing.units[0].id,1));missing=battle.manualMaximum(missing,missing.units[0].id,7);assert.equal(missing.units[0].structure,7);
+assert.deepEqual(battle.limit('One-use, Delay 1 turn'),{limit:1,period:'game'});assert.deepEqual(battle.limit('Ammunition 3'),{limit:3,period:'game',ammunition:true});assert.equal(battle.limit('Deploy once per turn'),null);assert.equal(battle.limit('No usage limit specified'),null);
+const fixture=clone(data),laser=fixture.custom.parts.find(p=>p.name==='Medium Laser'&&p.source_id==='core');laser.details.push({label:'Test fixture',text:'Ammunition 3',source_ref:'test:ammo'});
+const ammo=fixture.custom.parts.find(p=>p.requires_ammunition),burst=fixture.custom.parts.find(p=>p.name==='Burst Dash Thrusters');
+let ammunition=roster.saveCustom(roster.blank('unmc'),'custom-ammo',{name:'Ammo test',chassis:frame.id,movement:15,structure:4,weapons:[{component:laser.id,quantity:2,linked:true}],systems:[ammo.id,burst.id],ammo_target:0},fixture);
+let counters=battle.start(ammunition,fixture),unit=counters.units[0];assert.equal(unit.ammo_bin.copy,null);assert.deepEqual(unit.uses.filter(c=>c.ammunition).map(c=>c.limit),[3,3]);
+counters=battle.ammoBin(counters,unit.id,1);assert.deepEqual(counters.units[0].uses.filter(c=>c.ammunition).map(c=>c.limit),[3,4]);const counter=counters.units[0].uses.find(c=>c.ammunition&&c.copy===1);counters=battle.remaining(counters,unit.id,counter.id,3);assert.throws(()=>battle.ammoBin(counters,unit.id,0),/before spending/);counters=battle.nextRound(counters);assert.equal(counters.units[0].uses.find(c=>c.id===counter.id).remaining,3);
+const game=counters.units[0].uses.find(c=>c.name==='Burst Dash Thrusters');assert(game);counters=battle.remaining(counters,unit.id,game.id,0);counters=battle.nextRound(counters);assert.equal(counters.units[0].uses.find(c=>c.id===game.id).remaining,0);
+const periodFixture=clone(counters);periodFixture.units[0].uses.push({...game,id:'round-fixture',period:'round',remaining:0},{...game,id:'activation-fixture',period:'activation',remaining:0});const advanced=battle.nextRound(periodFixture);assert.equal(advanced.units[0].uses.find(c=>c.id==='round-fixture').remaining,1);assert.equal(advanced.units[0].uses.find(c=>c.id==='activation-fixture').remaining,0);assert.equal(battle.activation(advanced,unit.id).units[0].uses.find(c=>c.id==='activation-fixture').remaining,1);
+assert.throws(()=>battle.validate({...state,units:[state.units[0],state.units[0]]}));assert.throws(()=>battle.start(roster.blank('iron-concord'),data));
+for(const stock of data.units){const value=battle.start(roster.add(roster.blank(stock.faction),stock.id,data),data);assert.equal(value.units.length,1);}
+console.log('PASS: independent per-copy battle snapshots, sourced/unknown STR, damage/form persistence, zero-STR retention, manual status, sourced usage periods, Ammo Bin one-copy targeting, no game-use replenishment, JSON validation and all 26 premades.');
+
+assert.throws(()=>battle.remaining(counters,unit.id,game.id,2));assert.throws(()=>battle.remaining(counters,unit.id,game.id,-1));
+missing=battle.structure(missing,missing.units[0].id,0);missing=battle.form(missing,missing.units[0].id,2);assert.equal(missing.units[0].structure,0);assert.equal(battle.maximum(missing.units[0]),7);
+const beacon=data.custom.parts.find(p=>p.name==='Orbital Strike Beacon');
+if(beacon){let once=roster.saveCustom(roster.blank(beacon.allowed_factions?.[0]||'unmc'),'custom-beacon',{name:'One-use weapons',chassis:frame.id,movement:15,structure:4,weapons:[{component:beacon.id,quantity:2,linked:false}],systems:[]},data);let b=battle.start(once,data);assert.equal(b.units[0].uses.length,2);b=battle.remaining(b,b.units[0].id,b.units[0].uses[0].id,0);assert.equal(b.units[0].uses[1].remaining,1);assert.equal(battle.nextRound(b).units[0].uses[0].remaining,0);}
+console.log('PASS: bounded remaining-use edits, zero-STR unknown-form transitions and independent real one-use weapon copies.');

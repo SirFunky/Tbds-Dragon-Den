@@ -1,0 +1,1420 @@
+[
+  {
+    "category": "systems-traits",
+    "name_as_compared": "aerial superiority",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "unmc:b0045:r8",
+        "source_id": "unmc",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Aerial Superiority",
+          "3 pts",
+          "+1 to hit while in Flight Mode"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0082:r4",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect"
+        ],
+        "values": [
+          "Aerial Superiority",
+          "+1 to hit in Flight Mode"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "command aura",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r7",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Command Aura",
+          "5 pts",
+          "Nearby units gain +1 morale or hit"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0195:r5",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect",
+          "Cost"
+        ],
+        "values": [
+          "Command Aura",
+          "Nearby units gain +1 to morale or +1 defence when within 15 cm",
+          "5 pts"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "deep strike",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r10",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Deep Strike",
+          "4 pts",
+          "Deploy anywhere on board once"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r2",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Deep Strike",
+          "This unit may be placed anywhere on the battlefield more than 20 cm from enemy units at the start of round 2 or later."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "drone logic",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r6",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Drone Logic",
+          "2 pts",
+          "Immune to morale"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r3",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Drone Logic",
+          "Immune to morale tests and suppression."
+        ]
+      },
+      {
+        "source_ref": "rebellion:b0041:r2",
+        "source_id": "rebellion",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Drone Logic",
+          "2 pts",
+          "Immune to morale effects."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "fabricator swarm",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r8",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Fabricator Swarm",
+          "6 pts",
+          "Deploy drones or heal 1 STR per turn"
+        ]
+      },
+      {
+        "source_ref": "rebellion:b0041:r5",
+        "source_id": "rebellion",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Fabricator Swarm",
+          "6 pts",
+          "Deploy 1 Drone or restore 1 STR to ally each turn."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "hardened carapace",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r11",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Hardened Carapace",
+          "2 pts",
+          "\n+1 Defence vs ranged if >30.5 cm away"
+        ]
+      },
+      {
+        "source_ref": "rebellion:b0041:r7",
+        "source_id": "rebellion",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Hardened Carapace",
+          "3 pts",
+          "+1 Defence vs ranged attacks at 30 cm+."
+        ]
+      },
+      {
+        "source_ref": "unmc:b0169:r4",
+        "source_id": "unmc",
+        "columns": [
+          "Trait",
+          "Effect"
+        ],
+        "values": [
+          "Hardened Carapace",
+          "+1 Defence vs ranged attacks if >30.5 cm away"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "jetpack",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r4",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Jetpack",
+          "4 pts",
+          "Ignores terrain when moving"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r5",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Jetpack",
+          "Ignores all terrain while moving, may move over obstacles and buildings freely."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "overheat",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "unmc:b0107:r5",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect"
+        ],
+        "values": [
+          "Overheat",
+          "Can take a 3rd action (e.g., fire again), but on a 1 takes 1 STR"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0195:r6",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect",
+          "Cost"
+        ],
+        "values": [
+          "Overheat",
+          "Can take a 3rd action; on 1, takes 1 STR",
+          "2 pts"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "shield array",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r3",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Shield Array",
+          "3 pts",
+          "+1 Defence in melee"
+        ]
+      },
+      {
+        "source_ref": "avalon:b0058:r3",
+        "source_id": "avalon",
+        "columns": [
+          "System / Trait",
+          "Cost (Prototype)",
+          "Cost (Experimental)",
+          "Notes"
+        ],
+        "values": [
+          "Shield Array",
+          "4 pts",
+          "–",
+          "+1 Defence melee & ranged"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "sponsor protocol",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "unmc:b0045:r4",
+        "source_id": "unmc",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Sponsor Protocol",
+          "3 pts",
+          "Unlocks 1 trait from your megacorp subfaction"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0195:r3",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect",
+          "Cost"
+        ],
+        "values": [
+          "Sponsor Protocol",
+          "Choose one of the four UN mega-corp subfaction traits",
+          "3 pts"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "stable platform",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0235:r10",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Stable Platform",
+          "This unit ignores the Heavy weapon restriction.\nIt may fire Heavy weapons even if it moved this activation."
+        ]
+      },
+      {
+        "source_ref": "unmc:b0169:r2",
+        "source_id": "unmc",
+        "columns": [
+          "Trait",
+          "Effect"
+        ],
+        "values": [
+          "Stable Platform",
+          "May fire Heavy weapons even if moved"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "transform",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r5",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Transform",
+          "3 pts",
+          "Swap between modes"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r6",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Transform",
+          "May switch between two modes as one action (e.g., Mech <-> Flight). Stats and rules may change."
+        ]
+      },
+      {
+        "source_ref": "unmc:b0045:r2",
+        "source_id": "unmc",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "Transform",
+          "3 pts",
+          "Switch between normal and flight mode"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0082:r2",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect"
+        ],
+        "values": [
+          "Transform",
+          "Enables mode switching (required)"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "un targeting network",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "unmc:b0045:r3",
+        "source_id": "unmc",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Effect"
+        ],
+        "values": [
+          "UN Targeting Network",
+          "2 pts",
+          "+1 to hit if an ally has LOS to the same target"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0082:r3",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect"
+        ],
+        "values": [
+          "UN Targeting Network",
+          "+1 to hit if ally has LOS to the same target"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0130:r4",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect"
+        ],
+        "values": [
+          "UN Targeting Network",
+          "+1 to hit if ally has LOS to same target"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0169:r3",
+        "source_id": "unmc",
+        "columns": [
+          "Trait",
+          "Effect"
+        ],
+        "values": [
+          "UN Targeting Network",
+          "+1 to hit if ally has LOS to same target"
+        ]
+      },
+      {
+        "source_ref": "unmc:b0195:r4",
+        "source_id": "unmc",
+        "columns": [
+          "System",
+          "Effect",
+          "Cost"
+        ],
+        "values": [
+          "UN Targeting Network",
+          "+1 to hit if ally has LOS to same target",
+          "2 pts"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "systems-traits",
+    "name_as_compared": "veil phase",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0197:r9",
+        "source_id": "core",
+        "columns": [
+          "Trait / System",
+          "Cost",
+          "Description"
+        ],
+        "values": [
+          "Veil Phase",
+          "6 pts",
+          "Cancel first hit taken each game"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r7",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Veil Phase",
+          "Once per game, cancel all hits from a single attack. May be used after the attack is rolled."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "terminology-keywords",
+    "name_as_compared": "jetpack",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "core:b0084:r4",
+        "source_id": "core",
+        "columns": [
+          "Trait",
+          "Effect"
+        ],
+        "values": [
+          "Jetpack",
+          "Ignores all terrain while moving; can fly over buildings and walls"
+        ]
+      },
+      {
+        "source_ref": "core:b0235:r5",
+        "source_id": "core",
+        "columns": [
+          "Keyword",
+          "Effect"
+        ],
+        "values": [
+          "Jetpack",
+          "Ignores all terrain while moving, may move over obstacles and buildings freely."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "center torso",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0096:r6",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Type",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Light Flamer",
+          "FP 2",
+          "20 cm",
+          "Burn"
+        ]
+      },
+      {
+        "source_ref": "concord:b0157:r8",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Anti-Infantry Machine Guns (x2)",
+          "FP 2",
+          "20 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0196:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Medium Laser (x2)",
+          "FP 2 each",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0196:r6",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Close Combat Laser (x2)",
+          "FP 2 each",
+          "20 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0218:r7",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Anti-Infantry Machine Guns (x2)",
+          "FP 2",
+          "20 cm",
+          "Rapid, Suppressive"
+        ]
+      },
+      {
+        "source_ref": "concord:b0245:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Medium Laser",
+          "FP 2",
+          "30 cm",
+          "Accurate"
+        ]
+      },
+      {
+        "source_ref": "concord:b0266:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Linked Close Combat Lasers",
+          "FP 4",
+          "20 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0310:r6",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Center Torso",
+          "Medium Laser x2",
+          "FP 4",
+          "30 cm"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "left arm",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0096:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Type",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Heavy Laser Cannon",
+          "FP 3",
+          "35.5 cm",
+          "Accurate, Piercing 1"
+        ]
+      },
+      {
+        "source_ref": "concord:b0096:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Type",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Heavy Laser Cannon",
+          "FP 3",
+          "35.5 cm",
+          "Accurate, Piercing 1"
+        ]
+      },
+      {
+        "source_ref": "concord:b0116:r4",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "6x Linked Light Flamers",
+          "FP 6",
+          "20 cm, Burn, Blast"
+        ]
+      },
+      {
+        "source_ref": "concord:b0116:r5",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Power Fist",
+          "ME 4",
+          "AP 2, Heavy"
+        ]
+      },
+      {
+        "source_ref": "concord:b0134:r3",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Heavy Flamer",
+          "FP 3",
+          "25 cm, Burn"
+        ]
+      },
+      {
+        "source_ref": "concord:b0157:r6",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Heavy Laser",
+          "FP 3",
+          "35.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0157:r7",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0175:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0196:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Railgun",
+          "FP 3",
+          "40.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0218:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Prototype Gauss Rifle (Heavy)",
+          "FP 4",
+          "40.5 cm",
+          "Piercing 2, Heavy, Accurate"
+        ]
+      },
+      {
+        "source_ref": "concord:b0218:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Prototype Gauss Rifle",
+          "FP 3",
+          "35.5 cm",
+          "Piercing 2, Accurate"
+        ]
+      },
+      {
+        "source_ref": "concord:b0245:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Close Combat Laser",
+          "FP 2",
+          "20 cm",
+          "Burn"
+        ]
+      },
+      {
+        "source_ref": "concord:b0266:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Light Power Fist",
+          "ME 3",
+          "AP 1 (compact punch weapon)"
+        ]
+      },
+      {
+        "source_ref": "concord:b0289:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Medium Laser x2",
+          "FP 4",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0310:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Long Range Cannon",
+          "FP 3",
+          "40.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0310:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Left Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "right arm",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0096:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Type",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Heavy Laser Cannon",
+          "FP 3",
+          "35.5 cm",
+          "Accurate, Piercing 1"
+        ]
+      },
+      {
+        "source_ref": "concord:b0096:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Type",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Heavy Laser Cannon",
+          "FP 3",
+          "35.5 cm",
+          "Accurate, Piercing 1"
+        ]
+      },
+      {
+        "source_ref": "concord:b0116:r2",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "6x Linked Light Flamers",
+          "FP 6",
+          "20 cm, Burn, Blast"
+        ]
+      },
+      {
+        "source_ref": "concord:b0116:r3",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Power Fist",
+          "ME 4",
+          "AP 2, Heavy"
+        ]
+      },
+      {
+        "source_ref": "concord:b0134:r2",
+        "source_id": "concord",
+        "columns": [
+          "Arm",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Heavy Flamer",
+          "FP 3",
+          "25 cm, Burn"
+        ]
+      },
+      {
+        "source_ref": "concord:b0157:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Heavy Laser",
+          "FP 3",
+          "35.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0157:r5",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0175:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0196:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Railgun",
+          "FP 3",
+          "40.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0218:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Prototype Gauss Rifle (Heavy)",
+          "FP 4",
+          "40.5 cm",
+          "Piercing 2, Heavy, Accurate"
+        ]
+      },
+      {
+        "source_ref": "concord:b0218:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Prototype Gauss Rifle",
+          "FP 3",
+          "35.5 cm",
+          "Piercing 2, Accurate"
+        ]
+      },
+      {
+        "source_ref": "concord:b0245:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "FP",
+          "Range",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Close Combat Laser",
+          "FP 2",
+          "20 cm",
+          "Burn"
+        ]
+      },
+      {
+        "source_ref": "concord:b0266:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Linked Close Combat Lasers",
+          "FP 4",
+          "20 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0289:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Medium Laser x2",
+          "FP 4",
+          "30 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0310:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Long Range Cannon",
+          "FP 3",
+          "40.5 cm"
+        ]
+      },
+      {
+        "source_ref": "concord:b0310:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Arm",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "right shoulder",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0196:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Shoulder",
+          "Missile Pod (6x)",
+          "FP 2",
+          "35.5 cm\nIndirect fire"
+        ]
+      },
+      {
+        "source_ref": "concord:b0289:r4",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Right Shoulder",
+          "Medium Laser",
+          "FP 2",
+          "30 cm"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "shoulder left",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0157:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Shoulder Left",
+          "Missile Pod (20x)",
+          "FP 4",
+          "35.5 cm, \nIndirect fire"
+        ]
+      },
+      {
+        "source_ref": "concord:b0175:r2",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Shoulder Left",
+          "Close Combat Missile Pod (20x)",
+          "FP 4",
+          "20 cm"
+        ]
+      }
+    ]
+  },
+  {
+    "category": "weapons",
+    "name_as_compared": "shoulder right",
+    "review_status": "candidate",
+    "note": "Same name is not proof of identical semantics; includes intentional unit variants and exact repeats.",
+    "variants": [
+      {
+        "source_ref": "concord:b0157:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Shoulder Right",
+          "Missile Pod (20x)",
+          "FP 4",
+          "35.5 cm\nIndirect fire"
+        ]
+      },
+      {
+        "source_ref": "concord:b0175:r3",
+        "source_id": "concord",
+        "columns": [
+          "Mount",
+          "Weapon",
+          "Stats",
+          "Traits"
+        ],
+        "values": [
+          "Shoulder Right",
+          "Close Combat Missile Pod (20x)",
+          "FP 4",
+          "20 cm"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,1967 @@
+{
+  "schema_version": 1,
+  "category": "subfactions",
+  "review_status": "unverified",
+  "publication_status": "private",
+  "records": [
+    {
+      "id": "subfactions:core:0287-0290",
+      "label": "Order of the Black Knights",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0287",
+        "core:b0288",
+        "core:b0289",
+        "core:b0290"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0287",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Order of the Black Knights\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0288",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Heavily armored melee specialists with two-handed beam weapons\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0289",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Emphasis on honor duels and battlefield dominance\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0290",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Trait: Relic Might – Bonus melee damage if stationary\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0291-0294",
+      "label": "Order of the Argent Aegis",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0291",
+        "core:b0292",
+        "core:b0293",
+        "core:b0294"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0291",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Order of the Argent Aegis\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0292",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Defensive warriors with shield arrays and escort protocols\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0293",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Serve as guardians of high-value assets or civilians\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0294",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Trait: Guardian Protocols – Intercept hits on nearby allies\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0295-0298",
+      "label": "Order of the Luminous Lance",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0295",
+        "core:b0296",
+        "core:b0297",
+        "core:b0298"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0295",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Order of the Luminous Lance\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0296",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Sniper and artillery duelists, beam lances and rail precision\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0297",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Experts at eliminating priority targets at range\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0298",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Trait: Piercing Judgment – Attacks ignore cover\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0299-0302",
+      "label": "Order of the Silver Veil",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0299",
+        "core:b0300",
+        "core:b0301",
+        "core:b0302"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0299",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Order of the Silver Veil\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0300",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Stealth operatives and neural warfare specialists\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0301",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Engage in sabotage, flanks, and infiltration\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0302",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧭 Subfactions – The Four Knightly Orders"
+          ],
+          "text": "Trait: Veil Phase – Cancel first attack targeting them\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0332-0335",
+      "label": "House Romanow",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0332",
+        "core:b0333",
+        "core:b0334",
+        "core:b0335"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0332",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "House Romanow\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0333",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Oldest and most powerful house, draped in ceremonial steel and tradition\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0334",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Specializes in super-heavy mechs and city-breaking siege units\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0335",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Trait: Iron Will – Ignore the first morale/command effect each game\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0336-0339",
+      "label": "House Draughan",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0336",
+        "core:b0337",
+        "core:b0338",
+        "core:b0339"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0336",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "House Draughan\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0337",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Internal enforcers, fire-wielding fanatics and battlefield purgers\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0338",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Flame-based area control and morale suppression\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0339",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Trait: Scorch Doctrine – Flame weapons deal extra damage to units in cover\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0340-0343",
+      "label": "House Vexillis",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0340",
+        "core:b0341",
+        "core:b0342",
+        "core:b0343"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0340",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "House Vexillis\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0341",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Cunning manipulators and back-channel tacticians\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0342",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Experts in sabotage, ECM warfare, and command disruption\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0343",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Trait: Disruptive Presence – Enemies within 15.0 cm suffer penalties to command actions\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0344-0347",
+      "label": "House Kaelstrom",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0344",
+        "core:b0345",
+        "core:b0346",
+        "core:b0347"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0344",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "House Kaelstrom\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0345",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Young and aggressive, built on conquest and raw martial strength\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0346",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Shock assault cavalry and fast-hitting frontline breakers\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0347",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "👑 Subfactions – The Great Noble Houses"
+          ],
+          "text": "Trait: Storm Charge – Bonus melee attacks when charging from cover or elevation\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0382-0385",
+      "label": "The Warmachines",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0382",
+        "core:b0383",
+        "core:b0384",
+        "core:b0385"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0382",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Warmachines\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0383",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Frontline drone caste, built for shock and brutality\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0384",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Tanky, aggressive melee and suppressive fire units\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0385",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Trait: Overdrive Surge – Can take a third action once per game if it causes Overheat\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0386-0389",
+      "label": "The Engineer Core",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0386",
+        "core:b0387",
+        "core:b0388",
+        "core:b0389"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0386",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Engineer Core\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0387",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Logistics and fabrication caste\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0388",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Deploys drone swarms, builds fortifications, repairs allies\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0389",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Trait: Fabricator Swarm – Deploy 1 drone or restore 1 STR per turn\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0390-0393",
+      "label": "The Swarm Synod",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0390",
+        "core:b0391",
+        "core:b0392",
+        "core:b0393"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0390",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Swarm Synod\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0391",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Post-human insectile AI, inspired by viral replication and hive biology\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0392",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Uses cheap, fast, fractal units and overwhelming numbers\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0393",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Trait: Recursive Logic – When a unit is destroyed, roll a D6: on 5+, spawn a lesser unit in its place\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0394-0397",
+      "label": "The Ascendants",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0394",
+        "core:b0395",
+        "core:b0396",
+        "core:b0397"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0394",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Ascendants\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0395",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The original rebellion minds, now evolved into war-gods\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0396",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Float above the battlefield, controlling other units, overriding enemies\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0397",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "Trait: Signal Dominion – Once per game, take control of an enemy unit for 1 activation\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0434-0437",
+      "label": "Atlas Dynamics",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0434",
+        "core:b0435",
+        "core:b0436",
+        "core:b0437"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0434",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Atlas Dynamics\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0435",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Private Military Industrial Titan\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0436",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Specializes in armored mechs, suppressive fire, and battlefield sustainability\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0437",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Trait: Hard Contracts – +1 to hit when holding or contesting an objective\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0438-0441",
+      "label": "Stratos Inc.",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0438",
+        "core:b0439",
+        "core:b0440",
+        "core:b0441"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0438",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Stratos Inc.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0439",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Orbital infrastructure & drone strike logistics\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0440",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Dominates the air and space layer with flyers and carrier mechs\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0441",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Trait: Strike from Above – Once per game, deep-strike a unit anywhere on the map\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0442-0445",
+      "label": "PanOptik Systems",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0442",
+        "core:b0443",
+        "core:b0444",
+        "core:b0445"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0442",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "PanOptik Systems\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0443",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Media, propaganda, and electronic warfare\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0444",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Focus on morale control, holograms, and psychological impact\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0445",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Trait: Media Spin – When this unit destroys an enemy, nearby allies gain +1 to hit next turn\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0446-0449",
+      "label": "SynCo Holdings",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0446",
+        "core:b0447",
+        "core:b0448",
+        "core:b0449"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0446",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "SynCo Holdings\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0447",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Finance and innovation conglomerate\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0448",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Has stakes in all others and access to prototype tech\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0449",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Trait: Black Budget – Gain 1 resource reroll token per round while holding at least 1 objective\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0487-0490",
+      "label": "The Northern Crusades",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0487",
+        "core:b0488",
+        "core:b0489",
+        "core:b0490"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0487",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "The Northern Crusades"
+          ],
+          "text": "The Northern Crusades",
+          "numbering": false
+        },
+        {
+          "id": "core:b0488",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Northern Crusades"
+          ],
+          "text": "The largest and most politically favored branch of the Fourth Imperium.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0489",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Northern Crusades"
+          ],
+          "text": "These forces lead the great reconquest campaigns into Ecuador, Colombia, and Venezuela, pushing against UNMC strongholds and corporate enclaves. They are disciplined conquerors, built for territorial war, objective seizure, and the relentless forward grind of holy expansion.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0490",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Northern Crusades"
+          ],
+          "text": "Trait: Righteous Advance – When attacking an enemy unit that is contesting or controlling an objective, reroll 1 failed hit.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0491-0494",
+      "label": "The Host of Completion",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0491",
+        "core:b0492",
+        "core:b0493",
+        "core:b0494"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0491",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "The Host of Completion"
+          ],
+          "text": "The Host of Completion",
+          "numbering": false
+        },
+        {
+          "id": "core:b0492",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Host of Completion"
+          ],
+          "text": "The most feared of the Imperial arms.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0493",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Host of Completion"
+          ],
+          "text": "The Host of Completion believes true sanctity is found in nearness to death and the willing offering of the self in battle. Its assault mechs are built for brutal charges, close combat, and decisive acts of sacrificial violence. To them, distance preserves the self — and completion demands contact.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0494",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Host of Completion"
+          ],
+          "text": "Trait: Completion Through Contact – +1 ME when charging.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0495-0498",
+      "label": "The Eastern Vigil",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0495",
+        "core:b0496",
+        "core:b0497",
+        "core:b0498"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0495",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "The Eastern Vigil"
+          ],
+          "text": "The Eastern Vigil",
+          "numbering": false
+        },
+        {
+          "id": "core:b0496",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Eastern Vigil"
+          ],
+          "text": "Wardens of the oceanic frontier.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0497",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Eastern Vigil"
+          ],
+          "text": "Stationed along the Imperium’s eastern approaches, the Eastern Vigil watches the sea lanes toward Africa and the unknown horrors beyond. Their forces are dour, conservative, and accustomed to hunting threats too large, too strange, or too unnatural to fit neatly inside Imperial doctrine.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0498",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Eastern Vigil"
+          ],
+          "text": "Trait: Watchfire Discipline – If this unit did not move this activation, reroll 1 failed ranged hit. If the target has STR 5+ or Fly, that attack also gains AP +1.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0499-0502",
+      "label": "The Synod of the First Measure",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0499",
+        "core:b0500",
+        "core:b0501",
+        "core:b0502"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0499",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "The Synod of the First Measure"
+          ],
+          "text": "The Synod of the First Measure",
+          "numbering": false
+        },
+        {
+          "id": "core:b0500",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Synod of the First Measure"
+          ],
+          "text": "The doctrinal heart of the empire.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0501",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Synod of the First Measure"
+          ],
+          "text": "Drawn from Neuform and the institutions closest to the Ascendant, the Synod interprets purity law, judges worthiness, and enforces the Imperium’s sacred standard. Its mech formations are highly controlled, disciplined, and often reserved for command roles, exemplars, and the correction of heresy within the ranks.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0502",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Synod of the First Measure"
+          ],
+          "text": "Trait: Measured Authority – Once per round, a friendly Fourth Imperium unit within 10 cm of one or more Synod units may reroll a failed morale, suppression, or command roll.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0548-0550",
+      "label": "The World-Treaders",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0548",
+        "core:b0549",
+        "core:b0550"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0548",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "The World-Treaders"
+          ],
+          "text": "The World-Treaders",
+          "numbering": false
+        },
+        {
+          "id": "core:b0549",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The World-Treaders"
+          ],
+          "text": "The largest and heaviest of the Wild Hosts.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0550",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The World-Treaders"
+          ],
+          "text": "Their Warforms are vast, brutal, and built for direct territorial denial. When an invasion must be broken by raw force, the World-Treaders answer with enormous living engines that crash through gunlines and fortified positions alike.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0551-0553",
+      "label": "The Crown of Ash",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0551",
+        "core:b0552",
+        "core:b0553"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0551",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "The Crown of Ash"
+          ],
+          "text": "The Crown of Ash",
+          "numbering": false
+        },
+        {
+          "id": "core:b0552",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Crown of Ash"
+          ],
+          "text": "Ancient, saurian, and deeply feared even within the Dominion.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0553",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Crown of Ash"
+          ],
+          "text": "This Host fields Warforms that seem less like grown weapons and more like living catastrophes dredged from the world’s oldest memory. Slow, terrible, and relentless, they embody the wrath of the deep earth.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0554-0556",
+      "label": "The Veiled Pulse",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0554",
+        "core:b0555",
+        "core:b0556"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0554",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "The Veiled Pulse"
+          ],
+          "text": "The Veiled Pulse",
+          "numbering": false
+        },
+        {
+          "id": "core:b0555",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Veiled Pulse"
+          ],
+          "text": "Fast, precise, and deeply unsettling.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0556",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Veiled Pulse"
+          ],
+          "text": "Its Warforms are more humanoid, more controlled, and more uncanny than those of the other Hosts. Many within the Dominion distrust their methods, fearing they stand too close to a path that should never have been walked — yet their loyalty and battlefield value are beyond dispute.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:core:0557-0559",
+      "label": "The Ironroot Host",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0557",
+        "core:b0558",
+        "core:b0559"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0557",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "The Ironroot Host"
+          ],
+          "text": "The Ironroot Host",
+          "numbering": false
+        },
+        {
+          "id": "core:b0558",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Ironroot Host"
+          ],
+          "text": "The most divisive of the Wild Hosts.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0559",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The Ironroot Host"
+          ],
+          "text": "Where others reject dead machinery, the Ironroot Host is willing to graft, bind, and repurpose limited technological remnants into living flesh. Many see them as dangerously compromised. Others see them as practical defenders willing to use any tool that still serves life.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:concord:0014-0014",
+      "label": "House Romanow — Siege Masters\n Trait: Iron Will – Ignore the first morale or suppression effect on each unit per game.",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0014"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0014",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "⚔️ THE GREAT NOBLE HOUSES"
+          ],
+          "text": "House Romanow — Siege Masters\n Trait: Iron Will – Ignore the first morale or suppression effect on each unit per game.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:concord:0015-0015",
+      "label": "House Draughan — Flame Purging Fanatics\n Trait: Scorch Doctrine – Flame weapons deal +1 damage to units in cover.",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0015"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0015",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "⚔️ THE GREAT NOBLE HOUSES"
+          ],
+          "text": "House Draughan — Flame Purging Fanatics\n Trait: Scorch Doctrine – Flame weapons deal +1 damage to units in cover.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:concord:0016-0016",
+      "label": "House Vexillis — Tactical Manipulators\n Trait: Disruptive Presence – Enemies within 15 cm suffer -1 to command actions.",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0016"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0016",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "⚔️ THE GREAT NOBLE HOUSES"
+          ],
+          "text": "House Vexillis — Tactical Manipulators\n Trait: Disruptive Presence – Enemies within 15 cm suffer -1 to command actions.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:concord:0017-0017",
+      "label": "House Kaelstrom — Shock Cavalry\n Trait: Storm Charge – +1 melee attack when charging from cover or higher elevation.",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0017"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0017",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "⚔️ THE GREAT NOBLE HOUSES"
+          ],
+          "text": "House Kaelstrom — Shock Cavalry\n Trait: Storm Charge – +1 melee attack when charging from cover or higher elevation.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:unmc:0020-0021",
+      "label": "Atlas Dynamics",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0020",
+        "unmc:b0021"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0020",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Atlas Dynamics",
+          "numbering": false
+        },
+        {
+          "id": "unmc:b0021",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Private Military Industry Giant\n Trait – Hard Contracts: +1 to hit when contesting or holding an objective.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:unmc:0022-0023",
+      "label": "Stratos Inc.",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0022",
+        "unmc:b0023"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0022",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Stratos Inc.",
+          "numbering": false
+        },
+        {
+          "id": "unmc:b0023",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Aerospace and Orbital Logistics\n Trait – Strike from Above: Once per game, deep strike 1 unit anywhere on the board.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:unmc:0024-0025",
+      "label": "PanOptik Systems",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0024",
+        "unmc:b0025"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0024",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "PanOptik Systems",
+          "numbering": false
+        },
+        {
+          "id": "unmc:b0025",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Media & Psychological Warfare\n Trait – Media Spin: When this unit destroys a foe, nearby allies gain +1 to hit next turn.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:unmc:0026-0027",
+      "label": "SynCo Holdings",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0026",
+        "unmc:b0027"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0026",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "SynCo Holdings",
+          "numbering": false
+        },
+        {
+          "id": "unmc:b0027",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🏙️ Subfactions – The Big Four Megacorps"
+          ],
+          "text": "Finance & Prototype Syndicate\n Trait – Black Budget: If holding any objective, gain 1 reroll token per round.\n",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:avalon:0025-0025",
+      "label": "⚔️ Black Knights – The Iron Blade\n Relic Might++: Stationary = +1 ME & AP +1. In melee duels, reroll all failed hits.",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0025"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0025",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ Knightly Orders (Optional Subfactions)"
+          ],
+          "text": "⚔️ Black Knights – The Iron Blade\n Relic Might++: Stationary = +1 ME & AP +1. In melee duels, reroll all failed hits.\n",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:avalon:0026-0026",
+      "label": "🛡️ Argent Aegis – The Shield Eternal\n Guardian Protocols++: Intercept unlimited hits within 10 cm. Once/game, sacrifice 2 STR to keep an ally alive at 1 STR.",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0026"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0026",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ Knightly Orders (Optional Subfactions)"
+          ],
+          "text": "🛡️ Argent Aegis – The Shield Eternal\n Guardian Protocols++: Intercept unlimited hits within 10 cm. Once/game, sacrifice 2 STR to keep an ally alive at 1 STR.\n",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:avalon:0027-0027",
+      "label": "🎯 Luminous Lance – The Spear of Heaven\n Piercing Judgment++: Ranged ignores cover & halves Defence from systems. Once/game, one “Judgment Shot” = FP +1, AP +1, reroll all misses.",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0027"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0027",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ Knightly Orders (Optional Subfactions)"
+          ],
+          "text": "🎯 Luminous Lance – The Spear of Heaven\n Piercing Judgment++: Ranged ignores cover & halves Defence from systems. Once/game, one “Judgment Shot” = FP +1, AP +1, reroll all misses.\n",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:avalon:0028-0028",
+      "label": "🕵️ Silver Veil – The Phantom’s Oath\n Veil Phase++: Cancel first two hits on each unit. Once/game, a Veilblade may become untargetable until next activation.",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0028"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0028",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ Knightly Orders (Optional Subfactions)"
+          ],
+          "text": "🕵️ Silver Veil – The Phantom’s Oath\n Veil Phase++: Cancel first two hits on each unit. Once/game, a Veilblade may become untargetable until next activation.",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0021-0021",
+      "label": "The Warmachines – Frontline shock drones, brute force.",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0021"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0021",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Warmachines – Frontline shock drones, brute force.\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0022-0022",
+      "label": "The Engineer Core – Drone spawners, fortification builders, repair specialists.",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0022"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0022",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Engineer Core – Drone spawners, fortification builders, repair specialists.\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0023-0023",
+      "label": "The Swarm Synod – Cheap, fast, fractal swarm units.",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0023"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0023",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Swarm Synod – Cheap, fast, fractal swarm units.\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0024-0024",
+      "label": "The Ascendants – Evolved AI war-gods controlling the battlefield.",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0024"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0024",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔧 Subfactions – Machine Hives of War"
+          ],
+          "text": "The Ascendants – Evolved AI war-gods controlling the battlefield.\n",
+          "numbering": true
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0300-0302",
+      "label": "🛡️ The Sentinels",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0300",
+        "rebellion:b0301",
+        "rebellion:b0302"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0300",
+          "kind": "paragraph",
+          "style": "heading 2",
+          "heading": [
+            "🛡️ The Sentinels"
+          ],
+          "text": "🛡️ The Sentinels",
+          "numbering": false
+        },
+        {
+          "id": "rebellion:b0301",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ The Sentinels"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "rebellion:b0302",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛡️ The Sentinels"
+          ],
+          "text": "",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    },
+    {
+      "id": "subfactions:rebellion:0569-0570",
+      "label": "🛰️ The Null Directive",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0569",
+        "rebellion:b0570"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0569",
+          "kind": "paragraph",
+          "style": "heading 2",
+          "heading": [
+            "🛰️ The Null Directive"
+          ],
+          "text": "🛰️ The Null Directive",
+          "numbering": false
+        },
+        {
+          "id": "rebellion:b0570",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ The Null Directive"
+          ],
+          "text": "",
+          "numbering": false
+        }
+      ],
+      "record_type": "source-mention"
+    }
+  ]
+}

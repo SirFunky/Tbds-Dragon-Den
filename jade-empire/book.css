@@ -1,0 +1,75 @@
+.jade-book {
+  max-width: 60rem;
+  margin: clamp(2rem, 6vw, 4.5rem) auto 0;
+}
+
+.jade-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+  align-items: center;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  padding: clamp(1.25rem, 5vw, 3rem);
+  border: 1px solid #285447;
+  border-radius: var(--radius-xl);
+  background: radial-gradient(ellipse at top right, #174136, transparent 75%), #0a1722;
+}
+
+.jade-kicker {
+  margin: 0 0 .8rem;
+  color: #86efac;
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.jade-intro h1 {
+  margin: 0;
+  color: var(--heading);
+  font: bold clamp(2.35rem, 6vw, 4.5rem)/1 Georgia, serif;
+}
+
+.jade-subtitle {
+  margin: .6rem 0 0;
+  color: #bbf7d0;
+  font: italic clamp(1.2rem, 3vw, 1.65rem)/1.3 Georgia, serif;
+}
+
+.jade-summary { max-width: 53ch; margin: 1.25rem 0 1.5rem; line-height: 1.65; }
+.jade-cover { display: block; width: 100%; height: auto; border-radius: .5rem; box-shadow: var(--shadow-soft); }
+.jade-contents { margin-top: 2.5rem; }
+.jade-contents h2 { margin: 0; color: var(--heading); font: bold 2rem/1.15 Georgia, serif; }
+.jade-contents h2 + p { color: var(--text-muted); }
+
+.jade-chapters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .65rem;
+  padding: 0;
+  list-style: none;
+}
+
+.jade-chapters li { display: flex; }
+.jade-chapters a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+  width: 100%;
+  padding: .8rem 1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: .65rem;
+  background: #0c1724;
+  color: var(--text-main);
+  text-decoration: none;
+}
+
+.jade-chapters a:hover { background: #102b2a; border-color: #499377; }
+.jade-book a:focus-visible { outline: 2px solid #86efac; outline-offset: 4px; }
+.jade-chapter-name { display: block; margin-top: .2rem; color: #b5c4cc; font-size: .875rem; }
+.jade-page { color: #a7f3d0; font-size: .8rem; white-space: nowrap; }
+
+@media (max-width: 40rem) {
+  .jade-intro, .jade-chapters { grid-template-columns: 1fr; }
+  .jade-cover { width: min(100%, 12rem); }
+}

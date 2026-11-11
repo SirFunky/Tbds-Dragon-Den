@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+node_modules/
+.vs/
+bin/
+obj/
+
+/publicering.zip
+/Eldritch shadows/Eldritch shadows rules set Beta version 0.2.1.pdf
+/publicering/Eldritch shadows/Eldritch shadows rules set Beta version 0.2.1.pdf

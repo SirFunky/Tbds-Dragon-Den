@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A fillable, printable Eldritch Shadows character sheet." />
+  <title>Hannes Månsdottir | Eldritch Shadows</title>
+  <link rel="stylesheet" href="../character-sheet.css" />
+  <script src="../character-sheet.js" defer></script>
+    <link rel="stylesheet" href="../../site-header.css" />
+</head>
+<body>
+  <header class="site-header screen-only">
+      <a class="logo" href="../../index.html" aria-label="TBD's Dragon Den – home">
+        <div class="logo-mark"><img src="../../Eldritch%20shadows/IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon" /></div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="../../index.html#projects">Projects</a>
+        <a href="../../about.html">About</a>
+        <a href="../../contact.html">Contact</a>
+        <span class="site-pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+  <main>
+    <div class="sheet-toolbar screen-only">
+      <div><span class="eyebrow">Prebuilt Hunter</span><h1>Hannes Månsdottir</h1><p>The journalist who dug too deep. <a href="hannes-mansdottir.pdf">Download the print PDF</a> or <a href="index.html">choose another character</a>.</p></div>
+      <div class="toolbar-actions"><button type="button" id="print-sheet">Print / Save PDF</button><button type="button" class="secondary" id="export-sheet">Download character</button><label class="file-button" for="import-sheet">Load character</label><input id="import-sheet" type="file" accept=".json,application/json" /></div>
+      <p class="save-status" id="save-status" role="status" aria-live="polite">You can fill in and print this sheet. Enable JavaScript for saving and character files.</p>
+      <p class="save-help">This character has its own browser save, separate from the blank sheet and the other prebuilt characters. Download a character file to keep a backup or switch between characters. Loading a file replaces the current sheet.</p>
+    </div>
+    <form id="character-sheet" data-character-id="hannes-mansdottir" autocomplete="off">
+      <section class="sheet-page" aria-labelledby="core-title">
+        <div class="page-heading"><div><span class="edition">ELDRITCH SHADOWS</span><h2 id="core-title">Character &amp; equipment</h2></div><span class="page-mark">01 / CORE</span></div>
+        <section class="sheet-section identity" aria-label="Character identity">
+          <label>Character name<input name="character_name" type="text" value="Hannes Månsdottir" /></label>
+          <label>Player<input name="player_name" type="text" value="" /></label>
+          <label>Concept / role<input name="character_role" type="text" value="Hunter - Journalist turned monster hunter" /></label>
+          <label>Campaign<input name="campaign" type="text" value="" /></label>
+        </section>
+        <div class="core-grid">
+          <section class="sheet-section" aria-labelledby="attributes-title">
+            <h3 id="attributes-title">Attributes</h3>
+            <div class="table-scroll"><table class="attributes-table"><thead><tr><th scope="col">Attribute</th><th scope="col">Maximum</th><th scope="col">Current</th></tr></thead><tbody>
+              <tr><th scope="row">Strength</th><td><input type="number" name="attr_styrka" min="1" max="5" aria-label="Strength maximum" value="2" /></td><td><input type="number" name="attr_styrka2" aria-label="Strength current" value="2" /></td></tr>
+              <tr><th scope="row">Agility</th><td><input type="number" name="attr_smidighet" min="1" max="5" aria-label="Agility maximum" value="5" /></td><td><input type="number" name="attr_smidighet2" aria-label="Agility current" value="5" /></td></tr>
+              <tr><th scope="row">Intelligence</th><td><input type="number" name="attr_mental_intelligens" min="1" max="5" aria-label="Intelligence maximum" value="1" /></td><td><input type="number" name="attr_mental_intelligens2" aria-label="Intelligence current" value="1" /></td></tr>
+              <tr><th scope="row">Wisdom</th><td><input type="number" name="attr_vishet" min="1" max="5" aria-label="Wisdom maximum" value="3" /></td><td><input type="number" name="attr_vishet2" aria-label="Wisdom current" value="3" /></td></tr>
+              <tr><th scope="row">Empathy</th><td><input type="number" name="attr_empati" min="1" max="5" aria-label="Empathy maximum" value="1" /></td><td><input type="number" name="attr_empati2" aria-label="Empathy current" value="1" /></td></tr>
+            </tbody></table></div>
+            <p class="hint">At creation: distribute 12 points, 1–5 per attribute. Track injuries in Current; note critical injuries on the next page.</p>
+          </section>
+          <div class="resources">
+            <section class="sheet-section" aria-labelledby="mana-title"><h3 id="mana-title">Mana</h3>
+              <div class="fields three"><label>Maximum<input name="mana_max" type="number" min="0" value="6" /></label><label>Current<input name="mana_current" type="number" min="0" value="6" /></label><label>Soul burned<input name="soul_burned" type="number" min="0" value="0" /></label></div>
+              <div class="mana-track" role="group" aria-label="Mana remaining; check one circle per available point">
+                <label><input type="checkbox" name="attr_extra_mana1" checked /><span class="sr-only">Mana point 1</span></label><label><input type="checkbox" name="attr_extra_mana2" checked /><span class="sr-only">Mana point 2</span></label><label><input type="checkbox" name="attr_extra_mana3" checked /><span class="sr-only">Mana point 3</span></label><label><input type="checkbox" name="attr_extra_mana4" checked /><span class="sr-only">Mana point 4</span></label><label><input type="checkbox" name="attr_extra_mana5" checked /><span class="sr-only">Mana point 5</span></label><label><input type="checkbox" name="attr_extra_mana6" checked /><span class="sr-only">Mana point 6</span></label><label><input type="checkbox" name="attr_extra_mana7" /><span class="sr-only">Mana point 7</span></label><label><input type="checkbox" name="attr_extra_mana8" /><span class="sr-only">Mana point 8</span></label><label><input type="checkbox" name="attr_extra_mana9" /><span class="sr-only">Mana point 9</span></label><label><input type="checkbox" name="attr_extra_mana10" /><span class="sr-only">Mana point 10</span></label><label><input type="checkbox" name="attr_extra_mana11" /><span class="sr-only">Mana point 11</span></label><label><input type="checkbox" name="attr_extra_mana12" /><span class="sr-only">Mana point 12</span></label>
+                <label><input type="checkbox" name="attr_extra_mana13" /><span class="sr-only">Mana point 13</span></label><label><input type="checkbox" name="attr_extra_mana14" /><span class="sr-only">Mana point 14</span></label><label><input type="checkbox" name="attr_extra_mana15" /><span class="sr-only">Mana point 15</span></label><label><input type="checkbox" name="attr_extra_mana16" /><span class="sr-only">Mana point 16</span></label><label><input type="checkbox" name="attr_extra_mana17" /><span class="sr-only">Mana point 17</span></label><label><input type="checkbox" name="attr_extra_mana18" /><span class="sr-only">Mana point 18</span></label><label><input type="checkbox" name="attr_extra_mana19" /><span class="sr-only">Mana point 19</span></label><label><input type="checkbox" name="attr_extra_mana20" /><span class="sr-only">Mana point 20</span></label>
+              </div>
+              <p class="hint">Use Current or check circles for remaining Mana. Track manually. Base maximum: total attribute points ÷ 2, rounded down. Soul burning permanently lowers maximum Mana.</p>
+            </section>
+            <section class="sheet-section" aria-labelledby="xp-title"><h3 id="xp-title">Experience</h3><div class="fields two"><label>Total earned<input name="xp_earned" type="number" min="0" value="0" /></label><label>Spent<input name="xp_spent" type="number" min="0" value="0" /></label></div></section>
+          </div>
+        </div>
+        <section class="sheet-section" aria-labelledby="disciplines-title"><h3 id="disciplines-title">Disciplines</h3>
+          <div class="table-scroll"><table><thead><tr><th scope="col">Discipline</th><th class="narrow" scope="col">Rank</th><th scope="col">Specialization</th></tr></thead><tbody>
+            <tr><th scope="row">Athletics</th><td><input type="number" name="attr_rorelse_poang" min="0" max="3" aria-label="Athletics rank" value="0" /></td><td><input name="attr_rorelse_specialisering" aria-label="Athletics specialization" value="" /></td></tr>
+            <tr><th scope="row">Observe</th><td><input type="number" name="attr_iaktta_poang" min="0" max="3" aria-label="Observe rank" value="1" /></td><td><input name="attr_iaktta_specialisering" aria-label="Observe specialization" value="Investigate" /></td></tr>
+            <tr><th scope="row">Combat</th><td><input type="number" name="attr_strida_poang" min="0" max="3" aria-label="Combat rank" value="1" /></td><td><input name="attr_strida_specialisering" aria-label="Combat specialization" value="Ranged Combat" /></td></tr>
+            <tr><th scope="row">Technology</th><td><input type="number" name="attr_teknologi_poang" min="0" max="3" aria-label="Technology rank" value="0" /></td><td><input name="attr_teknologi_specialisering" aria-label="Technology specialization" value="" /></td></tr>
+            <tr><th scope="row">Academia</th><td><input type="number" name="attr_akademia_poang" min="0" max="3" aria-label="Academia rank" value="0" /></td><td><input name="attr_akademia_specialisering" aria-label="Academia specialization" value="" /></td></tr>
+            <tr><th scope="row">Occult</th><td><input type="number" name="attr_ockult_poang" min="0" max="3" aria-label="Occult rank" value="1" /></td><td><input name="attr_ockult_specialisering" aria-label="Occult specialization" value="Monsters" /></td></tr>
+            <tr><th scope="row">Social Interaction</th><td><input type="number" name="attr_social_poang" min="0" max="3" aria-label="Social Interaction rank" value="0" /></td><td><input name="attr_social_specialisering" aria-label="Social Interaction specialization" value="" /></td></tr>
+            <tr><th scope="row">Medicine</th><td><input type="number" name="attr_medicin_poang" min="0" max="3" aria-label="Medicine rank" value="0" /></td><td><input name="attr_medicin_specialisering" aria-label="Medicine specialization" value="" /></td></tr>
+          </tbody></table></div><p class="hint">Ranks follow the prebuilt class in the beta rulebook. Attribute + discipline = d6 pool; a matching specialization doubles the pool.</p>
+        </section>
+        <section class="sheet-section" aria-labelledby="weapons-title"><h3 id="weapons-title">Weapons</h3>
+          <div class="table-scroll"><table class="weapons-table"><thead><tr><th scope="col">Name / type</th><th scope="col">Hit</th><th scope="col">Damage / type</th><th scope="col">Special rules / ammunition</th></tr></thead><tbody>
+            <tr><td><textarea rows="1" name="weapon1_name_type" aria-label="Weapon 1 name and type">Glock (Banisher) 9mm</textarea></td><td><input name="attr_vapen1_traffa" aria-label="Weapon 1 hit modifier" value="+1" /></td><td><textarea rows="1" name="attr_vapen1_skada" aria-label="Weapon 1 damage and damage type">1 Kinetic + Piercing</textarea></td><td><textarea rows="1" name="attr_vapen1_specialregler" aria-label="Weapon 1 special rules and ammunition">Light; one-handed; Concealable; Small rounds.</textarea></td></tr>
+            <tr><td><textarea rows="1" name="weapon2_name_type" aria-label="Weapon 2 name and type">Glock (Banisher) 9mm</textarea></td><td><input name="attr_vapen2_traffa" aria-label="Weapon 2 hit modifier" value="+1" /></td><td><textarea rows="1" name="attr_vapen2_skada" aria-label="Weapon 2 damage and damage type">1 Kinetic + Piercing</textarea></td><td><textarea rows="1" name="attr_vapen2_specialregler" aria-label="Weapon 2 special rules and ammunition">Second pistol. Akimbo applies while using two one-handed weapons.</textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="armor-title"><h3 id="armor-title">Armor</h3>
+          <div class="table-scroll"><table><thead><tr><th scope="col">Name</th><th class="narrow" scope="col">Max</th><th class="narrow" scope="col">Current</th><th scope="col">Runes / special rules</th></tr></thead><tbody>
+            <tr><td><input name="attr_rustning1_namn" aria-label="Armor 1 name" value="Leather coat + Protection Rune" /></td><td><input name="armor1_max" type="number" min="0" aria-label="Armor 1 maximum value" value="2" /></td><td><input name="attr_rustning1_varde" type="number" min="0" aria-label="Armor 1 current value" value="2" /></td><td><textarea rows="1" name="armor1_details" aria-label="Armor 1 runes and special rules">Base 1 + rune 1. Additional +1 armor against Piercing; 3 rune slots.</textarea></td></tr>
+            <tr><td><input name="attr_rustning2_namn" aria-label="Armor 2 name" /></td><td><input name="armor2_max" type="number" min="0" aria-label="Armor 2 maximum value" /></td><td><input name="attr_rustning2_varde" type="number" min="0" aria-label="Armor 2 current value" /></td><td><textarea rows="1" name="armor2_details" aria-label="Armor 2 runes and special rules"></textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="equipment-title"><h3 id="equipment-title">Equipment &amp; accessories</h3>
+          <div class="equipment-grid"><label>Item / uses / effect<textarea rows="1" name="equipment1">Soulstone: Keep against the skin. Stores the wearer&#x27;s soul if they die.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment2">Stone with Memory-Manipulating Rune: Show the rune to other humans: they lose their memory of the last 30 minutes.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment3">2 x Injector Pen with Healing Salve: Each pen: one use, heal 1d6 non-critical physical attribute damage.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment4">Mechanics Toolkit: +1d6 on Technology rolls; for simple tasks with Technology 1+, use that rank instead.</textarea></label></div>
+          <div class="fields three"><label>Slots used<input name="slots_used" type="number" min="0" /></label><label>Slot capacity<input name="slots_max" type="number" min="0" value="4" /></label><label>Equipment points left<input name="equipment_points" type="number" min="0" value="0" /></label></div>
+        </section>
+        <div class="page-footer">TBD's Dragon Den <span>Eldritch Shadows · Character sheet</span></div>
+      </section>
+      <section class="sheet-page" aria-labelledby="powers-title">
+        <div class="page-heading"><div><span class="edition">ELDRITCH SHADOWS</span><h2 id="powers-title">Powers &amp; field notes</h2></div><span class="page-mark">02 / RECORD</span></div>
+        <section class="sheet-section" aria-labelledby="abilities-title"><h3 id="abilities-title">Abilities</h3>
+          <div class="ability-grid">
+            <div class="power-entry"><label>Name<input name="ability1_name" value="Sixth Sense" /></label><label>Cost / roll / duration<input name="ability1_cost" value="Action; Intelligence + Occult; 20 m" /></label><label>Effect<textarea rows="3" name="ability1_effect">Sense whether anything supernatural is within 20 m. On a success, identify its kind, such as undead, demon, fae or Eldritch. A matching specialization doubles the pool.</textarea></label></div>
+            <div class="power-entry"><label>Name<input name="ability2_name" value="Akimbo" /></label><label>Cost / roll / duration<input name="ability2_cost" value="Two one-handed weapons" /></label><label>Effect<textarea rows="3" name="ability2_effect">+1 success on attacks; +1 additional success when shooting two targets in the same round. Apply the rulebook&#x27;s separate dual-wielding rules as well.</textarea></label></div>
+            <div class="power-entry"><label>Name<input name="ability3_name" value="Monsters Hunter" /></label><label>Cost / roll / duration<input name="ability3_cost" value="Known mortal / folkloric monsters" /></label><label>Effect<textarea rows="3" name="ability3_effect">Know a monster&#x27;s weaknesses: +1 damage and -1 initiative for the target. Does not apply to unique Eldritch entities for which no prior knowledge exists.</textarea></label></div>
+          </div>
+        </section>
+        <section class="sheet-section" aria-labelledby="magic-title"><h3 id="magic-title">Magic, rituals &amp; Nanomancy programs</h3>
+          <div class="fields three"><label>CPU capacity (%)<input name="cpu_max" type="number" min="0" /></label><label>CPU in use (%)<input name="cpu_current" type="number" min="0" /></label><label>Focus / nanocore<input name="power_focus" /></label></div>
+          <p class="hint">Use the rows for your character's chosen powers. CPU fields are for Nanomancers.</p>
+          <div class="table-scroll"><table class="powers-table"><thead><tr><th scope="col">Name / kind</th><th scope="col">Mana / CPU / roll</th><th scope="col">Effect / duration / range</th></tr></thead><tbody>
+            <tr><td><textarea rows="2" name="power1_name" aria-label="Power 1 name and kind"></textarea></td><td><textarea rows="2" name="power1_cost" aria-label="Power 1 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power1_effect" aria-label="Power 1 effect, duration and range"></textarea></td></tr>
+            <tr><td><textarea rows="2" name="power2_name" aria-label="Power 2 name and kind"></textarea></td><td><textarea rows="2" name="power2_cost" aria-label="Power 2 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power2_effect" aria-label="Power 2 effect, duration and range"></textarea></td></tr>
+            <tr><td><textarea rows="2" name="power3_name" aria-label="Power 3 name and kind"></textarea></td><td><textarea rows="2" name="power3_cost" aria-label="Power 3 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power3_effect" aria-label="Power 3 effect, duration and range"></textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="upgrades-title"><h3 id="upgrades-title">Upgrades</h3><label>Name / activated, triggered or constant / cost / effect<textarea rows="2" name="upgrades"></textarea></label></section>
+        <div class="notes-grid">
+          <section class="sheet-section" aria-labelledby="injuries-title"><h3 id="injuries-title">Critical injuries &amp; conditions</h3><label>Attribute / injury or condition / treatment / duration<textarea rows="4" name="injuries_conditions"></textarea></label></section>
+          <section class="sheet-section" aria-labelledby="background-title"><h3 id="background-title">Appearance &amp; background</h3><label>Description / history / goals / relationships<textarea rows="4" name="background">Hannes was working as a journalist when an investigation led him to a cult with ties to the supernatural. He kept digging until the cult attacked his home, unleashing Eldritch horrors that killed his family. Hannes survived and was recruited by the GDA shortly afterwards. His work gives him the means to identify and confront similar threats while searching for those who took his family from him.
+
+GOAL: Find the cult that killed his family and take revenge.
+
+WEAKNESS: When Hannes picks up a promising lead, he can become so absorbed that he loses awareness of his surroundings, overlooking danger or his teammates&#x27; needs.</textarea></label></section>
+        </div>
+        <section class="sheet-section" aria-labelledby="notes-title"><h3 id="notes-title">Campaign notes</h3><label>Clues / contacts / supplies / additional abilities and equipment<textarea rows="4" name="campaign_notes">PLAYING ADVICE
+Investigate the threat: Use Observe and Occult to spot danger and understand what you are facing.
+
+Exploit weaknesses: Choose weapons and ammunition suited to the enemy, and share your discoveries with the group.
+
+Provide firepower: Ranged combat is your strength. Find a good firing position before the enemy closes in.
+
+Follow your motivation: Leads connected to the cult may tempt Hannes into taking risks. Use that to create roleplaying opportunities and give the other characters room to respond.
+
+NEXT STEPS
+For the Eldritch cult investigation, use Sixth Sense and Occult. Monsters Hunter does not work on unique Eldritch entities without prior knowledge. Improve Occult and Observe as you gain XP.
+
+BETA / GM NOTES
+Use the class loadout rather than a new 60-point shopping budget. The class provides no special ammunition; use normal rounds unless the GM awards or approves other ammunition. Follow the weapon rules for dual-wielding modifiers.
+
+The complete prebuilt class equipment is retained. Carrying-slot accounting and any beta exceptions should be agreed with the GM. No spare equipment points or bonus XP have been added.</textarea></label></section>
+        <div class="reference-strip"><strong>At the table</strong><span>Attribute + discipline → roll d6s. Each 6 is a success.</span><span>1 Mana → reroll up to 2 dice.</span><span>Attribute at 0 → down; see Damage / Downed.</span></div>
+        <div class="page-footer">TBD's Dragon Den <span>Eldritch Shadows · Character sheet</span></div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

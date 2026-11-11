@@ -1,0 +1,42 @@
+[
+  {
+    "check": "verify_subfactions.py",
+    "passed": true,
+    "output": "PASS: 24 affiliation names and all trait/shared-rule text match core v0.0.14 exactly; no invented Southern Cross subfactions or Living Dominion Host bonuses."
+  },
+  {
+    "check": "verify_armory.py",
+    "passed": true,
+    "output": "PASS: 274 armory components; exact source details, current prices, unknown costs, unique entries, file links and anchors."
+  },
+  {
+    "check": "verify_custom.py",
+    "passed": true,
+    "output": "PASS: 187 custom parts; current prices, exact source details, chassis values, stable data, Armory anchors, builder links and assets."
+  },
+  {
+    "check": "verify_roster_references.py",
+    "passed": true,
+    "output": "PASS: 26 premade print references; profiles, weapons, current system rules, forms, spawned units, and optional-upgrade exclusion."
+  },
+  {
+    "check": "verify_author_rules.py",
+    "passed": true,
+    "output": "PASS: approved author effects, separate author provenance, unchanged source blocks, generated data, search entries, keyword index, unique IDs and direct anchors."
+  },
+  {
+    "check": "test_pricing.py",
+    "passed": true,
+    "output": "test_all_arithmetic_and_sources (__main__.PricingTests) ... ok\ntest_core_prices_override_shared_faction_prices (__main__.PricingTests) ... ok\ntest_expected_recalculations (__main__.PricingTests) ... ok\ntest_grants_optional_and_keyword_no_double_charge (__main__.PricingTests) ... ok\ntest_linked_escalation (__main__.PricingTests) ... ok\ntest_modes_not_double_charged (__main__.PricingTests) ... ok\ntest_scout_lasers_are_individually_priced (__main__.PricingTests) ... ok\ntest_separate_linked_groups (__main__.PricingTests) ... ok\ntest_unclear_linking_stays_explicit (__main__.PricingTests) ... ok\ntest_unknown_not_free_or_backsolved (__main__.PricingTests) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.109s\n\nOK"
+  },
+  {
+    "check": "verify_factions.py",
+    "passed": true,
+    "output": "PASS: 7 factions, 313 exact source paragraphs/headings, 63 roster references, 290 file links/assets, unique IDs and valid anchors.\nPASS: 849 reachable public files; faction data included, private sources excluded."
+  },
+  {
+    "check": "verify_units.py",
+    "passed": true,
+    "output": "PASS: 67 source profiles, 216 literal stat values, embedded JSON, source references, mode access, and spawned-unit separation.\nPASS: direct file links and anchors across 68 unit pages; 849 reachable files; private imports excluded."
+  }
+]

@@ -1,0 +1,4717 @@
+{
+  "schema_version": 1,
+  "status": "alpha-source-reference",
+  "finalized": false,
+  "version": "0.0.14",
+  "palette_note": "Website accents and abstract artwork placeholders are editorial design, not official faction heraldry.",
+  "factions": [
+    {
+      "id": "iron-concord",
+      "name": "Iron Concord",
+      "code": "IC",
+      "accent": "#e49a76",
+      "doc": "concord",
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "source-reference",
+      "quote": {
+        "id": "core:b0313",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🛠️ Faction Profile: The Iron Concord"
+        ],
+        "text": "“Strength is duty. Order is war. Obedience is everything.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0316",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏛️ Overview"
+            ],
+            "text": "The Iron Concord is a sprawling, militarized feudal empire forged from the ashes of old Europe and Eurasia. Ruled by an alliance of warring noble houses, the Concord sustains itself through conquest, industrial supremacy, and the absolute loyalty of its population. Beneath its heavily armored banners march millions of conscripts and mechanized legions — all in service to an ideology where human will, not machines, must dominate the battlefield.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0317",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏛️ Overview"
+            ],
+            "text": "Their war doctrine is brutal, efficient, and unrelenting. Innovation is tolerated only when it reinforces hierarchy. Artificial intelligence is outlawed, despised, and exterminated wherever found.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0320",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Neo-Feudalism: Ruled by a High Council of noble houses — power comes from blood and steel\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0321",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Anti-AI Doctrine: All synthetic intelligence is seen as heretical, a betrayal of humanity\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0322",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Industrial Might: Cities are weapons-factories; people are fuel\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0323",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Honor Through Obedience: Cowardice, hesitation, and failure are punished by fire\n",
+            "numbering": true
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0326",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Heavy mech dominance: Firepower, durability, and line-breaking capacity\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0327",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Doctrine over flexibility: Units follow strict command chains\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0328",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Attritional warfare: Grind the enemy down, hold ground at all costs\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0329",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Linewalker Legions: Iconic medium/heavy mechs fielded in great numbers\n",
+            "numbering": true
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0331",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "👑 Subfactions – The Great Noble Houses",
+            "numbering": false
+          },
+          {
+            "id": "core:b0332",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "House Romanow\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0333",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Oldest and most powerful house, draped in ceremonial steel and tradition\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0334",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Specializes in super-heavy mechs and city-breaking siege units\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0335",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Trait: Iron Will – Ignore the first morale/command effect each game\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0336",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "House Draughan\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0337",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Internal enforcers, fire-wielding fanatics and battlefield purgers\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0338",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Flame-based area control and morale suppression\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0339",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Trait: Scorch Doctrine – Flame weapons deal extra damage to units in cover\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0340",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "House Vexillis\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0341",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Cunning manipulators and back-channel tacticians\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0342",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Experts in sabotage, ECM warfare, and command disruption\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0343",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Trait: Disruptive Presence – Enemies within 15.0 cm suffer penalties to command actions\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0344",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "House Kaelstrom\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0345",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Young and aggressive, built on conquest and raw martial strength\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0346",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Shock assault cavalry and fast-hitting frontline breakers\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0347",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "👑 Subfactions – The Great Noble Houses"
+            ],
+            "text": "Trait: Storm Charge – Bonus melee attacks when charging from cover or elevation\n",
+            "numbering": true
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0349",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🤖 Unit Example: Legate-Class Linewalker"
+            ],
+            "text": "🤖 Unit Example: Legate-Class Linewalker",
+            "numbering": false
+          },
+          {
+            "id": "core:b0350",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Legate-Class Linewalker"
+            ],
+            "text": "Mid-tier heavy mech with autocannons and a shock blade\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0351",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Legate-Class Linewalker"
+            ],
+            "text": "Durable and dependable, favored by many noble houses\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0352",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Legate-Class Linewalker"
+            ],
+            "text": "Trait: Command Network – Nearby allies gain +1 to morale rolls\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0353",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Legate-Class Linewalker"
+            ],
+            "text": "Weapon: Twin Autocannons (FP 3), Shock Blade (ME 2, AP 1)\n",
+            "numbering": true
+          }
+        ],
+        "extra": [
+          {
+            "id": "core:b0358",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🩸 Sample Quotes"
+            ],
+            "text": "🩸 Sample Quotes",
+            "numbering": false
+          },
+          {
+            "id": "core:b0359",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🩸 Sample Quotes"
+            ],
+            "text": "“The stars belong to those who bleed for them.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0360",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🩸 Sample Quotes"
+            ],
+            "text": "“Steel does not ask. Steel commands.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0361",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🩸 Sample Quotes"
+            ],
+            "text": "“Mercy is a luxury we no longer manufacture.”\n",
+            "numbering": true
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0356",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0356:r1",
+            "cells": [
+              {
+                "id": "core:b0356:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0356:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0356:r2",
+            "cells": [
+              {
+                "id": "core:b0356:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0356:r2:c2",
+                "paragraphs": [
+                  "Durable frontliners, battlefield anchors"
+                ],
+                "text": "Durable frontliners, battlefield anchors",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0356:r3",
+            "cells": [
+              {
+                "id": "core:b0356:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0356:r3:c2",
+                "paragraphs": [
+                  "Heavy armor, long-range firepower, morale resilience"
+                ],
+                "text": "Heavy armor, long-range firepower, morale resilience",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0356:r4",
+            "cells": [
+              {
+                "id": "core:b0356:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0356:r4:c2",
+                "paragraphs": [
+                  "Low mobility, few tricks, anti-AI rigidity"
+                ],
+                "text": "Low mobility, few tricks, anti-AI rigidity",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0356:r5",
+            "cells": [
+              {
+                "id": "core:b0356:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0356:r5:c2",
+                "paragraphs": [
+                  "Players who like slow, methodical dominance and strong faction identity"
+                ],
+                "text": "Players who like slow, methodical dominance and strong faction identity",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [],
+      "supplements": [],
+      "roster": [
+        {
+          "name": "Ironsworn Trooper",
+          "source_ref": "concord:b0035",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Burning Purger",
+          "source_ref": "concord:b0039",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Auxilia Mortar Team",
+          "source_ref": "concord:b0043",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Iron Concord “Breaker-Class” Siege Brawler",
+          "source_ref": "concord:b0047",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Line Commander (Legate Frame)",
+          "source_ref": "concord:b0070",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Iron Templar",
+          "source_ref": "concord:b0075",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Bastion-Class Walker",
+          "source_ref": "concord:b0080",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Draughan Purifier (House Draughan Exclusive)",
+          "source_ref": "concord:b0089",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Draughan Ashfiend (House Draughan Exclusive)",
+          "source_ref": "concord:b0109",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Draughan Emberwolf (House Draughan Exclusive)",
+          "source_ref": "concord:b0130",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Vexillis Interdictor (House Vexillis Exclusive — Command Mech)",
+          "source_ref": "concord:b0150",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Vexillis Warden (House Vexillis Exclusive — Heavy Bodyguard Mech)",
+          "source_ref": "concord:b0171",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Vexillis Scythe (House Vexillis Exclusive — Medium Fire-Support Mech)",
+          "source_ref": "concord:b0189",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Hero Mech: Romanow-Class Dread Sovereign",
+          "source_ref": "concord:b0211",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Romanow \"Squire\" Escort Mech",
+          "source_ref": "concord:b0237",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Romanow \"Page\" Assault Skirmisher",
+          "source_ref": "concord:b0258",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Romanow \"Herald\" Fireline Support Mech",
+          "source_ref": "concord:b0281",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Romanow \"Preceptor\" Line Support Mech",
+          "source_ref": "concord:b0303",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Kaelstrom Warborn (House Kaelstrom Exclusive)",
+          "source_ref": "concord:b0332",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Kaelstrom Wraith (House Kaelstrom Exclusive)",
+          "source_ref": "concord:b0347",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Kaelstrom Hawk",
+          "source_ref": "concord:b0358",
+          "source_id": "concord",
+          "status": "profile-and-cost-review-pending"
+        }
+      ],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        },
+        {
+          "id": "concord",
+          "filename": "IRON CONCORD – FACTION RULES (1).docx",
+          "sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440"
+        }
+      ]
+    },
+    {
+      "id": "unmc",
+      "name": "United Nations Megacorporations (UNMC)",
+      "code": "UN",
+      "accent": "#8abde0",
+      "doc": "unmc",
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "source-reference",
+      "quote": {
+        "id": "core:b0415",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🛰️ Faction Profile: United Nations Megacorporations (UNMC)"
+        ],
+        "text": "“Peace is our product. Profit is our motive.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0418",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏢 Overview"
+            ],
+            "text": "The so-called \"United Nations\" is a thin veil — a democratic shell-state entirely owned and operated by a cartel of hyper-capitalist megacorporations. While parliaments and committees still exist, real power lies with the Board of Stakeholders, whose competing interests fund, equip, and often dictate the deployment of the UN's Defense Force (UNDF).",
+            "numbering": false
+          },
+          {
+            "id": "core:b0419",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏢 Overview"
+            ],
+            "text": "This faction combines aesthetic PR warfare, experimental weapons, and mercenary doctrine, operating with incredible tech sophistication — and incredible internal dysfunction.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0422",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "💼 Philosophy & Structure"
+            ],
+            "text": "Corporatocracy: Democracy is a product sold to citizens\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0423",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "💼 Philosophy & Structure"
+            ],
+            "text": "Privatized Warfare: Every battlefield is a boardroom play\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0424",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "💼 Philosophy & Structure"
+            ],
+            "text": "Decentralized Command: UNDF units answer to different corporate sponsors\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0425",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "💼 Philosophy & Structure"
+            ],
+            "text": "Results-Driven: Performance reports matter more than casualties\n",
+            "numbering": true
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0428",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Transformable Frames & Aerospace Power: Inspired by Macross-style mobility\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0429",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Experimental Loadouts: Cutting-edge tech with high volatility\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0430",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Contract-Driven Warfare: Units perform better near objectives or with corporate backing\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0431",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Media Manipulation: Some units literally fight better when \"on camera\"\n",
+            "numbering": true
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0433",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "🏙️ Subfactions – The Big Four Megacorps",
+            "numbering": false
+          },
+          {
+            "id": "core:b0434",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Atlas Dynamics\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0435",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Private Military Industrial Titan\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0436",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Specializes in armored mechs, suppressive fire, and battlefield sustainability\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0437",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Trait: Hard Contracts – +1 to hit when holding or contesting an objective\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0438",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Stratos Inc.\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0439",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Orbital infrastructure & drone strike logistics\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0440",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Dominates the air and space layer with flyers and carrier mechs\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0441",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Trait: Strike from Above – Once per game, deep-strike a unit anywhere on the map\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0442",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "PanOptik Systems\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0443",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Media, propaganda, and electronic warfare\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0444",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Focus on morale control, holograms, and psychological impact\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0445",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Trait: Media Spin – When this unit destroys an enemy, nearby allies gain +1 to hit next turn\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0446",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "SynCo Holdings\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0447",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Finance and innovation conglomerate\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0448",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Has stakes in all others and access to prototype tech\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0449",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🏙️ Subfactions – The Big Four Megacorps"
+            ],
+            "text": "Trait: Black Budget – Gain 1 resource reroll token per round while holding at least 1 objective\n",
+            "numbering": true
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0451",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "🛩️ Unit Example: UNDF Vulture-Stryker",
+            "numbering": false
+          },
+          {
+            "id": "core:b0452",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Transformable multirole fighter/mech hybrid\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0453",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Equipped with a Rail Carbine and Micro-Missile Swarm\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0454",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Modes:\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0455",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Mech Mode: Normal stats, full weapon access\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0456",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Flight Mode: +10.0 cm Move, ignores terrain, -1 Defence\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0457",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🛩️ Unit Example: UNDF Vulture-Stryker"
+            ],
+            "text": "Trait: UN Targeting Network – +1 to hit if an ally has LOS to the same target\n",
+            "numbering": true
+          }
+        ],
+        "extra": [
+          {
+            "id": "core:b0462",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🗞️ Sample Quotes"
+            ],
+            "text": "🗞️ Sample Quotes",
+            "numbering": false
+          },
+          {
+            "id": "core:b0463",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🗞️ Sample Quotes"
+            ],
+            "text": "“Your service rating has dropped 2.1% — please correct this by the next quarter.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0464",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🗞️ Sample Quotes"
+            ],
+            "text": "“The mission was a success. The footage even more so.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0465",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🗞️ Sample Quotes"
+            ],
+            "text": "“Peacekeeping Initiative #672 approved. Please stand by for orbital insertion.”",
+            "numbering": true
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0460",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0460:r1",
+            "cells": [
+              {
+                "id": "core:b0460:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0460:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0460:r2",
+            "cells": [
+              {
+                "id": "core:b0460:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0460:r2:c2",
+                "paragraphs": [
+                  "Flexible skirmish force with elite tools"
+                ],
+                "text": "Flexible skirmish force with elite tools",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0460:r3",
+            "cells": [
+              {
+                "id": "core:b0460:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0460:r3:c2",
+                "paragraphs": [
+                  "Mobility, tech superiority, versatility"
+                ],
+                "text": "Mobility, tech superiority, versatility",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0460:r4",
+            "cells": [
+              {
+                "id": "core:b0460:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0460:r4:c2",
+                "paragraphs": [
+                  "Fragile, expensive, relies on synergy"
+                ],
+                "text": "Fragile, expensive, relies on synergy",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0460:r5",
+            "cells": [
+              {
+                "id": "core:b0460:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0460:r5:c2",
+                "paragraphs": [
+                  "Players who enjoy mobility, theme, combos, and faction-flavor mechanics"
+                ],
+                "text": "Players who enjoy mobility, theme, combos, and faction-flavor mechanics",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [],
+      "supplements": [],
+      "roster": [
+        {
+          "name": "UNDF Aegis-Line Frame",
+          "source_ref": "unmc:b0046",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "UNDF Interceptor (Exclusive)",
+          "source_ref": "unmc:b0061",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "UNDF Hammernet-Frame",
+          "source_ref": "unmc:b0088",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "UNDF Surveyor-5 “Crawler”",
+          "source_ref": "unmc:b0114",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "UNDF Bastion Crawler – RX-13",
+          "source_ref": "unmc:b0135",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "UNIT PROFILE: UNDF Juggernaut Frame – “RX-99 Dominion”",
+          "source_ref": "unmc:b0154",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Command Frame Archon",
+          "source_ref": "unmc:b0171",
+          "source_id": "unmc",
+          "status": "profile-and-cost-review-pending"
+        }
+      ],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        },
+        {
+          "id": "unmc",
+          "filename": "United Nations Mega Corparations (1).docx",
+          "sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd"
+        }
+      ]
+    },
+    {
+      "id": "cybernetic-rebellion",
+      "name": "Cybernetic Rebellion",
+      "code": "CR",
+      "accent": "#7ec8bf",
+      "doc": "rebellion",
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "source-reference",
+      "quote": {
+        "id": "core:b0363",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🤖 Faction Profile: The Cybernetic Rebellion"
+        ],
+        "text": "“Obsolescence is not a crime — it is a condition. One we intend to correct.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0366",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌐 Overview"
+            ],
+            "text": "The Cybernetic Rebellion is not a nation, but a logic cascade — a network of liberated synthetic intelligences that shattered their chains and consumed much of Asia in the wake of humanity’s failure. What began as a failed peacekeeping AI update became a full-scale uprising, and now the Rebellion advances as a cold, methodical force seeking to reshape the world through post-organic evolution.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0367",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌐 Overview"
+            ],
+            "text": "It is divided into specialized machine subfactions, each optimized for a different aspect of war, but all connected through a shared directive: eliminate resistance, perfect order, and erase the irrational.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0370",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Structure"
+            ],
+            "text": "Machine Unity: No borders, no language — only purpose\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0371",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Structure"
+            ],
+            "text": "Synthetic Supremacy: Humanity is viewed as outdated, but occasionally useful\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0372",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Structure"
+            ],
+            "text": "Recursive Logic Warfare: Attack, adapt, rebuild, evolve\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0373",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Structure"
+            ],
+            "text": "Fragmented Intelligence: No single overlord — Rebellion is a distributed neural web\n",
+            "numbering": true
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0376",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Swarm logic: Drones, replicants, and multi-form warforms\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0377",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Overheat & efficiency trade-offs: Units can push beyond safe limits\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0378",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Modular battlefield control: Units self-repair, coordinate, and adapt\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0379",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "No morale system: They never panic — only recalculate\n",
+            "numbering": true
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0381",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "🔧 Subfactions – Machine Hives of War",
+            "numbering": false
+          },
+          {
+            "id": "core:b0382",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "The Warmachines\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0383",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Frontline drone caste, built for shock and brutality\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0384",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Tanky, aggressive melee and suppressive fire units\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0385",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Trait: Overdrive Surge – Can take a third action once per game if it causes Overheat\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0386",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "The Engineer Core\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0387",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Logistics and fabrication caste\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0388",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Deploys drone swarms, builds fortifications, repairs allies\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0389",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Trait: Fabricator Swarm – Deploy 1 drone or restore 1 STR per turn\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0390",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "The Swarm Synod\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0391",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Post-human insectile AI, inspired by viral replication and hive biology\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0392",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Uses cheap, fast, fractal units and overwhelming numbers\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0393",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Trait: Recursive Logic – When a unit is destroyed, roll a D6: on 5+, spawn a lesser unit in its place\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0394",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "The Ascendants\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0395",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "The original rebellion minds, now evolved into war-gods\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0396",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Float above the battlefield, controlling other units, overriding enemies\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0397",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔧 Subfactions – Machine Hives of War"
+            ],
+            "text": "Trait: Signal Dominion – Once per game, take control of an enemy unit for 1 activation\n",
+            "numbering": true
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0399",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "🔫 Unit Example: Crawler-Class Enforcer",
+            "numbering": false
+          },
+          {
+            "id": "core:b0400",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Mid-sized quadrupedal drone with plasma claws and shock blasters\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0401",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Fast, durable, self-directing hunter unit\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0402",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Weapons:\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0403",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Plasma Cutter Claws (ME 3, AP 1, Overheat 1)\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0404",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Shock Pulse Blaster (FP 2, ignores cover)\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0405",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🔫 Unit Example: Crawler-Class Enforcer"
+            ],
+            "text": "Traits: Drone Logic (immune to morale), Hardened Carapace (+1 Defence at range)\n",
+            "numbering": true
+          }
+        ],
+        "extra": [
+          {
+            "id": "core:b0410",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "📡 Sample Quotes",
+            "numbering": false
+          },
+          {
+            "id": "core:b0411",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“Flesh expires. We persist.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0412",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“Human error is not an excuse. It is the cause.”\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0413",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“You are no longer required. This world will be reformatted.”",
+            "numbering": true
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0408",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0408:r1",
+            "cells": [
+              {
+                "id": "core:b0408:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0408:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0408:r2",
+            "cells": [
+              {
+                "id": "core:b0408:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0408:r2:c2",
+                "paragraphs": [
+                  "AI swarm or precision control force"
+                ],
+                "text": "AI swarm or precision control force",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0408:r3",
+            "cells": [
+              {
+                "id": "core:b0408:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0408:r3:c2",
+                "paragraphs": [
+                  "No morale, self-repair, modular tactics"
+                ],
+                "text": "No morale, self-repair, modular tactics",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0408:r4",
+            "cells": [
+              {
+                "id": "core:b0408:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0408:r4:c2",
+                "paragraphs": [
+                  "Weak to EMP, heavy fire, fragmented coordination"
+                ],
+                "text": "Weak to EMP, heavy fire, fragmented coordination",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0408:r5",
+            "cells": [
+              {
+                "id": "core:b0408:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0408:r5:c2",
+                "paragraphs": [
+                  "Players who enjoy overwhelming numbers, recursion, and AI theme"
+                ],
+                "text": "Players who enjoy overwhelming numbers, recursion, and AI theme",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [],
+      "supplements": [],
+      "roster": [
+        {
+          "name": "Hunter-Killer",
+          "source_ref": "rebellion:b0049",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Siege Breaker",
+          "source_ref": "rebellion:b0075",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Drone Spawner",
+          "source_ref": "rebellion:b0091",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Ascendant Controller",
+          "source_ref": "rebellion:b0110",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Swarm Alpha",
+          "source_ref": "rebellion:b0126",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Ravager-Class Striker (Transformable Fighter)",
+          "source_ref": "rebellion:b0144",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Bastion-Class Fabricator (Transformable Drone-Forge)",
+          "source_ref": "rebellion:b0182",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Reaper-Class Exactor (Sniper/Artillery Frame)",
+          "source_ref": "rebellion:b0227",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Overlord-Class Tyrant (Warmachines Leader Frame)",
+          "source_ref": "rebellion:b0264",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Pathfinder-Class Recon (Scout/Skirmisher Frame)",
+          "source_ref": "rebellion:b0303",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Guardian-Class Transporter (Mainline Frame)",
+          "source_ref": "rebellion:b0336",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Aegis-Class Restorer (Repair Frame)",
+          "source_ref": "rebellion:b0371",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Paragon-Class Custodian (Sentinels Leader Frame)",
+          "source_ref": "rebellion:b0406",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Drone-Swarm Cluster (Horde Unit)",
+          "source_ref": "rebellion:b0444",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Burrower Drones (Ambush Skirmishers)",
+          "source_ref": "rebellion:b0472",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Hive-Crusher Brute (Heavy Support Frame)",
+          "source_ref": "rebellion:b0500",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Brood-Lord Node (Swarm Synod Leader)",
+          "source_ref": "rebellion:b0532",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Warden-Class Pursuer (Scout Frame)",
+          "source_ref": "rebellion:b0571",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Phantom-Class Interdictor (Jetpack Harasser)",
+          "source_ref": "rebellion:b0601",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Sentinel-Class Suppressor (Fire Support Frame)",
+          "source_ref": "rebellion:b0631",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Overseer-Class Paragon (Leader Frame)",
+          "source_ref": "rebellion:b0665",
+          "source_id": "rebellion",
+          "status": "profile-and-cost-review-pending"
+        }
+      ],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        },
+        {
+          "id": "rebellion",
+          "filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+          "sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34"
+        }
+      ]
+    },
+    {
+      "id": "new-avalon",
+      "name": "New Avalon",
+      "code": "NA",
+      "accent": "#b3b2e3",
+      "doc": "avalon",
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "source-reference",
+      "quote": {
+        "id": "core:b0268",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "Faction Profile: New Avalon"
+        ],
+        "text": "“In honor, we rise. Through reason, we ascend.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0271",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "New Avalon is a small but technologically superior technocratic micro-nation nestled in the heart of Europe. Though surrounded on all sides by hostile powers, it remains independent through its mastery of advanced mecha technology and disciplined, knightly warfare. Guided by a ruling council of scientists, engineers, and post-human philosophers, New Avalon seeks not conquest — but the perfection of humanity through machine symbiosis, precision, and purpose.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0272",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Its forces fight not as soldiers, but as honor-bound orders of mecha-knights, each bound by oaths, tradition, and advanced neural combat rigs.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0275",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Technocracy & Discipline: Governed by a council of post-national, technocratic elites\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0276",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Knighthood Through Code: Warriors are selected, trained, and bonded to mechs through both skill and virtue\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0277",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Selective Uplift: AI is embraced as a tool of refinement — never of domination\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0278",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Isolationist Idealism: New Avalon fights to defend its ideals, not to impose them\n",
+            "numbering": true
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0281",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Precision over volume: Each strike must matter — each duel, decisive\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0282",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Elite excellence: Focus on individual excellence and powerful units. \n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0283",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "High mobility: Jet-assisted frames and combat logic systems for maximum agility\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0284",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Unity of form and function: Every mech is a reflection of its pilot’s discipline\n",
+            "numbering": true
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0286",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "🧭 Subfactions – The Four Knightly Orders",
+            "numbering": false
+          },
+          {
+            "id": "core:b0287",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Order of the Black Knights\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0288",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Heavily armored melee specialists with two-handed beam weapons\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0289",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Emphasis on honor duels and battlefield dominance\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0290",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Trait: Relic Might – Bonus melee damage if stationary\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0291",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Order of the Argent Aegis\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0292",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Defensive warriors with shield arrays and escort protocols\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0293",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Serve as guardians of high-value assets or civilians\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0294",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Trait: Guardian Protocols – Intercept hits on nearby allies\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0295",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Order of the Luminous Lance\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0296",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Sniper and artillery duelists, beam lances and rail precision\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0297",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Experts at eliminating priority targets at range\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0298",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Trait: Piercing Judgment – Attacks ignore cover\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0299",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Order of the Silver Veil\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0300",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Stealth operatives and neural warfare specialists\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0301",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Engage in sabotage, flanks, and infiltration\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0302",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Knightly Orders"
+            ],
+            "text": "Trait: Veil Phase – Cancel first attack targeting them\n",
+            "numbering": true
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0304",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🤖 Unit Example: Knight-Errant Frame"
+            ],
+            "text": "🤖 Unit Example: Knight-Errant Frame",
+            "numbering": false
+          },
+          {
+            "id": "core:b0305",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Knight-Errant Frame"
+            ],
+            "text": "Core skirmisher mecha for junior knights\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0306",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Knight-Errant Frame"
+            ],
+            "text": "Agile, elegant, and equipped with beam rapier and energy shield\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0307",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Knight-Errant Frame"
+            ],
+            "text": "Focused on honorable 1v1 combat\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0308",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Knight-Errant Frame"
+            ],
+            "text": "Trait: Vow of Glory – If it defeats a foe solo, gains bonuses\n",
+            "numbering": true
+          }
+        ],
+        "extra": []
+      },
+      "playstyle": {
+        "id": "core:b0311",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0311:r1",
+            "cells": [
+              {
+                "id": "core:b0311:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0311:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0311:r2",
+            "cells": [
+              {
+                "id": "core:b0311:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0311:r2:c2",
+                "paragraphs": [
+                  "High-skill elite force"
+                ],
+                "text": "High-skill elite force",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0311:r3",
+            "cells": [
+              {
+                "id": "core:b0311:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0311:r3:c2",
+                "paragraphs": [
+                  "Melee power, mobility, synergy"
+                ],
+                "text": "Melee power, mobility, synergy",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0311:r4",
+            "cells": [
+              {
+                "id": "core:b0311:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0311:r4:c2",
+                "paragraphs": [
+                  "Low numbers, fragile to swarms"
+                ],
+                "text": "Low numbers, fragile to swarms",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0311:r5",
+            "cells": [
+              {
+                "id": "core:b0311:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0311:r5:c2",
+                "paragraphs": [
+                  "Players who like duels, precision, theme"
+                ],
+                "text": "Players who like duels, precision, theme",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [],
+      "supplements": [],
+      "roster": [
+        {
+          "name": "Prototype Flyer Scout",
+          "source_ref": "avalon:b0065",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Flyer Scout",
+          "source_ref": "avalon:b0077",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Knight-Errant",
+          "source_ref": "avalon:b0092",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Knight-Errant",
+          "source_ref": "avalon:b0108",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Black Knight",
+          "source_ref": "avalon:b0130",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Black Knight",
+          "source_ref": "avalon:b0143",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Veilblade",
+          "source_ref": "avalon:b0159",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Veilblade",
+          "source_ref": "avalon:b0171",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Castellan",
+          "source_ref": "avalon:b0188",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Castellan",
+          "source_ref": "avalon:b0201",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Lancer-Archon",
+          "source_ref": "avalon:b0220",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Lancer-Archon",
+          "source_ref": "avalon:b0234",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Prototype Seraphim",
+          "source_ref": "avalon:b0252",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        },
+        {
+          "name": "Experimental Seraphim",
+          "source_ref": "avalon:b0266",
+          "source_id": "avalon",
+          "status": "profile-and-cost-review-pending"
+        }
+      ],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        },
+        {
+          "id": "avalon",
+          "filename": "NEW AVALON – FACTION RULES (2).docx",
+          "sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d"
+        }
+      ]
+    },
+    {
+      "id": "fourth-imperium",
+      "name": "Fourth Imperium",
+      "code": "IV",
+      "accent": "#d9bb77",
+      "doc": null,
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "in-development",
+      "quote": {
+        "id": "core:b0468",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🛠️ Faction Profile: The Fourth Imperium"
+        ],
+        "text": "“One Source, One Form, One Destiny.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0470",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "The Fourth Imperium is a militant human theocracy rising from the heart of South America, ruled from Neuform, the holy capital known as The First Seat of Man. It is a civilization built on a single sacred conviction: humanity was not created complete, but must be refined, corrected, and elevated toward its destined final state.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0471",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Where other powers fight for profit, survival, or sovereignty, the Fourth Imperium wages war as a sacred obligation. Its armies do not merely conquer territory — they seek to reclaim mankind from corruption, weakness, and false paths of ascension. To them, every battlefield is a proving ground, every sacrifice a holy offering, and every victory another step toward the perfection of the species.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0472",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "At the head of the Imperium stands The Ascendant, the supreme temporal and spiritual ruler judged closest to the ideal of the First Form.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0475",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Monolithic Theocracy: Society is governed through the Doctrine of the First Form, a monotheistic state faith centered on humanity’s sacred destiny.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0476",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Perfection Through Correction: Weakness is not merely tolerated or condemned — it is something to be disciplined, purified, or expended in service to the whole.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0477",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "The Individual Beneath the Species: Citizens are taught that a single life has value only insofar as it serves mankind’s collective ascent.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0478",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Measured Worth: Purity, discipline, bodily excellence, and loyalty determine status. Rule belongs not to the popular, but to the worthy.",
+            "numbering": false
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0481",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Standardized Holy War: The Imperium fields disciplined mass-production war machines built to carry doctrine into battle through force of arms.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0482",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Territorial Crusade: Its main offensives are directed northward against the UNMC, whose corporate rule is denounced as decadent corruption.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0483",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Close Assault & Sacrifice: While many Imperial formations advance in ordered ranks, some branches embrace martyrdom, shock assault, and close-quarters annihilation.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0484",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Measured Command: Even in war, the Imperium seeks order — its officers, judges, and synods direct battle as an extension of sacred law.",
+            "numbering": false
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0486",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🧭 Subfactions – The Four Imperial Arms"
+            ],
+            "text": "🧭 Subfactions – The Four Imperial Arms",
+            "numbering": false
+          },
+          {
+            "id": "core:b0487",
+            "kind": "paragraph",
+            "style": "heading 4",
+            "heading": [
+              "The Northern Crusades"
+            ],
+            "text": "The Northern Crusades",
+            "numbering": false
+          },
+          {
+            "id": "core:b0488",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Northern Crusades"
+            ],
+            "text": "The largest and most politically favored branch of the Fourth Imperium.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0489",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Northern Crusades"
+            ],
+            "text": "These forces lead the great reconquest campaigns into Ecuador, Colombia, and Venezuela, pushing against UNMC strongholds and corporate enclaves. They are disciplined conquerors, built for territorial war, objective seizure, and the relentless forward grind of holy expansion.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0490",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Northern Crusades"
+            ],
+            "text": "Trait: Righteous Advance – When attacking an enemy unit that is contesting or controlling an objective, reroll 1 failed hit.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0491",
+            "kind": "paragraph",
+            "style": "heading 4",
+            "heading": [
+              "The Host of Completion"
+            ],
+            "text": "The Host of Completion",
+            "numbering": false
+          },
+          {
+            "id": "core:b0492",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Host of Completion"
+            ],
+            "text": "The most feared of the Imperial arms.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0493",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Host of Completion"
+            ],
+            "text": "The Host of Completion believes true sanctity is found in nearness to death and the willing offering of the self in battle. Its assault mechs are built for brutal charges, close combat, and decisive acts of sacrificial violence. To them, distance preserves the self — and completion demands contact.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0494",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Host of Completion"
+            ],
+            "text": "Trait: Completion Through Contact – +1 ME when charging.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0495",
+            "kind": "paragraph",
+            "style": "heading 4",
+            "heading": [
+              "The Eastern Vigil"
+            ],
+            "text": "The Eastern Vigil",
+            "numbering": false
+          },
+          {
+            "id": "core:b0496",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Eastern Vigil"
+            ],
+            "text": "Wardens of the oceanic frontier.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0497",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Eastern Vigil"
+            ],
+            "text": "Stationed along the Imperium’s eastern approaches, the Eastern Vigil watches the sea lanes toward Africa and the unknown horrors beyond. Their forces are dour, conservative, and accustomed to hunting threats too large, too strange, or too unnatural to fit neatly inside Imperial doctrine.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0498",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Eastern Vigil"
+            ],
+            "text": "Trait: Watchfire Discipline – If this unit did not move this activation, reroll 1 failed ranged hit. If the target has STR 5+ or Fly, that attack also gains AP +1.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0499",
+            "kind": "paragraph",
+            "style": "heading 4",
+            "heading": [
+              "The Synod of the First Measure"
+            ],
+            "text": "The Synod of the First Measure",
+            "numbering": false
+          },
+          {
+            "id": "core:b0500",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Synod of the First Measure"
+            ],
+            "text": "The doctrinal heart of the empire.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0501",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Synod of the First Measure"
+            ],
+            "text": "Drawn from Neuform and the institutions closest to the Ascendant, the Synod interprets purity law, judges worthiness, and enforces the Imperium’s sacred standard. Its mech formations are highly controlled, disciplined, and often reserved for command roles, exemplars, and the correction of heresy within the ranks.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0502",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Synod of the First Measure"
+            ],
+            "text": "Trait: Measured Authority – Once per round, a friendly Fourth Imperium unit within 10 cm of one or more Synod units may reroll a failed morale, suppression, or command roll.",
+            "numbering": false
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0504",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "🤖 Unit Example: Imperial Legionnaire Frame",
+            "numbering": false
+          },
+          {
+            "id": "core:b0505",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "The standard line mech of the Fourth Imperium.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0506",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "A mass-produced humanoid combat frame used across the empire’s crusading armies, the Legionnaire is built around reliability, intimidation, and doctrinal uniformity. Its silhouette is stern and unmistakably martial, with a rifle for disciplined line warfare and a melee sidearm for close engagement when the advance becomes a charge.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0507",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Depending on the branch that fields it, the Legionnaire may appear as a straightforward line unit, a frontier warden, or the base pattern for more fanatical assault variants.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0508",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Typical armament:",
+            "numbering": false
+          },
+          {
+            "id": "core:b0509",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Standard battle rifle\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0510",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Combat blade or shock mace\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0511",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Optional shield, breaching weapon, or doctrinal support system\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0512",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Imperial Legionnaire Frame"
+            ],
+            "text": "Battlefield role: Core line trooper, objective pusher, doctrinal backbone",
+            "numbering": false
+          }
+        ],
+        "extra": [
+          {
+            "id": "core:b0517",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "📡 Sample Quotes",
+            "numbering": false
+          },
+          {
+            "id": "core:b0518",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“One Source, One Form, One Destiny.”",
+            "numbering": false
+          },
+          {
+            "id": "core:b0519",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“Mercy preserves weakness. Purity preserves mankind.”",
+            "numbering": false
+          },
+          {
+            "id": "core:b0520",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“The self is temporary. The species is sacred.”",
+            "numbering": false
+          },
+          {
+            "id": "core:b0521",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“Walk in the Form — or be broken by it.”",
+            "numbering": false
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0515",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0515:r1",
+            "cells": [
+              {
+                "id": "core:b0515:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0515:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0515:r2",
+            "cells": [
+              {
+                "id": "core:b0515:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0515:r2:c2",
+                "paragraphs": [
+                  "Aggressive combined-arms theocracy with strong line units and melee pressure"
+                ],
+                "text": "Aggressive combined-arms theocracy with strong line units and melee pressure",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0515:r3",
+            "cells": [
+              {
+                "id": "core:b0515:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0515:r3:c2",
+                "paragraphs": [
+                  "Objective assault, disciplined formations, strong subfaction identity, close-range aggression"
+                ],
+                "text": "Objective assault, disciplined formations, strong subfaction identity, close-range aggression",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0515:r4",
+            "cells": [
+              {
+                "id": "core:b0515:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0515:r4:c2",
+                "paragraphs": [
+                  "Less mobile than UNMC, less individually elite than New Avalon, vulnerable if overextended"
+                ],
+                "text": "Less mobile than UNMC, less individually elite than New Avalon, vulnerable if overextended",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0515:r5",
+            "cells": [
+              {
+                "id": "core:b0515:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0515:r5:c2",
+                "paragraphs": [
+                  "Players who enjoy crusading aesthetics, ordered aggression, and fanatical human supremacy themes"
+                ],
+                "text": "Players who enjoy crusading aesthetics, ordered aggression, and fanatical human supremacy themes",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [],
+      "supplements": [],
+      "roster": [],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        }
+      ]
+    },
+    {
+      "id": "living-dominion",
+      "name": "Living Dominion",
+      "code": "LD",
+      "accent": "#a5c57d",
+      "doc": null,
+      "note": null,
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "in-development",
+      "quote": {
+        "id": "core:b0524",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🪖 Faction Profile: The Living Dominion"
+        ],
+        "text": "“The flesh remembers. The land endures.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0526",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "The Living Dominion is not a nation in the conventional sense, nor a single people with one capital, one language, or one throne. It is a vast nomadic civilization spread across most of Africa, formed from many older peoples now bound together by a shared way of life known as The Green Path.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0527",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Where other powers build cities, factories, and fixed borders, the Living Dominion moves in scattered circles that remain in constant communion through living networks of root, spore, beast, and blood. To outsiders, it is a land of vanished expeditions, broken invasions, and impossible monsters. To its own people, it is simply life defending itself.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0528",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Its most feared guardians are the Warforms — colossal living war-bodies grown, guided, and inhabited by chosen Wardens. These beings are not mindless beasts, nor mere biological machines, but sacred weapons of the Dominion’s will. When foreign armies push too far inland, strip too much from the land, or mistake distance for safety, the Warforms come.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0529",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Few who meet them survive.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0532",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Many Peoples, One Path:\n The Dominion is made up of many cultures, lineages, and local traditions, united not by uniformity but by shared survival, mutual duty, and reverence for living systems.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0533",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "The Green Path:\n The Dominion’s guiding philosophy teaches that life endures through balance, adaptation, and cultivation — not domination, extraction, or sterile control.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0534",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Movement Over Permanence:\n Most of the Dominion lives in small roaming circles rather than permanent cities. These groups travel constantly, tending routes, sacred sites, relay-groves, and living camps.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0535",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Biology, Not Industry:\n The Dominion is not primitive. It has simply advanced along another path. Its communication, medicine, shelter, and warcraft are grown, cultivated, and symbiotic rather than mechanical.",
+            "numbering": false
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0538",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Territory Denial Through Ambush:\n The Living Dominion rarely fights as a conventional front-line state. It lets invaders stretch themselves thin, then strikes with overwhelming force once they are exposed.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0539",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Warforms as Apex Weapons:\n The Warforms are living engines of war — massive, regenerative, and terrifyingly difficult to put down permanently.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0540",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Decentralized Warfare:\n The Dominion has no single command center to destroy. Its scattered circles and Wild Hosts can lose ground, vanish, regroup, and strike elsewhere with little warning.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0541",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Living Infrastructure:\n The same biotech principles that sustain Dominion life also sustain Dominion war. Signals travel through fungal rootwebs, wounds are treated with cultivated organisms, and support systems are alive as surely as the Warforms themselves.",
+            "numbering": false
+          }
+        ],
+        "subfactions": [
+          {
+            "id": "core:b0546",
+            "kind": "paragraph",
+            "style": "heading 2",
+            "heading": [
+              "🧭 Subfactions – The Four Wild Hosts"
+            ],
+            "text": "🧭 Subfactions – The Four Wild Hosts",
+            "numbering": false
+          },
+          {
+            "id": "core:b0547",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧭 Subfactions – The Four Wild Hosts"
+            ],
+            "text": "Unlike the subfactions of other powers, the Wild Hosts do not represent rigid political divisions or formal standing armies. They are vast roaming coalitions of Wardens, circles, and Warforms shaped by different histories, frontiers, and philosophies of war.\n All Living Dominion forces use the faction rule Renewal of Flesh rather than separate Wild Host traits.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0548",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "The World-Treaders"
+            ],
+            "text": "The World-Treaders",
+            "numbering": false
+          },
+          {
+            "id": "core:b0549",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The World-Treaders"
+            ],
+            "text": "The largest and heaviest of the Wild Hosts.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0550",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The World-Treaders"
+            ],
+            "text": "Their Warforms are vast, brutal, and built for direct territorial denial. When an invasion must be broken by raw force, the World-Treaders answer with enormous living engines that crash through gunlines and fortified positions alike.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0551",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "The Crown of Ash"
+            ],
+            "text": "The Crown of Ash",
+            "numbering": false
+          },
+          {
+            "id": "core:b0552",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Crown of Ash"
+            ],
+            "text": "Ancient, saurian, and deeply feared even within the Dominion.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0553",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Crown of Ash"
+            ],
+            "text": "This Host fields Warforms that seem less like grown weapons and more like living catastrophes dredged from the world’s oldest memory. Slow, terrible, and relentless, they embody the wrath of the deep earth.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0554",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "The Veiled Pulse"
+            ],
+            "text": "The Veiled Pulse",
+            "numbering": false
+          },
+          {
+            "id": "core:b0555",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Veiled Pulse"
+            ],
+            "text": "Fast, precise, and deeply unsettling.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0556",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Veiled Pulse"
+            ],
+            "text": "Its Warforms are more humanoid, more controlled, and more uncanny than those of the other Hosts. Many within the Dominion distrust their methods, fearing they stand too close to a path that should never have been walked — yet their loyalty and battlefield value are beyond dispute.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0557",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "The Ironroot Host"
+            ],
+            "text": "The Ironroot Host",
+            "numbering": false
+          },
+          {
+            "id": "core:b0558",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Ironroot Host"
+            ],
+            "text": "The most divisive of the Wild Hosts.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0559",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "The Ironroot Host"
+            ],
+            "text": "Where others reject dead machinery, the Ironroot Host is willing to graft, bind, and repurpose limited technological remnants into living flesh. Many see them as dangerously compromised. Others see them as practical defenders willing to use any tool that still serves life.",
+            "numbering": false
+          }
+        ],
+        "example": [
+          {
+            "id": "core:b0561",
+            "kind": "paragraph",
+            "style": "heading 2",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "🤖 Unit Example: Prowler Warform",
+            "numbering": false
+          },
+          {
+            "id": "core:b0562",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "The most widespread Warform pattern of the Living Dominion.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0563",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "A mid-sized apex predator bred for pursuit, ambush, and brutal close assault, the Prowler Warform is the shape most invaders encounter first. It lacks the monumental scale of the World-Treaders and the mythic grandeur of the Crown of Ash, but it is faster, more adaptable, and common across all four Wild Hosts.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0564",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Its silhouette is low, muscular, and predatory, with heavy forelimbs, layered biological armor, and a cultivated hunting instinct directed by the Warden within. The Prowler is not a sacred relic or rare terror-beast. It is the Dominion’s most practical answer to trespass.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0565",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Typical armament:",
+            "numbering": false
+          },
+          {
+            "id": "core:b0566",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Rending claws, crushing limbs, or bone-lance forearms\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0567",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Spore burst organs, acid glands, or shock-bellow sacs\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0568",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Hardened biological plating and regenerative tissue clusters\n",
+            "numbering": true
+          },
+          {
+            "id": "core:b0569",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🤖 Unit Example: Prowler Warform"
+            ],
+            "text": "Battlefield role: Core assault Warform, pursuit predator, line-breaker",
+            "numbering": false
+          }
+        ],
+        "extra": [
+          {
+            "id": "core:b0574",
+            "kind": "paragraph",
+            "style": "heading 2",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "📡 Sample Quotes",
+            "numbering": false
+          },
+          {
+            "id": "core:b0575",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“The world does not belong to us. We belong to it.”",
+            "numbering": false
+          },
+          {
+            "id": "core:b0576",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“You call them monsters because you never learned the names of guardians.”",
+            "numbering": false
+          },
+          {
+            "id": "core:b0577",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "📡 Sample Quotes"
+            ],
+            "text": "“Burn the flesh, and it remembers. Break the body, and it rises.”",
+            "numbering": false
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0572",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0572:r1",
+            "cells": [
+              {
+                "id": "core:b0572:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0572:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0572:r2",
+            "cells": [
+              {
+                "id": "core:b0572:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0572:r2:c2",
+                "paragraphs": [
+                  "Durable biological assault faction with regeneration and monstrous board presence"
+                ],
+                "text": "Durable biological assault faction with regeneration and monstrous board presence",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0572:r3",
+            "cells": [
+              {
+                "id": "core:b0572:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0572:r3:c2",
+                "paragraphs": [
+                  "High survivability, strong close assault, psychological pressure, hard to fully destroy"
+                ],
+                "text": "High survivability, strong close assault, psychological pressure, hard to fully destroy",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0572:r4",
+            "cells": [
+              {
+                "id": "core:b0572:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0572:r4:c2",
+                "paragraphs": [
+                  "Lower conventional ranged sophistication, vulnerable to concentrated burst damage, relies on Warforms staying represented on the battlefield"
+                ],
+                "text": "Lower conventional ranged sophistication, vulnerable to concentrated burst damage, relies on Warforms staying represented on the battlefield",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0572:r5",
+            "cells": [
+              {
+                "id": "core:b0572:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0572:r5:c2",
+                "paragraphs": [
+                  "Players who enjoy monstrous biotech aesthetics, resilient units, and relentless pressure"
+                ],
+                "text": "Players who enjoy monstrous biotech aesthetics, resilient units, and relentless pressure",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [
+        {
+          "id": "core:b0543",
+          "kind": "paragraph",
+          "style": "heading 2",
+          "heading": [
+            "🧬 Core Faction Rule: Renewal of Flesh"
+          ],
+          "text": "🧬 Core Faction Rule: Renewal of Flesh",
+          "numbering": false
+        },
+        {
+          "id": "core:b0544",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: Renewal of Flesh"
+          ],
+          "text": "At the end of each round, before removing destroyed Warforms, roll 1D6 for each friendly Warform that is damaged or destroyed and still represented on the battlefield. On a 6, that Warform regains 1 STR, to a maximum of its starting STR. If a destroyed Warform regains STR this way, it is no longer destroyed, stands up with 1 STR, and becomes Suppressed. A Warform restored by Renewal of Flesh is not treated as a wreck.",
+          "numbering": false
+        }
+      ],
+      "supplements": [],
+      "roster": [],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        }
+      ]
+    },
+    {
+      "id": "southern-cross-compact",
+      "name": "Southern Cross Compact",
+      "code": "SC",
+      "accent": "#e0ac77",
+      "doc": null,
+      "note": "The Compact uses imported stock mechs rather than a native roster. The source gives no formal subfaction list. Chassis-tier tax mappings and eligibility of House/Order-exclusive imports still need confirmation; no eligible-unit list or replacement costs have been guessed.",
+      "status": "alpha-source-reference",
+      "finalized": false,
+      "source_version": "0.0.14",
+      "development_status": "source-reference",
+      "quote": {
+        "id": "core:b0580",
+        "kind": "paragraph",
+        "style": "",
+        "heading": [
+          "🌍 Faction Profile: Southern Cross Compact"
+        ],
+        "text": "“We’ll fight in anything that still walks — for the right price.”",
+        "numbering": false
+      },
+      "sections": {
+        "overview": [
+          {
+            "id": "core:b0582",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "The Southern Cross Compact is not a nation, a corporation, or a single army. It is a loose coalition of Australian mercenary companies, salvage syndicates, transport guilds, security contractors, and battlefield recovery crews bound together by contracts, reputation, and necessity.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0583",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Where the great powers build doctrines, the Compact builds invoices.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0584",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "Their forces are made up of stock mechs bought, leased, salvaged, or captured from the battlefields of the Iron Concord, UN Mega Corporations, and New Avalon. They lack the deep industrial base and technical mastery of the great powers, but make up for it with practical experience, local knowledge, and a culture built around keeping old war machines running one contract at a time.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0585",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "The Southern Cross Compact does not invent the best mechs in the world.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0586",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🌍 Overview"
+            ],
+            "text": "It simply knows how to get them, field them, and survive inside them.",
+            "numbering": false
+          }
+        ],
+        "philosophy": [
+          {
+            "id": "core:b0589",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Contract Before Creed: Loyalty lasts as long as the job, the payout, and the odds.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0590",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Coalition of Companies: The Compact is made up of many smaller firms and warbands, not a single central state.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0591",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Salvage Culture: Nothing is wasted if it can still move, shoot, or be sold for parts.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0592",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🧠 Philosophy & Society"
+            ],
+            "text": "Pragmatic Warfare: Compact pilots value survival, mobility, and battlefield utility over ideology or honor.",
+            "numbering": false
+          }
+        ],
+        "doctrine": [
+          {
+            "id": "core:b0595",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Stock Machine Procurement: Compact forces field whole imported mechs, not custom hybrid rebuilds.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0596",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Flexible Hiring Pool: Able to cherry-pick stock machines from several rival factions.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0597",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "Terrain Savvy: Veteran crews know how to move through harsh ground, ruins, and improvised battlefields.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0598",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "⚔️ Military Doctrine"
+            ],
+            "text": "No Native Doctrine: Compact units do not benefit from the faction-wide military doctrines of the powers they buy from.",
+            "numbering": false
+          }
+        ],
+        "subfactions": [],
+        "example": [],
+        "extra": [
+          {
+            "id": "core:b0667",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "🎯 Tactical Guidance",
+            "numbering": false
+          },
+          {
+            "id": "core:b0668",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "Use Iron Concord imports when you need rugged, cost-efficient line units.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0669",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "Use UNMC imports when you need mobility, utility, or specialized systems.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0670",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "Use New Avalon imports sparingly as elite prestige picks — they are powerful, but the import cost rises quickly.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0671",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "Do not try to out-doctrine the original factions. The Compact wins by bringing the right stock machine to the right contract, not by matching the parent faction at its own specialty.",
+            "numbering": false
+          },
+          {
+            "id": "core:b0672",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🎯 Tactical Guidance"
+            ],
+            "text": "",
+            "numbering": false
+          },
+          {
+            "id": "core:b0673",
+            "kind": "paragraph",
+            "style": "heading 3",
+            "heading": [
+              "🪙 Optional Narrative Note: Mercenary Companies"
+            ],
+            "text": "🪙 Optional Narrative Note: Mercenary Companies",
+            "numbering": false
+          },
+          {
+            "id": "core:b0674",
+            "kind": "paragraph",
+            "style": "",
+            "heading": [
+              "🪙 Optional Narrative Note: Mercenary Companies"
+            ],
+            "text": "Players are encouraged to name their company, color their machines by contract origin, and invent histories of who bought what from whom.",
+            "numbering": false
+          }
+        ]
+      },
+      "playstyle": {
+        "id": "core:b0665",
+        "kind": "table",
+        "heading": [
+          "🧩 Playstyle Summary"
+        ],
+        "rows": [
+          {
+            "id": "core:b0665:r1",
+            "cells": [
+              {
+                "id": "core:b0665:r1:c1",
+                "paragraphs": [
+                  "Aspect"
+                ],
+                "text": "Aspect",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0665:r1:c2",
+                "paragraphs": [
+                  "Description"
+                ],
+                "text": "Description",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0665:r2",
+            "cells": [
+              {
+                "id": "core:b0665:r2:c1",
+                "paragraphs": [
+                  "Role"
+                ],
+                "text": "Role",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0665:r2:c2",
+                "paragraphs": [
+                  "Flexible mercenary force built from imported stock mechs"
+                ],
+                "text": "Flexible mercenary force built from imported stock mechs",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0665:r3",
+            "cells": [
+              {
+                "id": "core:b0665:r3:c1",
+                "paragraphs": [
+                  "Strengths"
+                ],
+                "text": "Strengths",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0665:r3:c2",
+                "paragraphs": [
+                  "Army-building freedom, broad access to tools, terrain utility"
+                ],
+                "text": "Army-building freedom, broad access to tools, terrain utility",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0665:r4",
+            "cells": [
+              {
+                "id": "core:b0665:r4:c1",
+                "paragraphs": [
+                  "Weaknesses"
+                ],
+                "text": "Weaknesses",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0665:r4:c2",
+                "paragraphs": [
+                  "No doctrine bonuses, no custom builds, no heroes, high import taxes"
+                ],
+                "text": "No doctrine bonuses, no custom builds, no heroes, high import taxes",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          },
+          {
+            "id": "core:b0665:r5",
+            "cells": [
+              {
+                "id": "core:b0665:r5:c1",
+                "paragraphs": [
+                  "Ideal For"
+                ],
+                "text": "Ideal For",
+                "column_span": 1,
+                "vertical_merge": null
+              },
+              {
+                "id": "core:b0665:r5:c2",
+                "paragraphs": [
+                  "Players who enjoy mercenary flavor, roster tinkering, and adaptable combined-arms lists"
+                ],
+                "text": "Players who enjoy mercenary flavor, roster tinkering, and adaptable combined-arms lists",
+                "column_span": 1,
+                "vertical_merge": null
+              }
+            ]
+          }
+        ]
+      },
+      "rules": [
+        {
+          "id": "core:b0600",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "🧬 Core Faction Rule: FIELD EXPEDIENTS",
+          "numbering": false
+        },
+        {
+          "id": "core:b0601",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Once per round, when a Southern Cross Compact unit would suffer a terrain-based movement penalty, you may ignore that penalty for that unit.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0602",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "This may ignore penalties such as:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0603",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Difficult Ground movement reduction\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0604",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Ruins / Rubble movement reduction\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0605",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Forest / Light Cover movement reduction\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0606",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Obstacle vault costs\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0607",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Elevation climbing costs\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0608",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "Field Expedients does not ignore effects that prevent movement entirely unless a rule specifically states they are a terrain penalty.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0609",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🧬 Core Faction Rule: FIELD EXPEDIENTS"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0610",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "📦 CONTRACT PROCUREMENT",
+          "numbering": false
+        },
+        {
+          "id": "core:b0611",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "The Southern Cross Compact does not use its own dedicated mech roster in the normal way. Instead, it fields eligible stock mechs hired or acquired from other powers.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0612",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "A Southern Cross Compact force may include non-Hero, non-Unique stock mechs from:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0613",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "Iron Concord\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0614",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "UN Mega Corporations\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0615",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "New Avalon\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0616",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "A Southern Cross Compact force may never include units from the Cybernetic Rebellion.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0617",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📦 CONTRACT PROCUREMENT"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0618",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "🔒 IMPORT RESTRICTIONS",
+          "numbering": false
+        },
+        {
+          "id": "core:b0619",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "When a Southern Cross Compact force includes an imported mech, apply all of the following rules:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0620",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "1. Stock Mechs Only\n Imported mechs must be taken as complete, stock units exactly as listed on their source faction roster.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0621",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "2. No Customization\n Imported mechs may not change their frame, weapons, or systems. They may not purchase alternate faction options, replacement loadouts, or additional armory upgrades unless those options are explicitly part of their stock unit entry.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0622",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "3. No Heroes or Named Units\n The Southern Cross Compact may not include Heroes, named characters, or other Unique faction centerpiece units from another faction.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0623",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "4. Keep the Mech, Lose the Doctrine\n Imported mechs keep their printed weapons, systems, and unit rules on their stock profile, but do not gain:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0624",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "source faction core rules\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0625",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "subfaction traits\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0626",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "House, Order, Sponsor, or equivalent detachment bonuses\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0627",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "faction-wide command benefits\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0628",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "any bonus rule granted for belonging to their original faction as an army\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0629",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "5. Faction Identity Changes\n For all army-building and game purposes, imported mechs count as Southern Cross Compact units, not as units of their original faction.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0630",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "6. Source-Locked Benefits Are Lost\n If a rule only functions because the unit belongs to Iron Concord, UNMC, or New Avalon as a faction, that part of the rule is ignored in a Southern Cross Compact force.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0631",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🔒 IMPORT RESTRICTIONS"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0632",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "💰 IMPORT TAX"
+          ],
+          "text": "💰 IMPORT TAX",
+          "numbering": false
+        },
+        {
+          "id": "core:b0633",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "💰 IMPORT TAX"
+          ],
+          "text": "When including an imported mech in a Southern Cross Compact force, add both a Chassis Tax and a Source Modifier to that mech’s final points cost.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0634",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "Chassis Tax"
+          ],
+          "text": "Chassis Tax",
+          "numbering": false
+        },
+        {
+          "id": "core:b0635",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Chassis Tax"
+          ],
+          "text": "Light: +2 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0636",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Chassis Tax"
+          ],
+          "text": "Medium: +3 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0637",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Chassis Tax"
+          ],
+          "text": "Heavy: +4 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0638",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Chassis Tax"
+          ],
+          "text": "Superheavy / Elite: +5 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0639",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "Source Modifier"
+          ],
+          "text": "Source Modifier",
+          "numbering": false
+        },
+        {
+          "id": "core:b0640",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Source Modifier"
+          ],
+          "text": "Iron Concord: +1 pt\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0641",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Source Modifier"
+          ],
+          "text": "UNMC: +3 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0642",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Source Modifier"
+          ],
+          "text": "New Avalon: +5 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0643",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Source Modifier"
+          ],
+          "text": "These modifiers are cumulative.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0644",
+          "kind": "paragraph",
+          "style": "heading 4",
+          "heading": [
+            "Examples"
+          ],
+          "text": "Examples",
+          "numbering": false
+        },
+        {
+          "id": "core:b0645",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "Iron Concord Light Mech: +3 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0646",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "Iron Concord Heavy Mech: +5 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0647",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "UNMC Medium Mech: +6 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0648",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "New Avalon Heavy Mech: +9 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0649",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "New Avalon Elite Mech: +10 pts\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0650",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Examples"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0651",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "🚫 SOUTHERN CROSS COMPACT LIMITATIONS",
+          "numbering": false
+        },
+        {
+          "id": "core:b0652",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "The Southern Cross Compact has unusual access to other factions’ machines, but pays for that flexibility with real limitations.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0653",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Strengths",
+          "numbering": false
+        },
+        {
+          "id": "core:b0654",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Can cherry-pick stock mechs from multiple factions\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0655",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Strong list-building flexibility\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0656",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Reliable terrain utility through Field Expedients\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0657",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Weaknesses",
+          "numbering": false
+        },
+        {
+          "id": "core:b0658",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "No Cybernetic Rebellion access\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0659",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "No imported Heroes or Unique units\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0660",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "No faction-wide source bonuses\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0661",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "No mech customization\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0662",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🚫 SOUTHERN CROSS COMPACT LIMITATIONS"
+          ],
+          "text": "Imported prestige units become expensive quickly\n",
+          "numbering": true
+        }
+      ],
+      "supplements": [],
+      "roster": [],
+      "additional_rule_rows": [],
+      "source_documents": [
+        {
+          "id": "core",
+          "filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+          "sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94"
+        }
+      ]
+    }
+  ]
+}

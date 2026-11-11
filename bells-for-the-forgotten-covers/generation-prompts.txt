@@ -1,0 +1,41 @@
+Generated with the built-in image generation tool.
+
+FRONT COVER
+
+Use case: illustration-story
+Asset type: finished front cover for a dark urban fantasy crime web novella, portrait 2:3 aspect ratio.
+Create an elegant illustrated book cover for BELLS FOR THE FORGOTTEN, first novella in WHISPERS OF THE DEAD, set in the Eldritch Shadows universe.
+Scene: rain-darkened streets of Mournhaven, a decaying modern gothic city, gaslights and old theater architecture receding into dense mist. An engraved antique bronze handbell dominates the lower center, resting on wet black stone. A subtle spiral binding glyph on the bell. A fine, pale golden thread escapes a hairline crack and dissolves into suggestions of ghostly human faces in the fog. Far in the middle distance, a discreet male detective silhouette in a coat with shoulder-length hair. Small dark iron chain detail near the bell. Restrained supernatural dread and compassion, atmospheric mystery.
+Style: premium literary horror cover, painterly realism with delicate etched detail, sophisticated tonal composition, deep charcoal, desaturated petrol teal, tarnished bronze, a very small warm gold light. Strong legibility at thumbnail size. Matte paper texture. No gore.
+Typography: professionally composed actual cover lettering, large elegant ivory serif title, carefully spaced and centered in upper half. Exact text only:
+small top line "WHISPERS OF THE DEAD"
+small second line "NOVELLA ONE"
+large title "BELLS FOR THE FORGOTTEN"
+small bottom line "An Eldritch Shadows novella"
+Title may wrap over 3 balanced lines. Keep generous safe margins. No author name, logos, publisher, reviews, barcode, watermark or additional words. Flat full-frame cover artwork, no physical book mockup, no spine, no border.
+
+BACK COVER
+
+Use case: illustration-story
+Asset type: finished BACK COVER for the novella BELLS FOR THE FORGOTTEN, portrait 2:3, same dimensions as the provided front cover.
+Input image 1 is a STYLE AND PALETTE REFERENCE for a matching companion. Generate a new standalone BACK cover. Use the same elegant premium literary horror painterly realism, matte charcoal and desaturated petrol teal, restrained antique bronze and pale golden thread, and ivory serif type.
+Composition: quieter companion view of Mournhaven. Mostly dark softly textured fog across upper two thirds for excellent reading contrast. Along the bottom third: wet cemetery paving, old iron fence, dim cemetery lantern, dark chain, a slender trail of gold thread disappearing into mist. A faint ruined theater skyline beyond. Subdued detail around edges, center uncluttered. Do not repeat the front cover title or big bell. Full frame flat artwork, no physical mockup or spine.
+Design a polished back cover with generous margins and beautifully legible, clean ivory serif typesetting. A small header, then three coherent text paragraphs, then a short series footer near the bottom. Proofread and render the following text EXACTLY with no omitted or added words:
+
+Header:
+"In Mournhaven, the dead still have something to say."
+
+Paragraph 1:
+"Detective Gabriel Thaner has learned to keep his gift hidden. He hears the dead, and sometimes he can help them move on. But the woman found on a ruined theater stage cannot speak. Her tongue is gone. A bell rests between her lips."
+
+Paragraph 2:
+"With his sharp-eyed partner, Mara Thorne, Gabriel follows a trail of old murders and forgotten rituals. Someone is learning to bind the dead, and every new victim brings the work closer to completion."
+
+Paragraph 3:
+"To free the silenced, Gabriel must risk the secret that protects him—and open himself to voices he may never be able to let go."
+
+Footer:
+"WHISPERS OF THE DEAD · NOVELLA ONE"
+"An Eldritch Shadows novella"
+
+Constraints: all text must fit comfortably and be readable, no author name, no invented publisher or reviews, no barcode or ISBN, no watermark. The back cover should feel like part of exactly the same book as the reference front cover.

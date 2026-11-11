@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "counts": {
+    "core-rules": 23,
+    "terminology-keywords": 38,
+    "factions": 11,
+    "subfactions": 42,
+    "units": 100,
+    "chassis": 25,
+    "weapons": 235,
+    "systems-traits": 341,
+    "point-costs": 453,
+    "missions": 1,
+    "universe": 2
+  },
+  "approved_records": 0,
+  "note": "Counts represent source observations, not deduplicated canonical game entities."
+}

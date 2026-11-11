@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Aster Vale and the Veiled Hand defend a Nachmund plasma generator farm against fourteen Hormagaunts created by Vasarius Biolex, the Tamer. A narrative Kill Team battle report." />
+  <title>Shadows over Nachmund | TBD's Dragon Den</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="site-header.css" />
+  <style>
+    .battle-report { max-width: 58rem; margin: 0 auto; }
+    .battle-report section { margin: 3rem 0; }
+    .battle-report p { max-width: 70ch; line-height: 1.75; }
+    .battle-report h1 { line-height: 1.12; overflow-wrap: anywhere; }
+    .battle-report h2 { line-height: 1.25; margin-top: .4rem; }
+    .battle-lead { font-size: 1.2rem; color: var(--text-main); }
+    .report-note, .photo-hint, .dossier-note { color: var(--text-muted); font-size: .9rem; }
+    .report-note { border-left: 2px solid var(--border-subtle); padding-left: 1rem; }
+    .chapter-label { color: var(--accent); font-size: .75rem; font-weight: 650; text-transform: uppercase; letter-spacing: .13em; margin-bottom: .4rem; }
+    .battle-dossier { border: 1px solid var(--border-subtle); border-radius: .6rem; padding: 1rem; margin: 1rem 0; }
+    .battle-dossier summary { cursor: pointer; font-weight: 600; line-height: 1.5; }
+    .battle-dossier[open] summary { margin-bottom: 1.25rem; }
+    .battle-report a:focus-visible, .battle-dossier summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .squad-roster { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1.5rem; }
+    .squad-roster div, .brood-roster div { min-width: 0; }
+    .squad-roster dt, .brood-roster dt { font-weight: 650; line-height: 1.5; }
+    .squad-roster dt span { display: block; color: var(--accent); font-size: .85rem; font-weight: 400; }
+    .squad-roster dd, .brood-roster dd { margin: .35rem 0 0; color: var(--text-muted); line-height: 1.65; }
+    .brood-roster div + div { margin-top: 1.25rem; }
+    .battle-photos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 19rem), 1fr)); gap: 1.5rem; align-items: start; margin: 1.5rem 0 2rem; }
+    .battle-photos figure { margin: 0; min-width: 0; }
+    .battle-photos:has(> figure:only-child) { max-width: 40rem; margin-left: auto; margin-right: auto; }
+    .battle-photos-wide:has(> figure:only-child) { max-width: none; }
+    .battle-photos a { display: block; border-radius: .6rem; }
+    .battle-photos img { display: block; width: 100%; height: auto; border-radius: .6rem; }
+    .battle-photos figcaption { margin-top: .65rem; color: var(--text-muted); font-size: .875rem; line-height: 1.6; }
+    .tac-ops .battle-photos { max-width: 25rem; }
+    .result-note { padding: 1rem; border-left: 2px solid var(--accent); background: var(--accent-soft); }
+    @media (max-width: 480px) {
+      .battle-report section { margin: 2.25rem 0; }
+      .battle-lead { font-size: 1.08rem; }
+      .battle-dossier { padding: .85rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header screen-only">
+      <a class="logo" href="index.html" aria-label="TBD's Dragon Den – home">
+        <div class="logo-mark"><img src="Eldritch%20shadows/IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon" /></div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html#projects">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <span class="site-pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+    <main class="battle-report">
+      <p><a href="kill-team.html">← Kill Team</a></p>
+      <article aria-labelledby="report-title">
+        <p class="project-tagline">Kill Team · Battle report 01</p>
+        <h1 id="report-title">Shadows over Nachmund</h1>
+        <p class="battle-lead">At a plasma generator farm in Nachmund, Aster Vale’s Veiled Hand face fourteen of the Tamer’s creations. Both sides need the generators intact. Only one can control them.</p>
+        <p class="report-note">A narrative reconstruction using our battle photographs and campaign background. The individual actions below are dramatised; turn numbers and dice results are not assigned. The recorded result is a 10–4 Sisters of Silence victory.</p>
+
+        <section aria-labelledby="mission-heading">
+          <p class="chapter-label">The mission</p>
+          <h2 id="mission-heading">Power worth taking</h2>
+          <p>The maintenance crews stopped answering first. Then came the fault reports: failing systems that still registered full output, shutdown warnings from generators that continued feeding the grid. Someone was inside the farm, and the instruments could no longer be trusted.</p>
+          <p>For Aster Vale, the assignment was an extraction becoming a containment operation. Find the missing workers, recover the controls and keep power flowing to the nearby settlements. Shade al Serrion—the Warden—had sent ten Sisters because losing the site to an indiscriminate bombardment would accomplish the enemy’s work for them.</p>
+          <p>Vasarius Biolex had reached the same conclusion for different reasons. Beneath a neighbouring industrial complex, his concealed brood-conditioning facility needed more power: enough for growth chambers, containment systems and the equipment through which the Tamer imposed his will. Capturing the farm would let him divert its output and conceal the theft behind falsified records.</p>
+          <p>His assault force carried a demanding restriction. They were to kill the defenders, seize the access routes and leave the machinery untouched. The attack would test whether his creations could obey that distinction once prey was within reach.</p>
+        </section>
+
+        <section aria-labelledby="forces-heading">
+          <p class="chapter-label">The opposing forces</p>
+          <h2 id="forces-heading">The Veiled Hand and the Tamer’s brood</h2>
+          <p>Aster’s Sisters had learned their trade recovering people whom nobody else could reach: missing null children, compromised agents and survivors trapped behind hostile lines. Kess had forged them into a formation whose members could trust one another’s movements and null discipline. Their silence carried orders, corrections and reassurance without a spoken word.</p>
+          <p>Across the field were fourteen Hormagaunts, designated <strong>VB–PG–01 through VB–PG–14</strong>. Their assigned tasks divided the brood into four groups. Whether they could preserve that organisation under fire was part of Biolex’s experiment.</p>
+          <details class="battle-dossier">
+            <summary>The Veiled Hand · ten Sisters</summary>
+            <dl class="squad-roster">
+              <div><dt>Aster Vale <span>Squad leader</span></dt><dd>Shade al Serrion’s step-daughter. Leads through clear intent and trusts her Sisters to act without waiting for every instruction.</dd></div>
+              <div><dt>Kess <span>Second-in-command</span></dt><dd>The squad’s exacting instructor, responsible for formation discipline and the control of their overlapping null fields.</dd></div>
+              <div><dt>Ylena <span>Newly sworn Sister</span></dt><dd>Determined to prove dependable under pressure. Her mother Tina and sister Rita remain the reason she fights.</dd></div>
+              <div><dt>Ves <span>Mentor and battlefield partner</span></dt><dd>Ylena’s steadying presence: quick to recognise distress and answer it with a touch or a brief sign.</dd></div>
+              <div><dt>Irena Voss <span>Marksman</span></dt><dd>A patient former industrial watchkeeper with an eye for rooflines, windows and changes in movement.</dd></div>
+              <div><dt>Talia Rook <span>Scout</span></dt><dd>A colony-ship passage worker turned scout, inclined to take an opening before support has caught up.</dd></div>
+              <div><dt>Nera Venn <span>Breaching specialist</span></dt><dd>Methodical with locks, doors and charges; trusted to work carefully while everyone else wants haste.</dd></div>
+              <div><dt>Sabine Orrel <span>Close-assault specialist</span></dt><dd>An experienced swordswoman whose determination to finish a fight sometimes makes withdrawal the harder order.</dd></div>
+              <div><dt>Elin Sorn <span>Field medic</span></dt><dd>Knows each Sister’s limits and refuses to let an easily concealed wound become an avoidable death.</dd></div>
+              <div><dt>Daria Holt <span>Rear guard and extraction security</span></dt><dd>A former convoy escort who checks the exits on arrival and keeps counting Sisters until the ramp closes.</dd></div>
+            </dl>
+            <p class="dossier-note">This engagement takes place before Ves’s death in the later colony-defence story.</p>
+          </details>
+          <details class="battle-dossier">
+            <summary>Biolex’s brood · operational designations</summary>
+            <dl class="brood-roster">
+              <div><dt>VB–PG–01, 02, 03, 04 · Infiltration</dt><dd>Find a route through the perimeter and locate the generator controls.</dd></div>
+              <div><dt>VB–PG–05, 06, 07, 08 · Elevated assault</dt><dd>Clear defenders from the positions overlooking the approach.</dd></div>
+              <div><dt>VB–PG–09, 10, 11, 12 · Compound seizure</dt><dd>Penetrate the defended compound and secure its access routes.</dd></div>
+              <div><dt>VB–PG–13, 14 · Interception</dt><dd>Cut off reinforcements and prevent escape, alarm or a shutdown of the farm.</dd></div>
+            </dl>
+          </details>
+        </section>
+
+        <section aria-labelledby="deployment-heading">
+          <p class="chapter-label">Deployment</p>
+          <h2 id="deployment-heading">Two bunkers and a narrow yard</h2>
+          <p>Aster chose the bunker compound as her defensive position. Its two roofs offered sightlines across the perimeter, while the yard below gave the Sisters room to support either building. Beyond the long dividing wall stood five plasma generators, enough cover to conceal an approach almost to the edge of the compound.</p>
+          <div class="battle-photos">
+            <figure id="photo-02">
+              <a href="shadows-over-nachmund/photo-02.jpg"><img src="shadows-over-nachmund/photo-02.jpg" alt="Overhead view of the battlefield with two bunkers, a central wall and cylindrical terrain" width="1512" height="2016" loading="eager" decoding="async" /></a>
+              <figcaption>The starting positions. The Veiled Hand occupy the bunker compound; Biolex’s brood deploy among the five generators beyond the dividing wall.</figcaption>
+            </figure>
+          </div>
+          <p>Irena settled into overwatch while Kess checked the spacing of the defenders. Ylena took her place with Ves nearby. At ground level, Aster kept Sisters available to meet a breach rather than committing everyone to the roofs. Daria marked the way out; Nera studied the access points. The farm had to remain usable when the shooting stopped.</p>
+          <p>For the brood, the generators offered a covered assembly area and several elevated starting points. There were fourteen bodies against ten, but the wall and bunker approaches would make it difficult to bring that advantage to bear all at once. Biolex needed his creatures to reach the defenders before those defenders could thin them out.</p>
+          <div class="battle-photos">
+            <figure id="photo-03">
+              <a href="shadows-over-nachmund/photo-03.jpg"><img src="shadows-over-nachmund/photo-03.jpg" alt="Purple-cloaked operatives deployed around the two bunkers" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The Sisters’ deployment: elevated positions on both bunkers, with a supporting group in the yard below.</figcaption>
+            </figure>
+            <figure id="photo-04">
+              <a href="shadows-over-nachmund/photo-04.jpg"><img src="shadows-over-nachmund/photo-04.jpg" alt="Black Tyranid miniatures positioned among the cylindrical terrain" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>Biolex’s fourteen organisms spread through the generator farm. The cylinders provide cover and elevated staging positions.</figcaption>
+            </figure>
+          </div>
+          <details class="battle-dossier tac-ops">
+            <summary>At the table · Security Tac Ops</summary>
+            <p><em>Hold the Line</em>, <em>Protect Assets</em> and <em>Central Control</em> appear in the battle record. They fit the defence of the farm; their individual scoring is not reconstructed here.</p>
+          <div class="battle-photos">
+            <figure id="photo-01">
+              <a href="shadows-over-nachmund/photo-01.jpg"><img src="shadows-over-nachmund/photo-01.jpg" alt="Security Tac Ops cards: Hold the Line, Protect Assets and Central Control" width="1512" height="2016" loading="lazy" decoding="async" /></a>
+              <figcaption>Security Tac Ops: Hold the Line, Protect Assets and Central Control—the defensive priorities around which this account is framed.</figcaption>
+            </figure>
+          </div>
+          </details>
+        </section>
+
+        <section aria-labelledby="advance-heading">
+          <p class="chapter-label">The opening exchange</p>
+          <h2 id="advance-heading">Through the generator field</h2>
+          <p>The first creatures came between the black generator housings, breaking their outlines against the equipment. The Sisters had height, but the cylinders repeatedly interrupted their view. A clear lane could vanish with a few steps sideways; a target that had disappeared behind one housing could emerge much closer at the next.</p>
+          <p>Aster held the position. Chasing into the farm would sacrifice the bunker sightlines and spread her ten Sisters across too much ground. She needed the brood to cross the last exposed approaches while the defenders could still support one another.</p>
+          <p>The Hormagaunts kept coming towards the wall. Their restraint around the generators mattered: there was no attempt to cripple the machinery or force the defenders out through a cascading failure. Whatever else Biolex had done to them, the instruction to preserve his prize was holding.</p>
+          <div class="battle-photos">
+            <figure id="photo-05">
+              <a href="shadows-over-nachmund/photo-05.jpg"><img src="shadows-over-nachmund/photo-05.jpg" alt="Operatives on the bunker roofs as Tyranids approach the central wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>First pressure on the perimeter. The Sisters still hold the roofs while the brood approaches the wall.</figcaption>
+            </figure>
+            <figure id="photo-06">
+              <a href="shadows-over-nachmund/photo-06.jpg"><img src="shadows-over-nachmund/photo-06.jpg" alt="Tyranids advancing from the cylindrical terrain towards the wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The approach from the generator side: the wall limits the routes into the defended compound.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section aria-labelledby="wall-heading">
+          <p class="chapter-label">Contact</p>
+          <h2 id="wall-heading">The wall becomes the front line</h2>
+          <p>At the perimeter, the fight contracted sharply. The distance that had favoured the Sisters was almost gone. Claws appeared above the wall; black bodies gathered opposite the spaces between the bunkers. The defenders could no longer concentrate solely on the approach. They had to watch the ground immediately beneath them.</p>
+          <div class="battle-photos">
+            <figure id="photo-07">
+              <a href="shadows-over-nachmund/photo-07.jpg"><img src="shadows-over-nachmund/photo-07.jpg" alt="Overhead view of both teams meeting along the central wall" width="1512" height="2016" loading="lazy" decoding="async" /></a>
+              <figcaption>The fight compresses around the central wall. The space between the bunkers becomes the critical ground.</figcaption>
+            </figure>
+          </div>
+          <p>Kess kept the formation from dissolving into separate duels. Ylena’s instinct was to turn towards every new movement, until Ves’s hand found her arm and a short sign returned her attention to her own sector. There were enough enemies for every Sister. Abandoning one angle to help at another would give the brood the opening it needed.</p>
+          <p>Aster brought her ground-level reserve towards the threatened yard. Sabine now had the sort of fight she preferred, close enough to meet with a blade, but with little room to pursue. Elin stayed within reach of the defenders while Daria watched the route behind them. A successful breach could threaten the controls and their extraction in the same movement.</p>
+          <div class="battle-photos">
+            <figure id="photo-08">
+              <a href="shadows-over-nachmund/photo-08.jpg"><img src="shadows-over-nachmund/photo-08.jpg" alt="Close view of miniatures and objective markers between a bunker and the wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The ground-level struggle beside the bunkers, with opposing models crowded around the objectives.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section aria-labelledby="rooftops-heading">
+          <p class="chapter-label">The critical fight</p>
+          <h2 id="rooftops-heading">Claws on the rooftops</h2>
+          <p>The bunker roofs had given the Sisters their best observation positions. Now the brood reached them. A Hormagaunt among the purple cloaks changed the value of the high ground immediately: the defenders had to turn inward to survive, and every Sister occupied at close quarters was one fewer watching the approach.</p>
+          <div class="battle-photos battle-photos-wide">
+            <figure id="photo-14">
+              <a href="shadows-over-nachmund/photo-14.jpg"><img src="shadows-over-nachmund/photo-14.jpg" alt="Close-up of miniatures, a blue die and order tokens on a bunker roof" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The rooftop confrontation in close-up: a Hormagaunt has reached the Sisters’ elevated position.</figcaption>
+            </figure>
+          </div>
+          <p>This was the purpose of Biolex’s elevated-assault group. His creatures did not need to destroy a bunker. Getting onto it was enough to pull the defence in two directions. Below, other organisms pressed towards the yard; above, the Sisters had to make room to fight without leaving one another exposed.</p>
+          <p>Aster’s problem was no longer simply holding the perimeter. It was keeping the rooftop fights connected to the ground-level defence. She signalled for the Sisters to support the nearest threatened position and resist the temptation to follow a withdrawing creature beyond that support. Biolex had bodies to spend drawing them apart. She did not.</p>
+          <div class="battle-photos">
+            <figure id="photo-09">
+              <a href="shadows-over-nachmund/photo-09.jpg"><img src="shadows-over-nachmund/photo-09.jpg" alt="Battlefield view showing miniatures on the bunker roofs and beside the wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>A second level of fighting: the brood has reached the bunker roofs as well as the yard.</figcaption>
+            </figure>
+            <figure id="photo-10">
+              <a href="shadows-over-nachmund/photo-10.jpg"><img src="shadows-over-nachmund/photo-10.jpg" alt="Wide view of the battlefield with miniatures, objective markers and dice" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The compound under pressure. Holding a firing position now also means protecting its approaches from close assault.</figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section aria-labelledby="aftermath-heading">
+          <p class="chapter-label">After-action assessment</p>
+          <h2 id="aftermath-heading">A fight for the controls</h2>
+          <p>The struggle around the bunkers explains the battle’s central tension. The Sisters’ initial position offered height and mutual support, but the narrow yard gave them little depth once the brood arrived. For the Hormagaunts, closing the distance brought the fight they wanted, while concentrating them around the same limited approaches.</p>
+          <div class="battle-photos">
+            <figure id="photo-11">
+              <a href="shadows-over-nachmund/photo-11.jpg"><img src="shadows-over-nachmund/photo-11.jpg" alt="View across the cylindrical terrain towards the bunkers and central wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>The generator side looking towards the contested wall and bunker compound.</figcaption>
+            </figure>
+          </div>
+          <p>Both commanders had committed to taking possession of a working site. Aster could not trade the settlements’ power supply for an easier defence. Biolex could not feed his hidden facility with a ruined generator farm. That shared restriction brought their forces into close combat around the positions from which the farm could be held.</p>
+          <p>For the Veiled Hand, the test was whether ten Sisters could remain a squad while fighting on several levels at once. For the Tamer, it was whether fourteen engineered predators could capture something more useful than a field of corpses.</p>
+          <p class="result-note"><strong>Final score: Sisters of Silence 10 – Tyranids 4.</strong> Victory to Aster Vale and the Veiled Hand.</p>
+          <p>The Veiled Hand’s defence ended in victory. Despite pressure at the wall and on the bunker roofs, Aster’s ten Sisters won the battle for the farm’s objectives and denied Biolex the victory he sought. For the Warden’s retinue, Shadows over Nachmund would be remembered as a successful defence under pressure from several directions.</p>
+        </section>
+
+        <section aria-labelledby="archive-heading">
+          <h2 id="archive-heading">From the battle record</h2>
+          <p class="photo-hint">Click any photograph to view it full size.</p>
+          <details class="battle-dossier">
+            <summary>Additional battlefield views</summary>
+          <div class="battle-photos">
+            <figure id="photo-12">
+              <a href="shadows-over-nachmund/photo-12.jpg"><img src="shadows-over-nachmund/photo-12.jpg" alt="Full battlefield with miniatures gathered around the bunkers and central wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>An additional overview of the fighting around the perimeter.</figcaption>
+            </figure>
+            <figure id="photo-13">
+              <a href="shadows-over-nachmund/photo-13.jpg"><img src="shadows-over-nachmund/photo-13.jpg" alt="Overhead detail of the cylindrical terrain and miniatures beside the wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>A view along the generator side, showing the concentration of models beyond the wall.</figcaption>
+            </figure>
+            <figure id="photo-17">
+              <a href="shadows-over-nachmund/photo-17.jpg"><img src="shadows-over-nachmund/photo-17.jpg" alt="Additional view of purple-cloaked operatives on the bunkers and Tyranids by the wall" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>An alternative view of the same stage shown earlier: Sisters on the roofs and the brood approaching the wall.</figcaption>
+            </figure>
+          </div>
+          </details>
+          <details class="battle-dossier">
+            <summary>Behind the battlefield · terrain photographs</summary>
+            <p>The generator models and a separate terrain layout from the same photo collection. The alternate layout is included here rather than used to reconstruct this engagement.</p>
+          <div class="battle-photos">
+            <figure id="photo-16">
+              <a href="shadows-over-nachmund/photo-16.jpg"><img src="shadows-over-nachmund/photo-16.jpg" alt="Two homemade cylindrical terrain pieces with blue painted details" width="952" height="1920" loading="lazy" decoding="async" /></a>
+              <figcaption>The homemade generator terrain: black housings with pale blue details.</figcaption>
+            </figure>
+            <figure id="photo-15">
+              <a href="shadows-over-nachmund/photo-15.jpg"><img src="shadows-over-nachmund/photo-15.jpg" alt="Terrain layout with a large central structure, blue details and teams lined up at the edges" width="2016" height="1512" loading="lazy" decoding="async" /></a>
+              <figcaption>A separate terrain arrangement from the supplied collection, included as a look behind the battlefield.</figcaption>
+            </figure>
+          </div>
+          </details>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <a href="kill-team.html">Back to Kill Team</a>
+    </footer>
+  </div>
+</body>
+</html>

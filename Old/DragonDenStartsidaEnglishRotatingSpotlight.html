@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TBD's Dragon Den</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .hero-spotlight {
+      --spotlight-accent: rgba(34, 197, 94, 0.12);
+    }
+
+    .hero-spotlight-image,
+    .hero-spotlight-footer {
+      transition: opacity 320ms ease, transform 320ms ease;
+    }
+
+    .hero-spotlight-art {
+      transition: background 420ms ease, opacity 420ms ease, filter 420ms ease;
+    }
+
+    .hero-spotlight.is-transitioning .hero-spotlight-image,
+    .hero-spotlight.is-transitioning .hero-spotlight-footer {
+      opacity: 0.25;
+      transform: translateY(4px);
+    }
+
+    .hero-spotlight-footer {
+      align-items: flex-start;
+    }
+
+    .spotlight-copy {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .spotlight-desc {
+      margin: 6px 0 0;
+      font-size: 12px;
+      line-height: 1.45;
+      color: var(--text-muted);
+      max-width: 34ch;
+    }
+
+    .spotlight-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+
+    .spotlight-index {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-soft);
+      white-space: nowrap;
+    }
+
+    @media (max-width: 600px) {
+      .hero-spotlight-footer {
+        flex-direction: column;
+      }
+
+      .spotlight-side {
+        align-items: flex-start;
+      }
+
+      .spotlight-desc {
+        max-width: none;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="page-shell">
+    <header>
+      <div class="logo">
+        <div class="logo-mark">🐉</div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </div>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#">Devlog</a>
+        <a href="#">About</a>
+        <span class="pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-main">
+          <div class="hero-kicker">
+            <span class="hero-kicker-badge">✦</span>
+            <span>Welcome to the den</span>
+          </div>
+
+          <h1 id="hero-heading">
+            <span>Welcome to</span>
+            <span>TBD’s Dragon Den</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Explore original worlds, games, and stories — from GDA agents,
+            cosmic horror, and dark urban fantasy to floating kingdoms,
+            mecha wars, and star-born empires.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#" class="btn btn-secondary">Read the Devlog</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Currently in the spotlight:
+              <span class="hero-meta-highlight" id="spotlight-current-name">Eldritch Shadows</span></span>
+            <span>20 active projects</span>
+          </div>
+        </div>
+
+        <!-- Spotlight card -->
+        <aside class="hero-spotlight" id="hero-spotlight" aria-label="Current project" aria-live="polite">
+          <div class="hero-spotlight-image">
+            <div class="hero-spotlight-art" id="hero-spotlight-art"></div>
+            <div class="hero-figure">
+              <div class="hero-figure-hood"></div>
+              <div class="hero-figure-body"></div>
+            </div>
+          </div>
+          <div class="hero-spotlight-footer">
+            <div class="spotlight-copy">
+              <div class="spotlight-label">In the spotlight right now</div>
+              <div class="spotlight-title" id="spotlight-title">Eldritch Shadows</div>
+              <p class="spotlight-desc" id="spotlight-desc">
+                You are a GDA agent, our first and last line of defense against the things
+                that threaten our world, whether they come from our own reality or another.
+              </p>
+            </div>
+            <div class="spotlight-side">
+              <div class="spotlight-tag" id="spotlight-tag">Cosmic urban horror</div>
+              <div class="spotlight-index" id="spotlight-index">1 / 20</div>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" aria-labelledby="projects-heading">
+        <div class="projects-header">
+          <div>
+            <h2 id="projects-heading">My Projects</h2>
+            <p>An overview of the worlds we are building in TBD's Dragon Den.</p>
+          </div>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Eldritch Shadows -->
+          <article class="project-card">
+            <div class="project-tagline">Cosmic urban horror</div>
+            <h3 class="project-title">Eldritch Shadows</h3>
+            <p class="project-desc">
+              You are a GDA agent, our first and last line of defense against the things
+              that threaten our world, whether they come from our own reality or another.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Worldbuilding</span>
+                <span>Book Series</span>
+                <span>RPG</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Jade Empire -->
+          <article class="project-card">
+            <div class="project-tagline">Epic fantasy</div>
+            <h3 class="project-title">The Jade Empire</h3>
+            <p class="project-desc">
+              In an empire where men are treasured like jewels and owned like livestock,
+              a traumatized stranger from a world destroyed by the Void threatens the peace of the Jade Empire itself.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book Series</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Romance in the Land of the Setting Sun -->
+          <article class="project-card">
+            <div class="project-tagline">Slice of life &amp; romance</div>
+            <h3 class="project-title">Romance in the Land of the Setting Sun</h3>
+            <p class="project-desc">
+              A tender Tokyo-set romance about four lonely people who slowly build
+              a deeply loving found family together.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book Series</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Skykingdoms -->
+          <article class="project-card">
+            <div class="project-tagline">Floating realms</div>
+            <h3 class="project-title">Skykingdoms</h3>
+            <p class="project-desc">
+              You play as a chosen leader guiding a group of survivors among the scattered
+              islands in the clouds.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Trading Card Game</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Iron Stars -->
+          <article class="project-card">
+            <div class="project-tagline">Sci-fi war among the stars</div>
+            <h3 class="project-title">Iron Stars</h3>
+            <p class="project-desc">
+              A miniature wargame where the struggle over Earth's dwindling resources
+              is fought by six factions using gigantic mechas.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Wargame</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Burn the Stars -->
+          <article class="project-card">
+            <div class="project-tagline">Corporate mecha anime</div>
+            <h3 class="project-title">Burn the Stars</h3>
+            <p class="project-desc">
+              Mankind has carved out new borders in space, but now they lie between
+              megacorporations, and their wars are fought in enormous battle mechs.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Anime</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Walk Home -->
+          <article class="project-card">
+            <div class="project-tagline">Autumn horror</div>
+            <h3 class="project-title">Walk Home</h3>
+            <p class="project-desc">
+              Can you make it home late on an autumn night undisturbed, or will you,
+              like the others, disappear?
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Web Game</span>
+                <span>Eldritch Shadows</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Call of Cthulhu AR -->
+          <article class="project-card">
+            <div class="project-tagline">Augmented reality horror</div>
+            <h3 class="project-title">Call of Cthulhu AR</h3>
+            <p class="project-desc">
+              Using your phone, you uncover hidden truths woven into reality itself.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>App</span>
+                <span>Eldritch Shadows</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Miljökollen -->
+          <article class="project-card">
+            <div class="project-tagline">Sustainability tool</div>
+            <h3 class="project-title">Miljökollen</h3>
+            <p class="project-desc">
+              An app designed to track the environmental impact of products.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>App</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empire of a Thousand Realities -->
+          <article class="project-card">
+            <div class="project-tagline">Multiversal sci-fi</div>
+            <h3 class="project-title">Empire of a Thousand Realities</h3>
+            <p class="project-desc">
+              Humanity has reached a level of technology that lets us travel to other
+              realities and force them to provide the natural resources we no longer have.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Concept</span>
+                <span>Sci-Fi</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Kingdom of Dust -->
+          <article class="project-card">
+            <div class="project-tagline">Post-apocalyptic dark fantasy</div>
+            <h3 class="project-title">Kingdom of Dust</h3>
+            <p class="project-desc">
+              The end has already happened. Demons came, the world became a vast desert,
+              and only a handful of oases remain. Can you survive this new hell?
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>MMORPG</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- HLR VR -->
+          <article class="project-card">
+            <div class="project-tagline">VR learning</div>
+            <h3 class="project-title">HLR VR</h3>
+            <p class="project-desc">
+              Using VR to teach CPR in a practical and effective way.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>VR</span>
+                <span>Education</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Daily Quest -->
+          <article class="project-card">
+            <div class="project-tagline">Gamified everyday life</div>
+            <h3 class="project-title">The Daily Quest</h3>
+            <p class="project-desc">
+              An app that turns everyday chores into quests that generate experience
+              points when you complete them.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>App</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Empire of a Thousand Stars -->
+          <article class="project-card">
+            <div class="project-tagline">Mythic fantasy</div>
+            <h3 class="project-title">The Empire of a Thousand Stars</h3>
+            <p class="project-desc">
+              After a god burns the world to stop a cosmic corruption, thirteen dragon
+              lords lead the last survivors into the fog to found a new empire.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Fantasy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Heir of Storms and Silence -->
+          <article class="project-card">
+            <div class="project-tagline">Court intrigue fantasy</div>
+            <h3 class="project-title">Heir of Storms and Silence</h3>
+            <p class="project-desc">
+              A lost northern noble returns home as a war-forged killer and becomes
+              the shadow-blade of a rightful heiress in a court ready to tear itself apart.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Fantasy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Guilds and Dragons -->
+          <article class="project-card">
+            <div class="project-tagline">Character-driven fantasy</div>
+            <h3 class="project-title">Guilds and Dragons</h3>
+            <p class="project-desc">
+              A half-dragon heir is sent to a Dungeons-and-Dragons-style world to learn
+              restraint, empathy, and how to live among lesser races without destroying them.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Fantasy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Ark of War -->
+          <article class="project-card">
+            <div class="project-tagline">Space opera</div>
+            <h3 class="project-title">The Ark of War</h3>
+            <p class="project-desc">
+              A broke salvage crew awakens the captain of humanity’s last battleship,
+              an outlawed living superweapon, and sparks the return of a war the galaxy thought was buried.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Sci-Fi</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Thirteen Clans -->
+          <article class="project-card">
+            <div class="project-tagline">Shadow war thriller</div>
+            <h3 class="project-title">The Thirteen Clans</h3>
+            <p class="project-desc">
+              In a world where the law has failed, thirteen shadow clans wage a hidden
+              war against organized crime and risk becoming the new order themselves.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Crime Fantasy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Covenant of the Stars -->
+          <article class="project-card">
+            <div class="project-tagline">Science-fantasy uplift</div>
+            <h3 class="project-title">The Covenant of the Stars</h3>
+            <p class="project-desc">
+              A near-godlike outsider hides among a world that sees him as worthless,
+              and must secretly guide it toward the stars before its cruel rulers drag it deeper into slavery.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Sci-Fi Fantasy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- String & Steel -->
+          <article class="project-card">
+            <div class="project-tagline">Urban fantasy action</div>
+            <h3 class="project-title">String &amp; Steel</h3>
+            <p class="project-desc">
+              A shamisen player, a demon hunter, and a warrior girl are drawn into a hidden
+              war where music and steel decide who lives.
+            </p>
+            <div class="project-footer">
+              <a href="#" class="btn-ghost">
+                Learn More
+                <span>↗</span>
+              </a>
+              <div class="project-meta">
+                <span>Book</span>
+                <span>Urban Fantasy</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> TBD's Dragon Den.</span>
+      <span>Forged in starlight, ink &amp; caffeine.</span>
+    </footer>
+  </div>
+
+  <script>
+    // Set the footer year automatically
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    const projectCards = [...document.querySelectorAll(".project-card")];
+    const spotlight = document.getElementById("hero-spotlight");
+    const spotlightArt = document.getElementById("hero-spotlight-art");
+    const spotlightTitle = document.getElementById("spotlight-title");
+    const spotlightTag = document.getElementById("spotlight-tag");
+    const spotlightDesc = document.getElementById("spotlight-desc");
+    const spotlightIndex = document.getElementById("spotlight-index");
+    const spotlightCurrentName = document.getElementById("spotlight-current-name");
+
+    const spotlightBackgrounds = [
+      "radial-gradient(circle at 18% 22%, rgba(34, 197, 94, 0.24), transparent 30%), radial-gradient(circle at 75% 18%, rgba(59, 130, 246, 0.28), transparent 36%), linear-gradient(to bottom, #020617, #020617 38%, #000 100%)",
+      "radial-gradient(circle at 25% 20%, rgba(249, 115, 22, 0.24), transparent 32%), radial-gradient(circle at 78% 18%, rgba(236, 72, 153, 0.2), transparent 40%), linear-gradient(to bottom, #020617, #111827 40%, #000 100%)",
+      "radial-gradient(circle at 22% 20%, rgba(168, 85, 247, 0.24), transparent 30%), radial-gradient(circle at 75% 20%, rgba(59, 130, 246, 0.22), transparent 36%), linear-gradient(to bottom, #020617, #0f172a 40%, #000 100%)",
+      "radial-gradient(circle at 22% 18%, rgba(14, 165, 233, 0.26), transparent 32%), radial-gradient(circle at 72% 18%, rgba(34, 197, 94, 0.2), transparent 36%), linear-gradient(to bottom, #020617, #082f49 42%, #000 100%)",
+      "radial-gradient(circle at 20% 18%, rgba(239, 68, 68, 0.24), transparent 30%), radial-gradient(circle at 76% 18%, rgba(251, 191, 36, 0.18), transparent 38%), linear-gradient(to bottom, #020617, #1f2937 40%, #000 100%)",
+      "radial-gradient(circle at 22% 18%, rgba(244, 114, 182, 0.22), transparent 32%), radial-gradient(circle at 74% 18%, rgba(192, 132, 252, 0.2), transparent 38%), linear-gradient(to bottom, #020617, #111827 40%, #000 100%)"
+    ];
+
+    const projects = projectCards.map((card, index) => {
+      const title = card.querySelector(".project-title")?.textContent.trim() || "Untitled Project";
+      const tagline = card.querySelector(".project-tagline")?.textContent.trim() || "Project";
+      const desc = card.querySelector(".project-desc")?.textContent.trim() || "";
+      return {
+        title,
+        tagline,
+        desc,
+        background: spotlightBackgrounds[index % spotlightBackgrounds.length]
+      };
+    });
+
+    let currentProjectIndex = 0;
+    let rotationTimer = null;
+
+    function renderSpotlight(index, animate = true) {
+      const project = projects[index];
+      if (!project) return;
+
+      if (animate) {
+        spotlight.classList.add("is-transitioning");
+      }
+
+      window.setTimeout(() => {
+        spotlightTitle.textContent = project.title;
+        spotlightTag.textContent = project.tagline;
+        spotlightDesc.textContent = project.desc;
+        spotlightIndex.textContent = `${index + 1} / ${projects.length}`;
+        spotlightCurrentName.textContent = project.title;
+        spotlightArt.style.background = project.background;
+        spotlight.classList.remove("is-transitioning");
+      }, animate ? 180 : 0);
+    }
+
+    function startRotation() {
+      if (rotationTimer || projects.length <= 1) return;
+      rotationTimer = window.setInterval(() => {
+        currentProjectIndex = (currentProjectIndex + 1) % projects.length;
+        renderSpotlight(currentProjectIndex, true);
+      }, 20000);
+    }
+
+    function stopRotation() {
+      if (!rotationTimer) return;
+      window.clearInterval(rotationTimer);
+      rotationTimer = null;
+    }
+
+    renderSpotlight(currentProjectIndex, false);
+    startRotation();
+
+    spotlight.addEventListener("mouseenter", stopRotation);
+    spotlight.addEventListener("mouseleave", startRotation);
+
+    projectCards.forEach((card, index) => {
+      card.addEventListener("mouseenter", () => {
+        currentProjectIndex = index;
+        renderSpotlight(currentProjectIndex, true);
+        stopRotation();
+      });
+
+      card.addEventListener("mouseleave", startRotation);
+
+      card.addEventListener("focusin", () => {
+        currentProjectIndex = index;
+        renderSpotlight(currentProjectIndex, true);
+        stopRotation();
+      });
+
+      card.addEventListener("focusout", startRotation);
+    });
+  </script>
+</body>
+</html>

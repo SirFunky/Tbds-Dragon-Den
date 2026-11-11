@@ -1,0 +1,103 @@
+[
+  {
+    "id": "hannes-mansdottir", "name": "Hannes Månsdottir", "class": "Hunter", "concept": "Journalist turned monster hunter",
+    "tagline": "The journalist who dug too deep.",
+    "attributes": [2, 5, 1, 3, 1],
+    "disciplines": {"Observe": [1, "Investigate"], "Occult": [1, "Monsters"], "Combat": [1, "Ranged Combat"]},
+    "abilities": ["Sixth Sense", "Akimbo", "Monsters Hunter"],
+    "background": "Hannes was working as a journalist when an investigation led him to a cult with ties to the supernatural. He kept digging until the cult attacked his home, unleashing Eldritch horrors that killed his family. Hannes survived and was recruited by the GDA shortly afterwards. His work gives him the means to identify and confront similar threats while searching for those who took his family from him.",
+    "goal": "Find the cult that killed his family and take revenge.",
+    "weakness": "When Hannes picks up a promising lead, he can become so absorbed that he loses awareness of his surroundings, overlooking danger or his teammates' needs.",
+    "advice": [
+      ["Investigate the threat", "Use Observe and Occult to spot danger and understand what you are facing."],
+      ["Exploit weaknesses", "Choose weapons and ammunition suited to the enemy, and share your discoveries with the group."],
+      ["Provide firepower", "Ranged combat is your strength. Find a good firing position before the enemy closes in."],
+      ["Follow your motivation", "Leads connected to the cult may tempt Hannes into taking risks. Use that to create roleplaying opportunities and give the other characters room to respond."]
+    ],
+    "weapons": [["Glock (Banisher) 9mm", "+1", "1 Kinetic + Piercing", "Light; one-handed; Concealable; Small rounds."], ["Glock (Banisher) 9mm", "+1", "1 Kinetic + Piercing", "Second pistol. Akimbo applies while using two one-handed weapons."]],
+    "armor": [["Leather coat + Protection Rune", 2, "Base 1 + rune 1. Additional +1 armor against Piercing; 3 rune slots."]],
+    "equipment": [["Soulstone", "Keep against the skin. Stores the wearer's soul if they die."], ["Stone with Memory-Manipulating Rune", "Show the rune to other humans: they lose their memory of the last 30 minutes."], ["2 x Injector Pen with Healing Salve", "Each pen: one use, heal 1d6 non-critical physical attribute damage."], ["Mechanics Toolkit", "+1d6 on Technology rolls; for simple tasks with Technology 1+, use that rank instead."]],
+    "next_steps": "For the Eldritch cult investigation, use Sixth Sense and Occult. Monsters Hunter does not work on unique Eldritch entities without prior knowledge. Improve Occult and Observe as you gain XP.",
+    "rules_note": "Use the class loadout rather than a new 60-point shopping budget. The class provides no special ammunition; use normal rounds unless the GM awards or approves other ammunition. Follow the weapon rules for dual-wielding modifiers."
+  },
+  {
+    "id": "emanuel-markusson", "name": "Emanuél Markusson", "class": "Inquisitor", "concept": "Investigator searching for stolen souls",
+    "tagline": "Curiosity led him to the book. He still does not know what it took from him.",
+    "attributes": [2, 2, 2, 2, 4],
+    "disciplines": {"Social Interaction": [1, "Persuasion"], "Medicine": [1, "Psychology"], "Occult": [1, "Magic"]},
+    "abilities": ["Memory Manipulation", "Forked Tongue", "Information Web"],
+    "background": "When people around Emanuél began disappearing, he searched online for answers. Among forum discussions and witness accounts, he discovered a pattern that led him to an abandoned department store. Inside, he found the missing people standing motionless, staring at a wall.\n\nWhile investigating, he uncovered clues about a book that stole the soul of anyone who read it. When he found the book, he could not resist opening it. Everything after that is a blank. He woke several hours later to find both his friends and the book gone. A few hours afterwards, the GDA contacted him with a recruitment offer he could not refuse.",
+    "goal": "Find his friends and the book, and reclaim their souls.",
+    "weakness": "His curiosity often outweighs his caution. He struggles to leave anything unfamiliar unexplored.",
+    "advice": [
+      ["Search for answers", "Investigate locations, follow clues, and ask questions."],
+      ["Protect the secret", "Use persuasion and memory manipulation to make witnesses question what they saw."],
+      ["Support mental recovery", "Develop Medicine with the Psychology specialization to help treat mental injuries."]
+    ],
+    "weapons": [["Glock (Banisher) 9mm", "+1", "1 Kinetic + Piercing", "Light; one-handed; Concealable; Small rounds."], ["Upper Arm Blade + Sharp Rune", "0", "4 Slashing", "Base damage 3 + Sharp Rune 1. Concealable; Parry; Retractable; Light. Rune uses 2 slots."]],
+    "armor": [["Cloth + 2 Protection Runes", 3, "Base 1 + two runes, +1 each; 6 rune slots."]],
+    "equipment": [["Soulstone", "Keep against the skin. Stores the wearer's soul if they die."], ["Stone with Memory-Manipulating Rune", "Show the rune to other humans: they lose their memory of the last 30 minutes."], ["2 x Injector Pen with Healing Salve", "Each pen: one use, heal 1d6 non-critical physical attribute damage."]],
+    "next_steps": "Use Information Web to pursue the missing friends through contacts in places where you already have a network. Psychology supports mental treatment; it is not instant supernatural healing.",
+    "rules_note": "The Upper Arm Blade has 2 rune slots. Its Sharp Rune uses both slots and adds +1 damage because the weapon already deals Slashing damage: 3 + 1 = 4. This equipment follows the listed rune rules."
+  },
+  {
+    "id": "tizian-hokstorm", "name": "Tizian Hökstorm", "class": "Nanomancer", "concept": "Experimental nanocore field tester",
+    "tagline": "The technology enthusiast who became part of the experiment.",
+    "attributes": [2, 2, 3, 3, 2],
+    "disciplines": {"Technology": [1, "Programming"], "Medicine": [1, "Surgery"], "Combat": [1, "Unarmed"]},
+    "abilities": ["Nanomancy", "Swarm Attack", "Healing Protocol"],
+    "background": "Tizian's enthusiasm for technology caught the GDA's attention and led to his recruitment into its experimental nanomachine programme. He became one of the early candidates to have a nanocore implanted directly into his body. Now assigned to a commanding officer, he must field-test the technology under real operational conditions.\n\nFor Tizian, the assignment is a step towards a future in which nanomachines can help everyone. He wants to prove that the technology can be trusted, even under the most demanding circumstances.",
+    "goal": "Make nanomachines stable and reliable enough to become widely available.",
+    "weakness": "Tizian struggles to recognise the drawbacks of technological innovation and can rarely resist the latest gadget.",
+    "advice": [
+      ["Keep the team going", "Invest in nanoprograms that heal physical damage."],
+      ["Solve technical problems", "Develop abilities that help you examine, repair, and influence technology."],
+      ["Manage your workload", "Choose the programs you need for the situation and keep track of your CPU load."]
+    ],
+    "weapons": [["Glock (Banisher) 9mm", "+1", "1 Kinetic + Piercing", "Light; one-handed; Concealable; Small rounds."], ["Short Sword + Sharp Rune", "+1", "4 Slashing", "Base damage 3 + Sharp Rune 1. Parry; Light; one-handed. Sharp Rune uses both rune slots."]],
+    "armor": [["Leather coat + Protection Rune", 2, "Base 1 + rune 1. Additional +1 armor against Piercing; 3 rune slots."], ["Exoskeleton Power Armor", 7, "Alternative suit. Strength becomes 5 while worn. Record changes manually; do not add both suits' values."]],
+    "equipment": [["Nano Module", "Implanted nanocore; grants access to Nanomancy."], ["Soulstone", "Keep against the skin. Stores the wearer's soul if they die."], ["Stone with Memory-Manipulating Rune", "Show the rune to other humans: they lose their memory of the last 30 minutes."], ["2 x Injector Pen with Healing Salve", "Each pen: one use, heal 1d6 non-critical physical attribute damage."], ["Exoskeleton Implant", "Allows connection to and activation of powered exoskeleton armor."]],
+    "next_steps": "Healing Protocol enhances a healing discipline check; it does not replace Medicine. Consider Repair Protocol as a later purchase. The exoskeleton and implants are class equipment, not extra abilities: Techno Knight has not been selected.",
+    "rules_note": "Nanomancy uses Intelligence + Technology and has no Mana cost. CPU capacity is Intelligence x 10% = 30%. The overload limit is 100% of that personal capacity: three programs at 10% fill Tizian's CPU. At full capacity, attempting another program requires a Nanomancy roll; failure causes 1 Wisdom damage and Paralyzed for 1 round. The author has corrected the class weapon to Short Sword + Sharp Rune: its 2 rune slots hold the rune, and damage is 3 + 1 = 4 Slashing."
+  },
+  {
+    "id": "emilia-olsson", "name": "Emilia Olsson", "class": "Mage", "concept": "Self-taught occultist with a stolen part of herself",
+    "tagline": "She found proof that magic works. The price was higher than she could have imagined.",
+    "attributes": [1, 1, 5, 4, 1],
+    "disciplines": {"Occult": [2, "Magic"], "Academia": [1, "Chemistry"]},
+    "abilities": ["Magical Ritual", "Water Jet", "Creator"],
+    "background": "Emilia had been fascinated by the supernatural since childhood, collecting crystals and books about white magic. Everything changed when she found an untitled book in a second-hand shop. Its spells were real: if she followed the instructions exactly, they worked.\n\nBut a ritual she did not fully understand opened a portal to Hell. A demon emerged, seized her, and began draining something from her. Suddenly, it heard something following it through the portal and fled into the night. Emilia lost consciousness.\n\nShe awoke in GDA custody and received an ultimatum: work for them or never see daylight again.",
+    "goal": "Find the demon and reclaim whatever it stole from her.",
+    "weakness": "Emilia is convinced that she knows best, even in situations she does not understand.",
+    "advice": [
+      ["Be the occult specialist", "What you know about a phenomenon or creature can mean the difference between life and death."],
+      ["Choose the right spell", "Some creatures shrug off conventional weapons. Your magic can give the group a way to fight them."],
+      ["Solve problems through creation", "With the right specialization, you can create tools the group lacks."]
+    ],
+    "weapons": [["Glock (Banisher) 9mm", "+1", "1 Kinetic + Piercing", "Light; one-handed; Concealable; Small rounds."]],
+    "armor": [["Cloth + 2 Protection Runes", 3, "Base 1 + two runes, +1 each; 6 rune slots."]],
+    "equipment": [["Black Tower Laptop", "Loaded rituals: Bless Weapon, Protect Object, Inspiration Hymn. Laptop access: +2 difficulty steps, twice the casting time. After 1 hour connected to the database, swap the rituals."], ["Stone with Memory-Manipulating Rune", "Show the rune to other humans: they lose their memory of the last 30 minutes."], ["Injector Pen with Healing Salve", "One use: heal 1d6 non-critical physical attribute damage."], ["Tarot Deck", "Spend 1 Mana and 10 minutes to ask the GM one question. The answer must be true but may be cryptic."]],
+    "next_steps": "Creator is selected. Water Jet therefore costs 3 Mana, not its normal 2. Conjure Tool (125 XP) is a useful next purchase; Creator alone does not teach it. Genesis is also not yet learned, so its Creator synergy is a future benefit.",
+    "rules_note": "The author has corrected the Mage to 3 discipline points. Emilia has Occult 2 (Magic) and Academia 1 (Chemistry); the extra Medicine 1 (Triage) entry has been removed. The laptop's three rituals are item access, not extra purchased abilities."
+  },
+  {
+    "id": "maria-gonzales", "name": "Maria Gonzales", "class": "Protector", "concept": "Police officer protecting people from hidden threats",
+    "tagline": "She became a police officer to protect people. Now she knows how much they need protection from.",
+    "attributes": [5, 4, 1, 1, 1],
+    "disciplines": {"Combat": [1, "Melee"], "Athletics": [1, "Parkour"], "Occult": [1, "Spirits"]},
+    "abilities": ["Ki", "Bodyguard", "Resist"],
+    "background": "Since childhood, Maria had been the one who stood up to schoolyard bullies. Her determination to protect the vulnerable and follow the rules made a career in the police a natural choice.\n\nThen came the case that could not be explained. The investigation concluded that the victim had died in an animal attack, but Maria had seen the body. She refused to accept the explanation and kept digging, drawing on contacts she neither should have used nor trusted.\n\nEventually, she came face to face with the beast. She opened fire, but her bullets had no effect. She would have died if GDA agents had not intervened. Their commanding officer had been following her investigation, allowing her to continue to see whether she had what it took. When they offered her the chance to protect people from threats the police could not handle, she accepted.",
+    "goal": "Protect civilians from paranormal threats and discover how far the GDA's influence reaches behind the scenes.",
+    "weakness": "Maria tends to see the world in black and white. Her rigid principles make it difficult for her to accept ambiguity and compromise.",
+    "advice": [
+      ["Be where you are needed", "Invest in movement abilities and Bodyguard so you can get between a threat and someone who needs protection."],
+      ["Stay on your feet", "Prioritise abilities and equipment that help you survive when things go wrong."],
+      ["Draw the threat towards you", "Use your position and actions to make enemies focus on you, giving more vulnerable teammates room to act."]
+    ],
+    "weapons": [["Foldable Hammer + Heavy Rune", "+2", "3 Bludgeoning", "Base damage 2 + Heavy Rune 1. Concealable; Light; two-handed. Rune uses both slots."]],
+    "armor": [["Leather coat + Protection Rune", 2, "Base 1 + rune 1. Additional +1 armor against Piercing; 3 rune slots."]],
+    "equipment": [["Protective Talisman, Physical", "Armor value 2."], ["Protective Ring, Physical", "Armor value 2."], ["Protective Ring, Physical", "Second ring; armor value 2."]],
+    "next_steps": "Resist starts with Slashing selected. Spend 1 Mana as a reaction to change its damage type. Earth Ki is a useful defensive choice; Air Ki helps positioning. There is no automatic taunt ability: draw attention through positioning and actions agreed with the GM.",
+    "rules_note": "Ki requires a discipline tied to the chosen element. Maria's printed class lists Occult (Spirits); the GM should confirm which elements it supports. The class lists several armor-granting items without a clear stacking rule. Their individual values are recorded; no combined armor total is assumed."
+  }
+]

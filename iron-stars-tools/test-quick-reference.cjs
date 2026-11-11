@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict'),fs=require('node:fs');
+const core=require('../iron-stars/assets/roster-core.js');
+const data=JSON.parse(fs.readFileSync('iron-stars/data/army-builder.json','utf8'));
+const part=(name,kind)=>data.custom.parts.find(p=>p.name===name&&p.kind===kind&&p.source_id==='core');
+const frame=part('Medium','chassis'),laser=part('Medium Laser','weapon'),jet=part('Jetpack','system'),transform=part('Transform','system');
+const definition={name:'Alpha',chassis:frame.id,movement:15,structure:4,weapons:[{component:laser.id,quantity:4,linked:true}],systems:[jet.id]};
+let force=core.saveCustom(core.blank('iron-concord'),'custom-alpha',definition,data);force=core.saveCustom(force,'custom-beta',{...definition,name:'Beta'},data);force=core.add(force,'iron-concord-ironsworn-trooper',data);force.lines[0].quantity=3;
+const before=JSON.stringify(force),rules=core.quickReference(force,data);
+assert.equal(JSON.stringify(force),before);assert(rules.some(r=>r.name==='Linked'));assert(rules.some(r=>r.name==='Discipline Drills'));assert(rules.some(r=>r.name==='Scrap Rifle'));
+assert.equal(rules.filter(r=>r.name==='Medium Laser'&&r.category==='Weapons').length,1);assert.deepEqual(rules.find(r=>r.name==='Medium Laser'&&r.category==='Weapons').used_by,['Alpha','Beta']);
+assert(!rules.some(r=>r.name==='Flyer'||r.name==='Burrower'||r.name==='Burn'));assert(rules.every(r=>r.source_refs.length&&r.used_by.length));
+assert(rules.some(r=>r.name==='Iron Maul'&&r.category==='Weapons'));
+assert(!rules.some(r=>r.name==='Chain Halberd'),'Shared source paragraph IDs must not select a different named weapon');
+assert(rules.some(r=>r.category==='Movement'&&r.name==='Jetpack'&&r.text.includes('buildings freely')));
+assert.deepEqual(core.quickReference(core.decode(core.encode(force,data),data),data),rules);
+let southern=core.add(core.blank('southern-cross-compact'),'iron-concord-ironsworn-trooper',data);const sc=core.quickReference(southern,data);assert(sc.some(r=>r.name==='Discipline Drills'));assert(!sc.some(r=>r.text.includes('House Romanow')));
+const crDef={...definition,name:'Wheeled CR',systems:[transform.id],forms:[{name:'Mech',weapon_groups:[0]},{name:'Vehicle',movement_type:'wheeled',weapon_groups:[0]}]};
+let cr=core.saveCustom(core.blank('cybernetic-rebellion'),'custom-cr',crDef,data);const crRules=core.quickReference(cr,data);assert(crRules.some(r=>r.name==='Wheeled'&&r.text.includes('entire move stays on Open Ground')));assert(!crRules.some(r=>r.text.includes('two modes')));
+cr.lines[0].custom.forms[1].movement_type='flyer';assert(!core.quickReference(cr,data).some(r=>r.text.includes('cannot use melee')));
+const un={...crDef,flyer:true,transform_version:2,forms:[{name:'Mech',weapon_groups:[0]},{name:'Hybrid',weapon_groups:[0]},{name:'Flyer',weapon_groups:[0]}]};const unRoster=core.saveCustom(core.blank('unmc'),'custom-un',un,data);assert(core.quickReference(unRoster,data).some(r=>r.name==='UNMC Flyer'&&r.text.includes('cannot use melee')));
+assert.deepEqual(core.quickReference(core.blank('iron-concord'),data),[]);
+for(const stock of data.units){let roster=core.add(core.blank(stock.faction),stock.id,data);assert(core.quickReference(roster,data).length,stock.id);}
+console.log('PASS: mixed premade/custom references, keyword deduplication and used-by lists, source references, no unused movement rules, conditional CR/UNMC movement, Southern Cross exclusions, current roster round trips and all 26 premades.');

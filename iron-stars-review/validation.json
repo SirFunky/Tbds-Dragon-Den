@@ -1,0 +1,20 @@
+{
+  "source_documents": 5,
+  "body_blocks": 2381,
+  "tables_including_embedded": 85,
+  "source_text_characters": 148140,
+  "unverified_observations": 1271,
+  "approved_records": 0,
+  "duplicate_name_groups_for_review": 21,
+  "reachable_public_files": 752,
+  "checks": [
+    "Original and supplied DOCX hashes match",
+    "Main-body text content matches ignoring whitespace used for table serialization",
+    "All source tables represented, including content-control table",
+    "Unique record IDs and valid source references/hashes",
+    "Organized source blocks exactly match extracted source blocks",
+    "No private source/review files reachable in public collector",
+    "No approved records without approval decisions",
+    "Explicit review references resolve"
+  ]
+}

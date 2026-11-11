@@ -1,0 +1,2220 @@
+{
+  "schema_version": 1,
+  "category": "chassis",
+  "review_status": "unverified",
+  "publication_status": "private",
+  "records": [
+    {
+      "id": "chassis:core:0187-0187:r2",
+      "label": "Light",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0187:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0187:r2",
+          "cells": [
+            {
+              "id": "core:b0187:r2:c1",
+              "paragraphs": [
+                "Light"
+              ],
+              "text": "Light",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r2:c2",
+              "paragraphs": [
+                "18 cm"
+              ],
+              "text": "18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r2:c3",
+              "paragraphs": [
+                "3+"
+              ],
+              "text": "3+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r2:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r2:c5",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Light",
+        "18 cm",
+        "3+",
+        "3",
+        "10 pts"
+      ]
+    },
+    {
+      "id": "chassis:core:0187-0187:r3",
+      "label": "Medium",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0187:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0187:r3",
+          "cells": [
+            {
+              "id": "core:b0187:r3:c1",
+              "paragraphs": [
+                "Medium"
+              ],
+              "text": "Medium",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r3:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r3:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r3:c4",
+              "paragraphs": [
+                "4–5"
+              ],
+              "text": "4–5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r3:c5",
+              "paragraphs": [
+                "15 pts"
+              ],
+              "text": "15 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Medium",
+        "15 cm",
+        "4+",
+        "4–5",
+        "15 pts"
+      ]
+    },
+    {
+      "id": "chassis:core:0187-0187:r4",
+      "label": "Heavy",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0187:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0187:r4",
+          "cells": [
+            {
+              "id": "core:b0187:r4:c1",
+              "paragraphs": [
+                "Heavy"
+              ],
+              "text": "Heavy",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r4:c2",
+              "paragraphs": [
+                "13 cm"
+              ],
+              "text": "13 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r4:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r4:c4",
+              "paragraphs": [
+                "6–7"
+              ],
+              "text": "6–7",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r4:c5",
+              "paragraphs": [
+                "20 pts"
+              ],
+              "text": "20 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Heavy",
+        "13 cm",
+        "5+",
+        "6–7",
+        "20 pts"
+      ]
+    },
+    {
+      "id": "chassis:core:0187-0187:r5",
+      "label": "Elite",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0187:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0187:r5",
+          "cells": [
+            {
+              "id": "core:b0187:r5:c1",
+              "paragraphs": [
+                "Elite"
+              ],
+              "text": "Elite",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r5:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r5:c4",
+              "paragraphs": [
+                "6–8"
+              ],
+              "text": "6–8",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0187:r5:c5",
+              "paragraphs": [
+                "25 pts"
+              ],
+              "text": "25 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Elite",
+        "15 cm",
+        "5+",
+        "6–8",
+        "25 pts"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r2",
+      "label": "Ironsworn Frame",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r2",
+          "cells": [
+            {
+              "id": "concord:b0028:r2:c1",
+              "paragraphs": [
+                "Ironsworn Frame"
+              ],
+              "text": "Ironsworn Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r2:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r2:c3",
+              "paragraphs": [
+                "3+"
+              ],
+              "text": "3+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r2:c4",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r2:c5",
+              "paragraphs": [
+                "6 pts"
+              ],
+              "text": "6 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r2:c6",
+              "paragraphs": [
+                "Cheap swarm unit"
+              ],
+              "text": "Cheap swarm unit",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Ironsworn Frame",
+        "15 cm",
+        "3+",
+        "2",
+        "6 pts",
+        "Cheap swarm unit"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r3",
+      "label": "Auxilia Platform",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r3",
+          "cells": [
+            {
+              "id": "concord:b0028:r3:c1",
+              "paragraphs": [
+                "Auxilia Platform"
+              ],
+              "text": "Auxilia Platform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r3:c2",
+              "paragraphs": [
+                "10 cm"
+              ],
+              "text": "10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r3:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r3:c4",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r3:c5",
+              "paragraphs": [
+                "8 pts"
+              ],
+              "text": "8 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r3:c6",
+              "paragraphs": [
+                "Support fire platform"
+              ],
+              "text": "Support fire platform",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Auxilia Platform",
+        "10 cm",
+        "4+",
+        "2",
+        "8 pts",
+        "Support fire platform"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r4",
+      "label": "Linewalker",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r4",
+          "cells": [
+            {
+              "id": "concord:b0028:r4:c1",
+              "paragraphs": [
+                "Linewalker"
+              ],
+              "text": "Linewalker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r4:c2",
+              "paragraphs": [
+                "12.5 cm"
+              ],
+              "text": "12.5 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r4:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r4:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r4:c5",
+              "paragraphs": [
+                "10 pts"
+              ],
+              "text": "10 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r4:c6",
+              "paragraphs": [
+                "Standard trooper"
+              ],
+              "text": "Standard trooper",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Linewalker",
+        "12.5 cm",
+        "4+",
+        "3",
+        "10 pts",
+        "Standard trooper"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r5",
+      "label": "Legate Frame",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r5",
+          "cells": [
+            {
+              "id": "concord:b0028:r5:c1",
+              "paragraphs": [
+                "Legate Frame"
+              ],
+              "text": "Legate Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r5:c2",
+              "paragraphs": [
+                "12.5 cm"
+              ],
+              "text": "12.5 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r5:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r5:c5",
+              "paragraphs": [
+                "20 pts"
+              ],
+              "text": "20 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r5:c6",
+              "paragraphs": [
+                "Commander/support"
+              ],
+              "text": "Commander/support",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Legate Frame",
+        "12.5 cm",
+        "5+",
+        "6",
+        "20 pts",
+        "Commander/support"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r6",
+      "label": "Iron Templar",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r6"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r6",
+          "cells": [
+            {
+              "id": "concord:b0028:r6:c1",
+              "paragraphs": [
+                "Iron Templar"
+              ],
+              "text": "Iron Templar",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r6:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r6:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r6:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r6:c5",
+              "paragraphs": [
+                "22 pts"
+              ],
+              "text": "22 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r6:c6",
+              "paragraphs": [
+                "Elite strike unit"
+              ],
+              "text": "Elite strike unit",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Iron Templar",
+        "15 cm",
+        "5+",
+        "5",
+        "22 pts",
+        "Elite strike unit"
+      ]
+    },
+    {
+      "id": "chassis:concord:0028-0028:r7",
+      "label": "Bastion-Class",
+      "source_id": "concord",
+      "source_filename": "IRON CONCORD – FACTION RULES (1).docx",
+      "source_sha256": "a8c9970b8f8cd3e1f22b13d97614c5a8550a346490a0b6bff10527dfba757440",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "concord:b0028:r7"
+      ],
+      "source_blocks": [
+        {
+          "id": "concord:b0028:r7",
+          "cells": [
+            {
+              "id": "concord:b0028:r7:c1",
+              "paragraphs": [
+                "Bastion-Class"
+              ],
+              "text": "Bastion-Class",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r7:c2",
+              "paragraphs": [
+                "10 cm"
+              ],
+              "text": "10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r7:c3",
+              "paragraphs": [
+                "6+"
+              ],
+              "text": "6+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r7:c4",
+              "paragraphs": [
+                "7"
+              ],
+              "text": "7",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r7:c5",
+              "paragraphs": [
+                "28 pts"
+              ],
+              "text": "28 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "concord:b0028:r7:c6",
+              "paragraphs": [
+                "Super-heavy anchor"
+              ],
+              "text": "Super-heavy anchor",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Name",
+        "Move",
+        "Def",
+        "STR",
+        "Cost",
+        "Role"
+      ],
+      "values_as_written": [
+        "Bastion-Class",
+        "10 cm",
+        "6+",
+        "7",
+        "28 pts",
+        "Super-heavy anchor"
+      ]
+    },
+    {
+      "id": "chassis:unmc:0035-0035:r2",
+      "label": "Light Skirmisher",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0035:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0035:r2",
+          "cells": [
+            {
+              "id": "unmc:b0035:r2:c1",
+              "paragraphs": [
+                "Light Skirmisher"
+              ],
+              "text": "Light Skirmisher",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c2",
+              "paragraphs": [
+                "20 cm"
+              ],
+              "text": "20 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c3",
+              "paragraphs": [
+                "3+"
+              ],
+              "text": "3+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c5",
+              "paragraphs": [
+                "Fast, fragile recon; ideal for early positioning"
+              ],
+              "text": "Fast, fragile recon; ideal for early positioning",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r2:c6",
+              "paragraphs": [
+                "11 pts"
+              ],
+              "text": "11 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Frame Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Notes",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Light Skirmisher",
+        "20 cm",
+        "3+",
+        "3",
+        "Fast, fragile recon; ideal for early positioning",
+        "11 pts"
+      ]
+    },
+    {
+      "id": "chassis:unmc:0035-0035:r3",
+      "label": "UN Interceptor Frame",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0035:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0035:r3",
+          "cells": [
+            {
+              "id": "unmc:b0035:r3:c1",
+              "paragraphs": [
+                "UN Interceptor Frame"
+              ],
+              "text": "UN Interceptor Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c2",
+              "paragraphs": [
+                "18 cm"
+              ],
+              "text": "18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c5",
+              "paragraphs": [
+                "High-speed, elite-grade systems"
+              ],
+              "text": "High-speed, elite-grade systems",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r3:c6",
+              "paragraphs": [
+                "18 pts"
+              ],
+              "text": "18 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Frame Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Notes",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "UN Interceptor Frame",
+        "18 cm",
+        "4+",
+        "5",
+        "High-speed, elite-grade systems",
+        "18 pts"
+      ]
+    },
+    {
+      "id": "chassis:unmc:0035-0035:r4",
+      "label": "Standard Frame",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0035:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0035:r4",
+          "cells": [
+            {
+              "id": "unmc:b0035:r4:c1",
+              "paragraphs": [
+                "Standard Frame"
+              ],
+              "text": "Standard Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c2",
+              "paragraphs": [
+                "17 cm"
+              ],
+              "text": "17 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c4",
+              "paragraphs": [
+                "4–5"
+              ],
+              "text": "4–5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c5",
+              "paragraphs": [
+                "Balanced role-flexible chassis"
+              ],
+              "text": "Balanced role-flexible chassis",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r4:c6",
+              "paragraphs": [
+                "16 pts"
+              ],
+              "text": "16 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Frame Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Notes",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Standard Frame",
+        "17 cm",
+        "4+",
+        "4–5",
+        "Balanced role-flexible chassis",
+        "16 pts"
+      ]
+    },
+    {
+      "id": "chassis:unmc:0035-0035:r5",
+      "label": "Heavy Striker",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0035:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0035:r5",
+          "cells": [
+            {
+              "id": "unmc:b0035:r5:c1",
+              "paragraphs": [
+                "Heavy Striker"
+              ],
+              "text": "Heavy Striker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c5",
+              "paragraphs": [
+                "Resilient platform for support & synergy tools"
+              ],
+              "text": "Resilient platform for support & synergy tools",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r5:c6",
+              "paragraphs": [
+                "21 pts"
+              ],
+              "text": "21 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Frame Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Notes",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Heavy Striker",
+        "15 cm",
+        "5+",
+        "6",
+        "Resilient platform for support & synergy tools",
+        "21 pts"
+      ]
+    },
+    {
+      "id": "chassis:unmc:0035-0035:r6",
+      "label": "Aerospace Form",
+      "source_id": "unmc",
+      "source_filename": "United Nations Mega Corparations (1).docx",
+      "source_sha256": "5322bd41c2951a8033175240a731a3d84a289e6dcb7c8b12474167a76ff78abd",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "unmc:b0035:r6"
+      ],
+      "source_blocks": [
+        {
+          "id": "unmc:b0035:r6",
+          "cells": [
+            {
+              "id": "unmc:b0035:r6:c1",
+              "paragraphs": [
+                "Aerospace Form"
+              ],
+              "text": "Aerospace Form",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c2",
+              "paragraphs": [
+                "+10 cm"
+              ],
+              "text": "+10 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c3",
+              "paragraphs": [
+                "-1 to Defence (worse)"
+              ],
+              "text": "-1 to Defence (worse)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c4",
+              "paragraphs": [
+                "—"
+              ],
+              "text": "—",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c5",
+              "paragraphs": [
+                "Used in Flight Mode (requires Transform)"
+              ],
+              "text": "Used in Flight Mode (requires Transform)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "unmc:b0035:r6:c6",
+              "paragraphs": [
+                "+0 pts"
+              ],
+              "text": "+0 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Frame Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Notes",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Aerospace Form",
+        "+10 cm",
+        "-1 to Defence (worse)",
+        "—",
+        "Used in Flight Mode (requires Transform)",
+        "+0 pts"
+      ]
+    },
+    {
+      "id": "chassis:rebellion:0030-0030:r2",
+      "label": "Drone (Light)",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0030:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0030:r2",
+          "cells": [
+            {
+              "id": "rebellion:b0030:r2:c1",
+              "paragraphs": [
+                "Drone (Light)"
+              ],
+              "text": "Drone (Light)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r2:c2",
+              "paragraphs": [
+                "18 cm"
+              ],
+              "text": "18 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r2:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r2:c4",
+              "paragraphs": [
+                "2"
+              ],
+              "text": "2",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r2:c5",
+              "paragraphs": [
+                "8 pts"
+              ],
+              "text": "8 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Drone (Light)",
+        "18 cm",
+        "4+",
+        "2",
+        "8 pts"
+      ]
+    },
+    {
+      "id": "chassis:rebellion:0030-0030:r3",
+      "label": "Adaptive Medium",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0030:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0030:r3",
+          "cells": [
+            {
+              "id": "rebellion:b0030:r3:c1",
+              "paragraphs": [
+                "Adaptive Medium"
+              ],
+              "text": "Adaptive Medium",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r3:c2",
+              "paragraphs": [
+                "16 cm"
+              ],
+              "text": "16 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r3:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r3:c4",
+              "paragraphs": [
+                "4"
+              ],
+              "text": "4",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r3:c5",
+              "paragraphs": [
+                "14 pts"
+              ],
+              "text": "14 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Adaptive Medium",
+        "16 cm",
+        "5+",
+        "4",
+        "14 pts"
+      ]
+    },
+    {
+      "id": "chassis:rebellion:0030-0030:r4",
+      "label": "Hive Heavy",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0030:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0030:r4",
+          "cells": [
+            {
+              "id": "rebellion:b0030:r4:c1",
+              "paragraphs": [
+                "Hive Heavy"
+              ],
+              "text": "Hive Heavy",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r4:c2",
+              "paragraphs": [
+                "14 cm"
+              ],
+              "text": "14 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r4:c3",
+              "paragraphs": [
+                "6+"
+              ],
+              "text": "6+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r4:c4",
+              "paragraphs": [
+                "5–6"
+              ],
+              "text": "5–6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r4:c5",
+              "paragraphs": [
+                "18 pts"
+              ],
+              "text": "18 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Hive Heavy",
+        "14 cm",
+        "6+",
+        "5–6",
+        "18 pts"
+      ]
+    },
+    {
+      "id": "chassis:rebellion:0030-0030:r5",
+      "label": "Ascendant Core",
+      "source_id": "rebellion",
+      "source_filename": "The Cybernetic Rebellion – FACTION RULES (2).docx",
+      "source_sha256": "ab2eca876212c81cdbf0683947180332a2e7bf279bcc50e8e883a27fb8251a34",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "rebellion:b0030:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "rebellion:b0030:r5",
+          "cells": [
+            {
+              "id": "rebellion:b0030:r5:c1",
+              "paragraphs": [
+                "Ascendant Core"
+              ],
+              "text": "Ascendant Core",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r5:c2",
+              "paragraphs": [
+                "16 cm"
+              ],
+              "text": "16 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r5:c3",
+              "paragraphs": [
+                "6+"
+              ],
+              "text": "6+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r5:c4",
+              "paragraphs": [
+                "6–7"
+              ],
+              "text": "6–7",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "rebellion:b0030:r5:c5",
+              "paragraphs": [
+                "22 pts"
+              ],
+              "text": "22 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis Tier",
+        "Move",
+        "Defence",
+        "Structure",
+        "Base Cost"
+      ],
+      "values_as_written": [
+        "Ascendant Core",
+        "16 cm",
+        "6+",
+        "6–7",
+        "22 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r2",
+      "label": "Flyer Scout",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r2",
+          "cells": [
+            {
+              "id": "avalon:b0049:r2:c1",
+              "paragraphs": [
+                "Flyer Scout"
+              ],
+              "text": "Flyer Scout",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c2",
+              "paragraphs": [
+                "25–30 cm"
+              ],
+              "text": "25–30 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c3",
+              "paragraphs": [
+                "4+"
+              ],
+              "text": "4+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c4",
+              "paragraphs": [
+                "3"
+              ],
+              "text": "3",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c5",
+              "paragraphs": [
+                "Fast recon; Prototype/Experimental"
+              ],
+              "text": "Fast recon; Prototype/Experimental",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r2:c6",
+              "paragraphs": [
+                "20 pts"
+              ],
+              "text": "20 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Flyer Scout",
+        "25–30 cm",
+        "4+",
+        "3",
+        "Fast recon; Prototype/Experimental",
+        "20 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r3",
+      "label": "Errant Frame",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r3",
+          "cells": [
+            {
+              "id": "avalon:b0049:r3:c1",
+              "paragraphs": [
+                "Errant Frame"
+              ],
+              "text": "Errant Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c5",
+              "paragraphs": [
+                "Core duelist frame"
+              ],
+              "text": "Core duelist frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r3:c6",
+              "paragraphs": [
+                "40 pts"
+              ],
+              "text": "40 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Errant Frame",
+        "15 cm",
+        "5+",
+        "5",
+        "Core duelist frame",
+        "40 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r4",
+      "label": "Black Knight",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r4",
+          "cells": [
+            {
+              "id": "avalon:b0049:r4:c1",
+              "paragraphs": [
+                "Black Knight"
+              ],
+              "text": "Black Knight",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c2",
+              "paragraphs": [
+                "13 cm"
+              ],
+              "text": "13 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c5",
+              "paragraphs": [
+                "Heavy anchor"
+              ],
+              "text": "Heavy anchor",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r4:c6",
+              "paragraphs": [
+                "50 pts"
+              ],
+              "text": "50 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Black Knight",
+        "13 cm",
+        "5+",
+        "6",
+        "Heavy anchor",
+        "50 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r5",
+      "label": "Castellan",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r5",
+          "cells": [
+            {
+              "id": "avalon:b0049:r5:c1",
+              "paragraphs": [
+                "Castellan"
+              ],
+              "text": "Castellan",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c2",
+              "paragraphs": [
+                "13 cm"
+              ],
+              "text": "13 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c4",
+              "paragraphs": [
+                "6"
+              ],
+              "text": "6",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c5",
+              "paragraphs": [
+                "Shieldwall"
+              ],
+              "text": "Shieldwall",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r5:c6",
+              "paragraphs": [
+                "50 pts"
+              ],
+              "text": "50 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Castellan",
+        "13 cm",
+        "5+",
+        "6",
+        "Shieldwall",
+        "50 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r6",
+      "label": "Lancer-Archon",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r6"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r6",
+          "cells": [
+            {
+              "id": "avalon:b0049:r6:c1",
+              "paragraphs": [
+                "Lancer-Archon"
+              ],
+              "text": "Lancer-Archon",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c4",
+              "paragraphs": [
+                "5"
+              ],
+              "text": "5",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c5",
+              "paragraphs": [
+                "Sniper frame"
+              ],
+              "text": "Sniper frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r6:c6",
+              "paragraphs": [
+                "45 pts"
+              ],
+              "text": "45 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Lancer-Archon",
+        "15 cm",
+        "5+",
+        "5",
+        "Sniper frame",
+        "45 pts"
+      ]
+    },
+    {
+      "id": "chassis:avalon:0049-0049:r7",
+      "label": "Seraphim Frame",
+      "source_id": "avalon",
+      "source_filename": "NEW AVALON – FACTION RULES (2).docx",
+      "source_sha256": "616f1e384929e964e517073c346eff986807351b3a4be64db524bb274256b95d",
+      "rules_version": null,
+      "version_basis": "Not stated; filename copy suffix is not a version",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "avalon:b0049:r7"
+      ],
+      "source_blocks": [
+        {
+          "id": "avalon:b0049:r7",
+          "cells": [
+            {
+              "id": "avalon:b0049:r7:c1",
+              "paragraphs": [
+                "Seraphim Frame"
+              ],
+              "text": "Seraphim Frame",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c2",
+              "paragraphs": [
+                "15 cm"
+              ],
+              "text": "15 cm",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c3",
+              "paragraphs": [
+                "5+"
+              ],
+              "text": "5+",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c4",
+              "paragraphs": [
+                "7"
+              ],
+              "text": "7",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c5",
+              "paragraphs": [
+                "Supreme commander"
+              ],
+              "text": "Supreme commander",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "avalon:b0049:r7:c6",
+              "paragraphs": [
+                "70 pts"
+              ],
+              "text": "70 pts",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Chassis",
+        "M",
+        "D",
+        "STR",
+        "Notes",
+        "Cost"
+      ],
+      "values_as_written": [
+        "Seraphim Frame",
+        "15 cm",
+        "5+",
+        "7",
+        "Supreme commander",
+        "70 pts"
+      ]
+    }
+  ]
+}

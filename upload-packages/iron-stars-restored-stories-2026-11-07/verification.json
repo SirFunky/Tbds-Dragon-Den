@@ -1,0 +1,39 @@
+{
+  "package": "iron-stars-restored-stories-2026-11-07.zip",
+  "files": 150,
+  "uncompressed_bytes": 11345322,
+  "zip_bytes": 6773322,
+  "zip_sha256": "4888024f7d52c54d0721353c137254b75f23ad315445fa9f3b3d8d481e834b8e",
+  "extensions": {
+    ".css": 11,
+    ".html": 90,
+    ".jpg": 15,
+    ".js": 12,
+    ".json": 6,
+    ".svg": 1,
+    ".webp": 15
+  },
+  "scope": "Iron Stars section, existing gallery, homepage integration and shared header assets",
+  "existing_site_navigation_targets": [
+    "Eldritch shadows/EldritchShadowsPublicEnglishPdfUpdated.html",
+    "Eldritch shadows/IconRuneStarEmbedded.svg",
+    "about.html",
+    "contact.html",
+    "guilds-and-dragons.html",
+    "jade-empire.html",
+    "miniatures.html",
+    "music-card.css",
+    "music.html",
+    "romance-in-the-land-of-the-setting-sun.html",
+    "short-stories.html"
+  ],
+  "checks": [
+    "Reachable local links, anchors and exact filename casing checked",
+    "Every staged and archived file matches its current source SHA-256",
+    "ZIP integrity/CRC and exact file list verified",
+    "Both battle modules and every required builder module included",
+    "Only public runtime JSON included; private sources, QA and tools excluded",
+    "Existing publication output and older archives preserved"
+  ],
+  "deployed": false
+}

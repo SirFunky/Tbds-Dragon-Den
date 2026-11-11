@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eldritch Shadows | TBD's Dragon Den</title>
+  <style>
+    :root {
+      --bg: #020617;
+      --bg-elevated: rgba(15, 23, 42, 0.92);
+      --bg-card: rgba(15, 23, 42, 0.9);
+      --border-subtle: #1f2933;
+      --accent: #22c55e;
+      --accent-soft: rgba(34, 197, 94, 0.12);
+      --accent-blue: rgba(56, 189, 248, 0.18);
+      --text-main: #e5e7eb;
+      --text-muted: #9ca3af;
+      --text-soft: #6b7280;
+      --heading: #f9fafb;
+      --danger: #f97373;
+      --warning: #fbbf24;
+      --radius-lg: 18px;
+      --radius-xl: 24px;
+      --shadow-soft: 0 18px 40px rgba(15, 23, 42, 0.8);
+      --shadow-subtle: 0 10px 30px rgba(15, 23, 42, 0.7);
+      --transition-fast: 180ms ease-out;
+      --max-width: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top, #020617 0, #020617 42%, #000 100%);
+      color: var(--text-main);
+    }
+
+    a { color: inherit; }
+
+    .page-shell {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 32px 16px 72px;
+    }
+
+    header {
+      margin-bottom: 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-mark {
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #4ade80 0, #065f46 35%, #020617 80%);
+      box-shadow: 0 0 18px rgba(52, 211, 153, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: #ecfdf5;
+      font-weight: 700;
+    }
+
+    .logo-text {
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 14px;
+      color: var(--text-soft);
+    }
+
+    nav a {
+      text-decoration: none;
+      padding: 4px 0;
+      border-bottom: 1px solid transparent;
+      transition: border-color var(--transition-fast), color var(--transition-fast);
+    }
+
+    nav a:hover {
+      color: var(--text-main);
+      border-color: var(--accent);
+    }
+
+    .pill {
+      padding: 4px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.4);
+      background: rgba(15, 23, 42, 0.8);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+    }
+
+    .hero {
+      position: relative;
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(320px, 0.8fr);
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+
+    .hero-main,
+    .hero-panel {
+      position: relative;
+      overflow: hidden;
+      border-radius: var(--radius-xl);
+      border: 1px solid rgba(31, 41, 55, 0.95);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .hero-main {
+      padding: 34px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background:
+        radial-gradient(circle at 0 0, rgba(56, 189, 248, 0.1) 0, transparent 60%),
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.16), transparent 55%),
+        rgba(15, 23, 42, 0.9);
+    }
+
+    .hero-main::after,
+    .hero-panel::after,
+    .section-card::after,
+    .feature-card::after,
+    .class-card::after,
+    .threat-card::after,
+    .cta-card::after,
+    .quote-card::after,
+    .warning-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(to bottom right, rgba(255,255,255,0.03), transparent 40%);
+    }
+
+    .hero-panel {
+      min-height: 100%;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(34, 197, 94, 0.18), transparent 40%),
+        radial-gradient(circle at 70% 15%, rgba(56, 189, 248, 0.14), transparent 35%),
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.85), rgba(2, 6, 23, 1));
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .hero-panel-art {
+      position: relative;
+      min-height: 360px;
+      overflow: hidden;
+      background-image:
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.12), rgba(2, 6, 23, 0.58)),
+        url("Mörk framtid med mystiska ljus.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+
+    .hero-panel-art::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 18% 18%, rgba(34, 197, 94, 0.12), transparent 22%),
+        linear-gradient(to bottom, rgba(2, 6, 23, 0.04), rgba(2, 6, 23, 0.74));
+      opacity: 0.95;
+    }
+
+    .rift,
+    .agent {
+      display: none;
+    }
+
+    .hero-panel-copy {
+      padding: 18px 20px 20px;
+      border-top: 1px solid rgba(31, 41, 55, 0.95);
+      background: linear-gradient(to top, rgba(15, 23, 42, 0.96), rgba(15, 23, 42, 0.92));
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px 4px 4px;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.88);
+      border: 1px solid rgba(148, 163, 184, 0.45);
+      color: var(--text-soft);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      position: relative;
+      z-index: 1;
+    }
+
+    .eyebrow-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 18px;
+      height: 18px;
+      border-radius: 999px;
+      background: radial-gradient(circle at 30% 30%, #4ade80 0, #22c55e 40%, #064e3b 90%);
+      box-shadow: 0 0 10px rgba(74, 222, 128, 0.7);
+      color: #ecfdf5;
+      font-size: 12px;
+    }
+
+    h1, h2, h3, h4 {
+      color: var(--heading);
+      margin: 0;
+      letter-spacing: 0.01em;
+    }
+
+    h1 {
+      margin-top: 14px;
+      font-size: clamp(34px, 5vw, 56px);
+      line-height: 1.02;
+    }
+
+    .hero-subtitle {
+      margin: 14px 0 22px;
+      max-width: 40rem;
+      color: var(--text-muted);
+      font-size: 16px;
+      line-height: 1.65;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-actions,
+    .stack-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-actions {
+      margin-top: auto;
+    }
+
+    .hero-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+      color: var(--text-soft);
+      font-size: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-meta span {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(2, 6, 23, 0.55);
+      border: 1px solid rgba(148, 163, 184, 0.18);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 10px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: background var(--transition-fast), border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast), color var(--transition-fast);
+    }
+
+    .btn:hover { transform: translateY(-1px); }
+
+    .btn-primary {
+      background: radial-gradient(circle at 20% 0, #4ade80 0, #22c55e 35%, #16a34a 70%);
+      color: #022c22;
+      box-shadow: 0 14px 30px rgba(34, 197, 94, 0.45);
+    }
+
+    .btn-secondary {
+      background: rgba(15, 23, 42, 0.9);
+      border-color: rgba(148, 163, 184, 0.55);
+      color: var(--text-main);
+    }
+
+    .section {
+      margin-top: 18px;
+      margin-bottom: 32px;
+    }
+
+    .section-head {
+      margin-bottom: 16px;
+    }
+
+    .section-head p {
+      margin: 10px 0 0;
+      max-width: 48rem;
+      color: var(--text-soft);
+      line-height: 1.7;
+    }
+
+    .grid-two {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .grid-three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .section-card,
+    .feature-card,
+    .class-card,
+    .threat-card,
+    .cta-card,
+    .quote-card,
+    .warning-card {
+      position: relative;
+      overflow: hidden;
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.92) 0, #020617 60%);
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-lg);
+      box-shadow: 0 12px 32px rgba(2, 6, 23, 0.75);
+    }
+
+    .section-card,
+    .warning-card,
+    .quote-card,
+    .cta-card { padding: 22px; }
+
+    .feature-card,
+    .class-card,
+    .threat-card { padding: 20px; }
+
+    .feature-card h3,
+    .class-card h3,
+    .threat-card h3,
+    .cta-card h3,
+    .quote-card h3,
+    .warning-card h3 {
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    .lede {
+      font-size: 17px;
+      color: var(--text-main);
+    }
+
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      background: rgba(2, 6, 23, 0.5);
+      font-size: 12px;
+      color: var(--text-soft);
+    }
+
+    .feature-card .icon,
+    .class-card .icon,
+    .threat-card .icon {
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      background: var(--accent-soft);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      font-size: 18px;
+    }
+
+    .feature-card strong,
+    .class-card strong,
+    .threat-card strong {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .class-tag,
+    .threat-tag,
+    .mini-label {
+      display: inline-flex;
+      margin-bottom: 10px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--text-soft);
+      background: rgba(15, 23, 42, 0.75);
+      border: 1px solid rgba(148, 163, 184, 0.22);
+    }
+
+    .split-showcase {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .showcase-panel {
+      padding: 22px;
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--border-subtle);
+      box-shadow: 0 12px 32px rgba(2, 6, 23, 0.75);
+      background: radial-gradient(circle at top, rgba(15, 23, 42, 0.92) 0, #020617 60%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .showcase-panel.magic::before,
+    .showcase-panel.nano::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.8;
+    }
+
+    .showcase-panel.magic::before {
+      background: radial-gradient(circle at top left, rgba(34, 197, 94, 0.12), transparent 45%);
+    }
+
+    .showcase-panel.nano::before {
+      background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.12), transparent 45%);
+    }
+
+    .showcase-panel h3 { margin-bottom: 10px; }
+
+    .showcase-panel ul,
+    .warning-card ul,
+    .cta-card ul {
+      margin: 14px 0 0;
+      padding-left: 18px;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    .quote-card {
+      background:
+        radial-gradient(circle at top right, rgba(34, 197, 94, 0.12), transparent 40%),
+        linear-gradient(to bottom, rgba(15, 23, 42, 0.94), rgba(2, 6, 23, 1));
+    }
+
+    .quote-card blockquote {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.7;
+      color: var(--text-main);
+    }
+
+    .quote-card footer {
+      margin-top: 14px;
+      color: var(--text-soft);
+      font-size: 13px;
+    }
+
+    .warning-wrap {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 18px;
+    }
+
+    .warning-card.warning {
+      border-color: rgba(251, 191, 36, 0.25);
+      background: radial-gradient(circle at top, rgba(120, 53, 15, 0.25) 0, #020617 70%);
+    }
+
+    .warning-card.license {
+      border-color: rgba(34, 197, 94, 0.22);
+    }
+
+    .warning-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .status-list {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .status-item {
+      padding: 14px;
+      border-radius: 16px;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      background: rgba(2, 6, 23, 0.45);
+    }
+
+    .status-label {
+      color: var(--text-soft);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 6px;
+    }
+
+    .status-value {
+      color: var(--text-main);
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    footer.site-footer {
+      margin-top: 44px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(31, 41, 55, 0.8);
+      font-size: 12px;
+      color: var(--text-soft);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    @media (max-width: 980px) {
+      .hero,
+      .warning-wrap,
+      .grid-three,
+      .grid-two,
+      .split-showcase,
+      .status-list {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .hero-main,
+      .section-card,
+      .feature-card,
+      .class-card,
+      .threat-card,
+      .cta-card,
+      .quote-card,
+      .warning-card,
+      .showcase-panel {
+        padding: 18px;
+      }
+
+      .hero-panel-art { min-height: 280px; }
+      h1 { font-size: 34px; }
+
+      footer.site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-shell">
+    <header>
+      <div class="logo">
+        <div class="logo-mark">🐉</div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </div>
+      <nav>
+        <a href="#overview">Översikt</a>
+        <a href="#play">Spela som</a>
+        <a href="#threats">Hot</a>
+        <a href="#status">Status</a>
+        <span class="pill">Dark urban fantasy</span>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-main">
+          <div class="eyebrow">
+            <span class="eyebrow-badge">✦</span>
+            <span>Projektsektion</span>
+          </div>
+
+          <h1 id="hero-heading">Eldritch Shadows</h1>
+
+          <p class="hero-subtitle">
+            Ett mörkt rollspel om agenter, jägare, ritualister och teknomystiker
+            som försöker hålla verkligheten hel när sprickor mot andra världar
+            släpper in demoner, eldritch fasor, andar och sådant som aldrig
+            borde ha fått en plats i vår värld.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#overview" class="btn btn-primary">Utforska projektet</a>
+            <a href="TBDDragonDenUpdated.html" class="btn btn-secondary">Tillbaka till startsidan</a>
+          </div>
+
+          <div class="hero-meta">
+            <span>Beta 0.2.1</span>
+            <span>TTRPG</span>
+            <span>Cosmic urban horror</span>
+            <span>Open rules / protected setting</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Eldritch Shadows stämning">
+          <div class="hero-panel-art">
+            <div class="rift"></div>
+            <div class="agent"></div>
+          </div>
+          <div class="hero-panel-copy">
+            <div class="mini-label">I skuggorna väntar</div>
+            <h3>Containment team meets cosmic horror</h3>
+            <p>
+              Moderna miljöer, psykisk press, ritualmagi, nanoteknik och hot som
+              inte följer mänsklig logik.
+            </p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="overview" class="section" aria-labelledby="overview-heading">
+        <div class="section-head">
+          <h2 id="overview-heading">Vad är Eldritch Shadows?</h2>
+          <p>
+            Eldritch Shadows är en modern mörk urban fantasy där verkligheten är
+            sårbar och mänskligheten lever farligt nära krafter den inte förstår.
+            När sprickor öppnas, kulter växer i skuggorna eller något kliver in
+            från en annan dimension är det spelarnas uppgift att stoppa hotet,
+            begränsa skadan och se till att världen fortsätter fungera som om inget hänt.
+          </p>
+        </div>
+
+        <div class="grid-two">
+          <article class="section-card">
+            <p class="lede">
+              Spelet blandar <strong>kosmisk skräck</strong>, <strong>modern monsterjakt</strong>,
+              <strong>hemliga organisationer</strong> och <strong>övernaturlig eskalering</strong>.
+            </p>
+            <div class="chip-row">
+              <span class="chip">GDA-agenter</span>
+              <span class="chip">Mental press</span>
+              <span class="chip">Mörka mysterier</span>
+              <span class="chip">Samtida miljöer</span>
+            </div>
+          </article>
+
+          <article class="section-card">
+            <p>
+              Tonen är mer <strong>”håll linjen och överlev natten”</strong> än heroisk fantasy.
+              Karaktärerna är kapabla, men världen är brutal: skador bryter ner
+              deras grundfärdigheter, mana är både ett verktyg och en risk,
+              och hoten försöker lika gärna krossa psyket som kroppen.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="pillars-heading">
+        <div class="section-head">
+          <h2 id="pillars-heading">Projektets bärande pelare</h2>
+        </div>
+
+        <div class="grid-three">
+          <article class="feature-card">
+            <div class="icon">🕯</div>
+            <h3>Mörk samtid</h3>
+            <p>
+              Köpcentrum, tunnelbanor, parkeringshus, sjukhus och nedsläckta hus
+              blir scener för skräck som bryter igenom vardagen.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🧠</div>
+            <h3>Psykisk och fysisk nedbrytning</h3>
+            <p>
+              Skador sitter i färdigheterna. Du tappar inte bara ”HP” — du tappar
+              kontroll, styrka, vishet eller förmågan att fortsätta fungera.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">⚔</div>
+            <h3>Flera sätt att möta hotet</h3>
+            <p>
+              Undersökning, social manipulation, monsterjakt, ritualer och ren
+              överlevnadsstrid samsas i samma kampanj.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="play" class="section" aria-labelledby="play-heading">
+        <div class="section-head">
+          <h2 id="play-heading">Spela som…</h2>
+          <p>
+            Regelsättet stödjer flera tydliga spelarfantasier, från jägare och
+            beskyddare till ritualister och nanomancers. Det gör att gruppen kan
+            kännas som ett riktigt response team snarare än fyra varianter av samma hjälte.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="class-card">
+            <div class="class-tag">Hunter</div>
+            <div class="icon">🎯</div>
+            <h3>Jägare</h3>
+            <p>
+              Spårar hot, identifierar svagheter och avslutar det som borde ha dött
+              första gången. Passar spelare som vill vara skarp, rörlig och målmedveten.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Inquisitor</div>
+            <div class="icon">🕸</div>
+            <h3>Inkvisitor</h3>
+            <p>
+              Håller sanningen borta från allmänheten, manipulerar minnen och
+              upprätthåller skenet av normalitet när världen egentligen borde ha sett för mycket.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Magician</div>
+            <div class="icon">🔮</div>
+            <h3>Magiker</h3>
+            <p>
+              Arbetar med ritualer, besvärjelser och farlig mana. Ger gruppen
+              tillgång till skydd, offensiva element och lösningar som gränsar till det förbjudna.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Nanomancer</div>
+            <div class="icon">⚙</div>
+            <h3>Nanomancer</h3>
+            <p>
+              En tekno-mystiker med inopererad nanokärna. Kan reparera, störa,
+              förstöra och forma slagfältet med miljarder mikroskopiska maskiner.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Protector</div>
+            <div class="icon">🛡</div>
+            <h3>Beskyddare</h3>
+            <p>
+              Tar smällen, håller linjen och ser till att andra överlever. Perfekt
+              för spelare som vill vara gruppens sköld när allt rasar.
+            </p>
+          </article>
+
+          <article class="class-card">
+            <div class="class-tag">Quick start</div>
+            <div class="icon">📦</div>
+            <h3>Snabbstart och färdiga roller</h3>
+            <p>
+              Spelet fungerar både för fria byggen och för färdiga mallar, vilket
+              gör det lätt att komma igång utan att tappa identitet eller ton.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="systems-heading">
+        <div class="section-head">
+          <h2 id="systems-heading">Så känns spelet</h2>
+          <p>
+            Eldritch Shadows bör presenteras som ett spel där varje konflikt kostar något.
+            Det handlar inte bara om att vinna, utan om vad det lämnar efter sig.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="feature-card">
+            <div class="icon">🎲</div>
+            <h3>Tärningspooler med tydlig risk</h3>
+            <p>
+              Du bygger slag av grundfärdighet + disciplin. Varje 6:a är en framgång,
+              men katastrofala misslyckanden kan slå sönder både utrustning och karaktär.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">❤️</div>
+            <h3>Skada som betyder något</h3>
+            <p>
+              Superficiell skada återhämtas med vila, men kritisk skada kan leda till
+              permanenta ärr, förlorade funktioner och långvariga konsekvenser.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">🌫</div>
+            <h3>Mana, press och uppoffring</h3>
+            <p>
+              Mana driver omkastningar, magi och kraftfulla förmågor. När den tar slut
+              kan karaktären bokstavligen börja bränna sin själ.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="power-heading">
+        <div class="section-head">
+          <h2 id="power-heading">Två vägar till det övernaturliga</h2>
+          <p>
+            En av projektets tydligaste identitetsmarkörer är att mystisk ritualmagi och
+            nanomancy existerar sida vid sida. Det ger världen en skarp blandning av ockult skräck och teknologisk desperation.
+          </p>
+        </div>
+
+        <div class="split-showcase">
+          <article class="showcase-panel magic">
+            <div class="mini-label">Ritualmagi</div>
+            <h3>Magi och ritualer</h3>
+            <p>
+              Vattenstrålar, eldbollar, jordspikar, skyddscirklar, välsignade vapen,
+              helningsritualer och utilitymagi gör magikern till både problemlösare och riskfaktor.
+            </p>
+            <ul>
+              <li>Elementär offensiv och defensiv magi</li>
+              <li>Ritualer som tar tid men kan vända hela scener</li>
+              <li>Magi som känns dyr, farlig och ofta sista utvägen</li>
+            </ul>
+          </article>
+
+          <article class="showcase-panel nano">
+            <div class="mini-label">Teknomystik</div>
+            <h3>Nanomancy</h3>
+            <p>
+              Nanomancers styr program snarare än formler: svärmattacker, rekognosering,
+              reparation, signalförvrängning, nanodimma och försvarsprogram som förändrar hur gruppen opererar.
+            </p>
+            <ul>
+              <li>CPU-belastning skapar taktiska val</li>
+              <li>Kan reparera, sabotera och manipulera teknik och miljö</li>
+              <li>Ger settingen en tydlig modern och originell profil</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="threats" class="section" aria-labelledby="threats-heading">
+        <div class="section-head">
+          <h2 id="threats-heading">Hot mot mänskligheten</h2>
+          <p>
+            Det här är inte en värld med ett enda monsterproblem. Eldritch Shadows bygger upp en hel katalog av hot som kräver olika typer av motstånd, taktik och ton.
+          </p>
+        </div>
+
+        <div class="grid-three">
+          <article class="threat-card">
+            <div class="threat-tag">EDH</div>
+            <div class="icon">🕳</div>
+            <h3>Eldritch</h3>
+            <p>
+              Vansinne, kroppslig förvridning och tryck mot spelarens vishet. Mer kosmisk sjukdom än klassiskt monster.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Infernal</div>
+            <div class="icon">😈</div>
+            <h3>Demoner</h3>
+            <p>
+              Hunger, dominans, possession och brutal närvaro. De bryter formationer och vinner på kaos.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Haunt</div>
+            <div class="icon">👻</div>
+            <h3>Andar</h3>
+            <p>
+              Poltergeists, hemsökta platser och osynliga krafter som gör miljön själv till en fiende.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Undead</div>
+            <div class="icon">💀</div>
+            <h3>Odöda</h3>
+            <p>
+              Oförtröttliga kroppar som tvingar fram attrition, positionering och rätt skadetyp snarare än hjältemod.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Urban legend</div>
+            <div class="icon">🚧</div>
+            <h3>Styggelser och rykten</h3>
+            <p>
+              Mannen med krokhanden, det vita ansiktet och andra berättelser som blir verkliga nog att jaga tillbaka.
+            </p>
+          </article>
+
+          <article class="threat-card">
+            <div class="threat-tag">Unclassifiable</div>
+            <div class="icon">🌌</div>
+            <h3>Void</h3>
+            <p>
+              Det mest fundamentalt felaktiga i settingen — inte bara dödligt, utan verklighetsfrätande.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <article class="quote-card">
+          <h3>Sidans tonalitet</h3>
+          <blockquote>
+            En svensk samtid i dåligt ljus. Något rör sig i periferin. Någon måste gå in först. Och någon måste se till att världen glömmer vad den såg.
+          </blockquote>
+          <footer>Det här är den känsla sidan bör sälja innan besökaren ens öppnar regelboken.</footer>
+        </article>
+      </section>
+
+      <section id="status" class="section" aria-labelledby="status-heading">
+        <div class="section-head">
+          <h2 id="status-heading">Projektstatus och nästa steg</h2>
+          <p>
+            Den här sidan är byggd för att fungera som en ren projektsida: tillräckligt rik för att sälja världen, men tillräckligt fokuserad för att leda vidare till regelbok, devlog eller nedladdningar.
+          </p>
+        </div>
+
+        <div class="grid-two">
+          <article class="cta-card">
+            <h3>Vad sidan redan gör bra</h3>
+            <ul>
+              <li>Säljer settingen innan reglerna tar över</li>
+              <li>Lyfter roller, hot och spelkänsla tydligt</li>
+              <li>Ger Eldritch Shadows en starkare identitet än projektkortet på startsidan</li>
+            </ul>
+            <div class="stack-actions" style="margin-top:16px;">
+              <a href="TBDDragonDenUpdated.html" class="btn btn-secondary">Se uppdaterad startsida</a>
+            </div>
+          </article>
+
+          <article class="cta-card">
+            <h3>Naturliga nästa steg</h3>
+            <ul>
+              <li>Lägg in riktig nedladdningslänk till PDF eller DOCX</li>
+              <li>Skapa en separat klass-/regelöversikt om du vill gå djupare</li>
+              <li>Koppla sidan till en devlog eller changelog för betaversioner</li>
+            </ul>
+
+            <div class="status-list">
+              <div class="status-item">
+                <div class="status-label">Status</div>
+                <div class="status-value">Beta 0.2.1</div>
+              </div>
+              <div class="status-item">
+                <div class="status-label">Format</div>
+                <div class="status-value">TTRPG</div>
+              </div>
+              <div class="status-item">
+                <div class="status-label">Fokus</div>
+                <div class="status-value">Urban horror</div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="safety-heading">
+        <div class="section-head">
+          <h2 id="safety-heading">Säkerhet och licens</h2>
+        </div>
+
+        <div class="warning-wrap">
+          <article class="warning-card warning">
+            <h3><span>⚠</span> Innehållsvarning</h3>
+            <p>
+              Eldritch Shadows rör sig i teman som psykologiskt trauma, horror,
+              våld och övernaturlig korruption. På projektsidan räcker det att signalera detta tydligt och kort, med en ton som känns ansvarstagande snarare än juridisk.
+            </p>
+            <ul>
+              <li>Diskutera gränser innan spel</li>
+              <li>Använd gärna X-Card, Lines &amp; Veils eller liknande verktyg</li>
+              <li>Gör det tydligt att mörka teman är en del av upplevelsen</li>
+            </ul>
+          </article>
+
+          <article class="warning-card license">
+            <h3><span>✦</span> Regler öppna, setting skyddad</h3>
+            <p>
+              ESOL öppnar regler och mekanik för vidare användning, men namn,
+              visuell identitet och setting-specifik lore är fortfarande skyddade.
+              Det är en stark sak att signalera öppet på sidan, eftersom det får projektet att kännas genomtänkt och professionellt.
+            </p>
+            <ul>
+              <li>Regler och system kan byggas vidare på</li>
+              <li>Tredjepartsinnehåll är möjligt med attribution</li>
+              <li>Varumärke, identitet och unik lore är inte fritt innehåll</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> TBD's Dragon Den.</span>
+      <span>Forged in starlight, ink &amp; caffeine.</span>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

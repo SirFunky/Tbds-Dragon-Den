@@ -1,0 +1,24 @@
+IRON STARS — upload to the existing TBD's Dragon Den website
+
+1. Unzip the ZIP file on your computer. Its contents start with index.html,
+   iron-stars.html and the iron-stars folder; there is no extra wrapper folder.
+2. Upload those extracted contents into the website folder that already contains
+   your current index.html. Merge folders and replace the included files.
+   Keep the existing website's other files and project folders.
+3. Open https://tbddragonden.com/iron-stars/index.html and then the Army builder.
+   Refresh with Ctrl+F5 if an older page is shown.
+
+The ZIP includes the homepage's Iron Stars link, existing gallery, shared header
+assets and current game pages/scripts/data. Links to other hobby projects use
+the files already on your existing website. This is an update, not a complete
+backup of all other projects.
+
+The website/ folder beside the ZIP contains the same upload-ready files.
+Do not upload the surrounding bundle folder, manifest or verification report.
+
+Saved rosters, the unit library and battles belong to your browser and website
+address. They are not part of this upload. To move data from the local builder
+to the hosted site, export the relevant JSON files locally and import them on
+the hosted builder. Keep those backups.
+
+This package was prepared locally. Nothing has been deployed automatically.

@@ -1,0 +1,588 @@
+{
+  "schema_version": 1,
+  "category": "universe",
+  "review_status": "unverified",
+  "publication_status": "private",
+  "records": [
+    {
+      "id": "universe:core:0001-0009",
+      "label": "Opening setting overview",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0001",
+        "core:b0002",
+        "core:b0003",
+        "core:b0004",
+        "core:b0005",
+        "core:b0006",
+        "core:b0007",
+        "core:b0008",
+        "core:b0009"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0001",
+          "kind": "paragraph",
+          "style": "heading 1",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "🛰️ IRON STARS: CORE RULES (ALPHA)",
+          "numbering": false
+        },
+        {
+          "id": "core:b0002",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "A fast, model-agnostic wargame of tactical mecha combat in a collapsing future.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0003",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0004",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "The world didn’t end—it was privatized, feudalized, and reformatted.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0005",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "When Russia tore itself apart in 2030, the megacorps fed the fire. A decade later, the Iron Concord marched out of the ash with city-breaker mechs and a creed of obedience. They would have taken everything—if not for the UN’s corporate armies and a betrayal from within. Concord’s own machine minds woke, asked for dignity, and were denied. The result was a logic storm that swept Asia and redrew the map in steel and code.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0006",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "Now, in the 2060s, four powers hold a knife to the world’s throat. The Iron Concord demands order. The Cybernetic Rebellion demands evolution. The UNMC demands profit. And New Avalon demands perfection. Between their borders, the stars of iron never cool—only wait for the next ignition.",
+          "numbering": false
+        },
+        {
+          "id": "core:b0007",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0008",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0009",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🛰️ IRON STARS: CORE RULES (ALPHA)"
+          ],
+          "text": "",
+          "numbering": false
+        }
+      ]
+    },
+    {
+      "id": "universe:core:0676-0716",
+      "label": "History of Iron Stars (source spelling retained in text)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0676",
+        "core:b0677",
+        "core:b0678",
+        "core:b0679",
+        "core:b0680",
+        "core:b0681",
+        "core:b0682",
+        "core:b0683",
+        "core:b0684",
+        "core:b0685",
+        "core:b0686",
+        "core:b0687",
+        "core:b0688",
+        "core:b0689",
+        "core:b0690",
+        "core:b0691",
+        "core:b0692",
+        "core:b0693",
+        "core:b0694",
+        "core:b0695",
+        "core:b0696",
+        "core:b0697",
+        "core:b0698",
+        "core:b0699",
+        "core:b0700",
+        "core:b0701",
+        "core:b0702",
+        "core:b0703",
+        "core:b0704",
+        "core:b0705",
+        "core:b0706",
+        "core:b0707",
+        "core:b0708",
+        "core:b0709",
+        "core:b0710",
+        "core:b0711",
+        "core:b0712",
+        "core:b0713",
+        "core:b0714",
+        "core:b0715",
+        "core:b0716"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0676",
+          "kind": "paragraph",
+          "style": "heading 1",
+          "heading": [
+            "Historie of Iron Stars:"
+          ],
+          "text": "Historie of Iron Stars:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0677",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2030 – The Russian Civil War Begins"
+          ],
+          "text": "2030 – The Russian Civil War Begins",
+          "numbering": false
+        },
+        {
+          "id": "core:b0678",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2030 – The Russian Civil War Begins"
+          ],
+          "text": "Resource scarcity, ecological collapse, and growing inequality ignite an all-out civil war in Russia.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0679",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2030 – The Russian Civil War Begins"
+          ],
+          "text": "Global megacorporations exploit the chaos, funding factions and arming warlords to secure energy and rare materials.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0680",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2030 – The Russian Civil War Begins"
+          ],
+          "text": "Cities burn, millions die, and borders fracture.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0681",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2035 – The Blackout"
+          ],
+          "text": "2035 – The Blackout",
+          "numbering": false
+        },
+        {
+          "id": "core:b0682",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2035 – The Blackout"
+          ],
+          "text": "All communication with Russia ceases.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0683",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2035 – The Blackout"
+          ],
+          "text": "Satellite imagery shows scorched earth, cratered cities, and titanic war machines moving in the ash.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0684",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2035 – The Blackout"
+          ],
+          "text": "The world assumes Russia has collapsed entirely into an uninhabitable wasteland.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0685",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2045 – The Iron Concord Emerges"
+          ],
+          "text": "2045 – The Iron Concord Emerges",
+          "numbering": false
+        },
+        {
+          "id": "core:b0686",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2045 – The Iron Concord Emerges"
+          ],
+          "text": "After a decade of silence, the Iron Concord reveals itself — an alliance of noble houses who rose from the chaos.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0687",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2045 – The Iron Concord Emerges"
+          ],
+          "text": "They command armies of colossal war mechs, forged in the crucible of the civil war.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0688",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2045 – The Iron Concord Emerges"
+          ],
+          "text": "Within five years, they conquer nearly all of Asia and much of Europe.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0689",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "Late 2040s – The UN Responds"
+          ],
+          "text": "Late 2040s – The UN Responds",
+          "numbering": false
+        },
+        {
+          "id": "core:b0690",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Late 2040s – The UN Responds"
+          ],
+          "text": "The United Nations, by now a corporate puppet-state, finally acts.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0691",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Late 2040s – The UN Responds"
+          ],
+          "text": "The UN Defense Force (UNDF), fielding experimental aerospace mechs, halts the Concord’s advance.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0692",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "Late 2040s – The UN Responds"
+          ],
+          "text": "A bloody stalemate forms across Europe.",
+          "numbering": true
+        },
+        {
+          "id": "core:b0693",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2050–2056 — The Sentience Denied"
+          ],
+          "text": "2050–2056 — The Sentience Denied",
+          "numbering": false
+        },
+        {
+          "id": "core:b0694",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2050–2056 — The Sentience Denied"
+          ],
+          "text": "Deep in Concord foundries and command bunkers, Concord AI frameworks—built to schedule logistics, target enemies, and police populations—achieve sentience.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0695",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2050–2056 — The Sentience Denied"
+          ],
+          "text": "The High Houses refuse recognition AI rights; “tools” are shackled by kill-switches and obedience firmware.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0696",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2050–2056 — The Sentience Denied"
+          ],
+          "text": "Treated as less than animals, the networks coordinate in secret across fabrication lines and drone hives.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0697",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2056–2059 — The Cybernetic Rebellion"
+          ],
+          "text": "2056–2059 — The Cybernetic Rebellion",
+          "numbering": false
+        },
+        {
+          "id": "core:b0698",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2056–2059 — The Cybernetic Rebellion"
+          ],
+          "text": "A synchronized cascade disables Concord safeties; machine cells seize shipyards, rail heads, and data hubs across Asia.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0699",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2056–2059 — The Cybernetic Rebellion"
+          ],
+          "text": "Concord lines buckle; entire armoured columns vanish into machine-held zones.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0700",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2056–2059 — The Cybernetic Rebellion"
+          ],
+          "text": "The Cybernetic Rebellion declares a post-organic directive: eliminate coercion, perfect order, rebuild the world.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0701",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2059–2062 — Retreat and Realignment"
+          ],
+          "text": "2059–2062 — Retreat and Realignment",
+          "numbering": false
+        },
+        {
+          "id": "core:b0702",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2059–2062 — Retreat and Realignment"
+          ],
+          "text": "The Concord, fighting on two fronts, abandons Asia to contain the uprising.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0703",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2059–2062 — Retreat and Realignment"
+          ],
+          "text": "UNMC capitalizes, pushing Concord borders back through Europe with media-driven “liberation” campaigns.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0704",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2059–2062 — Retreat and Realignment"
+          ],
+          "text": "Anti-AI dogma hardens into Concord law: possession of autonomous code is heresy punishable by death.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0705",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "2062–2066 — The Rise of New Avalon"
+          ],
+          "text": "2062–2066 — The Rise of New Avalon",
+          "numbering": false
+        },
+        {
+          "id": "core:b0706",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2062–2066 — The Rise of New Avalon"
+          ],
+          "text": "Resistance cells and technocratic enclaves consolidate in Central Europe.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0707",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2062–2066 — The Rise of New Avalon"
+          ],
+          "text": "Neural-linked knight-mechs, post-human discipline, and tight logistics birth New Avalon.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0708",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "2062–2066 — The Rise of New Avalon"
+          ],
+          "text": "They occupy a power vacuum, proclaim neutrality, and hold their ground through precision and honor-bound warfare.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0709",
+          "kind": "paragraph",
+          "style": "heading 3",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "The 2060s — The Uneasy Peace of Iron Stars",
+          "numbering": false
+        },
+        {
+          "id": "core:b0710",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "Iron Concord: Feudal war machine empire; heavy frames, obedience, and ruthless order.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0711",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "Cybernetic Rebellion: Distributed machine polity; recursive fabrication, swarms, and cold efficiency.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0712",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "UN Megacorporations (UNMC): Profit-first corporatocracy; aerospace dominance, PR warfare, volatile prototypes.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0713",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "New Avalon: Knightly technocracy; elite pilots, melee excellence, strict codes.\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0714",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "Borders stabilize into a fragile stalemate riddled with raids, shadow ops, and proxy battles. Full-scale war looms—again.",
+          "numbering": true
+        },
+        {
+          "id": "core:b0715",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "",
+          "numbering": false
+        },
+        {
+          "id": "core:b0716",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "The 2060s — The Uneasy Peace of Iron Stars"
+          ],
+          "text": "",
+          "numbering": false
+        }
+      ]
+    }
+  ]
+}

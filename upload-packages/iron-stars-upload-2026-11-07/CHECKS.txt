@@ -1,0 +1,14 @@
+UPLOAD PACKAGE VERIFICATION
+
+Passed: 14 JavaScript test suites and 8 Python source/link/pricing checks.
+Package: 144 public files, including all 83 Iron Stars pages, both battle
+modules, six runtime JSON catalogs, all 15 original JPEGs and 15 WebP images.
+The existing gallery and shared styles/header image match the previous Iron
+Stars package. The homepage changes are confined to its Iron Stars card.
+
+ZIP CRC, exact archived file list and SHA-256 equality with current source
+files passed. Private DOCX originals, review/QA data, tools and browser-saved
+rosters/library/battles are excluded. Other hobby project pages stay on the
+existing website and are not overwritten by this update.
+
+Nothing has been deployed. See UPLOAD-INSTRUCTIONS.txt.

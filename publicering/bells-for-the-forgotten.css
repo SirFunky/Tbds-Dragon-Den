@@ -1,0 +1,73 @@
+/* Cover palette and reading layout for Bells for the Forgotten. */
+body.bells-novella {
+  --accent: #c6a56c;
+  --text-main: #e9e3d5;
+  --text-muted: #b7bcb4;
+  --border-subtle: #354543;
+  background: radial-gradient(ellipse at 85% 8%, #1c3638 0, transparent 42rem),
+    radial-gradient(ellipse at 5% 35rem, #24302c 0, transparent 32rem), #0c1618;
+  color: var(--text-main);
+}
+
+.bells-novella .page-shell { max-width: 1160px; }
+.bells-novella .site-header { padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-subtle); }
+.bells-novella .site-header .logo-mark { background: #263b38; box-shadow: 0 0 18px #bc97562b; }
+.bells-novella .site-header .site-nav a:hover { border-color: #c6a56c; }
+.bells-novella .site-header .site-pill { background: #162629; color: #c6c5b8; border-color: #46534a; }
+.bells-novella .fiction { max-width: 66rem; margin-top: 1.5rem; }
+.bells-novella .fiction-back { color: #d7bd8a; }
+.bells-novella a:focus-visible, .bells-novella summary:focus-visible { outline: 2px solid #e6c485; outline-offset: 5px; }
+
+.novella-hero {
+  display: grid;
+  grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr);
+  align-items: center;
+  gap: clamp(2rem, 6vw, 5rem);
+  margin: 2.5rem 0 4rem;
+}
+.novella-cover { margin: 0; max-width: 25rem; }
+.novella-cover img { display: block; width: 100%; height: auto; border: 1px solid #52605b; box-shadow: 0 25px 65px #0009; }
+.novella-intro { min-width: 0; }
+.bells-novella .fiction-label { color: #d2b57c; line-height: 1.8; letter-spacing: .18em; }
+.bells-novella .novella-intro h1 { color: #f1e8d3; font: normal clamp(2.8rem, 5.5vw, 4.8rem)/1.05 Georgia, serif; text-wrap: balance; }
+.novella-intro h1 span { display: block; }
+.novella-world { color: #bac3bc; font: italic 1rem/1.6 Georgia, serif; margin: 1.25rem 0 2rem; }
+.novella-hook { color: #dfc99c; font: italic clamp(1.25rem, 2.4vw, 1.6rem)/1.5 Georgia, serif; }
+.novella-description { color: #c4ccc6; font-size: 1rem; line-height: 1.75; max-width: 45ch; }
+.novella-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+.novella-action { display: inline-flex; justify-content: center; align-items: center; padding: .85rem 1.25rem; border: 1px solid #c8ab72; border-radius: 3px; background: #c8ab72; color: #101b1c; font-weight: 650; text-decoration: none; line-height: 1.5; }
+.novella-action:hover { background: #e0c693; border-color: #e0c693; }
+.novella-action-secondary { color: #ead9b5; background: transparent; border-color: #7a785e; }
+.novella-action-secondary:hover { background: #263632; color: #fff2d6; }
+.novella-file-note { font-size: .8rem; line-height: 1.7; color: #aeb9b2; }
+
+.bells-novella .fiction-contents { max-width: 43rem; margin: 0 auto 3.5rem; padding: 1.2rem 0; border-top: 1px solid #687056; border-bottom: 1px solid #354543; }
+.bells-novella .fiction-contents summary { color: #ddc38d; font-family: Georgia, serif; font-size: 1.15rem; }
+.bells-novella .fiction-contents ol { columns: 2; column-gap: 2.5rem; margin-top: 1.3rem; }
+.bells-novella .fiction-contents li { break-inside: avoid; padding: .2rem 0; }
+.bells-novella .fiction-contents a { color: #d3d8cc; text-underline-offset: .2em; }
+.bells-novella .fiction-contents a:hover { color: #efd8a8; }
+.bells-novella .fiction-prose { max-width: 43rem; margin: 0 auto; color: #dedfd3; font-size: clamp(1.1rem, 2vw, 1.22rem); line-height: 1.85; }
+.bells-novella .fiction-prose h2 { color: #e0c590; font-weight: normal; padding-top: 1.25rem; margin-top: 3rem; border-top: 1px solid #354543; scroll-margin-top: 1rem; text-wrap: balance; }
+.bells-novella .fiction-prose h2:first-child { margin-top: 0; }
+.bells-novella .fiction-prose p { margin-bottom: 1.1em; }
+.novella-download-footer { max-width: 43rem; margin: 3rem auto; padding: 2rem 0; text-align: center; border-top: 1px solid #687056; border-bottom: 1px solid #354543; }
+.novella-download-footer h2 { color: #ecd9af; font: normal 1.6rem/1.3 Georgia, serif; }
+.novella-download-footer p { color: #bbc6bd; line-height: 1.65; }
+.bells-novella .fiction > .fiction-back:last-child { display: block; width: fit-content; margin: 2rem auto 0; }
+
+@media (max-width: 700px) {
+  .novella-hero { grid-template-columns: 1fr; gap: 2rem; margin-top: 2rem; }
+  .novella-cover { width: min(75%, 20rem); margin: 0 auto; }
+  .novella-intro { text-align: center; }
+  .novella-intro h1 { font-size: clamp(2.5rem, 10vw, 4rem); }
+  .novella-description { margin-inline: auto; }
+  .novella-actions { justify-content: center; }
+  .bells-novella .fiction-contents ol { columns: 1; }
+}
+
+@media print {
+  body.bells-novella { background: white; color: black; }
+  .novella-hero, .fiction-contents, .novella-download-footer, .fiction-back { display: none !important; }
+  .bells-novella .fiction-prose, .bells-novella .fiction-prose h2 { color: black; }
+}

@@ -1,0 +1,56 @@
+body.celestial-novella {
+  --accent: #bddbf3; --text-main: #e2e9f1; --border-subtle: #334657;
+  background: radial-gradient(ellipse at 75% 5%, #29445b66, transparent 36rem), radial-gradient(ellipse at 10% 34%, #172c4155, transparent 38rem), #080f18;
+  color: #e2e9f1;
+}
+.celestial-novella .site-header .logo-mark { background: radial-gradient(circle at 30% 30%, #d9ecf9, #36546b 40%, #0b1724 80%); box-shadow: 0 0 18px #94c8ed33; }
+.celestial-novella .site-header .site-nav a:hover { border-color: #b8d8ef; }
+.celestial-novella .site-header .site-pill { background: #122231; color: #b8c9d9; border-color: #3c5265; }
+.celestial-novella .fiction { max-width: 66rem; margin-top: 1.5rem; }
+.celestial-novella .fiction-back { color: #b8d7ee; }
+.celestial-novella a:focus-visible, .celestial-novella summary:focus-visible { outline: 2px solid #d2eaff; outline-offset: 5px; }
+.celestial-hero { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(2rem, 5vw, 4.5rem); margin: 2.5rem 0 4rem; }
+.celestial-cover { margin: 0; max-width: 27rem; }
+.celestial-cover img { display: block; width: 100%; height: auto; border: 1px solid #7e99ad66; box-shadow: 0 25px 65px #0009, 0 0 45px #699ac31a; }
+.celestial-intro { min-width: 0; }
+.celestial-novella .fiction-label { color: #adcee7; font-size: .73rem; line-height: 1.8; letter-spacing: .2em; text-transform: uppercase; }
+.celestial-novella .celestial-intro h1 { color: #eef4fa; font: normal clamp(3rem, 6vw, 5rem)/1.06 Georgia, serif; letter-spacing: -.03em; text-wrap: balance; text-shadow: 0 2px 25px #aacde32b; }
+.celestial-intro h1 span { display: block; margin-top: 1rem; font-size: .34em; letter-spacing: .18em; line-height: 1.6; text-transform: uppercase; color: #c8d8e6; }
+.celestial-author { color: #acbfce; font-size: .8rem; letter-spacing: .16em; text-transform: uppercase; margin: 1.6rem 0; }
+.celestial-orbit { display: flex; align-items: center; gap: .8rem; max-width: 19rem; color: #dfedf9; margin: 1.8rem 0; }
+.celestial-orbit::before, .celestial-orbit::after { content: ''; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, #abc8dc); }
+.celestial-orbit::after { transform: rotate(180deg); }
+.celestial-orbit span { display: grid; place-items: center; width: 2rem; height: 2rem; border: 1px solid #9ebed080; border-radius: 50%; box-shadow: 0 0 18px #acd6f233; }
+.celestial-hook { color: #dceaf6; font: italic clamp(1.2rem, 2.4vw, 1.5rem)/1.5 Georgia, serif; }
+.celestial-description { color: #b8c8d7; font-size: 1rem; line-height: 1.8; max-width: 47ch; }
+.celestial-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.9rem; }
+.celestial-button { display: inline-flex; align-items: center; justify-content: center; gap: .8rem; padding: .85rem 1.15rem; border: 1px solid #c5dfef; border-radius: 3px; background: linear-gradient(135deg, #e5f0f8, #abc8dd); color: #0b1b28; font-size: .95rem; font-weight: 650; line-height: 1.5; text-decoration: none; }
+.celestial-button:hover { background: #f0f7fc; border-color: #eef7ff; }
+.celestial-button-secondary { color: #d4e5f2; background: #14263766; border-color: #657f93; }
+.celestial-button-secondary:hover { color: white; background: #273e51; }
+.celestial-file-note { font-size: .76rem; line-height: 1.8; color: #9bb0c3; }
+.celestial-novella .fiction-contents { max-width: 43rem; margin: 0 auto 3.5rem; padding: 1.2rem 0; border-block: 1px solid #354e62; }
+.celestial-novella .fiction-contents summary { color: #c9e1f3; font: 1.1rem/1.6 Georgia, serif; }
+.celestial-novella .fiction-contents nav { display: block; }
+.celestial-novella .fiction-contents a { color: #bfcedd; text-decoration: underline; text-underline-offset: .25em; }
+.celestial-novella .fiction-contents li { padding: .2rem 0; }
+.celestial-novella .fiction-prose { max-width: 43rem; margin: 0 auto; color: #d4dee8; font-size: clamp(1.1rem, 2vw, 1.22rem); line-height: 1.85; }
+.celestial-novella .fiction-prose h2 { color: #d6e8f7; font-weight: normal; border-top: 1px solid #344b5d; padding-top: 1.5rem; margin-top: 3rem; text-wrap: balance; }
+.celestial-novella .fiction-prose h2:first-child { margin-top: 0; }
+.celestial-download { max-width: 43rem; margin: 3rem auto; padding: 2rem 0; text-align: center; border-block: 1px solid #354e62; }
+.celestial-download h2 { font: normal 1.7rem/1.4 Georgia, serif; color: #dceaf6; }
+.celestial-download > p:not(.fiction-label) { color: #b8c8d7; line-height: 1.7; }
+.celestial-novella .fiction > .fiction-back:last-child { display: block; width: fit-content; margin: 2rem auto 0; }
+@media (max-width: 700px) {
+  .celestial-hero { grid-template-columns: 1fr; gap: 2rem; margin-top: 2rem; }
+  .celestial-cover { width: min(85%, 23rem); margin: 0 auto; }
+  .celestial-intro { text-align: center; }
+  .celestial-novella .celestial-intro h1 { font-size: clamp(2.8rem, 12vw, 4rem); }
+  .celestial-orbit, .celestial-description { margin-inline: auto; }
+  .celestial-actions { justify-content: center; }
+}
+@media print {
+  body.celestial-novella { background: white; color: black; }
+  .celestial-hero, .fiction-contents, .celestial-download, .fiction-back { display: none !important; }
+  .celestial-novella .fiction-prose, .celestial-novella .fiction-prose h2 { color: black; }
+}

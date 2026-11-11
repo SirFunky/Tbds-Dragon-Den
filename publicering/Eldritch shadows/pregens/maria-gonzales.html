@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A fillable, printable Eldritch Shadows character sheet." />
+  <title>Maria Gonzales | Eldritch Shadows</title>
+  <link rel="stylesheet" href="../character-sheet.css" />
+  <script src="../character-sheet.js" defer></script>
+    <link rel="stylesheet" href="../../site-header.css" />
+</head>
+<body>
+  <header class="site-header screen-only">
+      <a class="logo" href="../../index.html" aria-label="TBD's Dragon Den – home">
+        <div class="logo-mark"><img src="../../Eldritch%20shadows/IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon" /></div>
+        <div class="logo-text">TBD's Dragon Den</div>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="../../index.html#projects">Projects</a>
+        <a href="../../about.html">About</a>
+        <a href="../../contact.html">Contact</a>
+        <span class="site-pill">Indie worlds &amp; games</span>
+      </nav>
+    </header>
+  <main>
+    <div class="sheet-toolbar screen-only">
+      <div><span class="eyebrow">Prebuilt Protector</span><h1>Maria Gonzales</h1><p>She became a police officer to protect people. Now she knows how much they need protection from. <a href="maria-gonzales.pdf">Download the print PDF</a> or <a href="index.html">choose another character</a>.</p></div>
+      <div class="toolbar-actions"><button type="button" id="print-sheet">Print / Save PDF</button><button type="button" class="secondary" id="export-sheet">Download character</button><label class="file-button" for="import-sheet">Load character</label><input id="import-sheet" type="file" accept=".json,application/json" /></div>
+      <p class="save-status" id="save-status" role="status" aria-live="polite">You can fill in and print this sheet. Enable JavaScript for saving and character files.</p>
+      <p class="save-help">This character has its own browser save, separate from the blank sheet and the other prebuilt characters. Download a character file to keep a backup or switch between characters. Loading a file replaces the current sheet.</p>
+    </div>
+    <form id="character-sheet" data-character-id="maria-gonzales" autocomplete="off">
+      <section class="sheet-page" aria-labelledby="core-title">
+        <div class="page-heading"><div><span class="edition">ELDRITCH SHADOWS</span><h2 id="core-title">Character &amp; equipment</h2></div><span class="page-mark">01 / CORE</span></div>
+        <section class="sheet-section identity" aria-label="Character identity">
+          <label>Character name<input name="character_name" type="text" value="Maria Gonzales" /></label>
+          <label>Player<input name="player_name" type="text" value="" /></label>
+          <label>Concept / role<input name="character_role" type="text" value="Protector - Police officer protecting people from hidden threats" /></label>
+          <label>Campaign<input name="campaign" type="text" value="" /></label>
+        </section>
+        <div class="core-grid">
+          <section class="sheet-section" aria-labelledby="attributes-title">
+            <h3 id="attributes-title">Attributes</h3>
+            <div class="table-scroll"><table class="attributes-table"><thead><tr><th scope="col">Attribute</th><th scope="col">Maximum</th><th scope="col">Current</th></tr></thead><tbody>
+              <tr><th scope="row">Strength</th><td><input type="number" name="attr_styrka" min="1" max="5" aria-label="Strength maximum" value="5" /></td><td><input type="number" name="attr_styrka2" aria-label="Strength current" value="5" /></td></tr>
+              <tr><th scope="row">Agility</th><td><input type="number" name="attr_smidighet" min="1" max="5" aria-label="Agility maximum" value="4" /></td><td><input type="number" name="attr_smidighet2" aria-label="Agility current" value="4" /></td></tr>
+              <tr><th scope="row">Intelligence</th><td><input type="number" name="attr_mental_intelligens" min="1" max="5" aria-label="Intelligence maximum" value="1" /></td><td><input type="number" name="attr_mental_intelligens2" aria-label="Intelligence current" value="1" /></td></tr>
+              <tr><th scope="row">Wisdom</th><td><input type="number" name="attr_vishet" min="1" max="5" aria-label="Wisdom maximum" value="1" /></td><td><input type="number" name="attr_vishet2" aria-label="Wisdom current" value="1" /></td></tr>
+              <tr><th scope="row">Empathy</th><td><input type="number" name="attr_empati" min="1" max="5" aria-label="Empathy maximum" value="1" /></td><td><input type="number" name="attr_empati2" aria-label="Empathy current" value="1" /></td></tr>
+            </tbody></table></div>
+            <p class="hint">At creation: distribute 12 points, 1–5 per attribute. Track injuries in Current; note critical injuries on the next page.</p>
+          </section>
+          <div class="resources">
+            <section class="sheet-section" aria-labelledby="mana-title"><h3 id="mana-title">Mana</h3>
+              <div class="fields three"><label>Maximum<input name="mana_max" type="number" min="0" value="6" /></label><label>Current<input name="mana_current" type="number" min="0" value="6" /></label><label>Soul burned<input name="soul_burned" type="number" min="0" value="0" /></label></div>
+              <div class="mana-track" role="group" aria-label="Mana remaining; check one circle per available point">
+                <label><input type="checkbox" name="attr_extra_mana1" checked /><span class="sr-only">Mana point 1</span></label><label><input type="checkbox" name="attr_extra_mana2" checked /><span class="sr-only">Mana point 2</span></label><label><input type="checkbox" name="attr_extra_mana3" checked /><span class="sr-only">Mana point 3</span></label><label><input type="checkbox" name="attr_extra_mana4" checked /><span class="sr-only">Mana point 4</span></label><label><input type="checkbox" name="attr_extra_mana5" checked /><span class="sr-only">Mana point 5</span></label><label><input type="checkbox" name="attr_extra_mana6" checked /><span class="sr-only">Mana point 6</span></label><label><input type="checkbox" name="attr_extra_mana7" /><span class="sr-only">Mana point 7</span></label><label><input type="checkbox" name="attr_extra_mana8" /><span class="sr-only">Mana point 8</span></label><label><input type="checkbox" name="attr_extra_mana9" /><span class="sr-only">Mana point 9</span></label><label><input type="checkbox" name="attr_extra_mana10" /><span class="sr-only">Mana point 10</span></label><label><input type="checkbox" name="attr_extra_mana11" /><span class="sr-only">Mana point 11</span></label><label><input type="checkbox" name="attr_extra_mana12" /><span class="sr-only">Mana point 12</span></label>
+                <label><input type="checkbox" name="attr_extra_mana13" /><span class="sr-only">Mana point 13</span></label><label><input type="checkbox" name="attr_extra_mana14" /><span class="sr-only">Mana point 14</span></label><label><input type="checkbox" name="attr_extra_mana15" /><span class="sr-only">Mana point 15</span></label><label><input type="checkbox" name="attr_extra_mana16" /><span class="sr-only">Mana point 16</span></label><label><input type="checkbox" name="attr_extra_mana17" /><span class="sr-only">Mana point 17</span></label><label><input type="checkbox" name="attr_extra_mana18" /><span class="sr-only">Mana point 18</span></label><label><input type="checkbox" name="attr_extra_mana19" /><span class="sr-only">Mana point 19</span></label><label><input type="checkbox" name="attr_extra_mana20" /><span class="sr-only">Mana point 20</span></label>
+              </div>
+              <p class="hint">Use Current or check circles for remaining Mana. Track manually. Base maximum: total attribute points ÷ 2, rounded down. Soul burning permanently lowers maximum Mana.</p>
+            </section>
+            <section class="sheet-section" aria-labelledby="xp-title"><h3 id="xp-title">Experience</h3><div class="fields two"><label>Total earned<input name="xp_earned" type="number" min="0" value="0" /></label><label>Spent<input name="xp_spent" type="number" min="0" value="0" /></label></div></section>
+          </div>
+        </div>
+        <section class="sheet-section" aria-labelledby="disciplines-title"><h3 id="disciplines-title">Disciplines</h3>
+          <div class="table-scroll"><table><thead><tr><th scope="col">Discipline</th><th class="narrow" scope="col">Rank</th><th scope="col">Specialization</th></tr></thead><tbody>
+            <tr><th scope="row">Athletics</th><td><input type="number" name="attr_rorelse_poang" min="0" max="3" aria-label="Athletics rank" value="1" /></td><td><input name="attr_rorelse_specialisering" aria-label="Athletics specialization" value="Parkour" /></td></tr>
+            <tr><th scope="row">Observe</th><td><input type="number" name="attr_iaktta_poang" min="0" max="3" aria-label="Observe rank" value="0" /></td><td><input name="attr_iaktta_specialisering" aria-label="Observe specialization" value="" /></td></tr>
+            <tr><th scope="row">Combat</th><td><input type="number" name="attr_strida_poang" min="0" max="3" aria-label="Combat rank" value="1" /></td><td><input name="attr_strida_specialisering" aria-label="Combat specialization" value="Melee" /></td></tr>
+            <tr><th scope="row">Technology</th><td><input type="number" name="attr_teknologi_poang" min="0" max="3" aria-label="Technology rank" value="0" /></td><td><input name="attr_teknologi_specialisering" aria-label="Technology specialization" value="" /></td></tr>
+            <tr><th scope="row">Academia</th><td><input type="number" name="attr_akademia_poang" min="0" max="3" aria-label="Academia rank" value="0" /></td><td><input name="attr_akademia_specialisering" aria-label="Academia specialization" value="" /></td></tr>
+            <tr><th scope="row">Occult</th><td><input type="number" name="attr_ockult_poang" min="0" max="3" aria-label="Occult rank" value="1" /></td><td><input name="attr_ockult_specialisering" aria-label="Occult specialization" value="Spirits" /></td></tr>
+            <tr><th scope="row">Social Interaction</th><td><input type="number" name="attr_social_poang" min="0" max="3" aria-label="Social Interaction rank" value="0" /></td><td><input name="attr_social_specialisering" aria-label="Social Interaction specialization" value="" /></td></tr>
+            <tr><th scope="row">Medicine</th><td><input type="number" name="attr_medicin_poang" min="0" max="3" aria-label="Medicine rank" value="0" /></td><td><input name="attr_medicin_specialisering" aria-label="Medicine specialization" value="" /></td></tr>
+          </tbody></table></div><p class="hint">Ranks follow the prebuilt class in the beta rulebook. Attribute + discipline = d6 pool; a matching specialization doubles the pool.</p>
+        </section>
+        <section class="sheet-section" aria-labelledby="weapons-title"><h3 id="weapons-title">Weapons</h3>
+          <div class="table-scroll"><table class="weapons-table"><thead><tr><th scope="col">Name / type</th><th scope="col">Hit</th><th scope="col">Damage / type</th><th scope="col">Special rules / ammunition</th></tr></thead><tbody>
+            <tr><td><textarea rows="1" name="weapon1_name_type" aria-label="Weapon 1 name and type">Foldable Hammer + Heavy Rune</textarea></td><td><input name="attr_vapen1_traffa" aria-label="Weapon 1 hit modifier" value="+2" /></td><td><textarea rows="1" name="attr_vapen1_skada" aria-label="Weapon 1 damage and damage type">3 Bludgeoning</textarea></td><td><textarea rows="1" name="attr_vapen1_specialregler" aria-label="Weapon 1 special rules and ammunition">Base damage 2 + Heavy Rune 1. Concealable; Light; two-handed. Rune uses both slots.</textarea></td></tr>
+            <tr><td><textarea rows="1" name="weapon2_name_type" aria-label="Weapon 2 name and type"></textarea></td><td><input name="attr_vapen2_traffa" aria-label="Weapon 2 hit modifier" /></td><td><textarea rows="1" name="attr_vapen2_skada" aria-label="Weapon 2 damage and damage type"></textarea></td><td><textarea rows="1" name="attr_vapen2_specialregler" aria-label="Weapon 2 special rules and ammunition"></textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="armor-title"><h3 id="armor-title">Armor</h3>
+          <div class="table-scroll"><table><thead><tr><th scope="col">Name</th><th class="narrow" scope="col">Max</th><th class="narrow" scope="col">Current</th><th scope="col">Runes / special rules</th></tr></thead><tbody>
+            <tr><td><input name="attr_rustning1_namn" aria-label="Armor 1 name" value="Leather coat + Protection Rune" /></td><td><input name="armor1_max" type="number" min="0" aria-label="Armor 1 maximum value" value="2" /></td><td><input name="attr_rustning1_varde" type="number" min="0" aria-label="Armor 1 current value" value="2" /></td><td><textarea rows="1" name="armor1_details" aria-label="Armor 1 runes and special rules">Base 1 + rune 1. Additional +1 armor against Piercing; 3 rune slots.</textarea></td></tr>
+            <tr><td><input name="attr_rustning2_namn" aria-label="Armor 2 name" /></td><td><input name="armor2_max" type="number" min="0" aria-label="Armor 2 maximum value" /></td><td><input name="attr_rustning2_varde" type="number" min="0" aria-label="Armor 2 current value" /></td><td><textarea rows="1" name="armor2_details" aria-label="Armor 2 runes and special rules"></textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="equipment-title"><h3 id="equipment-title">Equipment &amp; accessories</h3>
+          <div class="equipment-grid"><label>Item / uses / effect<textarea rows="1" name="equipment1">Protective Talisman, Physical: Armor value 2.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment2">Protective Ring, Physical: Armor value 2.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment3">Protective Ring, Physical: Second ring; armor value 2.</textarea></label><label>Item / uses / effect<textarea rows="1" name="equipment4"></textarea></label></div>
+          <div class="fields three"><label>Slots used<input name="slots_used" type="number" min="0" /></label><label>Slot capacity<input name="slots_max" type="number" min="0" value="10" /></label><label>Equipment points left<input name="equipment_points" type="number" min="0" value="0" /></label></div>
+        </section>
+        <div class="page-footer">TBD's Dragon Den <span>Eldritch Shadows · Character sheet</span></div>
+      </section>
+      <section class="sheet-page" aria-labelledby="powers-title">
+        <div class="page-heading"><div><span class="edition">ELDRITCH SHADOWS</span><h2 id="powers-title">Powers &amp; field notes</h2></div><span class="page-mark">02 / RECORD</span></div>
+        <section class="sheet-section" aria-labelledby="abilities-title"><h3 id="abilities-title">Abilities</h3>
+          <div class="ability-grid">
+            <div class="power-entry"><label>Name<input name="ability1_name" value="Ki" /></label><label>Cost / roll / duration<input name="ability1_cost" value="Action; 2 Mana; scene / up to 10 min" /></label><label>Effect<textarea rows="3" name="ability1_effect">Choose one element at activation. Fire: +1 Fire melee damage and +1d6 for strength/endurance. Water: hold breath 10 minutes, move freely in water, +1d6 for agility/balance. Earth: +2 armor; cannot be made Prone or Restrained by physical forces. Air: +5 m movement and +1d6 for stealth/acrobatics/evasion. Electricity: an action may paralyze a target for 1 round (their Strength + Wisdom opposed by your Intelligence + Occult); +1d6 for fast reactions. Only one element at a time. Ends if Paralyzed, Asleep or unconscious. Cannot be active with Chi. GM confirms element eligibility.</textarea></label></div>
+            <div class="power-entry"><label>Name<input name="ability2_name" value="Bodyguard" /></label><label>Cost / roll / duration<input name="ability2_cost" value="Ally within 2 m is being attacked" /></label><label>Effect<textarea rows="3" name="ability2_effect">Swap places with the ally who is being attacked, putting yourself in the danger. Coordinate with your team and stay close enough to intervene.</textarea></label></div>
+            <div class="power-entry"><label>Name<input name="ability3_name" value="Resist" /></label><label>Cost / roll / duration<input name="ability3_cost" value="Starting type: Slashing; reaction to change: 1 Mana" /></label><label>Effect<textarea rows="3" name="ability3_effect">Gain Resistance to the chosen damage type: roll an extra d6 and subtract it from damage of that type. Spend 1 Mana as a reaction to change to another damage type.</textarea></label></div>
+          </div>
+        </section>
+        <section class="sheet-section" aria-labelledby="magic-title"><h3 id="magic-title">Magic, rituals &amp; Nanomancy programs</h3>
+          <div class="fields three"><label>CPU capacity (%)<input name="cpu_max" type="number" min="0" /></label><label>CPU in use (%)<input name="cpu_current" type="number" min="0" /></label><label>Focus / nanocore<input name="power_focus" /></label></div>
+          <p class="hint">Use the rows for your character's chosen powers. CPU fields are for Nanomancers.</p>
+          <div class="table-scroll"><table class="powers-table"><thead><tr><th scope="col">Name / kind</th><th scope="col">Mana / CPU / roll</th><th scope="col">Effect / duration / range</th></tr></thead><tbody>
+            <tr><td><textarea rows="2" name="power1_name" aria-label="Power 1 name and kind"></textarea></td><td><textarea rows="2" name="power1_cost" aria-label="Power 1 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power1_effect" aria-label="Power 1 effect, duration and range"></textarea></td></tr>
+            <tr><td><textarea rows="2" name="power2_name" aria-label="Power 2 name and kind"></textarea></td><td><textarea rows="2" name="power2_cost" aria-label="Power 2 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power2_effect" aria-label="Power 2 effect, duration and range"></textarea></td></tr>
+            <tr><td><textarea rows="2" name="power3_name" aria-label="Power 3 name and kind"></textarea></td><td><textarea rows="2" name="power3_cost" aria-label="Power 3 mana, CPU and roll"></textarea></td><td><textarea rows="2" name="power3_effect" aria-label="Power 3 effect, duration and range"></textarea></td></tr>
+          </tbody></table></div>
+        </section>
+        <section class="sheet-section" aria-labelledby="upgrades-title"><h3 id="upgrades-title">Upgrades</h3><label>Name / activated, triggered or constant / cost / effect<textarea rows="2" name="upgrades"></textarea></label></section>
+        <div class="notes-grid">
+          <section class="sheet-section" aria-labelledby="injuries-title"><h3 id="injuries-title">Critical injuries &amp; conditions</h3><label>Attribute / injury or condition / treatment / duration<textarea rows="4" name="injuries_conditions"></textarea></label></section>
+          <section class="sheet-section" aria-labelledby="background-title"><h3 id="background-title">Appearance &amp; background</h3><label>Description / history / goals / relationships<textarea rows="4" name="background">Since childhood, Maria had been the one who stood up to schoolyard bullies. Her determination to protect the vulnerable and follow the rules made a career in the police a natural choice.
+
+Then came the case that could not be explained. The investigation concluded that the victim had died in an animal attack, but Maria had seen the body. She refused to accept the explanation and kept digging, drawing on contacts she neither should have used nor trusted.
+
+Eventually, she came face to face with the beast. She opened fire, but her bullets had no effect. She would have died if GDA agents had not intervened. Their commanding officer had been following her investigation, allowing her to continue to see whether she had what it took. When they offered her the chance to protect people from threats the police could not handle, she accepted.
+
+GOAL: Protect civilians from paranormal threats and discover how far the GDA&#x27;s influence reaches behind the scenes.
+
+WEAKNESS: Maria tends to see the world in black and white. Her rigid principles make it difficult for her to accept ambiguity and compromise.</textarea></label></section>
+        </div>
+        <section class="sheet-section" aria-labelledby="notes-title"><h3 id="notes-title">Campaign notes</h3><label>Clues / contacts / supplies / additional abilities and equipment<textarea rows="4" name="campaign_notes">PLAYING ADVICE
+Be where you are needed: Invest in movement abilities and Bodyguard so you can get between a threat and someone who needs protection.
+
+Stay on your feet: Prioritise abilities and equipment that help you survive when things go wrong.
+
+Draw the threat towards you: Use your position and actions to make enemies focus on you, giving more vulnerable teammates room to act.
+
+NEXT STEPS
+Resist starts with Slashing selected. Spend 1 Mana as a reaction to change its damage type. Earth Ki is a useful defensive choice; Air Ki helps positioning. There is no automatic taunt ability: draw attention through positioning and actions agreed with the GM.
+
+BETA / GM NOTES
+Ki requires a discipline tied to the chosen element. Maria&#x27;s printed class lists Occult (Spirits); the GM should confirm which elements it supports. The class lists several armor-granting items without a clear stacking rule. Their individual values are recorded; no combined armor total is assumed.
+
+The complete prebuilt class equipment is retained. Carrying-slot accounting and any beta exceptions should be agreed with the GM. No spare equipment points or bonus XP have been added.</textarea></label></section>
+        <div class="reference-strip"><strong>At the table</strong><span>Attribute + discipline → roll d6s. Each 6 is a success.</span><span>1 Mana → reroll up to 2 dice.</span><span>Attribute at 0 → down; see Damage / Downed.</span></div>
+        <div class="page-footer">TBD's Dragon Den <span>Eldritch Shadows · Character sheet</span></div>
+      </section>
+    </form>
+  </main>
+</body>
+</html>

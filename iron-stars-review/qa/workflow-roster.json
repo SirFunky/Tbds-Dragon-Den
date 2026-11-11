@@ -1,0 +1,75 @@
+{
+  "schema": 1,
+  "faction": "unmc",
+  "subfaction": "atlas-dynamics",
+  "name": "Full workflow QA",
+  "limit": 500,
+  "lines": [
+    {
+      "id": "unmc-undf-aegis-line-frame",
+      "quantity": 1
+    },
+    {
+      "id": "custom-c12eae92-af63-47e0-809c-275c11f98cbd",
+      "quantity": 2,
+      "custom": {
+        "name": "Workflow interceptor QA",
+        "chassis": "part-55b75d7d657fbeb6398d",
+        "movement": 18,
+        "structure": 5,
+        "weapons": [
+          {
+            "component": "part-c6c4b12c2af67719bd97",
+            "quantity": 1,
+            "linked": false
+          },
+          {
+            "component": "part-11633311e6498b3485d6",
+            "quantity": 4,
+            "linked": true
+          }
+        ],
+        "systems": [
+          "part-22fe098b667b1b65b45b"
+        ],
+        "flyer": true,
+        "forms": [
+          {
+            "name": "Mech",
+            "movement": 18,
+            "structure": 5,
+            "weapon_groups": [
+              0
+            ],
+            "systems": [
+              "part-22fe098b667b1b65b45b"
+            ]
+          },
+          {
+            "name": "Hybrid",
+            "movement": 28,
+            "structure": 5,
+            "weapon_groups": [
+              1
+            ],
+            "systems": [
+              "part-22fe098b667b1b65b45b"
+            ]
+          },
+          {
+            "name": "Flyer",
+            "movement": 28,
+            "structure": 5,
+            "weapon_groups": [
+              1
+            ],
+            "systems": [
+              "part-22fe098b667b1b65b45b"
+            ]
+          }
+        ],
+        "transform_version": 2
+      }
+    }
+  ]
+}

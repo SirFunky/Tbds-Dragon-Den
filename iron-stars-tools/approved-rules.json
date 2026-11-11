@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "rules": [
+    {
+      "id": "author:wheeled",
+      "name": "Wheeled",
+      "chapter": "terrain",
+      "after": "core:b0084",
+      "status": "approved",
+      "source_ref": "user:2026-11-07-wheeled",
+      "approved_on": "2026-11-07",
+      "source_description": "Approved by the game author in chat.",
+      "effects": [
+        "+5 cm Move when the entire move stays on Open Ground.",
+        "Cannot climb elevation.",
+        "Other terrain uses the normal movement penalties."
+      ]
+    },
+    {
+      "id": "author:cr-alternate-movement",
+      "name": "Cybernetic Rebellion alternate-form movement",
+      "chapter": "terrain",
+      "after": "core:b0084",
+      "status": "approved",
+      "source_ref": "user:2026-11-07-cr-alternate-movement",
+      "approved_on": "2026-11-07",
+      "source_description": "Movement-type design approved by the game author in chat.",
+      "effects": [
+        "Cybernetic Rebellion alternate forms may choose Walker, Wheeled, Tracked, Hover, Flyer, or Burrower movement.",
+        "Vehicle and animal forms use the movement type appropriate to how they move.",
+        "Base Move stays unchanged; there is no blanket vehicle or animal speed bonus. Wheeled gains its +5 cm only when the entire move stays on Open Ground."
+      ]
+    }
+  ]
+}

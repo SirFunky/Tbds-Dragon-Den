@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "category": "missions",
+  "review_status": "unverified",
+  "publication_status": "private",
+  "records": [
+    {
+      "id": "missions:core:0253-0265",
+      "label": "Secure the Relay",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0253",
+        "core:b0254",
+        "core:b0255",
+        "core:b0256",
+        "core:b0257",
+        "core:b0258",
+        "core:b0259",
+        "core:b0260",
+        "core:b0261",
+        "core:b0262",
+        "core:b0263",
+        "core:b0264",
+        "core:b0265"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0253",
+          "kind": "paragraph",
+          "style": "heading 2",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "🎮 QUICK START SCENARIO — “SECURE THE RELAY”",
+          "numbering": false
+        },
+        {
+          "id": "core:b0254",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Players: 2\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0255",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Map Size: 61.0 cm x 61.0 cm\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0256",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Each Player Uses: 2 Units\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0257",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Objective: Control the center objective (Relay Beacon) at the end of Round 3",
+          "numbering": true
+        },
+        {
+          "id": "core:b0258",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Relay Beacon (Central Objective)",
+          "numbering": false
+        },
+        {
+          "id": "core:b0259",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Use a round marker with a 3 cm radius (6 cm across)\nA unit controls the beacon if it is within 3 cm of the center and no enemies are also within that range\nOptional: Place a mech part, relay tower, or glowing token for visual flair.\n",
+          "numbering": false
+        },
+        {
+          "id": "core:b0260",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Scoring:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0261",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "2 VP – Control the Relay at end of Round 3\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0262",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "1 VP – Destroy 1 enemy unit\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0263",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "+1 Bonus VP – Destroy both enemy units\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0264",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "Tie-breaker: Player controlling the Relay wins",
+          "numbering": false
+        },
+        {
+          "id": "core:b0265",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "🎮 QUICK START SCENARIO — “SECURE THE RELAY”"
+          ],
+          "text": "",
+          "numbering": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+.music-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(220px, 1fr);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  margin: 40px 0 48px;
+  border: 1px solid #609fea80;
+  border-radius: 22px;
+  background: radial-gradient(ellipse at 85% 20%, #215d8655, transparent 65%), linear-gradient(120deg, #0d1a32, #091325 65%, #102e49);
+  box-shadow: 0 16px 50px #0005, 0 0 30px #3b82f615;
+}
+.music-feature-copy { padding: 38px 0 34px 36px; position: relative; z-index: 1; }
+.music-feature-kicker { display: flex; align-items: center; gap: 9px; color: #98caff; font-size: 11px; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.music-feature-kicker > span { display: grid; place-items: center; width: 25px; height: 25px; background: #76b7ff20; border: 1px solid #76b7ff50; border-radius: 50%; font-size: 15px; }
+.music-feature h2 { margin: 18px 0 14px; color: #f1f6ff; font-size: clamp(27px, 3.5vw, 39px); letter-spacing: -.035em; line-height: 1.12; }
+.music-feature h2 span { display: block; color: #8ec5ff; }
+.music-feature-copy > p { margin: 0 0 18px; max-width: 430px; color: #b6c5d9; font-size: 14px; line-height: 1.65; }
+.music-feature-platforms { max-width: 440px; color: #91a8c4; font-size: 11px; line-height: 1.9; }
+.music-feature-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 16px 22px; margin-top: 24px; }
+.music-feature-button { display: inline-flex; gap: 17px; align-items: center; background: #9bccff; color: #07172c; text-decoration: none; padding: 13px 18px; border-radius: 9px; font-size: 13px; font-weight: 750; transition: background 180ms, box-shadow 180ms; }
+.music-feature-button:hover { background: #c4e1ff; box-shadow: 0 0 24px #87bdff40; }
+.music-feature-secondary { color: #c4dcf8; text-underline-offset: 5px; font-size: 12px; }
+.music-feature-secondary:hover { color: #fff; }
+.music-feature a:focus-visible { outline: 2px solid #d1e8ff; outline-offset: 5px; }
+.music-feature-copy > .music-feature-note { margin: 14px 0 0; color: #8c9fb9; font-size: 10px; }
+.music-feature-art { position: relative; min-height: 340px; display: grid; place-items: center; overflow: hidden; }
+.music-feature-record { width: 245px; aspect-ratio: 1; border-radius: 50%; border: 1px solid #9accff50; background: repeating-radial-gradient(circle, transparent 0 3px, #c3e1ff12 4px, transparent 5px 7px), conic-gradient(from 25deg, #07121e, #497594, #0a182b 28%, #081522 52%, #3a6684 68%, #081522 86%, #07121e); box-shadow: 0 20px 50px #0008; display: grid; place-items: center; transform: rotate(-15deg); }
+.music-feature-label { background: radial-gradient(circle at 30% 20%, #a2d2ff, #4082b1); border-radius: 50%; width: 91px; height: 91px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: #07182d; font-size: 11px; font-weight: 800; line-height: 1.05; text-align: center; letter-spacing: -.3px; }
+.music-feature-label span { font-size: 6px; letter-spacing: 1.4px; margin-top: 7px; }
+.music-feature-orbit { position: absolute; width: 310px; height: 310px; border: 1px solid #96caff20; border-radius: 50%; box-shadow: 0 0 0 24px #96caff06, 0 0 0 49px #96caff04; }
+.music-feature-wave { position: absolute; bottom: 49px; height: 39px; display: flex; align-items: center; gap: 5px; }
+.music-feature-wave i { display: block; width: 3px; height: 10px; border-radius: 3px; background: #a8d5ff; box-shadow: 0 0 12px #7dbbff80; }
+.music-feature-wave i:nth-child(2n) { height: 20px; }
+.music-feature-wave i:nth-child(3n) { height: 32px; }
+.music-feature-wave i:nth-child(4n) { height: 40px; }
+.music-feature-art-caption { position: absolute; bottom: 24px; color: #88a9ca; font-size: 8px; letter-spacing: 1.6px; }
+@media (max-width: 760px) {
+  .music-feature { grid-template-columns: minmax(0, 1fr) 210px; }
+  .music-feature-copy { padding: 28px 0 28px 26px; }
+  .music-feature-record { width: 185px; }
+  .music-feature-orbit { width: 235px; height: 235px; }
+}
+@media (max-width: 560px) {
+  .music-feature { grid-template-columns: minmax(0, 1fr); }
+  .music-feature-copy { padding: 28px 24px 0; }
+  .music-feature h2 { font-size: 32px; }
+  .music-feature-actions { align-items: flex-start; flex-direction: column; gap: 18px; }
+  .music-feature-art { min-height: 260px; }
+  .music-feature-record { width: 170px; }
+  .music-feature-orbit { width: 210px; height: 210px; }
+  .music-feature-wave { bottom: 37px; }
+  .music-feature-art-caption { bottom: 17px; }
+}

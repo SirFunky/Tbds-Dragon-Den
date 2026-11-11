@@ -1,0 +1,16 @@
+.guilds-book-intro { grid-template-columns: minmax(0, 1.5fr) minmax(0, .7fr); }
+.guilds-book-intro h1 { max-width: 13ch; font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.08; }
+.guilds-hearth-art img { aspect-ratio: auto; object-fit: contain; }
+.guilds-book-summary { margin: 1.5rem 0; color: #e0d3df; font-size: 1rem; line-height: 1.8; max-width: 60ch; }
+.guilds-book-emblem { justify-self: center; width: min(100%, 15rem); font-family: Georgia, serif; padding: 2rem 1rem; }
+.guilds-book-emblem span:first-child { font-size: 1.3rem; }
+.guilds-book-emblem b { font-size: 5rem; }
+.guilds-book-emblem span:last-child { font-size: .6rem; }
+.guilds-chapters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .7rem; list-style: none; padding: 0; margin: 1.5rem 0 0; }
+.guilds-chapters li { display: flex; }
+.guilds-chapters a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; width: 100%; padding: 1rem 1.15rem; border: 1px solid #64485d; border-radius: 3px; background: #23192d; color: #fae3bf; text-decoration: none; }
+.guilds-chapters a:hover { background: #352139; border-color: #d6ac6d; }
+.guilds-chapter-number { display: block; margin-bottom: .35rem; color: #d4b1cf; font-size: .7rem; letter-spacing: .06em; }
+.guilds-chapter-title { font: 1.1rem/1.4 Georgia, serif; overflow-wrap: anywhere; }
+.guilds-chapter-page { flex-shrink: 0; color: #edc27c; font-size: .75rem; white-space: nowrap; }
+@media (max-width: 650px) { .guilds-book-intro, .guilds-chapters { grid-template-columns: 1fr; } .guilds-book-intro .guilds-featured-art { max-width: 14rem; } .guilds-book-emblem { width: 12rem; } }

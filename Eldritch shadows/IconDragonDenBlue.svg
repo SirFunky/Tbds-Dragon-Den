@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Dragon Den logo mark</title>
+  <desc id="desc">A stylized curled dragon sigil with an emerald glow, designed for a dark fantasy setting.</desc>
+  <defs>
+    <linearGradient id="dragonStroke" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="52%" stop-color="#bfdbfe"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+
+    <linearGradient id="innerGlow" x1="64" y1="20" x2="64" y2="108" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#93c5fd" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer occult ring -->
+  <circle cx="64" cy="64" r="49.5"
+          fill="none"
+          stroke="#60a5fa"
+          stroke-opacity="0.22"
+          stroke-width="2.2"/>
+
+  <!-- Emerald aura -->
+  <path d="M95 28
+           C109 39 114 57 111 72
+           C107 92 92 107 72 112
+           C48 118 26 107 16 87
+           C8 71 9 51 18 36
+           C28 20 43 13 58 13
+           C70 13 82 18 91 26"
+        fill="none"
+        stroke="#3b82f6"
+        stroke-opacity="0.28"
+        stroke-width="7"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        filter="url(#softGlow)"/>
+
+  <!-- Dragon body / curled sigil -->
+  <path d="M93 29
+           C104 39 109 54 107 68
+           C104 87 90 102 72 106
+           C54 110 35 102 25 86
+           C16 72 15 54 22 40
+           C29 27 41 20 54 19
+           C64 18 72 21 79 26
+           C85 30 89 36 90 43
+           C91 50 89 56 85 61
+           C80 67 73 70 66 69
+           C60 68 55 65 52 60
+           C49 55 49 49 52 44
+           C55 39 60 35 66 34
+           C63 31 57 30 51 31
+           C44 33 39 37 36 43
+           C32 52 34 63 41 71
+           C48 79 59 83 69 81
+           C80 79 88 72 92 63
+           C97 52 96 41 90 32"
+        fill="none"
+        stroke="url(#dragonStroke)"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Belly / inner curve -->
+  <path d="M58 38
+           C50 41 46 50 49 58
+           C52 66 61 71 70 69"
+        fill="none"
+        stroke="url(#innerGlow)"
+        stroke-width="3.8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Head -->
+  <path d="M87 23
+           L101 20
+           L95 30
+           L105 33
+           L92 38
+           L85 33
+           L87 23 Z"
+        fill="#dbeafe"
+        fill-opacity="0.96"
+        stroke="#bfdbfe"
+        stroke-width="1.8"
+        stroke-linejoin="round"/>
+
+  <!-- Horn -->
+  <path d="M91 22
+           C93 14 99 10 107 9"
+        fill="none"
+        stroke="#bfdbfe"
+        stroke-width="3.2"
+        stroke-linecap="round"/>
+
+  <!-- Eye -->
+  <circle cx="95.5" cy="28.8" r="1.8" fill="#172554"/>
+
+  <!-- Fang -->
+  <path d="M96.5 34 L94 39" fill="none" stroke="#eff6ff" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tail tip -->
+  <path d="M24 85
+           C18 92 18 100 23 106
+           C29 102 32 95 31 87"
+        fill="none"
+        stroke="#bfdbfe"
+        stroke-width="4"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+
+  <!-- Central rune / den spark -->
+  <path d="M64 50 L67 58 L76 61 L67 64 L64 72 L61 64 L52 61 L61 58 Z"
+        fill="#3b82f6"
+        fill-opacity="0.88"
+        stroke="#e0f2fe"
+        stroke-width="1.5"
+        stroke-linejoin="round"
+        filter="url(#softGlow)"/>
+</svg>

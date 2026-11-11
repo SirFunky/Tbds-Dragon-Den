@@ -1,0 +1,1907 @@
+{
+  "schema_version": 1,
+  "category": "terminology-keywords",
+  "review_status": "unverified",
+  "publication_status": "private",
+  "records": [
+    {
+      "id": "terminology-keywords:core:0040-0046",
+      "label": "Unit stat terminology",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0040",
+        "core:b0041",
+        "core:b0042",
+        "core:b0043",
+        "core:b0044",
+        "core:b0045",
+        "core:b0046"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0040",
+          "kind": "paragraph",
+          "style": "heading 2",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "📊 UNIT STAT PROFILE",
+          "numbering": false
+        },
+        {
+          "id": "core:b0041",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Each unit has the following:",
+          "numbering": false
+        },
+        {
+          "id": "core:b0042",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Move (M): Distance in cm per Move action\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0043",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Defence (D): Target number an attacker must roll to hit\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0044",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Structure (STR): Hit points\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0045",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Traits: Special rules or passive abilities\n",
+          "numbering": true
+        },
+        {
+          "id": "core:b0046",
+          "kind": "paragraph",
+          "style": "",
+          "heading": [
+            "📊 UNIT STAT PROFILE"
+          ],
+          "text": "Weapons: Defined by FP (Firepower) or ME (Melee), range, and keywords\n",
+          "numbering": true
+        }
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0084-0084:r2",
+      "label": "Walker",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0084:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0084:r2",
+          "cells": [
+            {
+              "id": "core:b0084:r2:c1",
+              "paragraphs": [
+                "Walker"
+              ],
+              "text": "Walker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0084:r2:c2",
+              "paragraphs": [
+                "Ignores Difficult Ground and Rubble penalties"
+              ],
+              "text": "Ignores Difficult Ground and Rubble penalties",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Trait",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Walker",
+        "Ignores Difficult Ground and Rubble penalties"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0084-0084:r3",
+      "label": "Hover",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0084:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0084:r3",
+          "cells": [
+            {
+              "id": "core:b0084:r3:c1",
+              "paragraphs": [
+                "Hover"
+              ],
+              "text": "Hover",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0084:r3:c2",
+              "paragraphs": [
+                "Ignores terrain height changes; can move over obstacles"
+              ],
+              "text": "Ignores terrain height changes; can move over obstacles",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Trait",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Hover",
+        "Ignores terrain height changes; can move over obstacles"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0084-0084:r4",
+      "label": "Jetpack",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0084:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0084:r4",
+          "cells": [
+            {
+              "id": "core:b0084:r4:c1",
+              "paragraphs": [
+                "Jetpack"
+              ],
+              "text": "Jetpack",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0084:r4:c2",
+              "paragraphs": [
+                "Ignores all terrain while moving; can fly over buildings and walls"
+              ],
+              "text": "Ignores all terrain while moving; can fly over buildings and walls",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Trait",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Jetpack",
+        "Ignores all terrain while moving; can fly over buildings and walls"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0084-0084:r5",
+      "label": "Burrower",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0084:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0084:r5",
+          "cells": [
+            {
+              "id": "core:b0084:r5:c1",
+              "paragraphs": [
+                "Burrower"
+              ],
+              "text": "Burrower",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0084:r5:c2",
+              "paragraphs": [
+                "Spends 1 turn underground, then reappears anywhere on the map "
+              ],
+              "text": "Spends 1 turn underground, then reappears anywhere on the map ",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Trait",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Burrower",
+        "Spends 1 turn underground, then reappears anywhere on the map "
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r2",
+      "label": "FP (Firepower)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r2",
+          "cells": [
+            {
+              "id": "core:b0232:r2:c1",
+              "paragraphs": [
+                "FP (Firepower)"
+              ],
+              "text": "FP (Firepower)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r2:c2",
+              "paragraphs": [
+                " Used only for ranged combat. Cannot be used in melee combat."
+              ],
+              "text": " Used only for ranged combat. Cannot be used in melee combat.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "FP (Firepower)",
+        " Used only for ranged combat. Cannot be used in melee combat."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r3",
+      "label": "ME (Melee)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r3",
+          "cells": [
+            {
+              "id": "core:b0232:r3:c1",
+              "paragraphs": [
+                "ME (Melee)"
+              ],
+              "text": "ME (Melee)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r3:c2",
+              "paragraphs": [
+                "Used only for close combat. Cannot be used for ranged attacks."
+              ],
+              "text": "Used only for close combat. Cannot be used for ranged attacks.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "ME (Melee)",
+        "Used only for close combat. Cannot be used for ranged attacks."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r4",
+      "label": "(unnamed source row)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r4",
+          "cells": [
+            {
+              "id": "core:b0232:r4:c1",
+              "paragraphs": [
+                ""
+              ],
+              "text": "",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r4:c2",
+              "paragraphs": [
+                "FP and ME are never interchangeable unless a special rule explicitly allows it."
+              ],
+              "text": "FP and ME are never interchangeable unless a special rule explicitly allows it.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "",
+        "FP and ME are never interchangeable unless a special rule explicitly allows it."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r5",
+      "label": "Accurate",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r5",
+          "cells": [
+            {
+              "id": "core:b0232:r5:c1",
+              "paragraphs": [
+                "Accurate"
+              ],
+              "text": "Accurate",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r5:c2",
+              "paragraphs": [
+                "Add +1 to one attack die per roll (or reroll 1 failed die)."
+              ],
+              "text": "Add +1 to one attack die per roll (or reroll 1 failed die).",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Accurate",
+        "Add +1 to one attack die per roll (or reroll 1 failed die)."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r6",
+      "label": "AP X (Armor Piercing)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r6"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r6",
+          "cells": [
+            {
+              "id": "core:b0232:r6:c1",
+              "paragraphs": [
+                "AP X (Armor Piercing)"
+              ],
+              "text": "AP X (Armor Piercing)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r6:c2",
+              "paragraphs": [
+                "Reduce the target's Defence by X for this attack."
+              ],
+              "text": "Reduce the target's Defence by X for this attack.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "AP X (Armor Piercing)",
+        "Reduce the target's Defence by X for this attack."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r7",
+      "label": "Blast",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r7"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r7",
+          "cells": [
+            {
+              "id": "core:b0232:r7:c1",
+              "paragraphs": [
+                "Blast"
+              ],
+              "text": "Blast",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r7:c2",
+              "paragraphs": [
+                "Affects all units within 5 cm of the target point. Each is rolled against separately."
+              ],
+              "text": "Affects all units within 5 cm of the target point. Each is rolled against separately.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Blast",
+        "Affects all units within 5 cm of the target point. Each is rolled against separately."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r8",
+      "label": "Burn",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r8"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r8",
+          "cells": [
+            {
+              "id": "core:b0232:r8:c1",
+              "paragraphs": [
+                "Burn"
+              ],
+              "text": "Burn",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r8:c2",
+              "paragraphs": [
+                "When a weapon with Burn causes at least 1 damage, place a Burn token on the target. At the start of the target's next activation, it suffers 1 additional STR damage, then the Burn token is removed."
+              ],
+              "text": "When a weapon with Burn causes at least 1 damage, place a Burn token on the target. At the start of the target's next activation, it suffers 1 additional STR damage, then the Burn token is removed.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Burn",
+        "When a weapon with Burn causes at least 1 damage, place a Burn token on the target. At the start of the target's next activation, it suffers 1 additional STR damage, then the Burn token is removed."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r9",
+      "label": "Cleave",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r9"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r9",
+          "cells": [
+            {
+              "id": "core:b0232:r9:c1",
+              "paragraphs": [
+                "Cleave"
+              ],
+              "text": "Cleave",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r9:c2",
+              "paragraphs": [
+                "If this attack destroys a unit in melee, the attacker may immediately make one bonus melee attack against another adjacent target."
+              ],
+              "text": "If this attack destroys a unit in melee, the attacker may immediately make one bonus melee attack against another adjacent target.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Cleave",
+        "If this attack destroys a unit in melee, the attacker may immediately make one bonus melee attack against another adjacent target."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r10",
+      "label": "Heavy",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r10"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r10",
+          "cells": [
+            {
+              "id": "core:b0232:r10:c1",
+              "paragraphs": [
+                "Heavy"
+              ],
+              "text": "Heavy",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r10:c2",
+              "paragraphs": [
+                "Cannot be used if the unit moved this turn unless the weapon is mounted (trait-specific)."
+              ],
+              "text": "Cannot be used if the unit moved this turn unless the weapon is mounted (trait-specific).",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Heavy",
+        "Cannot be used if the unit moved this turn unless the weapon is mounted (trait-specific)."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r11",
+      "label": "Knockback",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r11"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r11",
+          "cells": [
+            {
+              "id": "core:b0232:r11:c1",
+              "paragraphs": [
+                "Knockback"
+              ],
+              "text": "Knockback",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r11:c2",
+              "paragraphs": [
+                "On hit, push the target 5 cm directly away from the attacker."
+              ],
+              "text": "On hit, push the target 5 cm directly away from the attacker.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Knockback",
+        "On hit, push the target 5 cm directly away from the attacker."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r12",
+      "label": "Overheat X",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r12"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r12",
+          "cells": [
+            {
+              "id": "core:b0232:r12:c1",
+              "paragraphs": [
+                "Overheat X"
+              ],
+              "text": "Overheat X",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r12:c2",
+              "paragraphs": [
+                "After resolving the attack, roll 1D6. On a 1, the attacker suffers X STR damage (usually 1)."
+              ],
+              "text": "After resolving the attack, roll 1D6. On a 1, the attacker suffers X STR damage (usually 1).",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Overheat X",
+        "After resolving the attack, roll 1D6. On a 1, the attacker suffers X STR damage (usually 1)."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r13",
+      "label": "Piercing X",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r13"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r13",
+          "cells": [
+            {
+              "id": "core:b0232:r13:c1",
+              "paragraphs": [
+                "Piercing X"
+              ],
+              "text": "Piercing X",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r13:c2",
+              "paragraphs": [
+                "Each successful hit from this weapon deals +X additional Structure damage."
+              ],
+              "text": "Each successful hit from this weapon deals +X additional Structure damage.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Piercing X",
+        "Each successful hit from this weapon deals +X additional Structure damage."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r14",
+      "label": "Rapid Fire",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r14"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r14",
+          "cells": [
+            {
+              "id": "core:b0232:r14:c1",
+              "paragraphs": [
+                "Rapid Fire"
+              ],
+              "text": "Rapid Fire",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r14:c2",
+              "paragraphs": [
+                "May fire twice if the unit did not move this turn. The second shot must target the same unit."
+              ],
+              "text": "May fire twice if the unit did not move this turn. The second shot must target the same unit.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Rapid Fire",
+        "May fire twice if the unit did not move this turn. The second shot must target the same unit."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r15",
+      "label": "Suppressive",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r15"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r15",
+          "cells": [
+            {
+              "id": "core:b0232:r15:c1",
+              "paragraphs": [
+                "Suppressive"
+              ],
+              "text": "Suppressive",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r15:c2",
+              "paragraphs": [
+                "If this attack hits, the target suffers -1 FP until the end of its next activation."
+              ],
+              "text": "If this attack hits, the target suffers -1 FP until the end of its next activation.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Suppressive",
+        "If this attack hits, the target suffers -1 FP until the end of its next activation."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r16",
+      "label": "Indirect Fire (Missiles)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r16"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r16",
+          "cells": [
+            {
+              "id": "core:b0232:r16:c1",
+              "paragraphs": [
+                "Indirect Fire (Missiles)"
+              ],
+              "text": "Indirect Fire (Missiles)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r16:c2",
+              "paragraphs": [
+                "May target enemies without Line of Sight.\n",
+                "Cannot target enemies engaged in melee.\n",
+                "Apply -1 to hit when firing without LOS.\nCover bonuses still apply to the target (e.g., +1 Defence vs ranged).\n",
+                "Cost: Missile weapons with Indirect Fire cost +2 pts over standard equivalents.",
+                ""
+              ],
+              "text": "May target enemies without Line of Sight.\n\nCannot target enemies engaged in melee.\n\nApply -1 to hit when firing without LOS.\nCover bonuses still apply to the target (e.g., +1 Defence vs ranged).\n\nCost: Missile weapons with Indirect Fire cost +2 pts over standard equivalents.\n",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Indirect Fire (Missiles)",
+        "May target enemies without Line of Sight.\n\nCannot target enemies engaged in melee.\n\nApply -1 to hit when firing without LOS.\nCover bonuses still apply to the target (e.g., +1 Defence vs ranged).\n\nCost: Missile weapons with Indirect Fire cost +2 pts over standard equivalents.\n"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r17",
+      "label": "Linked",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r17"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r17",
+          "cells": [
+            {
+              "id": "core:b0232:r17:c1",
+              "paragraphs": [
+                "Linked"
+              ],
+              "text": "Linked",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r17:c2",
+              "paragraphs": [
+                "Effect:",
+                "A Linked weapon fires all of its shots at the same target.\n",
+                "Multiple identical weapons may be combined into one Linked system.\n",
+                "Add their Firepower (FP) together to determine the total FP of the attack.\n",
+                "The attack is resolved as a single roll against the target’s Defense",
+                "Example",
+                "A Cannon has FP 2.\n",
+                "A Quad-Linked Cannon counts as a single weapon with FP 8.\n",
+                "You roll 8 dice at once, all directed at the same targe"
+              ],
+              "text": "Effect:\nA Linked weapon fires all of its shots at the same target.\n\nMultiple identical weapons may be combined into one Linked system.\n\nAdd their Firepower (FP) together to determine the total FP of the attack.\n\nThe attack is resolved as a single roll against the target’s Defense\nExample\nA Cannon has FP 2.\n\nA Quad-Linked Cannon counts as a single weapon with FP 8.\n\nYou roll 8 dice at once, all directed at the same targe",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Linked",
+        "Effect:\nA Linked weapon fires all of its shots at the same target.\n\nMultiple identical weapons may be combined into one Linked system.\n\nAdd their Firepower (FP) together to determine the total FP of the attack.\n\nThe attack is resolved as a single roll against the target’s Defense\nExample\nA Cannon has FP 2.\n\nA Quad-Linked Cannon counts as a single weapon with FP 8.\n\nYou roll 8 dice at once, all directed at the same targe"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r18",
+      "label": "Linked Costing:",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r18"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r18",
+          "cells": [
+            {
+              "id": "core:b0232:r18:c1",
+              "paragraphs": [
+                "Linked Costing:"
+              ],
+              "text": "Linked Costing:",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r18:c2",
+              "paragraphs": [
+                "When building a Linked weapon system, the first 3 identical weapons cost their normal points value.\nBeginning with the 4th linked weapon, each additional weapon costs an extra amount equal to its base cost for each step beyond the third.",
+                "Example: a 4-point Light Laser costs 4/4/4/8/12 when taken as a 1st, 2nd, 3rd, 4th, and 5th linked copy."
+              ],
+              "text": "When building a Linked weapon system, the first 3 identical weapons cost their normal points value.\nBeginning with the 4th linked weapon, each additional weapon costs an extra amount equal to its base cost for each step beyond the third.\nExample: a 4-point Light Laser costs 4/4/4/8/12 when taken as a 1st, 2nd, 3rd, 4th, and 5th linked copy.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Linked Costing:",
+        "When building a Linked weapon system, the first 3 identical weapons cost their normal points value.\nBeginning with the 4th linked weapon, each additional weapon costs an extra amount equal to its base cost for each step beyond the third.\nExample: a 4-point Light Laser costs 4/4/4/8/12 when taken as a 1st, 2nd, 3rd, 4th, and 5th linked copy."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r19",
+      "label": "Anti-Air (AA)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r19"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r19",
+          "cells": [
+            {
+              "id": "core:b0232:r19:c1",
+              "paragraphs": [
+                "Anti-Air (AA)"
+              ],
+              "text": "Anti-Air (AA)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r19:c2",
+              "paragraphs": [
+                "Weapons with Anti-Air gain +1 to hit Flyers.\n",
+                "If a Flyer is targeted by an Anti-Air weapon, it does not benefit from Cover (but may still use Defense as normal).\n",
+                "Anti-Air has no effect against non-Flyer units."
+              ],
+              "text": "Weapons with Anti-Air gain +1 to hit Flyers.\n\nIf a Flyer is targeted by an Anti-Air weapon, it does not benefit from Cover (but may still use Defense as normal).\n\nAnti-Air has no effect against non-Flyer units.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Anti-Air (AA)",
+        "Weapons with Anti-Air gain +1 to hit Flyers.\n\nIf a Flyer is targeted by an Anti-Air weapon, it does not benefit from Cover (but may still use Defense as normal).\n\nAnti-Air has no effect against non-Flyer units."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0232-0232:r20",
+      "label": "Ammunition X",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0232:r20"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0232:r20",
+          "cells": [
+            {
+              "id": "core:b0232:r20:c1",
+              "paragraphs": [
+                "Ammunition X"
+              ],
+              "text": "Ammunition X",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0232:r20:c2",
+              "paragraphs": [
+                "This weapon may be used X times per game.",
+                "Each time you resolve an attack with this weapon, reduce X by 1.",
+                "At 0, the weapon cannot be used for the rest of the game."
+              ],
+              "text": "This weapon may be used X times per game.\nEach time you resolve an attack with this weapon, reduce X by 1.\nAt 0, the weapon cannot be used for the rest of the game.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Ammunition X",
+        "This weapon may be used X times per game.\nEach time you resolve an attack with this weapon, reduce X by 1.\nAt 0, the weapon cannot be used for the rest of the game."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r2",
+      "label": "Deep Strike",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r2",
+          "cells": [
+            {
+              "id": "core:b0235:r2:c1",
+              "paragraphs": [
+                "Deep Strike"
+              ],
+              "text": "Deep Strike",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r2:c2",
+              "paragraphs": [
+                "This unit may be placed anywhere on the battlefield more than 20 cm from enemy units at the start of round 2 or later."
+              ],
+              "text": "This unit may be placed anywhere on the battlefield more than 20 cm from enemy units at the start of round 2 or later.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Deep Strike",
+        "This unit may be placed anywhere on the battlefield more than 20 cm from enemy units at the start of round 2 or later."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r3",
+      "label": "Drone Logic",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r3",
+          "cells": [
+            {
+              "id": "core:b0235:r3:c1",
+              "paragraphs": [
+                "Drone Logic"
+              ],
+              "text": "Drone Logic",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r3:c2",
+              "paragraphs": [
+                "Immune to morale tests and suppression."
+              ],
+              "text": "Immune to morale tests and suppression.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Drone Logic",
+        "Immune to morale tests and suppression."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r4",
+      "label": "Fabricator",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r4",
+          "cells": [
+            {
+              "id": "core:b0235:r4:c1",
+              "paragraphs": [
+                "Fabricator"
+              ],
+              "text": "Fabricator",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r4:c2",
+              "paragraphs": [
+                "Can deploy drone units or repair 1 STR from adjacent units as an action."
+              ],
+              "text": "Can deploy drone units or repair 1 STR from adjacent units as an action.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Fabricator",
+        "Can deploy drone units or repair 1 STR from adjacent units as an action."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r5",
+      "label": "Jetpack",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r5",
+          "cells": [
+            {
+              "id": "core:b0235:r5:c1",
+              "paragraphs": [
+                "Jetpack"
+              ],
+              "text": "Jetpack",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r5:c2",
+              "paragraphs": [
+                "Ignores all terrain while moving, may move over obstacles and buildings freely."
+              ],
+              "text": "Ignores all terrain while moving, may move over obstacles and buildings freely.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Jetpack",
+        "Ignores all terrain while moving, may move over obstacles and buildings freely."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r6",
+      "label": "Transform",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r6"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r6",
+          "cells": [
+            {
+              "id": "core:b0235:r6:c1",
+              "paragraphs": [
+                "Transform"
+              ],
+              "text": "Transform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r6:c2",
+              "paragraphs": [
+                "May switch between two modes as one action (e.g., Mech <-> Flight). Stats and rules may change."
+              ],
+              "text": "May switch between two modes as one action (e.g., Mech <-> Flight). Stats and rules may change.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Transform",
+        "May switch between two modes as one action (e.g., Mech <-> Flight). Stats and rules may change."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r7",
+      "label": "Veil Phase",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r7"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r7",
+          "cells": [
+            {
+              "id": "core:b0235:r7:c1",
+              "paragraphs": [
+                "Veil Phase"
+              ],
+              "text": "Veil Phase",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r7:c2",
+              "paragraphs": [
+                "Once per game, cancel all hits from a single attack. May be used after the attack is rolled."
+              ],
+              "text": "Once per game, cancel all hits from a single attack. May be used after the attack is rolled.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Veil Phase",
+        "Once per game, cancel all hits from a single attack. May be used after the attack is rolled."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r8",
+      "label": "Flyer",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r8"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r8",
+          "cells": [
+            {
+              "id": "core:b0235:r8:c1",
+              "paragraphs": [
+                "Flyer"
+              ],
+              "text": "Flyer",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r8:c2",
+              "paragraphs": [
+                "Units with the Flyer keyword are specialized aerial units that fight from above the battlefield. Their mobility is unmatched, but they are harder to keep under cover.",
+                "🔧 Effect:",
+                "A Flyer must move at least half of its Move value during its activation.\n",
+                "If a Flyer does not move its full Move value, any attacks targeting it receive +1 to hit.\n",
+                "A Flyer may draw Line of Sight (LoS) from any point above its base up to a maximum height of 61 cm.\n",
+                "Weapons fired from that vantage point must still have range measured from that point to the target in order to be used.",
+                "Flyers cannot claim or contest objectives.",
+                "📌 Notes for Clarity",
+                "Flyers can see over most terrain and units, but range is calculated from their “altitude vantage point.”\n",
+                "They are still affected by Cover if terrain is tall enough to obscure the LoS point chosen.\n",
+                "Flyers cannot stay stationary — they must always be “in motion.”\n",
+                "Traits like Jetpack and Hover don’t stack with Flyer — they’re separate mobility systems."
+              ],
+              "text": "Units with the Flyer keyword are specialized aerial units that fight from above the battlefield. Their mobility is unmatched, but they are harder to keep under cover.\n🔧 Effect:\nA Flyer must move at least half of its Move value during its activation.\n\nIf a Flyer does not move its full Move value, any attacks targeting it receive +1 to hit.\n\nA Flyer may draw Line of Sight (LoS) from any point above its base up to a maximum height of 61 cm.\n\nWeapons fired from that vantage point must still have range measured from that point to the target in order to be used.\nFlyers cannot claim or contest objectives.\n📌 Notes for Clarity\nFlyers can see over most terrain and units, but range is calculated from their “altitude vantage point.”\n\nThey are still affected by Cover if terrain is tall enough to obscure the LoS point chosen.\n\nFlyers cannot stay stationary — they must always be “in motion.”\n\nTraits like Jetpack and Hover don’t stack with Flyer — they’re separate mobility systems.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Flyer",
+        "Units with the Flyer keyword are specialized aerial units that fight from above the battlefield. Their mobility is unmatched, but they are harder to keep under cover.\n🔧 Effect:\nA Flyer must move at least half of its Move value during its activation.\n\nIf a Flyer does not move its full Move value, any attacks targeting it receive +1 to hit.\n\nA Flyer may draw Line of Sight (LoS) from any point above its base up to a maximum height of 61 cm.\n\nWeapons fired from that vantage point must still have range measured from that point to the target in order to be used.\nFlyers cannot claim or contest objectives.\n📌 Notes for Clarity\nFlyers can see over most terrain and units, but range is calculated from their “altitude vantage point.”\n\nThey are still affected by Cover if terrain is tall enough to obscure the LoS point chosen.\n\nFlyers cannot stay stationary — they must always be “in motion.”\n\nTraits like Jetpack and Hover don’t stack with Flyer — they’re separate mobility systems."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r9",
+      "label": "Tracked",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r9"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r9",
+          "cells": [
+            {
+              "id": "core:b0235:r9:c1",
+              "paragraphs": [
+                "Tracked"
+              ],
+              "text": "Tracked",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r9:c2",
+              "paragraphs": [
+                "This unit may not climb elevation.",
+                "Difficult Ground movement penalties are doubled.",
+                "This unit has the Stable Platform keyword."
+              ],
+              "text": "This unit may not climb elevation.\nDifficult Ground movement penalties are doubled.\nThis unit has the Stable Platform keyword.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Tracked",
+        "This unit may not climb elevation.\nDifficult Ground movement penalties are doubled.\nThis unit has the Stable Platform keyword."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r10",
+      "label": "Stable Platform",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r10"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r10",
+          "cells": [
+            {
+              "id": "core:b0235:r10:c1",
+              "paragraphs": [
+                "Stable Platform"
+              ],
+              "text": "Stable Platform",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r10:c2",
+              "paragraphs": [
+                "This unit ignores the Heavy weapon restriction.",
+                "It may fire Heavy weapons even if it moved this activation."
+              ],
+              "text": "This unit ignores the Heavy weapon restriction.\nIt may fire Heavy weapons even if it moved this activation.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Stable Platform",
+        "This unit ignores the Heavy weapon restriction.\nIt may fire Heavy weapons even if it moved this activation."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0235-0235:r11",
+      "label": "Uniqe",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0235:r11"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0235:r11",
+          "cells": [
+            {
+              "id": "core:b0235:r11:c1",
+              "paragraphs": [
+                "Uniqe"
+              ],
+              "text": "Uniqe",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0235:r11:c2",
+              "paragraphs": [
+                "A unit may include only 1 Unique Trait/System"
+              ],
+              "text": "A unit may include only 1 Unique Trait/System",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Uniqe",
+        "A unit may include only 1 Unique Trait/System"
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0238-0238:r2",
+      "label": "Blast (X)",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0238:r2"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0238:r2",
+          "cells": [
+            {
+              "id": "core:b0238:r2:c1",
+              "paragraphs": [
+                "Blast (X)"
+              ],
+              "text": "Blast (X)",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0238:r2:c2",
+              "paragraphs": [
+                "Affects all units within X cm of target. Standard is 5 cm unless specified."
+              ],
+              "text": "Affects all units within X cm of target. Standard is 5 cm unless specified.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Blast (X)",
+        "Affects all units within X cm of target. Standard is 5 cm unless specified."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0238-0238:r3",
+      "label": "EMP",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0238:r3"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0238:r3",
+          "cells": [
+            {
+              "id": "core:b0238:r3:c1",
+              "paragraphs": [
+                "EMP"
+              ],
+              "text": "EMP",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0238:r3:c2",
+              "paragraphs": [
+                "On hit, the target cannot use Systems or Abilities during its next activation."
+              ],
+              "text": "On hit, the target cannot use Systems or Abilities during its next activation.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "EMP",
+        "On hit, the target cannot use Systems or Abilities during its next activation."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0238-0238:r4",
+      "label": "Hazardous",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0238:r4"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0238:r4",
+          "cells": [
+            {
+              "id": "core:b0238:r4:c1",
+              "paragraphs": [
+                "Hazardous"
+              ],
+              "text": "Hazardous",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0238:r4:c2",
+              "paragraphs": [
+                "Units entering or ending their movement in this area take 1 STR damage automatically."
+              ],
+              "text": "Units entering or ending their movement in this area take 1 STR damage automatically.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Hazardous",
+        "Units entering or ending their movement in this area take 1 STR damage automatically."
+      ]
+    },
+    {
+      "id": "terminology-keywords:core:0238-0238:r5",
+      "label": "Marker",
+      "source_id": "core",
+      "source_filename": "IRON STARS_ CORE RULES 0.0.14 (1).docx",
+      "source_sha256": "04195c4bc25e0808eb9b8789402c4c56713f4f74da7297918fbc729b9b18aa94",
+      "rules_version": "0.0.14",
+      "version_basis": "User identification and supplied filename; body says ALPHA",
+      "review_status": "unverified",
+      "publication_status": "private",
+      "source_refs": [
+        "core:b0238:r5"
+      ],
+      "source_blocks": [
+        {
+          "id": "core:b0238:r5",
+          "cells": [
+            {
+              "id": "core:b0238:r5:c1",
+              "paragraphs": [
+                "Marker"
+              ],
+              "text": "Marker",
+              "column_span": 1,
+              "vertical_merge": null
+            },
+            {
+              "id": "core:b0238:r5:c2",
+              "paragraphs": [
+                "Creates a persistent effect or token on the battlefield. Often tied to missions or effects like smoke, mines, etc."
+              ],
+              "text": "Creates a persistent effect or token on the battlefield. Often tied to missions or effects like smoke, mines, etc.",
+              "column_span": 1,
+              "vertical_merge": null
+            }
+          ]
+        }
+      ],
+      "record_type": "table-row",
+      "columns_as_written": [
+        "Keyword",
+        "Effect"
+      ],
+      "values_as_written": [
+        "Marker",
+        "Creates a persistent effect or token on the battlefield. Often tied to missions or effects like smoke, mines, etc."
+      ]
+    }
+  ]
+}

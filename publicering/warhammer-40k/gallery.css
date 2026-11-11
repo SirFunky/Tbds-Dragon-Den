@@ -1,0 +1,8 @@
+.warhammer-photos{margin-top:24px}
+.warhammer-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start;margin-top:20px}
+.warhammer-gallery a{display:block;border-radius:10px;overflow:hidden;border:1px solid rgba(255,255,255,.15)}
+.warhammer-gallery img{display:block;width:100%;height:auto}
+.warhammer-gallery a:hover{border-color:currentColor}
+.warhammer-gallery a:focus-visible{outline:3px solid currentColor;outline-offset:4px}
+@media(max-width:800px){.warhammer-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:480px){.warhammer-gallery{grid-template-columns:1fr}}
