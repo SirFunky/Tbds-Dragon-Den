@@ -165,3 +165,29 @@ use miniatures they already own. Develop its official game section at
   results, and any missing data or checks that could not be completed.
 
 See `iron-stars/README.md` for the current workflow and planned structure.
+
+## GitHub synchronization
+
+Repository: https://github.com/SirFunky/Tbds-Dragon-Den
+Main branch: main
+
+After completing a user-requested task:
+
+1. Verify that the requested changes are complete.
+2. Run relevant tests or validation where possible.
+3. Review the Git changes and ensure no secrets or files over 100 MB are included.
+4. Stage only files modified or created for the current task.
+5. Create a Git commit with a descriptive message.
+6. Push the commit to origin/main.
+7. Report whether the push succeeded.
+
+Rules:
+- Never use git add -A or git add . automatically.
+- Never overwrite unrelated changes.
+- Never force-push.
+- Never amend existing commits.
+- Never commit credentials, secrets or temporary files.
+- If the push fails, explain the error instead of retrying destructively.
+- Ask for permission if the environment requires approval for Git operations.
+- Do not claim synchronization succeeded unless git push succeeded.
+
