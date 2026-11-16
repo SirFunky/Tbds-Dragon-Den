@@ -1,0 +1,11 @@
+# Scoped redirects for the former Eldritch Shadows section (Apache/LiteSpeed).
+# HTML pages also include static redirects for hosts without mod_alias.
+<IfModule mod_alias.c>
+  RedirectMatch 301 "^/Eldritch[ ]shadows/EldritchShadowsPublicEnglishPdfUpdated\.html$" "/eldritch-shadows/"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/(character-sheet|questionnaire)\.html$" "/eldritch-shadows/$1.html"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/pregens/index\.html$" "/eldritch-shadows/pregens/"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/pregens/beta-notes\.html$" "/eldritch-shadows/pregens/gm-notes.html"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/pregens/((?:hannes-mansdottir|emanuel-markusson|tizian-hokstorm|emilia-olsson|maria-gonzales)\.html)$" "/eldritch-shadows/pregens/$1"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/EldritchShadows\.pdf$" "/eldritch-shadows/rulebook.pdf"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/adventures/into-the-fog-beta-0\.1\.2\.docx$" "/eldritch-shadows/adventures/into-the-fog.docx"
+</IfModule>

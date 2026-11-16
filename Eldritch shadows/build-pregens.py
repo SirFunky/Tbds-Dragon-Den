@@ -21,12 +21,20 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak, KeepTogether
 from pypdf import PdfReader, PdfWriter
 
-ROOT = Path(__file__).resolve().parent
+SOURCE = Path(__file__).resolve().parent
+ROOT = SOURCE.parent / "eldritch-shadows"
 sys.path.insert(0, str(ROOT.parent))
-from site_navigation import apply_navigation
+from site_navigation import apply_navigation as apply_site_navigation
+
+def apply_navigation(content, depth=0, canonical_path="pregens/"):
+    content = re.sub(r'<link\b[^>]*rel="canonical"[^>]*>\s*', '', content)
+    content = apply_site_navigation(content, depth).replace(
+        "../" * depth + "Eldritch%20shadows/", "/eldritch-shadows/"
+    )
+    return content.replace('</head>', f'<link rel="canonical" href="https://tbddragonden.com/eldritch-shadows/{canonical_path}">\n</head>', 1)
 OUT = ROOT / "pregens"
 OUT.mkdir(exist_ok=True)
-PROFILES = json.loads((ROOT / "pregens-data.json").read_text(encoding="utf-8"))
+PROFILES = json.loads((SOURCE / "pregens-data.json").read_text(encoding="utf-8"))
 TEMPLATE = (ROOT / "character-sheet.html").read_text(encoding="utf-8")
 
 ABILITIES = {
@@ -137,7 +145,7 @@ def build_web(p, values):
     # Replace every field in the downloadable file, including blank defaults.
     names = re.findall(r'<(?:input|textarea)\b[^>]*\bname="([^"]+)"', content)
     field_values = {name: values.get(name, "") for name in names}
-    (OUT / f'{p["id"]}.html').write_text(apply_navigation(content, 2), encoding="utf-8")
+    (OUT / f'{p["id"]}.html').write_text(apply_navigation(content, 2, f'pregens/{p["id"]}.html'), encoding="utf-8")
     (OUT / f'{p["id"]}.json').write_text(json.dumps({"schema": "eldritch-shadows-character", "version": 1, "fields": field_values}, ensure_ascii=False, indent=2), encoding="utf-8")
 
 pdfmetrics.registerFont(TTFont("Sheet", "C:/Windows/Fonts/arial.ttf"))
@@ -213,13 +221,13 @@ def build_hub():
     cards = []
     for p in PROFILES:
         cards.append(f'''<article class="pregen-card"><span class="eyebrow">{html.escape(p['class'])}</span><h2>{html.escape(p['name'])}</h2><p>{html.escape(p['tagline'])}</p><p>{html.escape(p['concept'])}</p><div class="toolbar-actions"><a class="action-link" href="{p['id']}.html">Open character sheet</a><a href="{p['id']}.pdf" download>PDF</a><a href="{p['id']}.json" download>Character file</a></div></article>''')
-    page = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ready-to-play characters | Eldritch Shadows</title><link rel="stylesheet" href="../character-sheet.css"><style>.pregen-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}.pregen-card{padding:24px;background:#0f172a;border:1px solid #475569;border-radius:14px}.pregen-card h2{margin:8px 0;font-size:23px}.pregen-card p{color:#aeb8c8}.action-link{padding:9px 13px;border-radius:6px;background:#4ade80;color:#052e16;text-decoration:none;font-weight:600}.toolbar-actions{align-items:center}.beta-note{margin:24px 0;color:#aeb8c8;line-height:1.7}</style></head><body><header class="site-header"><a class="brand" href="../../index.html">TBD's Dragon Den</a><nav><a href="../EldritchShadowsPublicEnglishPdfUpdated.html#start-playing">Start playing</a><a href="../character-sheet.html">Blank character sheet</a></nav></header><main><div class="sheet-toolbar"><span class="eyebrow">Materials for your first session</span><h1>Meet your next character</h1><p>Five characters based on the rulebook's prebuilt classes, with complete backgrounds, goals, weaknesses and playing advice. Pick a character, change any personal details you like, and bring them to your first game.</p><div class="toolbar-actions"><a class="action-link" href="eldritch-shadows-five-characters.pdf" download>Download all five (PDF)</a></div></div><div class="pregen-grid">'''+"\n".join(cards)+'''</div><p class="beta-note">These characters use the standard class loadouts, rather than the special characters from Into the Fog. Optional class abilities have been chosen in advance. Rules questions and equipment exceptions are recorded on the sheets; <a href="beta-notes.html">the GM can review them here</a>. Each editable web sheet saves separately in this browser. Character JSON files can also be loaded into the blank sheet.</p></main></body></html>'''
+    page = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ready-to-play characters | Eldritch Shadows</title><link rel="stylesheet" href="../character-sheet.css"><style>.pregen-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}.pregen-card{padding:24px;background:#0f172a;border:1px solid #475569;border-radius:14px}.pregen-card h2{margin:8px 0;font-size:23px}.pregen-card p{color:#aeb8c8}.action-link{padding:9px 13px;border-radius:6px;background:#4ade80;color:#052e16;text-decoration:none;font-weight:600}.toolbar-actions{align-items:center}.beta-note{margin:24px 0;color:#aeb8c8;line-height:1.7}</style></head><body><header class="site-header"><a class="brand" href="../../index.html">TBD's Dragon Den</a><nav><a href="../#start-playing">Start playing</a><a href="../character-sheet.html">Blank character sheet</a></nav></header><main><div class="sheet-toolbar"><span class="eyebrow">Materials for your first session</span><h1>Meet your next character</h1><p>Five characters based on the rulebook's prebuilt classes, with complete backgrounds, goals, weaknesses and playing advice. Pick a character, change any personal details you like, and bring them to your first game.</p><div class="toolbar-actions"><a class="action-link" href="eldritch-shadows-five-characters.pdf" download>Download all five (PDF)</a></div></div><div class="pregen-grid">'''+"\n".join(cards)+'''</div><p class="beta-note">These characters use the standard class loadouts, rather than the special characters from Into the Fog. Optional class abilities have been chosen in advance. Rules questions and equipment exceptions are recorded on the sheets; <a href="gm-notes.html">the GM can review them here</a>. Each editable web sheet saves separately in this browser. Character JSON files can also be loaded into the blank sheet.</p></main></body></html>'''
     (OUT / "index.html").write_text(apply_navigation(page, 2), encoding="utf-8")
     notes = "\n".join(f'<section class="pregen-card"><h2>{html.escape(p["name"])} - {p["class"]}</h2><p>{html.escape(p["rules_note"])}</p></section>' for p in PROFILES)
-    (OUT / "beta-notes.html").write_text('''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prebuilt character GM notes</title><link rel="stylesheet" href="../character-sheet.css"></head><body><main><div class="sheet-toolbar"><a href="index.html">Back to characters</a><h1>Notes for the GM</h1><p>The printed class presets are preserved. These notes identify questions that need a GM ruling; they do not add new abilities or campaign equipment.</p></div>'''+notes+'''<p>All five characters begin with 12 attribute points, 6 Mana, no injuries and zero earned XP. All five characters have 3 discipline points, including the author-corrected Mage. Equipment is provided by the class, rather than bought with an additional 60-point allowance.</p></main></body></html>''', encoding="utf-8")
+    (OUT / "gm-notes.html").write_text('''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prebuilt character GM notes</title><link rel="stylesheet" href="../character-sheet.css"></head><body><main><div class="sheet-toolbar"><a href="index.html">Back to characters</a><h1>Notes for the GM</h1><p>The printed class presets are preserved. These notes identify questions that need a GM ruling; they do not add new abilities or campaign equipment.</p></div>'''+notes+'''<p>All five characters begin with 12 attribute points, 6 Mana, no injuries and zero earned XP. All five characters have 3 discipline points, including the author-corrected Mage. Equipment is provided by the class, rather than bought with an additional 60-point allowance.</p></main></body></html>''', encoding="utf-8")
 
-    notes_path = OUT / "beta-notes.html"
-    notes_path.write_text(apply_navigation(notes_path.read_text(encoding="utf-8"), 2), encoding="utf-8")
+    notes_path = OUT / "gm-notes.html"
+    notes_path.write_text(apply_navigation(notes_path.read_text(encoding="utf-8"), 2, "pregens/gm-notes.html"), encoding="utf-8")
 
 if __name__ == "__main__":
     for p in PROFILES:

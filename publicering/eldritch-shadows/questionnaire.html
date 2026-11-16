@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A fillable GDA character questionnaire for Eldritch Shadows. Explore your agent’s background, field instincts and encounters with the unknown.">
+  <title>GDA Questionnaire | Eldritch Shadows</title>
+  <link rel="stylesheet" href="questionnaire.css">
+  <link rel="stylesheet" href="../site-header.css">
+  <script src="questionnaire.js" defer></script>
+  <link rel="canonical" href="https://tbddragonden.com/eldritch-shadows/questionnaire.html">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to questionnaire</a>
+  <header class="site-header">
+    <a class="logo" href="../index.html" aria-label="TBD's Dragon Den – home">
+      <div class="logo-mark"><img src="IconDragonDenSketchEmbedded.svg" alt="" class="logo-icon"></div>
+      <div class="logo-text">TBD's Dragon Den</div>
+    </a>
+    <nav class="site-nav" aria-label="Main navigation"><a href="../index.html#projects">Projects</a><a href="../about.html">About</a><a href="../contact.html">Contact</a><span class="site-pill">Indie worlds &amp; games</span></nav>
+  </header>
+  <main id="main">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="./">← Eldritch Shadows</a><span>/ GDA Questionnaire</span></nav>
+    <div class="intro">
+      <p class="eyebrow">Eldritch Shadows / Agent background</p>
+      <h1>GDA Questionnaire</h1>
+      <p class="lede">Before the next assignment, tell us who you are.</p>
+      <p>Answer as your character. Wherever “Other” appears as an option, it opens an expanding field for specifics.</p>
+      <p class="hint">This is fictional GDA paperwork for your game. Answers stay in this browser when storage is available; nothing is submitted or checked against real external records. Download your answers to keep a copy or share with your GM.</p>
+      <div class="actions"><button type="button" id="download-answers" disabled>Download answers</button><button type="button" id="print-answers" disabled>Print / Save PDF</button></div>
+      <p class="hint" id="save-status" role="status">Enable JavaScript for conditional questions, browser saving, downloads and printing.</p>
+    </div>
+    <nav class="section-nav" aria-label="Questionnaire sections"><a href="#baseline">I. Baseline</a><a href="#recruitment">II. Recruitment &amp; Disclosure</a><a href="#instinct">III. Field Instinct</a><a href="#threats">IV. Threat Classification</a><a href="#psychology">V. Deep Field Psychology</a><a href="#sign-off">VI. Sign-Off</a></nav>
+    <noscript><p class="notice">Conditional detail fields are shown below. Question 16 needs JavaScript to display your selected classifications. Use a printed copy to write that answer.</p></noscript>
+    <form id="questionnaire" autocomplete="off">
+      <div class="identity"><label>Agent / character name<input type="text" name="agent_name"></label><label>Campaign<input type="text" name="campaign"></label></div>
+      <section id="baseline" aria-labelledby="baseline-title">
+        <div class="section-heading"><h2 id="baseline-title">I. Baseline</h2><p>Cross-checked against external records. Incomplete or inconsistent answers will be flagged for follow-up.</p></div>
+<fieldset class="question" id="question-1"><legend><span class="number">01</span> What did you do before you joined the GDA?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q1" value="Civilian job"> <span>Civilian job</span></label>
+<label class="choice"><input type="radio" name="q1" value="Law enforcement or military"> <span>Law enforcement or military</span></label>
+<label class="choice"><input type="radio" name="q1" value="Academic or research"> <span>Academic or research</span></label>
+<label class="choice"><input type="radio" name="q1" value="Criminal history"> <span>Criminal history</span></label>
+<label class="choice"><input type="radio" name="q1" value="Already off-grid"> <span>Already off-grid</span></label>
+<label class="choice"><input type="radio" name="q1" value="Other" aria-controls="q1-other"> <span>Other</span></label></div>
+<div class="conditional" id="q1-other" data-when="q1" data-value="Other"><label class="written ">Other — please specify<textarea name="q1_other" id="q1_other" rows="3"></textarea></label></div></fieldset>
+<fieldset class="question" id="question-2"><legend><span class="number">02</span> What’s your family situation?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q2" value="None"> <span>None</span></label>
+<label class="choice"><input type="radio" name="q2" value="Yes, they know"> <span>Yes, they know</span></label>
+<label class="choice"><input type="radio" name="q2" value="Yes, they don’t"> <span>Yes, they don’t</span></label>
+<label class="choice"><input type="radio" name="q2" value="Estranged"> <span>Estranged</span></label></div></fieldset>
+<fieldset class="question" id="question-3"><legend><span class="number">03</span> What’s your public profile?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q3" value="Anonymous"> <span>Anonymous</span></label>
+<label class="choice"><input type="radio" name="q3" value="Locally known"> <span>Locally known</span></label>
+<label class="choice"><input type="radio" name="q3" value="Public figure"> <span>Public figure</span></label>
+<label class="choice"><input type="radio" name="q3" value="Used to be known"> <span>Used to be known</span></label></div></fieldset>
+<fieldset class="question" id="question-4"><legend><span class="number">04</span> Do you have a fixed, known address?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q4" value="Yes, on file"> <span>Yes, on file</span></label>
+<label class="choice"><input type="radio" name="q4" value="Yes, undisclosed"> <span>Yes, undisclosed</span></label>
+<label class="choice"><input type="radio" name="q4" value="No fixed address"> <span>No fixed address</span></label></div></fieldset>
+<fieldset class="question" id="question-5"><legend><span class="number">05</span> Who’d notice, and who’d come looking, if you went dark for a week?</legend>
+<label class="sr-only" for="q5">Who’d notice, and who’d come looking, if you went dark for a week?</label><textarea name="q5" id="q5" rows="3"></textarea></fieldset>
+<fieldset class="question" id="question-6"><legend><span class="number">06</span> What could a hostile party use as leverage against you?</legend>
+<p class="hint">Select all that apply.</p>
+<div class="choices"><label class="choice"><input type="checkbox" name="q6" value="Debt"> <span>Debt</span></label>
+<label class="choice"><input type="checkbox" name="q6" value="Criminal record"> <span>Criminal record</span></label>
+<label class="choice"><input type="checkbox" name="q6" value="Addiction"> <span>Addiction</span></label>
+<label class="choice"><input type="checkbox" name="q6" value="Someone they could threaten"> <span>Someone they could threaten</span></label>
+<label class="choice"><input type="checkbox" name="q6" value="Legal/immigration status"> <span>Legal/immigration status</span></label>
+<label class="choice"><input type="checkbox" name="q6" value="Nothing found yet"> <span>Nothing found yet</span></label></div></fieldset>
+<fieldset class="question" id="question-7"><legend><span class="number">07</span> Who still thinks you have a normal job?</legend>
+<label class="sr-only" for="q7">Who still thinks you have a normal job?</label><textarea name="q7" id="q7" rows="3"></textarea></fieldset>
+<fieldset class="question" id="question-8"><legend><span class="number">08</span> What’s one ordinary thing you can’t have back?</legend>
+<label class="sr-only" for="q8">What’s one ordinary thing you can’t have back?</label><textarea name="q8" id="q8" rows="3"></textarea></fieldset>
+      </section>
+      <section id="recruitment" aria-labelledby="recruitment-title">
+        <div class="section-heading"><h2 id="recruitment-title">II. Recruitment &amp; Disclosure</h2></div>
+<fieldset class="question" id="question-9"><legend><span class="number">09</span> Did you believe in the supernatural before you had proof?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q9" value="Yes"> <span>Yes</span></label>
+<label class="choice"><input type="radio" name="q9" value="No"> <span>No</span></label></div></fieldset>
+<fieldset class="question" id="question-10"><legend><span class="number">10</span> Why did you join the GDA?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q10" value="Recruited after an incident"> <span>Recruited after an incident</span></label>
+<label class="choice"><input type="radio" name="q10" value="Volunteered, no incident"> <span>Volunteered, no incident</span></label>
+<label class="choice"><input type="radio" name="q10" value="Inherited it — family, mentor, obligation"> <span>Inherited it — family, mentor, obligation</span></label>
+<label class="choice"><input type="radio" name="q10" value="Ran out of other options"> <span>Ran out of other options</span></label>
+<label class="choice"><input type="radio" name="q10" value="Other" aria-controls="q10-other"> <span>Other</span></label></div>
+<div class="conditional" id="q10-other" data-when="q10" data-value="Other"><label class="written ">Other — please specify<textarea name="q10_other" id="q10_other" rows="3"></textarea></label></div></fieldset>
+<fieldset class="question" id="question-11"><legend><span class="number">11</span> What’s the closest match to the first supernatural event you witnessed?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q11" value="Something that should’ve stayed dead didn’t"> <span>Something that should’ve stayed dead didn’t</span></label>
+<label class="choice"><input type="radio" name="q11" value="I was nearly worn like a coat"> <span>I was nearly worn like a coat</span></label>
+<label class="choice"><input type="radio" name="q11" value="A door that shouldn’t exist"> <span>A door that shouldn’t exist</span></label>
+<label class="choice"><input type="radio" name="q11" value="Someone I trusted stopped being someone I trusted"> <span>Someone I trusted stopped being someone I trusted</span></label>
+<label class="choice"><input type="radio" name="q11" value="Other" aria-controls="q11-other"> <span>Other</span></label></div>
+<div class="conditional" id="q11-other" data-when="q11" data-value="Other"><label class="written ">Other — please specify<textarea name="q11_other" id="q11_other" rows="3"></textarea></label></div>
+<label class="written ">Add a detail (optional)<textarea name="q11_detail" id="q11_detail" rows="3"></textarea></label></fieldset>
+      </section>
+      <section id="instinct" aria-labelledby="instinct-title">
+        <div class="section-heading"><h2 id="instinct-title">III. Field Instinct</h2><p>Answer the way you actually would, not the way you’re supposed to.</p></div>
+<fieldset class="question" id="question-12"><legend><span class="number">12</span> A demon in a blind panic is on a collision course with a stray dog. What do you do?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q12" value="Save the dog, damn the collateral"> <span>Save the dog, damn the collateral</span></label>
+<label class="choice"><input type="radio" name="q12" value="Contain the demon, dog’s on its own"> <span>Contain the demon, dog’s on its own</span></label>
+<label class="choice"><input type="radio" name="q12" value="Not my jurisdiction"> <span>Not my jurisdiction</span></label>
+<label class="choice"><input type="radio" name="q12" value="Other" aria-controls="q12-other"> <span>Other</span></label></div>
+<div class="conditional" id="q12-other" data-when="q12" data-value="Other"><label class="written ">Other — please specify<textarea name="q12_other" id="q12_other" rows="3"></textarea></label></div></fieldset>
+<fieldset class="question" id="question-13"><legend><span class="number">13</span> A bystander is one look away from seeing something they can’t unsee. What do you do?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q13" value="Talk them down"> <span>Talk them down</span></label>
+<label class="choice"><input type="radio" name="q13" value="Get physical"> <span>Get physical</span></label>
+<label class="choice"><input type="radio" name="q13" value="Let cleanup handle it"> <span>Let cleanup handle it</span></label>
+<label class="choice"><input type="radio" name="q13" value="Let them see"> <span>Let them see</span></label></div></fieldset>
+<fieldset class="question" id="question-14"><legend><span class="number">14</span> Your field partner is showing early signs of Void-taint and insists they’re fine. What do you do?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q14" value="Report it"> <span>Report it</span></label>
+<label class="choice"><input type="radio" name="q14" value="Watch and say nothing yet"> <span>Watch and say nothing yet</span></label>
+<label class="choice"><input type="radio" name="q14" value="Handle it yourself, off the books"> <span>Handle it yourself, off the books</span></label>
+<label class="choice"><input type="radio" name="q14" value="Confront them directly"> <span>Confront them directly</span></label></div></fieldset>
+      </section>
+      <section id="threats" aria-labelledby="threats-title">
+        <div class="section-heading"><h2 id="threats-title">IV. Threat Classification</h2></div>
+<fieldset class="question" id="question-15"><legend><span class="number">15</span> Which classifications have you engaged firsthand?</legend>
+<p class="hint">Select all that apply.</p>
+<div class="choices"><label class="choice"><input type="checkbox" name="q15" value="Eldritch"> <span>Eldritch</span></label>
+<label class="choice"><input type="checkbox" name="q15" value="Demons"> <span>Demons</span></label>
+<label class="choice"><input type="checkbox" name="q15" value="Spirits"> <span>Spirits</span></label>
+<label class="choice"><input type="checkbox" name="q15" value="Undead"> <span>Undead</span></label>
+<label class="choice"><input type="checkbox" name="q15" value="Abominations"> <span>Abominations</span></label>
+<label class="choice"><input type="checkbox" name="q15" value="Void"> <span>Void</span></label></div></fieldset>
+<fieldset class="question" id="question-16"><legend><span class="number">16</span> Which do you understand least?</legend>
+<div class="choices" id="q16-options"></div><p class="hint" id="q16-help">Choose classifications in question 15 to see your options here.</p><fieldset class="reaction"><legend>How does it affect you?</legend><div class="choices"><label class="choice"><input type="radio" name="q16_reaction" value="Unsettles me"> <span>Unsettles me</span></label>
+<label class="choice"><input type="radio" name="q16_reaction" value="Draws me in"> <span>Draws me in</span></label></div></fieldset></fieldset>
+<fieldset class="question" id="question-17"><legend><span class="number">17</span> Have you ever served as a medium or vessel for something not of this world?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q17" value="Yes" aria-controls="q17-detail"> <span>Yes</span></label>
+<label class="choice"><input type="radio" name="q17" value="No"> <span>No</span></label></div>
+<div class="conditional" id="q17-detail" data-when="q17" data-value="Yes"><label class="written ">What happened?<textarea name="q17_detail" id="q17_detail" rows="3"></textarea></label></div></fieldset>
+      </section>
+      <section id="psychology" aria-labelledby="psychology-title">
+        <div class="section-heading"><h2 id="psychology-title">V. Deep Field Psychology</h2><p>Optional. One sentence or five pages — your call. Or skip the paperwork and talk it through with your GM instead.</p></div>
+<fieldset class="question" id="question-18"><legend><span class="number">18</span> What was the moment reality stopped adding up for you?</legend>
+<label class="sr-only" for="q18">What was the moment reality stopped adding up for you?</label><textarea name="q18" id="q18" rows="5"></textarea></fieldset>
+<fieldset class="question" id="question-19"><legend><span class="number">19</span> What do you now know that you wish you didn’t?</legend>
+<label class="sr-only" for="q19">What do you now know that you wish you didn’t?</label><textarea name="q19" id="q19" rows="5"></textarea></fieldset>
+<fieldset class="question" id="question-20"><legend><span class="number">20</span> What’s something you’ve done in the field that’s in no report?</legend>
+<label class="sr-only" for="q20">What’s something you’ve done in the field that’s in no report?</label><textarea name="q20" id="q20" rows="5"></textarea></fieldset>
+      </section>
+      <section id="sign-off" aria-labelledby="sign-off-title">
+        <div class="section-heading"><h2 id="sign-off-title">VI. Sign-Off</h2></div>
+<fieldset class="question" id="question-21"><legend><span class="number">21</span> If your affiliation with the GDA ended tomorrow, what would you do?</legend>
+<div class="choices"><label class="choice"><input type="radio" name="q21" value="Go back to a normal life"> <span>Go back to a normal life</span></label>
+<label class="choice"><input type="radio" name="q21" value="Keep operating alone"> <span>Keep operating alone</span></label>
+<label class="choice"><input type="radio" name="q21" value="Come after the GDA"> <span>Come after the GDA</span></label>
+<label class="choice"><input type="radio" name="q21" value="Wouldn’t know how to stop"> <span>Wouldn’t know how to stop</span></label>
+<label class="choice"><input type="radio" name="q21" value="Other" aria-controls="q21-other"> <span>Other</span></label></div>
+<div class="conditional" id="q21-other" data-when="q21" data-value="Other"><label class="written ">Other — please specify<textarea name="q21_other" id="q21_other" rows="3"></textarea></label></div></fieldset>
+      </section>
+    </form>
+    <footer><p>Keep a copy for your next session.</p><a href="./">← Return to Eldritch Shadows</a></footer>
+  </main>
+</body>
+</html>
