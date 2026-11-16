@@ -1,5 +1,11 @@
 # Publicering av TBD's Dragon Den
 
+## Eldritch Shadows — GDA Questionnaire
+
+Packa upp `uppdatering-eldritch-shadows-questionnaire.zip` och ladda upp innehållet till domänens webbrot hos Inleed. Behåll mappstrukturen och ersätt motsvarande filer. Detta är en uppdatering av den befintliga webbplatsen: ZIP-filen innehåller den uppdaterade Eldritch Shadows-sidan, frågeformulärets HTML/CSS/JavaScript, gemensam sidhuvudsstilmall och logotyp (sex filer). Alla 21 frågor ingår med expanderande detaljfält, flervalsfrågor, dynamisk fråga 16, lokal webbläsarsparning, textsvarsnedladdning och utskrift. Inga svar skickas till en server. Samma filer finns i `publicering/`. Beteende, lokala länkar, ankare, filnamn, publiceringskopior och ZIP-innehåll är kontrollerade. Webbläsarförhandsvisningen kunde inte ansluta; layouten är inte visuellt verifierad. Inga filer har laddats upp till Inleed.
+
+Efter uppladdning: öppna Eldritch Shadows och klicka på GDA Questionnaire. Kontrollera att frågeformuläret öppnas och att valen i fråga 15 uppdaterar fråga 16.
+
 ## Slay the Gray — T’au Battlesuit Team
 
 Packa upp senaste `uppdatering-slay-the-gray-photos.zip` och ladda upp innehållet till webbroten hos Inleed. Behåll mappstrukturen. Tolv ytterligare originalbilder finns i ett eget bildspel, T’au Battlesuit Team, med samlingsbilder och flera vinklar av stridsdräkterna. Alla tidigare bilder finns kvar och ingår också i ZIP-filen tillsammans med sidans stilmallar och logotyp. Arbetsfiler och `publicering/` är uppdaterade. Lokala länkar, bildmått, originalkopior, publiceringskopior och ZIP-innehåll är kontrollerade. Layouten är inte visuellt verifierad i webbläsare. Inga filer har laddats upp till Inleed.
