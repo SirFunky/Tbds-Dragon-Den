@@ -2,7 +2,9 @@
 
 The canonical landing page is `/eldritch-shadows/`, served by `index.html`.
 Edit the current web pages and assets in this directory. The rules download is
-`rulebook.pdf`; replace that file with the supplied PDF when updating the rules.
+`rulebook.pdf`. Put updated author-supplied PDFs at
+`Eldritch shadows/EldritchShadows.pdf`, then run the packager: it copies the exact
+supplied bytes to the clean download path and includes both paths in the ZIP.
 Keep the author's PDF unchanged. The legacy `Eldritch shadows/` directory retains
 source inputs, shared legacy assets, and redirects for existing bookmarks.
 

@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SECTION = ROOT / 'eldritch-shadows'
 LEGACY = ROOT / 'Eldritch shadows'
 ARCHIVE = ROOT / 'uppdatering-eldritch-shadows-1.0.zip'
+SOURCE_PDF = LEGACY / 'EldritchShadows.pdf'
 publication = runpy.run_path(str(ROOT / 'prepare-publication.py'))
 References = publication['References']
 resolve_local = publication['resolve_local']
@@ -34,6 +35,9 @@ def redirects():
 
 
 def refresh_pdf_links():
+    # The author's supplied file stays authoritative and retains its ZIP path.
+    assert SOURCE_PDF.read_bytes().startswith(b'%PDF-'), SOURCE_PDF
+    shutil.copy2(SOURCE_PDF, SECTION / 'rulebook.pdf')
     key = hashlib.sha256((SECTION / 'rulebook.pdf').read_bytes()).hexdigest()[:12]
     path = SECTION / 'index.html'
     text = path.read_text(encoding='utf-8')
@@ -49,6 +53,7 @@ def validate():
         assert 'href="eldritch-shadows/"' in entry, filename
         assert 'EldritchShadowsPublicEnglishPdfUpdated.html' not in entry, filename
     assert (SECTION / 'rulebook.pdf').read_bytes().startswith(b'%PDF-')
+    assert (SECTION / 'rulebook.pdf').read_bytes() == SOURCE_PDF.read_bytes(), 'Run --package to sync the supplied rulebook.'
     key = hashlib.sha256((SECTION / 'rulebook.pdf').read_bytes()).hexdigest()[:12]
     landing = (SECTION / 'index.html').read_text(encoding='utf-8')
     assert landing.count(f'rulebook.pdf?v={key}') == 5
@@ -138,7 +143,7 @@ for (const test of JSON.parse(fs.readFileSync(0, 'utf8'))) {
 
 
 def package():
-    files = sorted(set(section_files() + redirects() + [LEGACY / '.htaccess'] + [ROOT / name for name in [
+    files = sorted(set(section_files() + redirects() + [LEGACY / '.htaccess', SOURCE_PDF] + [ROOT / name for name in [
         'index.html', 'contact.html', 'style.css', 'site-header.css',
         'Eldritch shadows/IconDragonDenSketchEmbedded.svg', 'Eldritch shadows/IconRuneStarEmbedded.svg'
     ]]))
@@ -154,6 +159,9 @@ def package():
     with zipfile.ZipFile(ARCHIVE) as output:
         assert output.testzip() is None
         assert len(output.namelist()) == len(files)
+        # Both upload paths must contain the exact supplied rulebook bytes.
+        for name in ['Eldritch shadows/EldritchShadows.pdf', 'eldritch-shadows/rulebook.pdf']:
+            assert output.read(name) == SOURCE_PDF.read_bytes(), name
         for source in files:
             assert output.read(source.relative_to(ROOT).as_posix()) == source.read_bytes()
     print(f'PASS: {len(files)} publication copies and ZIP entries match sources; {ARCHIVE.stat().st_size / 1024**2:.1f} MB.')

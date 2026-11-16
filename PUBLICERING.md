@@ -8,6 +8,8 @@ Paketet innehåller även omdirigeringssidor och den dolda filen `Eldritch shado
 
 Kör `prepare-eldritch-shadows.py --package` för att kontrollera sökvägar och omdirigeringar, förnya PDF-länkarnas cacheparameter samt uppdatera publiceringskopiorna och ZIP-filen. Redigera fortsättningsvis de aktuella webbsidorna i `eldritch-shadows/`. Äldre källmaterial och delade logotypfiler i `Eldritch shadows/` behålls. Regelbokens 151 sidor och sidreferenser är oförändrade; enbart betamärkningen ändrades vid den senaste PDF-uppdateringen.
 
+Den tillhandahållna regelboken ska ligga kvar som `Eldritch shadows/EldritchShadows.pdf`. Packageraren kopierar automatiskt den filen till `eldritch-shadows/rulebook.pdf`. ZIP-filen innehåller båda sökvägarna, och båda posterna kontrolleras mot exakt samma källbytes. Originalposten får inte utelämnas vid framtida uppdateringar.
+
 Lokala länkar, ankare, filnamnens skiftläge, PDF-sidantal, publiceringskopior och ZIP-innehåll är kontrollerade. Karaktärs-PDF:ernas 15 sidor har renderats och granskats. Webbläsarförhandsvisningen fick anslutningstimeout; sidlayouten är inte visuellt verifierad. Inga filer har laddats upp till Inleed.
 
 ## Eldritch Shadows — GDA Questionnaire
