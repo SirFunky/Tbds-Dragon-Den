@@ -4,6 +4,8 @@
 
 Packa upp `uppdatering-eldritch-shadows-1.0.zip` och ladda upp innehållet till webbplatsens rot. Behåll mappstrukturen och ersätt motsvarande filer. Regellänkarna använder nu `Eldritch shadows/EldritchShadows.pdf`, exakt den nya filen som tillhandahållits. Sidan visar version 1.0 och har uppdaterade regelöversikter, initiativ, hotkategorier och läshänvisningar. Betatext har tagits bort från aktuella webbsidor, karaktärsfiler och genererade karaktärs-PDF:er. Äldre filnamn för kampanjen och GM-anteckningarna behålls för fungerande länkar. Samma filer finns i `publicering/`.
 
+Paketet har uppdaterats med den senast tillhandahållna PDF-filen, där betamärkningen även tagits bort inne i dokumentet. Alla 151 sidor har jämförts med föregående fil; regeltext och sidnummer är oförändrade. Sidans fem PDF-länkar har en innehållsbaserad versionsparameter så att webbläsaren hämtar den uppdaterade filen. Publiceringskopior och alla 51 filer i ZIP-paketet är verifierade mot arbetsfilerna.
+
 Lokala länkar, ankare, filnamnens skiftläge, PDF-sidantal, publiceringskopior och ZIP-innehåll är kontrollerade. Karaktärs-PDF:ernas 15 sidor har renderats och granskats. Webbläsarförhandsvisningen fick anslutningstimeout; sidlayouten är inte visuellt verifierad. Inga filer har laddats upp till Inleed.
 
 ## Eldritch Shadows — GDA Questionnaire
