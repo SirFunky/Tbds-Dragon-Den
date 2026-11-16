@@ -6,7 +6,7 @@ Packa upp `uppdatering-eldritch-shadows-1.0.zip` och ladda upp innehållet till 
 
 Paketet innehåller även omdirigeringssidor och den dolda filen `Eldritch shadows/.htaccess`. Ladda upp även den dolda filen för permanenta 301-omdirigeringar på Apache/LiteSpeed. HTML-sidorna har en reservlösning som fungerar utan serverkonfiguration och behåller frågeparametrar och avsnittslänkar. De gamla adresserna ska inte längre användas i navigeringen. Karaktärernas och frågeformulärets befintliga webbläsarsparning behålls på samma domän.
 
-Kör `prepare-eldritch-shadows.py --package` för att kontrollera sökvägar och omdirigeringar, förnya PDF-länkarnas cacheparameter samt uppdatera publiceringskopiorna och ZIP-filen. Redigera fortsättningsvis de aktuella webbsidorna i `eldritch-shadows/`. Äldre källmaterial och delade logotypfiler i `Eldritch shadows/` behålls. Regelbokens 151 sidor och sidreferenser är oförändrade; enbart betamärkningen ändrades vid den senaste PDF-uppdateringen.
+Kör `prepare-eldritch-shadows.py --package` för att kontrollera sökvägar och omdirigeringar, förnya PDF-länkarnas cacheparameter samt uppdatera publiceringskopiorna och ZIP-filen. Redigera fortsättningsvis de aktuella webbsidorna i `eldritch-shadows/`. Äldre källmaterial och delade logotypfiler i `Eldritch shadows/` behålls. Den senaste PDF-filen visar nu v1.0 även inne i dokumentet. Regelbokens 151 sidor, regeltext och sidreferenser är oförändrade.
 
 Den tillhandahållna regelboken ska ligga kvar som `Eldritch shadows/EldritchShadows.pdf`. Packageraren kopierar automatiskt den filen till `eldritch-shadows/rulebook.pdf`. ZIP-filen innehåller båda sökvägarna, och båda posterna kontrolleras mot exakt samma källbytes. Originalposten får inte utelämnas vid framtida uppdateringar.
 
