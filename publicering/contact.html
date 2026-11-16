@@ -103,8 +103,8 @@
     const form = document.getElementById("contact-form");
     const status = document.getElementById("form-status");
     const topic = new URLSearchParams(window.location.search).get("topic");
-    if (topic === "eldritch-beta") {
-      document.getElementById("contact-subject").value = "Eldritch Shadows – Betafeedback";
+    if (topic === "eldritch-feedback" || topic === "eldritch-beta") {
+      document.getElementById("contact-subject").value = "Eldritch Shadows – Feedback";
     }
     document.getElementById("draft-button").disabled = false;
     form.addEventListener("submit", (event) => {

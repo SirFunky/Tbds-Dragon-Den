@@ -1,7 +1,7 @@
 """Build the five editable web sheets, matching character files and print PDFs.
 
 Rules transcribed from the supplied EldritchShadowsBeta024_BestiaryVoidCircleFix
-DOCX; unresolved beta details are retained as GM notes, not new rules.
+DOCX; unresolved rules details are retained as GM notes, not new rules.
 Run with the bundled Codex Python runtime (reportlab and pypdf required).
 """
 from pathlib import Path
@@ -99,10 +99,10 @@ def values_for(p):
                       upgrades="Exoskeleton Implant: connects to powered armor. Exoskeleton Power Armor: armor 7 and Strength 5 while worn. Start in the leather coat; switch armor and update current Strength / carrying capacity manually. Techno Knight is not learned.")
     values["background"] = p["background"] + "\n\nGOAL: " + p["goal"] + "\n\nWEAKNESS: " + p["weakness"]
     values["campaign_notes"] = "PLAYING ADVICE\n" + "\n\n".join(title + ": " + text for title, text in p["advice"])
-    values["campaign_notes"] += "\n\nNEXT STEPS\n" + p["next_steps"] + "\n\nBETA / GM NOTES\n" + p["rules_note"]
+    values["campaign_notes"] += "\n\nNEXT STEPS\n" + p["next_steps"] + "\n\nGM NOTES\n" + p["rules_note"]
     if len(p["equipment"]) > 4:
         values["campaign_notes"] += "\n\nADDITIONAL EQUIPMENT\n" + "\n".join(name + ": " + effect for name, effect in p["equipment"][4:])
-    values["campaign_notes"] += "\n\nThe complete prebuilt class equipment is retained. Carrying-slot accounting and any beta exceptions should be agreed with the GM. No spare equipment points or bonus XP have been added."
+    values["campaign_notes"] += "\n\nThe complete prebuilt class equipment is retained. Carrying-slot accounting and any equipment exceptions should be agreed with the GM. No spare equipment points or bonus XP have been added."
     return values
 
 def build_web(p, values):
@@ -116,7 +116,7 @@ def build_web(p, values):
         'Fill it in here, or print a blank copy. Use your browser\'s print dialog to save a PDF.': html.escape(p["tagline"]) + f' <a href="{p["id"]}.pdf">Download the print PDF</a> or <a href="index.html">choose another character</a>.',
         '<form id="character-sheet" autocomplete="off">': f'<form id="character-sheet" data-character-id="{p["id"]}" autocomplete="off">',
         'One current character is saved in this browser when storage is available.': 'This character has its own browser save, separate from the blank sheet and the other prebuilt characters.',
-        'At creation: distribute 3 discipline points.': 'Ranks follow the prebuilt class in the beta rulebook.',
+        'At creation: distribute 3 discipline points.': 'Ranks follow the prebuilt class in the rulebook.',
     }
     for old, new in replacements.items():
         assert old in content, old
@@ -192,7 +192,7 @@ def build_pdf(p):
         for name, cost, effect in power_rows(p):
             story += [P(name, H3), P(cost + ". " + effect)]
         story.append(P("The laptop imposes +2 difficulty steps and doubles casting time (already shown above). An hour connected to its database lets you replace its three rituals.", SMALL))
-    story += [P("Using your character", H2), P(p["next_steps"]), P("Beta notes for the GM", H2), P(p["rules_note"], SMALL)]
+    story += [P("Using your character", H2), P(p["next_steps"]), P("Notes for the GM", H2), P(p["rules_note"], SMALL)]
     story += [P("Quick reference", H2), P("Build a pool from an attribute plus a discipline; double it for a matching specialization. Each 6 is a success. Opposing successes cancel. Spend 1 Mana to reroll up to two dice. Damage reduces attributes. At 0 in an attribute, you go down and need treatment. Use the full rulebook for armor, damage types and ability timing.", SMALL), PageBreak()]
     story += [P("Background & playing advice", TITLE), P(p["name"] + " | " + p["class"]), P(p["tagline"], H3), P("Background", H2)]
     for para in p["background"].split("\n\n"): story.append(P(para))
@@ -202,7 +202,7 @@ def build_pdf(p):
     story += [P("Session notes", H2), P("________________________________________________________________________________\n\n________________________________________________________________________________\n\n________________________________________________________________________________", SMALL)]
     def footer(canvas, doc):
         canvas.saveState(); canvas.setStrokeColor(LINE); canvas.line(14*mm, 13*mm, A4[0]-14*mm, 13*mm)
-        canvas.setFont("Sheet", 7); canvas.setFillColor(INK); canvas.drawString(14*mm, 9*mm, "ELDRITCH SHADOWS | TBD's Dragon Den | Prebuilt class / beta rules")
+        canvas.setFont("Sheet", 7); canvas.setFillColor(INK); canvas.drawString(14*mm, 9*mm, "ELDRITCH SHADOWS | TBD's Dragon Den | Prebuilt class / rules")
         canvas.drawRightString(A4[0]-14*mm, 9*mm, f'{p["name"]} - {doc.page}'); canvas.restoreState()
     path = OUT / f'{p["id"]}.pdf'
     doc = SimpleDocTemplate(str(path), pagesize=A4, rightMargin=14*mm, leftMargin=14*mm, topMargin=13*mm, bottomMargin=18*mm, title=p["name"]+" - "+p["class"], author="TBD's Dragon Den")
@@ -213,10 +213,10 @@ def build_hub():
     cards = []
     for p in PROFILES:
         cards.append(f'''<article class="pregen-card"><span class="eyebrow">{html.escape(p['class'])}</span><h2>{html.escape(p['name'])}</h2><p>{html.escape(p['tagline'])}</p><p>{html.escape(p['concept'])}</p><div class="toolbar-actions"><a class="action-link" href="{p['id']}.html">Open character sheet</a><a href="{p['id']}.pdf" download>PDF</a><a href="{p['id']}.json" download>Character file</a></div></article>''')
-    page = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ready-to-play characters | Eldritch Shadows</title><link rel="stylesheet" href="../character-sheet.css"><style>.pregen-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}.pregen-card{padding:24px;background:#0f172a;border:1px solid #475569;border-radius:14px}.pregen-card h2{margin:8px 0;font-size:23px}.pregen-card p{color:#aeb8c8}.action-link{padding:9px 13px;border-radius:6px;background:#4ade80;color:#052e16;text-decoration:none;font-weight:600}.toolbar-actions{align-items:center}.beta-note{margin:24px 0;color:#aeb8c8;line-height:1.7}</style></head><body><header class="site-header"><a class="brand" href="../../index.html">TBD's Dragon Den</a><nav><a href="../EldritchShadowsPublicEnglishPdfUpdated.html#start-playing">Start playing</a><a href="../character-sheet.html">Blank character sheet</a></nav></header><main><div class="sheet-toolbar"><span class="eyebrow">Materials for your first session</span><h1>Meet your next character</h1><p>Five characters based on the rulebook's prebuilt classes, with complete backgrounds, goals, weaknesses and playing advice. Pick a character, change any personal details you like, and bring them to your first game.</p><div class="toolbar-actions"><a class="action-link" href="eldritch-shadows-five-characters.pdf" download>Download all five (PDF)</a></div></div><div class="pregen-grid">'''+"\n".join(cards)+'''</div><p class="beta-note">These characters use the standard class loadouts, rather than the special characters from Into the Fog. Optional class abilities have been chosen in advance. The beta's unresolved rules and equipment exceptions are recorded on the sheets; <a href="beta-notes.html">the GM can review them here</a>. Each editable web sheet saves separately in this browser. Character JSON files can also be loaded into the blank sheet.</p></main></body></html>'''
+    page = '''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ready-to-play characters | Eldritch Shadows</title><link rel="stylesheet" href="../character-sheet.css"><style>.pregen-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:20px}.pregen-card{padding:24px;background:#0f172a;border:1px solid #475569;border-radius:14px}.pregen-card h2{margin:8px 0;font-size:23px}.pregen-card p{color:#aeb8c8}.action-link{padding:9px 13px;border-radius:6px;background:#4ade80;color:#052e16;text-decoration:none;font-weight:600}.toolbar-actions{align-items:center}.beta-note{margin:24px 0;color:#aeb8c8;line-height:1.7}</style></head><body><header class="site-header"><a class="brand" href="../../index.html">TBD's Dragon Den</a><nav><a href="../EldritchShadowsPublicEnglishPdfUpdated.html#start-playing">Start playing</a><a href="../character-sheet.html">Blank character sheet</a></nav></header><main><div class="sheet-toolbar"><span class="eyebrow">Materials for your first session</span><h1>Meet your next character</h1><p>Five characters based on the rulebook's prebuilt classes, with complete backgrounds, goals, weaknesses and playing advice. Pick a character, change any personal details you like, and bring them to your first game.</p><div class="toolbar-actions"><a class="action-link" href="eldritch-shadows-five-characters.pdf" download>Download all five (PDF)</a></div></div><div class="pregen-grid">'''+"\n".join(cards)+'''</div><p class="beta-note">These characters use the standard class loadouts, rather than the special characters from Into the Fog. Optional class abilities have been chosen in advance. Rules questions and equipment exceptions are recorded on the sheets; <a href="beta-notes.html">the GM can review them here</a>. Each editable web sheet saves separately in this browser. Character JSON files can also be loaded into the blank sheet.</p></main></body></html>'''
     (OUT / "index.html").write_text(apply_navigation(page, 2), encoding="utf-8")
     notes = "\n".join(f'<section class="pregen-card"><h2>{html.escape(p["name"])} - {p["class"]}</h2><p>{html.escape(p["rules_note"])}</p></section>' for p in PROFILES)
-    (OUT / "beta-notes.html").write_text('''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prebuilt character beta notes</title><link rel="stylesheet" href="../character-sheet.css"></head><body><main><div class="sheet-toolbar"><a href="index.html">Back to characters</a><h1>Beta notes for the GM</h1><p>The printed class presets are preserved. These notes identify places where the beta needs a ruling; they do not add new abilities or campaign equipment.</p></div>'''+notes+'''<p>All five characters begin with 12 attribute points, 6 Mana, no injuries and zero earned XP. All five characters have 3 discipline points, including the author-corrected Mage. Equipment is provided by the class, rather than bought with an additional 60-point allowance.</p></main></body></html>''', encoding="utf-8")
+    (OUT / "beta-notes.html").write_text('''<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Prebuilt character GM notes</title><link rel="stylesheet" href="../character-sheet.css"></head><body><main><div class="sheet-toolbar"><a href="index.html">Back to characters</a><h1>Notes for the GM</h1><p>The printed class presets are preserved. These notes identify questions that need a GM ruling; they do not add new abilities or campaign equipment.</p></div>'''+notes+'''<p>All five characters begin with 12 attribute points, 6 Mana, no injuries and zero earned XP. All five characters have 3 discipline points, including the author-corrected Mage. Equipment is provided by the class, rather than bought with an additional 60-point allowance.</p></main></body></html>''', encoding="utf-8")
 
     notes_path = OUT / "beta-notes.html"
     notes_path.write_text(apply_navigation(notes_path.read_text(encoding="utf-8"), 2), encoding="utf-8")

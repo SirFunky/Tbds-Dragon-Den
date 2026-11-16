@@ -1,5 +1,11 @@
 # Publicering av TBD's Dragon Den
 
+## Eldritch Shadows — version 1.0
+
+Packa upp `uppdatering-eldritch-shadows-1.0.zip` och ladda upp innehållet till webbplatsens rot. Behåll mappstrukturen och ersätt motsvarande filer. Regellänkarna använder nu `Eldritch shadows/EldritchShadows.pdf`, exakt den nya filen som tillhandahållits. Sidan visar version 1.0 och har uppdaterade regelöversikter, initiativ, hotkategorier och läshänvisningar. Betatext har tagits bort från aktuella webbsidor, karaktärsfiler och genererade karaktärs-PDF:er. Äldre filnamn för kampanjen och GM-anteckningarna behålls för fungerande länkar. Samma filer finns i `publicering/`.
+
+Lokala länkar, ankare, filnamnens skiftläge, PDF-sidantal, publiceringskopior och ZIP-innehåll är kontrollerade. Karaktärs-PDF:ernas 15 sidor har renderats och granskats. Webbläsarförhandsvisningen fick anslutningstimeout; sidlayouten är inte visuellt verifierad. Inga filer har laddats upp till Inleed.
+
 ## Eldritch Shadows — GDA Questionnaire
 
 Packa upp `uppdatering-eldritch-shadows-questionnaire.zip` och ladda upp innehållet till domänens webbrot hos Inleed. Behåll mappstrukturen och ersätt motsvarande filer. Detta är en uppdatering av den befintliga webbplatsen: ZIP-filen innehåller den uppdaterade Eldritch Shadows-sidan, frågeformulärets HTML/CSS/JavaScript, gemensam sidhuvudsstilmall och logotyp (sex filer). Alla 21 frågor ingår med expanderande detaljfält, flervalsfrågor, dynamisk fråga 16, lokal webbläsarsparning, textsvarsnedladdning och utskrift. Inga svar skickas till en server. Samma filer finns i `publicering/`. Beteende, lokala länkar, ankare, filnamn, publiceringskopior och ZIP-innehåll är kontrollerade. Webbläsarförhandsvisningen kunde inte ansluta; layouten är inte visuellt verifierad. Inga filer har laddats upp till Inleed.
