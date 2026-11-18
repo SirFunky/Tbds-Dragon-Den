@@ -18,6 +18,7 @@ SECTION = ROOT / 'eldritch-shadows'
 LEGACY = ROOT / 'Eldritch shadows'
 ARCHIVE = ROOT / 'uppdatering-eldritch-shadows-1.0.zip'
 SOURCE_PDF = LEGACY / 'EldritchShadows.pdf'
+CAMPAIGN_PDF = SECTION / 'adventures' / 'Into_the_Fog_v1.0.pdf'
 publication = runpy.run_path(str(ROOT / 'prepare-publication.py'))
 References = publication['References']
 resolve_local = publication['resolve_local']
@@ -25,9 +26,9 @@ URLS = publication['URLS']
 
 
 def section_files():
-    return sorted(p for p in SECTION.rglob('*') if p.is_file() and p.suffix in {
+    return sorted(p for p in SECTION.rglob('*') if p.is_file() and (p.name == '.htaccess' or p.suffix in {
         '.html', '.css', '.js', '.svg', '.png', '.pdf', '.docx', '.json'
-    })
+    }) and p != SECTION / 'adventures' / 'into-the-fog.docx')
 
 
 def redirects():
@@ -57,6 +58,10 @@ def validate():
     key = hashlib.sha256((SECTION / 'rulebook.pdf').read_bytes()).hexdigest()[:12]
     landing = (SECTION / 'index.html').read_text(encoding='utf-8')
     assert landing.count(f'rulebook.pdf?v={key}') == 5
+    assert CAMPAIGN_PDF.read_bytes().startswith(b'%PDF-')
+    assert 'href="adventures/Into_the_Fog_v1.0.pdf"' in landing
+    assert 'into-the-fog.docx' not in landing
+    assert 'Introductory campaign · v1.0' in landing
     for page in files:
         if page.suffix not in {'.html', '.css', '.svg'}:
             continue
@@ -89,6 +94,10 @@ def validate():
         assert json.loads(page.read_text(encoding='utf-8')) == json.loads((LEGACY / 'pregens' / page.name).read_text(encoding='utf-8'))
 
     rules = re.findall(r'RedirectMatch 301 "([^"]+)" "([^"]+)"', (LEGACY / '.htaccess').read_text(encoding='utf-8'))
+    campaign_rules = rules + re.findall(r'RedirectMatch 301 "([^"]+)" "([^"]+)"', (SECTION / 'adventures' / '.htaccess').read_text(encoding='utf-8'))
+    for old_campaign in ['/Eldritch shadows/adventures/into-the-fog-beta-0.1.2.docx', '/eldritch-shadows/adventures/into-the-fog.docx']:
+        destinations = [re.sub(pattern, target, old_campaign) for pattern, target in campaign_rules if re.search(pattern, old_campaign)]
+        assert destinations == ['/eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf'], destinations
     js_checks = []
     for page in redirects():
         content = page.read_text(encoding='utf-8')
@@ -127,6 +136,7 @@ for (const test of JSON.parse(fs.readFileSync(0, 'utf8'))) {
             '/eldritch-shadows/character-sheet.html': b'id="character-sheet"',
             '/eldritch-shadows/pregens/': b'Meet your next character',
             '/eldritch-shadows/rulebook.pdf?v=' + key: b'%PDF-',
+            '/eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf': b'%PDF-',
             '/Eldritch%20shadows/EldritchShadowsPublicEnglishPdfUpdated.html': b'location.replace("/eldritch-shadows/"',
         }
         for route, expected in routes.items():
@@ -162,6 +172,8 @@ def package():
         # Both upload paths must contain the exact supplied rulebook bytes.
         for name in ['Eldritch shadows/EldritchShadows.pdf', 'eldritch-shadows/rulebook.pdf']:
             assert output.read(name) == SOURCE_PDF.read_bytes(), name
+        assert output.read('eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf') == CAMPAIGN_PDF.read_bytes()
+        assert 'eldritch-shadows/adventures/into-the-fog.docx' not in output.namelist()
         for source in files:
             assert output.read(source.relative_to(ROOT).as_posix()) == source.read_bytes()
     print(f'PASS: {len(files)} publication copies and ZIP entries match sources; {ARCHIVE.stat().st_size / 1024**2:.1f} MB.')

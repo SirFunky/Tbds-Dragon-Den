@@ -1,0 +1,4 @@
+# Keep existing campaign-download bookmarks pointed at the current edition.
+<IfModule mod_alias.c>
+  RedirectMatch 301 "^/eldritch-shadows/adventures/into-the-fog\.docx$" "/eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf"
+</IfModule>

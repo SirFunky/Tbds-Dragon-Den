@@ -2,6 +2,8 @@
 
 ## Eldritch Shadows — version 1.0
 
+Introduktionskampanjen använder nu `eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf`, den engelska spelledarutgåvan v1.0 (50 sidor). Sidans nedladdningslänk och versionsmärkning är uppdaterade. Båda äldre DOCX-adresser omdirigeras till PDF-filen. ZIP-paketet innehåller hela den nya kampanj-PDF:en och båda befintliga regelboks-PDF:erna, verifierade mot originalfilerna. De gamla DOCX-filerna behålls lokalt men används inte i den aktuella nedladdningen. Ladda även upp `eldritch-shadows/adventures/.htaccess` för omdirigeringen från den tidigare rena DOCX-adressen.
+
 Packa upp `uppdatering-eldritch-shadows-1.0.zip` och ladda upp innehållet till webbplatsens rot. Behåll mappstrukturen och ersätt motsvarande filer. Sidans nya adress är `https://tbddragonden.com/eldritch-shadows/`. Hela spelsektionen, karaktärssidor, formulär och nedladdningar ligger under `eldritch-shadows/`; regelboken heter nu `eldritch-shadows/rulebook.pdf` och är exakt den senast tillhandahållna PDF-filen. Startsidan och kontaktsidan länkar till den nya adressen. Sidan visar version 1.0 och har uppdaterade regelöversikter, initiativ, hotkategorier och läshänvisningar. Samma filer finns i `publicering/`.
 
 Paketet innehåller även omdirigeringssidor och den dolda filen `Eldritch shadows/.htaccess`. Ladda upp även den dolda filen för permanenta 301-omdirigeringar på Apache/LiteSpeed. HTML-sidorna har en reservlösning som fungerar utan serverkonfiguration och behåller frågeparametrar och avsnittslänkar. De gamla adresserna ska inte längre användas i navigeringen. Karaktärernas och frågeformulärets befintliga webbläsarsparning behålls på samma domän.

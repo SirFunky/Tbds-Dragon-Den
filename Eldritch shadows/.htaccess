@@ -7,5 +7,5 @@
   RedirectMatch 301 "^/Eldritch[ ]shadows/pregens/beta-notes\.html$" "/eldritch-shadows/pregens/gm-notes.html"
   RedirectMatch 301 "^/Eldritch[ ]shadows/pregens/((?:hannes-mansdottir|emanuel-markusson|tizian-hokstorm|emilia-olsson|maria-gonzales)\.html)$" "/eldritch-shadows/pregens/$1"
   RedirectMatch 301 "^/Eldritch[ ]shadows/EldritchShadows\.pdf$" "/eldritch-shadows/rulebook.pdf"
-  RedirectMatch 301 "^/Eldritch[ ]shadows/adventures/into-the-fog-beta-0\.1\.2\.docx$" "/eldritch-shadows/adventures/into-the-fog.docx"
+  RedirectMatch 301 "^/Eldritch[ ]shadows/adventures/into-the-fog-beta-0\.1\.2\.docx$" "/eldritch-shadows/adventures/Into_the_Fog_v1.0.pdf"
 </IfModule>

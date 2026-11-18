@@ -14,6 +14,12 @@ refresh the PDF's cache key, update publication copies, and rebuild
 `uppdatering-eldritch-shadows-1.0.zip`. Running without `--package` checks only.
 This does not deploy the site.
 
+The current introductory campaign is
+`adventures/Into_the_Fog_v1.0.pdf` (English GM edition, version 1.0).
+Keep its supplied filename and PDF bytes unchanged. Both earlier DOCX download
+URLs redirect to this PDF through the scoped `.htaccess` files. The old DOCX
+remains archived locally and is excluded from the current upload package.
+
 The existing character generator is still invoked as
 `Eldritch shadows/build-pregens.py`; it now reads the template here and writes
 character pages and PDFs to `eldritch-shadows/pregens/`. Its source profile data
