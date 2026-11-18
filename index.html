@@ -70,29 +70,64 @@
             <a href="#projects" class="btn btn-primary">Explore Projects</a>
             <a href="about.html" class="btn btn-secondary">About the Den</a>
           </div>
-
-          <div class="hero-meta">
-            <span>Currently in the spotlight:
-              <span class="hero-meta-highlight">Eldritch Shadows</span></span>
-            <span>6 aktiva projekt</span>
-          </div>
         </div>
 
-        <!-- Spotlight card -->
-        <aside class="hero-spotlight" aria-label="Aktuellt projekt">
-          <div class="hero-spotlight-image">
-            <div class="hero-spotlight-art"></div>
-            <div class="hero-figure">
-              <div class="hero-figure-hood"></div>
-              <div class="hero-figure-body"></div>
-            </div>
+        <aside class="hero-spotlight" aria-label="Projekt i spotlighten">
+          <div class="spotlight-slides" id="spotlight-slides" aria-live="off">
+            <a class="spotlight-slide" href="eldritch-shadows/">
+              <span class="spotlight-image"><img src="eldritch-shadows/MorkFramtidMedMystiskaLjus.png" alt="" fetchpriority="high" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Eldritch Shadows</span>
+                <span class="spotlight-tag">Cosmic urban horror</span>
+              </span>
+            </a>
+            <a class="spotlight-slide" href="iron-stars/index.html" inert>
+              <span class="spotlight-image"><img src="iron-stars/photo-01.webp" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Iron Stars</span>
+                <span class="spotlight-tag">Wargame</span>
+              </span>
+            </a>
+            <a class="spotlight-slide" href="miniatures.html" inert>
+              <span class="spotlight-image"><img src="gunpla/photo-01.webp" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Miniatyrprojekt</span>
+                <span class="spotlight-tag">Från arbetsbänken</span>
+              </span>
+            </a>
+            <a class="spotlight-slide spotlight-cover" href="short-stories.html" inert>
+              <span class="spotlight-image"><img src="celestial-will/front-cover.jpg" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Short Stories</span>
+                <span class="spotlight-tag">Fiction</span>
+              </span>
+            </a>
+            <a class="spotlight-slide" href="guilds-and-dragons.html" inert>
+              <span class="spotlight-image"><img src="guilds-and-dragons/dragon-among-mortals.png" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Guilds And Dragons</span>
+                <span class="spotlight-tag">Webnovellas</span>
+              </span>
+            </a>
+            <a class="spotlight-slide spotlight-cover" href="jade-empire.html" inert>
+              <span class="spotlight-image"><img src="jade-empire/cover.webp" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">The Jade Empire</span>
+                <span class="spotlight-tag">Epic fantasy</span>
+              </span>
+            </a>
+            <a class="spotlight-slide spotlight-cover" href="romance-in-the-land-of-the-setting-sun.html" inert>
+              <span class="spotlight-image"><img src="romance-in-the-land-of-the-setting-sun/cover.webp" alt="" loading="lazy" /></span>
+              <span class="hero-spotlight-footer">
+                <span class="spotlight-title">Romance in the Land of the Setting Sun</span>
+                <span class="spotlight-tag">Romance</span>
+              </span>
+            </a>
           </div>
-          <div class="hero-spotlight-footer">
-            <div>
-              <div class="spotlight-label">I spotlighten just nu</div>
-              <div class="spotlight-title">Eldritch Shadows</div>
-            </div>
-            <div class="spotlight-tag">Dark Urban Fantasy</div>
+          <div class="spotlight-controls" hidden>
+            <button type="button" data-spotlight-step="-1" aria-label="Föregående projekt" aria-controls="spotlight-slides">‹</button>
+            <button type="button" data-spotlight-toggle aria-controls="spotlight-slides">Pausa</button>
+            <button type="button" data-spotlight-step="1" aria-label="Nästa projekt" aria-controls="spotlight-slides">›</button>
           </div>
         </aside>
       </section>
@@ -283,5 +318,6 @@
     // Sätt årtal i footern automatiskt
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
+  <script src="spotlight.js" defer></script>
 </body>
 </html>
